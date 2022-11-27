@@ -121,4 +121,12 @@
     <value>Assembler T1</value>
     <comment/>
   </data>
+  <data name="DisplayName_Assembler4x" xml:space="preserve">
+    <value>Assembler T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Assembler8x" xml:space="preserve">
+    <value>Assembler T3</value>
+    <comment/>
+  </data>
 </root>

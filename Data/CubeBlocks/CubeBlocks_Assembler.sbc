@@ -7,7 +7,7 @@
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler2x</SubtypeId>
             </Id>
-            <DisplayName>Сборщик Т1</DisplayName>
+            <DisplayName>DisplayName_Assembler2x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\assembler2x.dds</Icon>
             <Description>Description_Assembler</Description>
@@ -79,7 +79,7 @@
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler4x</SubtypeId>
             </Id>
-            <DisplayName>Сборщик Т2</DisplayName>
+            <DisplayName>DisplayName_Assembler4x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\assembler4x.dds</Icon>
             <Description>Description_Assembler</Description>
@@ -151,7 +151,7 @@
                 <TypeId>Assembler</TypeId>
                 <SubtypeId>LargeAssembler8x</SubtypeId>
             </Id>
-            <DisplayName>Сборщик Т3</DisplayName>
+            <DisplayName>DisplayName_Assembler8x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\assembler8x.dds</Icon>
             <Description>Description_Assembler</Description>
