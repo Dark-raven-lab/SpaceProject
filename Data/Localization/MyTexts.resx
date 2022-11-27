@@ -129,4 +129,28 @@
     <value>Assembler T3</value>
     <comment/>
   </data>
+  <data name="DisplayName_SmallAtmoThrust2x" xml:space="preserve">
+    <value>Atmo Thrust T1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_SmallAtmoThrust4x" xml:space="preserve">
+    <value>Atmo Thrust T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_SmallAtmoThrust8x" xml:space="preserve">
+    <value>Atmo Thrust T3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_LargeAtmoThrust2x" xml:space="preserve">
+    <value>Large Atmo Thrust T1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_LargeAtmoThrust4x" xml:space="preserve">
+    <value>Large Atmo Thrust T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_LargeAtmoThrust8x" xml:space="preserve">
+    <value>Large Atmo Thrust T3</value>
+    <comment/>
+  </data>
 </root>
