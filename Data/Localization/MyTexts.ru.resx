@@ -270,73 +270,73 @@
 <data name="DisplayName_JumpDrive4x" xml:space="preserve"><value>Прыжковый двигатель Т2</value></data>
 <data name="DisplayName_JumpDrive8x" xml:space="preserve"><value>Прыжковый двигатель Т3</value></data>
 
-<data name="DisplayName_OxygenFarm2x" xml:space="preserve"><value>OxygenFarm Т1</value></data>
-<data name="DisplayName_OxygenFarm4x" xml:space="preserve"><value>OxygenFarm Т2</value></data>
-<data name="DisplayName_OxygenFarm8x" xml:space="preserve"><value>OxygenFarm Т3</value></data>
+<data name="DisplayName_OxygenFarm2x" xml:space="preserve"><value>Кислородная ферма Т1</value></data>
+<data name="DisplayName_OxygenFarm4x" xml:space="preserve"><value>Кислородная ферма Т2</value></data>
+<data name="DisplayName_OxygenFarm8x" xml:space="preserve"><value>Кислородная ферма Т3</value></data>
 
-<data name="DisplayName_OxygenGenerator2x" xml:space="preserve"><value>OxygenGenerator Т1</value></data>
-<data name="DisplayName_OxygenGenerator4x" xml:space="preserve"><value>OxygenGenerator Т2</value></data>
-<data name="DisplayName_OxygenGenerator8x" xml:space="preserve"><value>OxygenGenerator Т3</value></data>
+<data name="DisplayName_OxygenGenerator2x" xml:space="preserve"><value>Генератор О2/Н2 Т1</value></data>
+<data name="DisplayName_OxygenGenerator4x" xml:space="preserve"><value>Генератор О2/Н2 Т2</value></data>
+<data name="DisplayName_OxygenGenerator8x" xml:space="preserve"><value>Генератор О2/Н2 Т3</value></data>
 
-<data name="DisplayName_LargeOxygenTank" xml:space="preserve"><value>LargeOxygenTank</value></data>
-<data name="DisplayName_OxygenTank2x" xml:space="preserve"><value>OxygenTank Т1</value></data>
-<data name="DisplayName_LargeOxygenTank2x" xml:space="preserve"><value>LargeOxygenTank Т1</value></data>
-<data name="DisplayName_OxygenTank4x" xml:space="preserve"><value>OxygenTank Т2</value></data>
-<data name="DisplayName_LargeOxygenTank4x" xml:space="preserve"><value>LargeOxygenTank Т2</value></data>
-<data name="DisplayName_OxygenTank8x" xml:space="preserve"><value>OxygenTank Т3</value></data>
-<data name="DisplayName_LargeOxygenTank8x" xml:space="preserve"><value>LargeOxygenTank Т3</value></data>
+<data name="DisplayName_LargeOxygenTank" xml:space="preserve"><value>Большой кислородный бак</value></data>
+<data name="DisplayName_OxygenTank2x" xml:space="preserve"><value>Кислородный бак Т1</value></data>
+<data name="DisplayName_LargeOxygenTank2x" xml:space="preserve"><value>Большой кислородный бак Т1</value></data>
+<data name="DisplayName_OxygenTank4x" xml:space="preserve"><value>Кислородный бак Т2</value></data>
+<data name="DisplayName_LargeOxygenTank4x" xml:space="preserve"><value>Большой кислородный бак Т2</value></data>
+<data name="DisplayName_OxygenTank8x" xml:space="preserve"><value>Кислородный бак Т3</value></data>
+<data name="DisplayName_LargeOxygenTank8x" xml:space="preserve"><value>Большой кислородный бак Т3</value></data>
 
-<data name="DisplayName_SmallReactor2x" xml:space="preserve"><value>SmallReactor Т1</value></data>
-<data name="DisplayName_LargeReactor2x" xml:space="preserve"><value>LargeReactor Т1</value></data>
-<data name="DisplayName_SmallReactor4x" xml:space="preserve"><value>SmallReactor Т2</value></data>
-<data name="DisplayName_LargeReactor4x" xml:space="preserve"><value>LargeReactor Т2</value></data>
-<data name="DisplayName_SmallReactor8x" xml:space="preserve"><value>SmallReactor Т3</value></data>
-<data name="DisplayName_LargeReactor8x" xml:space="preserve"><value>LargeReactor Т3</value></data>
+<data name="DisplayName_SmallReactor2x" xml:space="preserve"><value>Малый реактор Т1</value></data>
+<data name="DisplayName_LargeReactor2x" xml:space="preserve"><value>Большой реактор Т1</value></data>
+<data name="DisplayName_SmallReactor4x" xml:space="preserve"><value>Малый реактор Т2</value></data>
+<data name="DisplayName_LargeReactor4x" xml:space="preserve"><value>Большой реактор Т2</value></data>
+<data name="DisplayName_SmallReactor8x" xml:space="preserve"><value>Малый реактор Т3</value></data>
+<data name="DisplayName_LargeReactor8x" xml:space="preserve"><value>Большой реактор Т3/value></data>
 
-<data name="DisplayName_Refinery2x" xml:space="preserve"><value>Refinery Т1</value></data>
-<data name="DisplayName_Refinery4x" xml:space="preserve"><value>Refinery Т2</value></data>
-<data name="DisplayName_Refinery8x" xml:space="preserve"><value>Refinery Т3</value></data>
+<data name="DisplayName_Refinery2x" xml:space="preserve"><value>Очистительный завод Т1</value></data>
+<data name="DisplayName_Refinery4x" xml:space="preserve"><value>Очистительный завод Т2</value></data>
+<data name="DisplayName_Refinery8x" xml:space="preserve"><value>Очистительный завод Т3</value></data>
 
-<data name="DisplayName_SafeZone2x" xml:space="preserve"><value>SafeZone Т1</value></data>
-<data name="DisplayName_SafeZone4x" xml:space="preserve"><value>SafeZone Т2</value></data>
-<data name="DisplayName_SafeZone8x" xml:space="preserve"><value>SafeZone Т3</value></data>
+<data name="DisplayName_SafeZone2x" xml:space="preserve"><value>Безопасная зона Т1/value></data>
+<data name="DisplayName_SafeZone4x" xml:space="preserve"><value>Безопасная зона Т2</value></data>
+<data name="DisplayName_SafeZone8x" xml:space="preserve"><value>Безопасная зона Т3</value></data>
 
-<data name="DisplayName_SolarPanel" xml:space="preserve"><value>SolarPanel</value></data>
-<data name="DisplayName_SolarPanel2x" xml:space="preserve"><value>SolarPanel Т1</value></data>
-<data name="DisplayName_SolarPanel4x" xml:space="preserve"><value>SolarPanel Т2</value></data>
-<data name="DisplayName_SolarPanel8x" xml:space="preserve"><value>SolarPanel Т3</value></data>
 
-<data name="DisplayName_ReflectorLight2x" xml:space="preserve"><value>ReflectorLight Т1</value></data>
-<data name="DisplayName_ReflectorLight4x" xml:space="preserve"><value>ReflectorLight Т2</value></data>
-<data name="DisplayName_ReflectorLight8x" xml:space="preserve"><value>ReflectorLight Т3</value></data>
+<data name="DisplayName_SolarPanel2x" xml:space="preserve"><value>Солнечная батарея Т1</value></data>
+<data name="DisplayName_SolarPanel4x" xml:space="preserve"><value>Солнечная батарея Т2</value></data>
+<data name="DisplayName_SolarPanel8x" xml:space="preserve"><value>Солнечная батарея Т3</value></data>
 
-<data name="DisplayName_StoneIncinerator" xml:space="preserve"><value>StoneIncinerator</value></data>
+<data name="DisplayName_ReflectorLight2x" xml:space="preserve"><value>Прожектор Т1</value></data>
+<data name="DisplayName_ReflectorLight4x" xml:space="preserve"><value>Прожектор Т2</value></data>
+<data name="DisplayName_ReflectorLight8x" xml:space="preserve"><value>Прожектор Т3</value></data>
 
-<data name="DisplayName_SurvivalKit2x" xml:space="preserve"><value>SurvivalKit Т1</value></data>
-<data name="DisplayName_SurvivalKit4x" xml:space="preserve"><value>SurvivalKit Т2</value></data>
-<data name="DisplayName_SurvivalKit8x" xml:space="preserve"><value>SurvivalKit Т3</value></data>
+<data name="DisplayName_StoneIncinerator" xml:space="preserve"><value>Камнедробилка</value></data>
 
-<data name="DisplayName_SmallReactorWarfare22x" xml:space="preserve"><value>SmallReactorWarfare2 Т1</value></data>
-<data name="DisplayName_SmallReactorWarfare24x" xml:space="preserve"><value>SmallReactorWarfare2 Т2</value></data>
-<data name="DisplayName_SmallReactorWarfare28x" xml:space="preserve"><value>SmallReactorWarfare2 Т3</value></data>
+<data name="DisplayName_SurvivalKit2x" xml:space="preserve"><value>Комплект для выживания Т1</value></data>
+<data name="DisplayName_SurvivalKit4x" xml:space="preserve"><value>Комплект для выживания Т2</value></data>
+<data name="DisplayName_SurvivalKit8x" xml:space="preserve"><value>Комплект для выживания Т3</value></data>
 
-<data name="DisplayName_LargeReactorWarfare22x" xml:space="preserve"><value>LargeReactorWarfare2 Т1</value></data>
-<data name="DisplayName_LargeReactorWarfare24x" xml:space="preserve"><value>LargeReactorWarfare2 Т2</value></data>
-<data name="DisplayName_LargeReactorWarfare28x" xml:space="preserve"><value>LargeReactorWarfare2 Т3</value></data>
+<data name="DisplayName_SmallReactorWarfare22x" xml:space="preserve"><value>Малый военный реактор Т1</value></data>
+<data name="DisplayName_SmallReactorWarfare24x" xml:space="preserve"><value>Малый военный реактор Т2</value></data>
+<data name="DisplayName_SmallReactorWarfare28x" xml:space="preserve"><value>Малый военный реактор Т3</value></data>
 
-<data name="DisplayName_BatteryBlockWarfare22x" xml:space="preserve"><value>BatteryBlockWarfare2 Т1</value></data>
-<data name="DisplayName_BatteryBlockWarfare24x" xml:space="preserve"><value>BatteryBlockWarfare2 Т2</value></data>
-<data name="DisplayName_BatteryBlockWarfare28x" xml:space="preserve"><value>BatteryBlockWarfare2 Т3</value></data>
+<data name="DisplayName_LargeReactorWarfare22x" xml:space="preserve"><value>Большой военный реактор Т1</value></data>
+<data name="DisplayName_LargeReactorWarfare24x" xml:space="preserve"><value>Большой военный реактор Т2</value></data>
+<data name="DisplayName_LargeReactorWarfare28x" xml:space="preserve"><value>Большой военный реактор Т3</value></data>
 
-<data name="DisplayName_SmallModularThruster2x" xml:space="preserve"><value>SmallModularThruster Т1</value></data>
-<data name="DisplayName_SmallModularThruster4x" xml:space="preserve"><value>SmallModularThruster Т2</value></data>
-<data name="DisplayName_SmallModularThruster8x" xml:space="preserve"><value>SmallModularThruster Т3</value></data>
+<data name="DisplayName_BatteryBlockWarfare22x" xml:space="preserve"><value>Военная батарея Т1</value></data>
+<data name="DisplayName_BatteryBlockWarfare24x" xml:space="preserve"><value>Военная батарея Т2</value></data>
+<data name="DisplayName_BatteryBlockWarfare28x" xml:space="preserve"><value>Военная батарея Т3</value></data>
 
-<data name="DisplayName_LargeModularThruster2x" xml:space="preserve"><value>LargeModularThruster Т1</value></data>
-<data name="DisplayName_LargeModularThruster4x" xml:space="preserve"><value>LargeModularThruster Т2</value></data>
-<data name="DisplayName_LargeModularThruster8x" xml:space="preserve"><value>LargeModularThruster Т3</value></data>
+<data name="DisplayName_SmallModularThruster2x" xml:space="preserve"><value>Военный ионный ускоритель Т1</value></data>
+<data name="DisplayName_SmallModularThruster4x" xml:space="preserve"><value>Военный ионный ускоритель Т2</value></data>
+<data name="DisplayName_SmallModularThruster8x" xml:space="preserve"><value>Военный ионный ускоритель Т3</value></data>
 
-<data name="DisplayName_WindTurbine2x" xml:space="preserve"><value>WindTurbine Т1</value></data>
-<data name="DisplayName_WindTurbine4x" xml:space="preserve"><value>WindTurbine Т2</value></data>
-<data name="DisplayName_WindTurbine8x" xml:space="preserve"><value>WindTurbine Т3</value></data>
+<data name="DisplayName_LargeModularThruster2x" xml:space="preserve"><value>Большой военный ионный ускоритель Т1</value></data>
+<data name="DisplayName_LargeModularThruster4x" xml:space="preserve"><value>Большой военный ионный ускоритель Т2</value></data>
+<data name="DisplayName_LargeModularThruster8x" xml:space="preserve"><value>Большой военный ионный ускоритель Т3</value></data>
+
+<data name="DisplayName_WindTurbine2x" xml:space="preserve"><value>Ветрогенератор Т1</value></data>
+<data name="DisplayName_WindTurbine4x" xml:space="preserve"><value>Ветрогенератор Т2</value></data>
+<data name="DisplayName_WindTurbine8x" xml:space="preserve"><value>Ветрогенератор Т3</value></data>
 </root>
