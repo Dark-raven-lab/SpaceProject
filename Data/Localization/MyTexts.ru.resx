@@ -181,94 +181,94 @@
     <value>Малая Батарея T3</value>
   </data>
 
-<data name="DisplayName_Beacon2x" xml:space="preserve"><value>Beacon Т1</value></data>
-<data name="DisplayName_Beacon4x" xml:space="preserve"><value>Beacon Т2</value></data>
-<data name="DisplayName_Beacon8x" xml:space="preserve"><value>Beacon Т3</value></data>
+<data name="DisplayName_Beacon2x" xml:space="preserve"><value>Маяк Т1</value></data>
+<data name="DisplayName_Beacon4x" xml:space="preserve"><value>Маяк Т2</value></data>
+<data name="DisplayName_Beacon8x" xml:space="preserve"><value>Маяк Т3</value></data>
   
-<data name="DisplayName_LargeCargoContainer2x" xml:space="preserve"><value>LargeCargoContainer Т1</value></data>
-<data name="DisplayName_LargeCargoContainer4x" xml:space="preserve"><value>LargeCargoContainer Т2</value></data>
-<data name="DisplayName_LargeCargoContainer8x" xml:space="preserve"><value>LargeCargoContainer Т3</value></data>
+<data name="DisplayName_LargeCargoContainer2x" xml:space="preserve"><value>Большой контейнер Т1</value></data>
+<data name="DisplayName_LargeCargoContainer4x" xml:space="preserve"><value>Большой контейнер Т2</value></data>
+<data name="DisplayName_LargeCargoContainer8x" xml:space="preserve"><value>Большой контейнер Т3</value></data>
 
-<data name="DisplayName_MediumCargoContainer2x" xml:space="preserve"><value>MediumCargoContainer Т1</value></data>
-<data name="DisplayName_MediumCargoContainer4x" xml:space="preserve"><value>MediumCargoContainer Т2</value></data>
-<data name="DisplayName_MediumCargoContainer8x" xml:space="preserve"><value>MediumCargoContainer Т3</value></data>
+<data name="DisplayName_MediumCargoContainer2x" xml:space="preserve"><value>Контейнер Т1</value></data>
+<data name="DisplayName_MediumCargoContainer4x" xml:space="preserve"><value>Контейнер Т2</value></data>
+<data name="DisplayName_MediumCargoContainer8x" xml:space="preserve"><value>Контейнер Т3</value></data>
 
-<data name="DisplayName_SmallCargoContainer2x" xml:space="preserve"><value>SmallCargoContainer Т1</value></data>
-<data name="DisplayName_SmallCargoContainer4x" xml:space="preserve"><value>SmallCargoContainer Т2</value></data>
-<data name="DisplayName_SmallCargoContainer8x" xml:space="preserve"><value>SmallCargoContainer Т3</value></data>
+<data name="DisplayName_SmallCargoContainer2x" xml:space="preserve"><value>Малый контейнер Т1</value></data>
+<data name="DisplayName_SmallCargoContainer4x" xml:space="preserve"><value>Малый контейнер Т2</value></data>
+<data name="DisplayName_SmallCargoContainer8x" xml:space="preserve"><value>Малый контейнер Т3</value></data>
 
-<data name="DisplayName_LargeCargoContainerIndustrial2x" xml:space="preserve"><value>LargeCargoContainerIndustrial Т1</value></data>
-<data name="DisplayName_LargeCargoContainerIndustrial4x" xml:space="preserve"><value>LargeCargoContainerIndustrial Т2</value></data>
-<data name="DisplayName_LargeCargoContainerIndustrial8x" xml:space="preserve"><value>LargeCargoContainerIndustrial Т3</value></data>
+<data name="DisplayName_LargeCargoContainerIndustrial2x" xml:space="preserve"><value>Большой промышленный контейнер Т1</value></data>
+<data name="DisplayName_LargeCargoContainerIndustrial4x" xml:space="preserve"><value>Большой промышленный контейнер Т2</value></data>
+<data name="DisplayName_LargeCargoContainerIndustrial8x" xml:space="preserve"><value>Большой промышленный контейнер Т3</value></data>
 
-<data name="DisplayName_ShipWelder2x" xml:space="preserve"><value>ShipWelder Т1</value></data>
-<data name="DisplayName_ShipWelder4x" xml:space="preserve"><value>ShipWelder Т2</value></data>
-<data name="DisplayName_ShipWelder8x" xml:space="preserve"><value>ShipWelder Т3</value></data>
+<data name="DisplayName_ShipWelder2x" xml:space="preserve"><value>Сварщик Т1</value></data>
+<data name="DisplayName_ShipWelder4x" xml:space="preserve"><value>Сварщик Т2</value></data>
+<data name="DisplayName_ShipWelder8x" xml:space="preserve"><value>Сварщик Т3</value></data>
 
-<data name="DisplayName_OreDetector2x" xml:space="preserve"><value>OreDetector Т1</value></data>
-<data name="DisplayName_OreDetector4x" xml:space="preserve"><value>OreDetector Т2</value></data>
-<data name="DisplayName_OreDetector8x" xml:space="preserve"><value>OreDetector Т3</value></data>
+<data name="DisplayName_OreDetector2x" xml:space="preserve"><value>Детектор руды Т1</value></data>
+<data name="DisplayName_OreDetector4x" xml:space="preserve"><value>Детектор руды Т2</value></data>
+<data name="DisplayName_OreDetector8x" xml:space="preserve"><value>Детектор руды Т3</value></data>
 
-<data name="DisplayName_Drill2x" xml:space="preserve"><value>Drill Т1</value></data>
-<data name="DisplayName_Drill4x" xml:space="preserve"><value>Drill Т2</value></data>
-<data name="DisplayName_Drill8x" xml:space="preserve"><value>Drill Т3</value></data>
+<data name="DisplayName_Drill2x" xml:space="preserve"><value>Бур Т1</value></data>
+<data name="DisplayName_Drill4x" xml:space="preserve"><value>Бур Т2</value></data>
+<data name="DisplayName_Drill8x" xml:space="preserve"><value>Бур Т3</value></data>
 
-<data name="DisplayName_ShipGrinder2x" xml:space="preserve"><value>ShipGrinder Т1</value></data>
-<data name="DisplayName_ShipGrinder4x" xml:space="preserve"><value>ShipGrinder Т2</value></data>
-<data name="DisplayName_ShipGrinder8x" xml:space="preserve"><value>ShipGrinder Т3</value></data>
+<data name="DisplayName_ShipGrinder2x" xml:space="preserve"><value>Резак Т1</value></data>
+<data name="DisplayName_ShipGrinder4x" xml:space="preserve"><value>Резак Т2</value></data>
+<data name="DisplayName_ShipGrinder8x" xml:space="preserve"><value>Резак Т3</value></data>
 
-<data name="DisplayName_Gyroscope2x" xml:space="preserve"><value>Gyroscope Т1</value></data>
-<data name="DisplayName_Gyroscope4x" xml:space="preserve"><value>Gyroscope Т2</value></data>
-<data name="DisplayName_Gyroscope8x" xml:space="preserve"><value>Gyroscope Т3</value></data>
+<data name="DisplayName_Gyroscope2x" xml:space="preserve"><value>Гироскоп Т1</value></data>
+<data name="DisplayName_Gyroscope4x" xml:space="preserve"><value>Гироскоп Т2</value></data>
+<data name="DisplayName_Gyroscope8x" xml:space="preserve"><value>Гироскоп Т3</value></data>
 
-<data name="DisplayName_HydrogenEngine2x" xml:space="preserve"><value>HydrogenEngine Т1</value></data>
-<data name="DisplayName_HydrogenEngine4x" xml:space="preserve"><value>HydrogenEngine Т2</value></data>
-<data name="DisplayName_HydrogenEngine8x" xml:space="preserve"><value>HydrogenEngine Т3</value></data>
+<data name="DisplayName_HydrogenEngine2x" xml:space="preserve"><value>Водородный генератор Т1</value></data>
+<data name="DisplayName_HydrogenEngine4x" xml:space="preserve"><value>Водородный генератор Т2</value></data>
+<data name="DisplayName_HydrogenEngine8x" xml:space="preserve"><value>Водородный генератор Т3</value></data>
 
-<data name="DisplayName_HydrogenThrust2x" xml:space="preserve"><value>HydrogenThrust Т1</value></data>
-<data name="DisplayName_LargeHydrogenThrust2x" xml:space="preserve"><value>LargeHydrogenThrust Т1</value></data>
-<data name="DisplayName_HydrogenThrust4x" xml:space="preserve"><value>HydrogenThrust Т2</value></data>
-<data name="DisplayName_LargeHydrogenThrust4x" xml:space="preserve"><value>LargeHydrogenThrust Т2</value></data>
-<data name="DisplayName_HydrogenThrust8x" xml:space="preserve"><value>HydrogenThrust Т3</value></data>
-<data name="DisplayName_LargeHydrogenThrust8x" xml:space="preserve"><value>LargeHydrogenThrust Т3</value></data>
+<data name="DisplayName_HydrogenThrust2x" xml:space="preserve"><value>Водородный ускоритель Т1</value></data>
+<data name="DisplayName_LargeHydrogenThrust2x" xml:space="preserve"><value>Большой водородный ускоритель Т1</value></data>
+<data name="DisplayName_HydrogenThrust4x" xml:space="preserve"><value>Водородный ускоритель Т2</value></data>
+<data name="DisplayName_LargeHydrogenThrust4x" xml:space="preserve"><value>Большой водородный ускоритель Т2</value></data>
+<data name="DisplayName_HydrogenThrust8x" xml:space="preserve"><value>Водородный ускоритель Т3</value></data>
+<data name="DisplayName_LargeHydrogenThrust8x" xml:space="preserve"><value>Большой водородный ускоритель Т3</value></data>
 
-<data name="DisplayName_HydrogenTankIndustrial2x" xml:space="preserve"><value>HydrogenTankIndustrial Т1</value></data>
-<data name="DisplayName_HydrogenTankIndustrial4x" xml:space="preserve"><value>HydrogenTankIndustrial Т2</value></data>
-<data name="DisplayName_HydrogenTankIndustrial8x" xml:space="preserve"><value>HydrogenTankIndustrial Т3</value></data>
+<data name="DisplayName_HydrogenTankIndustrial2x" xml:space="preserve"><value>Промышленный водородный бак Т1</value></data>
+<data name="DisplayName_HydrogenTankIndustrial4x" xml:space="preserve"><value>Промышленный водородный бак Т2</value></data>
+<data name="DisplayName_HydrogenTankIndustrial8x" xml:space="preserve"><value>Промышленный водородный бак Т3</value></data>
 
-<data name="DisplayName_AssemblerIndustrial2x" xml:space="preserve"><value>AssemblerIndustrial Т1</value></data>
-<data name="DisplayName_AssemblerIndustrial4x" xml:space="preserve"><value>AssemblerIndustrial Т2</value></data>
-<data name="DisplayName_AssemblerIndustrial8x" xml:space="preserve"><value>AssemblerIndustrial Т3</value></data>
+<data name="DisplayName_AssemblerIndustrial2x" xml:space="preserve"><value>Промышленный сборщик Т1</value></data>
+<data name="DisplayName_AssemblerIndustrial4x" xml:space="preserve"><value>Промышленный сборщик Т2</value></data>
+<data name="DisplayName_AssemblerIndustrial8x" xml:space="preserve"><value>Промышленный сборщик Т3</value></data>
 
-<data name="DisplayName_RefineryIndustrial2x" xml:space="preserve"><value>RefineryIndustrial Т1</value></data>
-<data name="DisplayName_RefineryIndustrial4x" xml:space="preserve"><value>RefineryIndustrial Т2</value></data>
-<data name="DisplayName_RefineryIndustrial8x" xml:space="preserve"><value>RefineryIndustrial Т3</value></data>
+<data name="DisplayName_RefineryIndustrial2x" xml:space="preserve"><value>Промышленный очиститель Т1</value></data>
+<data name="DisplayName_RefineryIndustrial4x" xml:space="preserve"><value>Промышленный очиститель Т2</value></data>
+<data name="DisplayName_RefineryIndustrial8x" xml:space="preserve"><value>Промышленный очиститель Т3</value></data>
 
-<data name="DisplayName_LargeHydrogenThrustIndustrial2x" xml:space="preserve"><value>LargeHydrogenThrustIndustrial Т1</value></data>
-<data name="DisplayName_LargeHydrogenThrustIndustrial4x" xml:space="preserve"><value>LargeHydrogenThrustIndustrial Т2</value></data>
-<data name="DisplayName_LargeHydrogenThrustIndustrial8x" xml:space="preserve"><value>LargeHydrogenThrustIndustrial Т3</value></data>
+<data name="DisplayName_LargeHydrogenThrustIndustrial2x" xml:space="preserve"><value>Промышленный большой водородный ускоритель Т1</value></data>
+<data name="DisplayName_LargeHydrogenThrustIndustrial4x" xml:space="preserve"><value>Промышленный большой водородный ускоритель Т2</value></data>
+<data name="DisplayName_LargeHydrogenThrustIndustrial8x" xml:space="preserve"><value>Промышленный большой водородный ускоритель Т3</value></data>
 
-<data name="DisplayName_HydrogenThrustIndustrial2x" xml:space="preserve"><value>HydrogenThrustIndustrial Т1</value></data>
-<data name="DisplayName_HydrogenThrustIndustrial4x" xml:space="preserve"><value>HydrogenThrustIndustrial Т2</value></data>
-<data name="DisplayName_HydrogenThrustIndustrial8x" xml:space="preserve"><value>HydrogenThrustIndustrial Т3</value></data>
+<data name="DisplayName_HydrogenThrustIndustrial2x" xml:space="preserve"><value>Промышленный водородный ускоритель Т1</value></data>
+<data name="DisplayName_HydrogenThrustIndustrial4x" xml:space="preserve"><value>Промышленный водородный ускоритель Т2</value></data>
+<data name="DisplayName_HydrogenThrustIndustrial8x" xml:space="preserve"><value>Промышленный водородный ускоритель Т3</value></data>
 
-<data name="DisplayName_SmallThrust2x" xml:space="preserve"><value>SmallThrust Т1</value></data>
-<data name="DisplayName_LargeThrust2x" xml:space="preserve"><value>LargeThrust Т1</value></data>
-<data name="DisplayName_SmallThrust4x" xml:space="preserve"><value>SmallThrust Т2</value></data>
-<data name="DisplayName_LargeThrust4x" xml:space="preserve"><value>LargeThrust Т2</value></data>
-<data name="DisplayName_SmallThrust8x" xml:space="preserve"><value>SmallThrust Т3</value></data>
-<data name="DisplayName_LargeThrust8x" xml:space="preserve"><value>LargeThrust Т3</value></data>
+<data name="DisplayName_SmallThrust2x" xml:space="preserve"><value>Ионный ускоритель Т1</value></data>
+<data name="DisplayName_LargeThrust2x" xml:space="preserve"><value>Большой ионный ускоритель Т1</value></data>
+<data name="DisplayName_SmallThrust4x" xml:space="preserve"><value>Ионный ускоритель Т2</value></data>
+<data name="DisplayName_LargeThrust4x" xml:space="preserve"><value>Большой ионный ускоритель Т2</value></data>
+<data name="DisplayName_SmallThrust8x" xml:space="preserve"><value>Ионный ускоритель Т3</value></data>
+<data name="DisplayName_LargeThrust8x" xml:space="preserve"><value>Большой ионный ускоритель Т3</value></data>
 
-<data name="DisplayName_SmallThrustSciFi2x" xml:space="preserve"><value>SmallThrustSciFi Т1</value></data>
-<data name="DisplayName_LargeThrustSciFi2x" xml:space="preserve"><value>LargeThrustSciFi Т1</value></data>
-<data name="DisplayName_SmallThrustSciFi4x" xml:space="preserve"><value>SmallThrustSciFi Т2</value></data>
-<data name="DisplayName_LargeThrustSciFi4x" xml:space="preserve"><value>LargeThrustSciFi Т2</value></data>
-<data name="DisplayName_SmallThrustSciFi8x" xml:space="preserve"><value>SmallThrustSciFi Т3</value></data>
-<data name="DisplayName_LargeThrustSciFi8x" xml:space="preserve"><value>LargeThrustSciFi Т3</value></data>
+<data name="DisplayName_SmallThrustSciFi2x" xml:space="preserve"><value>Ионный НФ-ускоритель Т1</value></data>
+<data name="DisplayName_LargeThrustSciFi2x" xml:space="preserve"><value>Большой ионный НФ-ускоритель Т1</value></data>
+<data name="DisplayName_SmallThrustSciFi4x" xml:space="preserve"><value>Ионный НФ-ускоритель Т2</value></data>
+<data name="DisplayName_LargeThrustSciFi4x" xml:space="preserve"><value>Большой ионный НФ-ускоритель Т2</value></data>
+<data name="DisplayName_SmallThrustSciFi8x" xml:space="preserve"><value>Ионный НФ-ускоритель Т3</value></data>
+<data name="DisplayName_LargeThrustSciFi8x" xml:space="preserve"><value>Большой ионный НФ-ускоритель Т3</value></data>
 
-<data name="DisplayName_JumpDrive2x" xml:space="preserve"><value>JumpDrive Т1</value></data>
-<data name="DisplayName_JumpDrive4x" xml:space="preserve"><value>JumpDrive Т2</value></data>
-<data name="DisplayName_JumpDrive8x" xml:space="preserve"><value>JumpDrive Т3</value></data>
+<data name="DisplayName_JumpDrive2x" xml:space="preserve"><value>Прыжковый двигатель Т1</value></data>
+<data name="DisplayName_JumpDrive4x" xml:space="preserve"><value>Прыжковый двигатель Т2</value></data>
+<data name="DisplayName_JumpDrive8x" xml:space="preserve"><value>Прыжковый двигатель Т3</value></data>
 
 <data name="DisplayName_OxygenFarm2x" xml:space="preserve"><value>OxygenFarm Т1</value></data>
 <data name="DisplayName_OxygenFarm4x" xml:space="preserve"><value>OxygenFarm Т2</value></data>
