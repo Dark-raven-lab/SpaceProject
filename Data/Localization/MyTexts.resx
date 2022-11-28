@@ -162,4 +162,22 @@
   <data name="DisplayName_SmallAtmoThrustSciFi8x" xml:space="preserve">
     <value>Atmo SciFi Thrust T3</value>
   </data>
+  <data name="DisplayName_Battery_2x" xml:space="preserve">
+    <value>Battery T1</value>
+  </data>
+  <data name="DisplayName_SmallBattery_2x" xml:space="preserve">
+    <value>Small Battery T1</value>
+  </data>
+  <data name="DisplayName_Battery_4x" xml:space="preserve">
+    <value>Battery T2</value>
+  </data>
+  <data name="DisplayName_SmallBattery_4x" xml:space="preserve">
+    <value>Small Battery T2</value>
+  </data>
+  <data name="DisplayName_Battery_8x" xml:space="preserve">
+    <value>Battery T3</value>
+  </data>
+  <data name="DisplayName_SmallBattery_8x" xml:space="preserve">
+    <value>Small Battery T3</value>
+  </data>
 </root>

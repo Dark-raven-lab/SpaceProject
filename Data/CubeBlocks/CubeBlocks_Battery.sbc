@@ -64,7 +64,7 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>SmallBlockSmallBatteryBlock2x</SubtypeId>
             </Id>
-            <DisplayName>Малая батарея Т1</DisplayName>
+            <DisplayName>DisplayName_SmallBattery_2x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Battery1x12x.dds</Icon>
             <Description>Description_Battery</Description>
@@ -122,7 +122,7 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>SmallBlockBatteryBlock2x</SubtypeId>
             </Id>
-            <DisplayName>Малая батарея Т1</DisplayName>
+            <DisplayName>DisplayName_Battery_2x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Battery2x.dds</Icon>
             <Description>Description_Battery</Description>
@@ -185,7 +185,7 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LargeBlockBatteryBlock2x</SubtypeId>
             </Id>
-            <DisplayName>Батарея Т1</DisplayName>
+            <DisplayName>DisplayName_Battery_2x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Battery2x.dds</Icon>
             <Description>Description_Battery</Description>
@@ -252,7 +252,7 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>SmallBlockSmallBatteryBlock4x</SubtypeId>
             </Id>
-            <DisplayName>Малая батарея Т2</DisplayName>
+            <DisplayName>DisplayName_SmallBattery_4x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Battery1x14x.dds</Icon>
             <Description>Description_Battery</Description>
@@ -310,7 +310,7 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>SmallBlockBatteryBlock4x</SubtypeId>
             </Id>
-            <DisplayName>Малая батарея Т2</DisplayName>
+            <DisplayName>DisplayName_Battery_4x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Battery4x.dds</Icon>
             <Description>Description_Battery</Description>
@@ -373,7 +373,7 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LargeBlockBatteryBlock4x</SubtypeId>
             </Id>
-            <DisplayName>Батарея Т2</DisplayName>
+            <DisplayName>DisplayName_Battery_4x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Battery4x.dds</Icon>
             <Description>Description_Battery</Description>
@@ -440,7 +440,7 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>SmallBlockSmallBatteryBlock8x</SubtypeId>
             </Id>
-            <DisplayName>Малая батарея Т3</DisplayName>
+            <DisplayName>DisplayName_SmallBattery_8x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Battery1x18x.dds</Icon>
             <Description>Description_Battery</Description>
@@ -498,7 +498,7 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>SmallBlockBatteryBlock8x</SubtypeId>
             </Id>
-            <DisplayName>Малая батарея Т3</DisplayName>
+            <DisplayName>DisplayName_Battery_8x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Battery8x.dds</Icon>
             <Description>Description_Battery</Description>
@@ -561,7 +561,7 @@
                 <TypeId>BatteryBlock</TypeId>
                 <SubtypeId>LargeBlockBatteryBlock8x</SubtypeId>
             </Id>
-            <DisplayName>Батарея Т3</DisplayName>
+            <DisplayName>DisplayName_Battery_8x</DisplayName>
             <GuiVisible>false</GuiVisible>
             <Icon>Textures\Battery8x.dds</Icon>
             <Description>Description_Battery</Description>
