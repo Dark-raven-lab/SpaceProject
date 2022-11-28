@@ -181,163 +181,162 @@
     <value>Small Battery T3</value>
   </data>
 
-<data name="DisplayName_Beacon2x" xml:space="preserve"><value>Beacon2x</value></data>
-<data name="DisplayName_Beacon4x" xml:space="preserve"><value>Beacon4x</value></data>
-<data name="DisplayName_Beacon8x" xml:space="preserve"><value>Beacon8x</value></data>
+<data name="DisplayName_Beacon2x" xml:space="preserve"><value>Beacon T1</value></data>
+<data name="DisplayName_Beacon4x" xml:space="preserve"><value>Beacon T2</value></data>
+<data name="DisplayName_Beacon8x" xml:space="preserve"><value>Beacon T3</value></data>
   
-<data name="DisplayName_LargeCargoContainer2x" xml:space="preserve"><value>LargeCargoContainer2x</value></data>
-<data name="DisplayName_LargeCargoContainer4x" xml:space="preserve"><value>LargeCargoContainer4x</value></data>
-<data name="DisplayName_LargeCargoContainer8x" xml:space="preserve"><value>LargeCargoContainer8x</value></data>
+<data name="DisplayName_LargeCargoContainer2x" xml:space="preserve"><value>Large Cargo Container T1</value></data>
+<data name="DisplayName_LargeCargoContainer4x" xml:space="preserve"><value>Large Cargo Container T2</value></data>
+<data name="DisplayName_LargeCargoContainer8x" xml:space="preserve"><value>Large Cargo Container T3</value></data>
 
-<data name="DisplayName_MediumCargoContainer2x" xml:space="preserve"><value>MediumCargoContainer2x</value></data>
-<data name="DisplayName_MediumCargoContainer4x" xml:space="preserve"><value>MediumCargoContainer4x</value></data>
-<data name="DisplayName_MediumCargoContainer8x" xml:space="preserve"><value>MediumCargoContainer8x</value></data>
+<data name="DisplayName_MediumCargoContainer2x" xml:space="preserve"><value>Medium Cargo Container T1</value></data>
+<data name="DisplayName_MediumCargoContainer4x" xml:space="preserve"><value>Medium Cargo Container T2</value></data>
+<data name="DisplayName_MediumCargoContainer8x" xml:space="preserve"><value>Medium Cargo Container T3</value></data>
 
-<data name="DisplayName_SmallCargoContainer2x" xml:space="preserve"><value>SmallCargoContainer2x</value></data>
-<data name="DisplayName_SmallCargoContainer4x" xml:space="preserve"><value>SmallCargoContainer4x</value></data>
-<data name="DisplayName_SmallCargoContainer8x" xml:space="preserve"><value>SmallCargoContainer8x</value></data>
+<data name="DisplayName_SmallCargoContainer2x" xml:space="preserve"><value>Small Cargo Container T1</value></data>
+<data name="DisplayName_SmallCargoContainer4x" xml:space="preserve"><value>Small Cargo Container T2</value></data>
+<data name="DisplayName_SmallCargoContainer8x" xml:space="preserve"><value>Small Cargo Container T3</value></data>
 
-<data name="DisplayName_LargeCargoContainerIndustrial2x" xml:space="preserve"><value>LargeCargoContainerIndustrial2x</value></data>
-<data name="DisplayName_LargeCargoContainerIndustrial4x" xml:space="preserve"><value>LargeCargoContainerIndustrial4x</value></data>
-<data name="DisplayName_LargeCargoContainerIndustrial8x" xml:space="preserve"><value>LargeCargoContainerIndustrial8x</value></data>
+<data name="DisplayName_LargeCargoContainerIndustrial2x" xml:space="preserve"><value>Large Cargo Container Industrial T1</value></data>
+<data name="DisplayName_LargeCargoContainerIndustrial4x" xml:space="preserve"><value>Large Cargo Container Industrial T2</value></data>
+<data name="DisplayName_LargeCargoContainerIndustrial8x" xml:space="preserve"><value>Large Cargo Container Industrial T3</value></data>
 
-<data name="DisplayName_ShipWelder2x" xml:space="preserve"><value>ShipWelder2x</value></data>
-<data name="DisplayName_ShipWelder4x" xml:space="preserve"><value>ShipWelder4x</value></data>
-<data name="DisplayName_ShipWelder8x" xml:space="preserve"><value>ShipWelder8x</value></data>
+<data name="DisplayName_ShipWelder2x" xml:space="preserve"><value>Welder T1</value></data>
+<data name="DisplayName_ShipWelder4x" xml:space="preserve"><value>Welder T2</value></data>
+<data name="DisplayName_ShipWelder8x" xml:space="preserve"><value>Welder T3</value></data>
 
-<data name="DisplayName_OreDetector2x" xml:space="preserve"><value>OreDetector2x</value></data>
-<data name="DisplayName_OreDetector4x" xml:space="preserve"><value>OreDetector4x</value></data>
-<data name="DisplayName_OreDetector8x" xml:space="preserve"><value>OreDetector8x</value></data>
+<data name="DisplayName_OreDetector2x" xml:space="preserve"><value>Ore Detector T1</value></data>
+<data name="DisplayName_OreDetector4x" xml:space="preserve"><value>Ore Detector T2</value></data>
+<data name="DisplayName_OreDetector8x" xml:space="preserve"><value>Ore Detector T3</value></data>
 
-<data name="DisplayName_Drill2x" xml:space="preserve"><value>Drill2x</value></data>
-<data name="DisplayName_Drill4x" xml:space="preserve"><value>Drill4x</value></data>
-<data name="DisplayName_Drill8x" xml:space="preserve"><value>Drill8x</value></data>
+<data name="DisplayName_Drill2x" xml:space="preserve"><value>Drill T1</value></data>
+<data name="DisplayName_Drill4x" xml:space="preserve"><value>Drill T2</value></data>
+<data name="DisplayName_Drill8x" xml:space="preserve"><value>Drill T3</value></data>
 
-<data name="DisplayName_ShipGrinder2x" xml:space="preserve"><value>ShipGrinder2x</value></data>
-<data name="DisplayName_ShipGrinder4x" xml:space="preserve"><value>ShipGrinder4x</value></data>
-<data name="DisplayName_ShipGrinder8x" xml:space="preserve"><value>ShipGrinder8x</value></data>
+<data name="DisplayName_ShipGrinder2x" xml:space="preserve"><value>Grinder T1</value></data>
+<data name="DisplayName_ShipGrinder4x" xml:space="preserve"><value>Grinder T2</value></data>
+<data name="DisplayName_ShipGrinder8x" xml:space="preserve"><value>Grinder T3</value></data>
 
-<data name="DisplayName_Gyroscope2x" xml:space="preserve"><value>Gyroscope2x</value></data>
-<data name="DisplayName_Gyroscope4x" xml:space="preserve"><value>Gyroscope4x</value></data>
-<data name="DisplayName_Gyroscope8x" xml:space="preserve"><value>Gyroscope8x</value></data>
+<data name="DisplayName_Gyroscope2x" xml:space="preserve"><value>Gyroscope T1</value></data>
+<data name="DisplayName_Gyroscope4x" xml:space="preserve"><value>Gyroscope T2</value></data>
+<data name="DisplayName_Gyroscope8x" xml:space="preserve"><value>Gyroscope T3</value></data>
 
-<data name="DisplayName_HydrogenEngine2x" xml:space="preserve"><value>HydrogenEngine2x</value></data>
-<data name="DisplayName_HydrogenEngine4x" xml:space="preserve"><value>HydrogenEngine4x</value></data>
-<data name="DisplayName_HydrogenEngine8x" xml:space="preserve"><value>HydrogenEngine8x</value></data>
+<data name="DisplayName_HydrogenEngine2x" xml:space="preserve"><value>Hydrogen Engine T1</value></data>
+<data name="DisplayName_HydrogenEngine4x" xml:space="preserve"><value>Hydrogen Engine T2</value></data>
+<data name="DisplayName_HydrogenEngine8x" xml:space="preserve"><value>Hydrogen Engine T3</value></data>
 
-<data name="DisplayName_HydrogenThrust2x" xml:space="preserve"><value>HydrogenThrust2x</value></data>
-<data name="DisplayName_LargeHydrogenThrust2x" xml:space="preserve"><value>LargeHydrogenThrust2x</value></data>
-<data name="DisplayName_HydrogenThrust4x" xml:space="preserve"><value>HydrogenThrust4x</value></data>
-<data name="DisplayName_LargeHydrogenThrust4x" xml:space="preserve"><value>LargeHydrogenThrust4x</value></data>
-<data name="DisplayName_HydrogenThrust8x" xml:space="preserve"><value>HydrogenThrust8x</value></data>
-<data name="DisplayName_LargeHydrogenThrust8x" xml:space="preserve"><value>LargeHydrogenThrust8x</value></data>
+<data name="DisplayName_HydrogenThrust2x" xml:space="preserve"><value>Hydrogen Thrust T1</value></data>
+<data name="DisplayName_LargeHydrogenThrust2x" xml:space="preserve"><value>Large Hydrogen Thrust T1</value></data>
+<data name="DisplayName_HydrogenThrust4x" xml:space="preserve"><value>Hydrogen Thrust T2</value></data>
+<data name="DisplayName_LargeHydrogenThrust4x" xml:space="preserve"><value>Large Hydrogen Thrust T2</value></data>
+<data name="DisplayName_HydrogenThrust8x" xml:space="preserve"><value>Hydrogen Thrust T3</value></data>
+<data name="DisplayName_LargeHydrogenThrust8x" xml:space="preserve"><value>Large Hydrogen Thrust T3</value></data>
 
-<data name="DisplayName_HydrogenTankIndustrial2x" xml:space="preserve"><value>HydrogenTankIndustrial2x</value></data>
-<data name="DisplayName_HydrogenTankIndustrial4x" xml:space="preserve"><value>HydrogenTankIndustrial4x</value></data>
-<data name="DisplayName_HydrogenTankIndustrial8x" xml:space="preserve"><value>HydrogenTankIndustrial8x</value></data>
+<data name="DisplayName_HydrogenTankIndustrial2x" xml:space="preserve"><value>Hydrogen Tank Industrial T1</value></data>
+<data name="DisplayName_HydrogenTankIndustrial4x" xml:space="preserve"><value>Hydrogen Tank Industrial T2</value></data>
+<data name="DisplayName_HydrogenTankIndustrial8x" xml:space="preserve"><value>Hydrogen Tank Industrial T3</value></data>
 
-<data name="DisplayName_AssemblerIndustrial2x" xml:space="preserve"><value>AssemblerIndustrial2x</value></data>
-<data name="DisplayName_AssemblerIndustrial4x" xml:space="preserve"><value>AssemblerIndustrial4x</value></data>
-<data name="DisplayName_AssemblerIndustrial8x" xml:space="preserve"><value>AssemblerIndustrial8x</value></data>
+<data name="DisplayName_AssemblerIndustrial2x" xml:space="preserve"><value>Assembler Industrial T1</value></data>
+<data name="DisplayName_AssemblerIndustrial4x" xml:space="preserve"><value>Assembler Industrial T2</value></data>
+<data name="DisplayName_AssemblerIndustrial8x" xml:space="preserve"><value>Assembler Industrial T3</value></data>
 
-<data name="DisplayName_RefineryIndustrial2x" xml:space="preserve"><value>RefineryIndustrial2x</value></data>
-<data name="DisplayName_RefineryIndustrial4x" xml:space="preserve"><value>RefineryIndustrial4x</value></data>
-<data name="DisplayName_RefineryIndustrial8x" xml:space="preserve"><value>RefineryIndustrial8x</value></data>
+<data name="DisplayName_RefineryIndustrial2x" xml:space="preserve"><value>Refinery Industrial T1</value></data>
+<data name="DisplayName_RefineryIndustrial4x" xml:space="preserve"><value>Refinery Industrial T2</value></data>
+<data name="DisplayName_RefineryIndustrial8x" xml:space="preserve"><value>Refinery Industrial T3</value></data>
 
-<data name="DisplayName_LargeHydrogenThrustIndustrial2x" xml:space="preserve"><value>LargeHydrogenThrustIndustrial2x</value></data>
-<data name="DisplayName_LargeHydrogenThrustIndustrial4x" xml:space="preserve"><value>LargeHydrogenThrustIndustrial4x</value></data>
-<data name="DisplayName_LargeHydrogenThrustIndustrial8x" xml:space="preserve"><value>LargeHydrogenThrustIndustrial8x</value></data>
+<data name="DisplayName_LargeHydrogenThrustIndustrial2x" xml:space="preserve"><value>Large Hydrogen Thrust Industrial T1</value></data>
+<data name="DisplayName_LargeHydrogenThrustIndustrial4x" xml:space="preserve"><value>Large Hydrogen Thrust Industrial T2</value></data>
+<data name="DisplayName_LargeHydrogenThrustIndustrial8x" xml:space="preserve"><value>Large Hydrogen Thrust Industrial T3</value></data>
 
-<data name="DisplayName_HydrogenThrustIndustrial2x" xml:space="preserve"><value>HydrogenThrustIndustrial2x</value></data>
-<data name="DisplayName_HydrogenThrustIndustrial4x" xml:space="preserve"><value>HydrogenThrustIndustrial4x</value></data>
-<data name="DisplayName_HydrogenThrustIndustrial8x" xml:space="preserve"><value>HydrogenThrustIndustrial8x</value></data>
+<data name="DisplayName_HydrogenThrustIndustrial2x" xml:space="preserve"><value>Hydrogen Thrust Industrial T1</value></data>
+<data name="DisplayName_HydrogenThrustIndustrial4x" xml:space="preserve"><value>Hydrogen Thrust Industrial T2</value></data>
+<data name="DisplayName_HydrogenThrustIndustrial8x" xml:space="preserve"><value>Hydrogen Thrust Industrial T3</value></data>
 
-<data name="DisplayName_SmallThrust2x" xml:space="preserve"><value>SmallThrust2x</value></data>
-<data name="DisplayName_LargeThrust2x" xml:space="preserve"><value>LargeThrust2x</value></data>
-<data name="DisplayName_SmallThrust4x" xml:space="preserve"><value>SmallThrust4x</value></data>
-<data name="DisplayName_LargeThrust4x" xml:space="preserve"><value>LargeThrust4x</value></data>
-<data name="DisplayName_SmallThrust8x" xml:space="preserve"><value>SmallThrust8x</value></data>
-<data name="DisplayName_LargeThrust8x" xml:space="preserve"><value>LargeThrust8x</value></data>
+<data name="DisplayName_SmallThrust2x" xml:space="preserve"><value>Thrust T1</value></data>
+<data name="DisplayName_LargeThrust2x" xml:space="preserve"><value>Large Thrust T1</value></data>
+<data name="DisplayName_SmallThrust4x" xml:space="preserve"><value>Thrust T2</value></data>
+<data name="DisplayName_LargeThrust4x" xml:space="preserve"><value>Large Thrust T2</value></data>
+<data name="DisplayName_SmallThrust8x" xml:space="preserve"><value>Thrust T3</value></data>
+<data name="DisplayName_LargeThrust8x" xml:space="preserve"><value>Large Thrust T3</value></data>
 
-<data name="DisplayName_SmallThrustSciFi2x" xml:space="preserve"><value>SmallThrustSciFi2x</value></data>
-<data name="DisplayName_LargeThrustSciFi2x" xml:space="preserve"><value>LargeThrustSciFi2x</value></data>
-<data name="DisplayName_SmallThrustSciFi4x" xml:space="preserve"><value>SmallThrustSciFi4x</value></data>
-<data name="DisplayName_LargeThrustSciFi4x" xml:space="preserve"><value>LargeThrustSciFi4x</value></data>
-<data name="DisplayName_SmallThrustSciFi8x" xml:space="preserve"><value>SmallThrustSciFi8x</value></data>
-<data name="DisplayName_LargeThrustSciFi8x" xml:space="preserve"><value>LargeThrustSciFi8x</value></data>
+<data name="DisplayName_SmallThrustSciFi2x" xml:space="preserve"><value>Ion Thrust SciFi T1</value></data>
+<data name="DisplayName_LargeThrustSciFi2x" xml:space="preserve"><value>Large Ion Thrust SciFi T1</value></data>
+<data name="DisplayName_SmallThrustSciFi4x" xml:space="preserve"><value>Ion Thrust SciFi T2</value></data>
+<data name="DisplayName_LargeThrustSciFi4x" xml:space="preserve"><value>Large Ion Thrust SciFi T2</value></data>
+<data name="DisplayName_SmallThrustSciFi8x" xml:space="preserve"><value>IonThrust SciFi T3</value></data>
+<data name="DisplayName_LargeThrustSciFi8x" xml:space="preserve"><value>Large Ion Thrust SciFi T3</value></data>
 
-<data name="DisplayName_JumpDrive2x" xml:space="preserve"><value>JumpDrive2x</value></data>
-<data name="DisplayName_JumpDrive4x" xml:space="preserve"><value>JumpDrive4x</value></data>
-<data name="DisplayName_JumpDrive8x" xml:space="preserve"><value>JumpDrive8x</value></data>
+<data name="DisplayName_JumpDrive2x" xml:space="preserve"><value>Jump Drive T1</value></data>
+<data name="DisplayName_JumpDrive4x" xml:space="preserve"><value>Jump Drive T2</value></data>
+<data name="DisplayName_JumpDrive8x" xml:space="preserve"><value>Jump Drive T3</value></data>
 
-<data name="DisplayName_OxygenFarm2x" xml:space="preserve"><value>OxygenFarm2x</value></data>
-<data name="DisplayName_OxygenFarm4x" xml:space="preserve"><value>OxygenFarm4x</value></data>
-<data name="DisplayName_OxygenFarm8x" xml:space="preserve"><value>OxygenFarm8x</value></data>
+<data name="DisplayName_OxygenFarm2x" xml:space="preserve"><value>Oxygen Farm T1</value></data>
+<data name="DisplayName_OxygenFarm4x" xml:space="preserve"><value>Oxygen Farm T2</value></data>
+<data name="DisplayName_OxygenFarm8x" xml:space="preserve"><value>Oxygen Farm T3</value></data>
 
-<data name="DisplayName_OxygenGenerator2x" xml:space="preserve"><value>OxygenGenerator2x</value></data>
-<data name="DisplayName_OxygenGenerator4x" xml:space="preserve"><value>OxygenGenerator4x</value></data>
-<data name="DisplayName_OxygenGenerator8x" xml:space="preserve"><value>OxygenGenerator8x</value></data>
+<data name="DisplayName_OxygenGenerator2x" xml:space="preserve"><value>Oxygen Generator T1</value></data>
+<data name="DisplayName_OxygenGenerator4x" xml:space="preserve"><value>Oxygen Generator T2</value></data>
+<data name="DisplayName_OxygenGenerator8x" xml:space="preserve"><value>Oxygen Generator T3</value></data>
 
-<data name="DisplayName_LargeOxygenTank" xml:space="preserve"><value>LargeOxygenTank</value></data>
-<data name="DisplayName_OxygenTank2x" xml:space="preserve"><value>OxygenTank2x</value></data>
-<data name="DisplayName_LargeOxygenTank2x" xml:space="preserve"><value>LargeOxygenTank2x</value></data>
-<data name="DisplayName_OxygenTank4x" xml:space="preserve"><value>OxygenTank4x</value></data>
-<data name="DisplayName_LargeOxygenTank4x" xml:space="preserve"><value>LargeOxygenTank4x</value></data>
-<data name="DisplayName_OxygenTank8x" xml:space="preserve"><value>OxygenTank8x</value></data>
-<data name="DisplayName_LargeOxygenTank8x" xml:space="preserve"><value>LargeOxygenTank8x</value></data>
+<data name="DisplayName_LargeOxygenTank" xml:space="preserve"><value>Large Oxygen Tank</value></data>
+<data name="DisplayName_OxygenTank2x" xml:space="preserve"><value>Oxygen Tank T1</value></data>
+<data name="DisplayName_LargeOxygenTank2x" xml:space="preserve"><value>Large Oxygen Tank T1</value></data>
+<data name="DisplayName_OxygenTank4x" xml:space="preserve"><value>Oxygen Tank T2</value></data>
+<data name="DisplayName_LargeOxygenTank4x" xml:space="preserve"><value>Large Oxygen Tank T2</value></data>
+<data name="DisplayName_OxygenTank8x" xml:space="preserve"><value>Oxygen Tank T3</value></data>
+<data name="DisplayName_LargeOxygenTank8x" xml:space="preserve"><value>Large Oxygen Tank T3</value></data>
 
-<data name="DisplayName_SmallReactor2x" xml:space="preserve"><value>SmallReactor2x</value></data>
-<data name="DisplayName_LargeReactor2x" xml:space="preserve"><value>LargeReactor2x</value></data>
-<data name="DisplayName_SmallReactor4x" xml:space="preserve"><value>SmallReactor4x</value></data>
-<data name="DisplayName_LargeReactor4x" xml:space="preserve"><value>LargeReactor4x</value></data>
-<data name="DisplayName_SmallReactor8x" xml:space="preserve"><value>SmallReactor8x</value></data>
-<data name="DisplayName_LargeReactor8x" xml:space="preserve"><value>LargeReactor8x</value></data>
+<data name="DisplayName_SmallReactor2x" xml:space="preserve"><value>Reactor T1</value></data>
+<data name="DisplayName_LargeReactor2x" xml:space="preserve"><value>Large Reactor T1</value></data>
+<data name="DisplayName_SmallReactor4x" xml:space="preserve"><value>Reactor T2</value></data>
+<data name="DisplayName_LargeReactor4x" xml:space="preserve"><value>Large Reactor T2</value></data>
+<data name="DisplayName_SmallReactor8x" xml:space="preserve"><value>Reactor T3</value></data>
+<data name="DisplayName_LargeReactor8x" xml:space="preserve"><value>Large Reactor T3</value></data>
 
-<data name="DisplayName_Refinery2x" xml:space="preserve"><value>Refinery2x</value></data>
-<data name="DisplayName_Refinery4x" xml:space="preserve"><value>Refinery4x</value></data>
-<data name="DisplayName_Refinery8x" xml:space="preserve"><value>Refinery8x</value></data>
+<data name="DisplayName_Refinery2x" xml:space="preserve"><value>Refinery T1</value></data>
+<data name="DisplayName_Refinery4x" xml:space="preserve"><value>Refinery T2</value></data>
+<data name="DisplayName_Refinery8x" xml:space="preserve"><value>Refinery T3</value></data>
 
-<data name="DisplayName_SafeZone2x" xml:space="preserve"><value>SafeZone2x</value></data>
-<data name="DisplayName_SafeZone4x" xml:space="preserve"><value>SafeZone4x</value></data>
-<data name="DisplayName_SafeZone8x" xml:space="preserve"><value>SafeZone8x</value></data>
+<data name="DisplayName_SafeZone2x" xml:space="preserve"><value>SafeZone T1</value></data>
+<data name="DisplayName_SafeZone4x" xml:space="preserve"><value>SafeZone T2</value></data>
+<data name="DisplayName_SafeZone8x" xml:space="preserve"><value>SafeZone T3</value></data>
 
-<data name="DisplayName_SolarPanel" xml:space="preserve"><value>SolarPanel</value></data>
-<data name="DisplayName_SolarPanel2x" xml:space="preserve"><value>SolarPanel2x</value></data>
-<data name="DisplayName_SolarPanel4x" xml:space="preserve"><value>SolarPanel4x</value></data>
-<data name="DisplayName_SolarPanel8x" xml:space="preserve"><value>SolarPanel8x</value></data>
+<data name="DisplayName_SolarPanel2x" xml:space="preserve"><value>SolarPanel T1</value></data>
+<data name="DisplayName_SolarPanel4x" xml:space="preserve"><value>SolarPanel T2</value></data>
+<data name="DisplayName_SolarPanel8x" xml:space="preserve"><value>SolarPanel T3</value></data>
 
-<data name="DisplayName_ReflectorLight2x" xml:space="preserve"><value>ReflectorLight2x</value></data>
-<data name="DisplayName_ReflectorLight4x" xml:space="preserve"><value>ReflectorLight4x</value></data>
-<data name="DisplayName_ReflectorLight8x" xml:space="preserve"><value>ReflectorLight8x</value></data>
+<data name="DisplayName_ReflectorLight2x" xml:space="preserve"><value>Reflector Light T1</value></data>
+<data name="DisplayName_ReflectorLight4x" xml:space="preserve"><value>Reflector Light T2</value></data>
+<data name="DisplayName_ReflectorLight8x" xml:space="preserve"><value>Reflector Light T3</value></data>
 
-<data name="DisplayName_StoneIncinerator" xml:space="preserve"><value>StoneIncinerator</value></data>
+<data name="DisplayName_StoneIncinerator" xml:space="preserve"><value>Stone Incinerator</value></data>
 
-<data name="DisplayName_SurvivalKit2x" xml:space="preserve"><value>SurvivalKit2x</value></data>
-<data name="DisplayName_SurvivalKit4x" xml:space="preserve"><value>SurvivalKit4x</value></data>
-<data name="DisplayName_SurvivalKit8x" xml:space="preserve"><value>SurvivalKit8x</value></data>
+<data name="DisplayName_SurvivalKit2x" xml:space="preserve"><value>SurvivalKit T1</value></data>
+<data name="DisplayName_SurvivalKit4x" xml:space="preserve"><value>SurvivalKit T2</value></data>
+<data name="DisplayName_SurvivalKit8x" xml:space="preserve"><value>SurvivalKit T3</value></data>
 
-<data name="DisplayName_SmallReactorWarfare22x" xml:space="preserve"><value>SmallReactorWarfare22x</value></data>
-<data name="DisplayName_SmallReactorWarfare24x" xml:space="preserve"><value>SmallReactorWarfare24x</value></data>
-<data name="DisplayName_SmallReactorWarfare28x" xml:space="preserve"><value>SmallReactorWarfare28x</value></data>
+<data name="DisplayName_SmallReactorWarfare22x" xml:space="preserve"><value>Reactor Warfare T1</value></data>
+<data name="DisplayName_SmallReactorWarfare24x" xml:space="preserve"><value>Reactor Warfare T2</value></data>
+<data name="DisplayName_SmallReactorWarfare28x" xml:space="preserve"><value>Reactor Warfare T3</value></data>
 
-<data name="DisplayName_LargeReactorWarfare22x" xml:space="preserve"><value>LargeReactorWarfare22x</value></data>
-<data name="DisplayName_LargeReactorWarfare24x" xml:space="preserve"><value>LargeReactorWarfare24x</value></data>
-<data name="DisplayName_LargeReactorWarfare28x" xml:space="preserve"><value>LargeReactorWarfare28x</value></data>
+<data name="DisplayName_LargeReactorWarfare22x" xml:space="preserve"><value>Large Reactor Warfare T1</value></data>
+<data name="DisplayName_LargeReactorWarfare24x" xml:space="preserve"><value>Large Reactor Warfare T2</value></data>
+<data name="DisplayName_LargeReactorWarfare28x" xml:space="preserve"><value>Large Reactor Warfare T3</value></data>
 
-<data name="DisplayName_BatteryBlockWarfare22x" xml:space="preserve"><value>BatteryBlockWarfare22x</value></data>
-<data name="DisplayName_BatteryBlockWarfare24x" xml:space="preserve"><value>BatteryBlockWarfare24x</value></data>
-<data name="DisplayName_BatteryBlockWarfare28x" xml:space="preserve"><value>BatteryBlockWarfare28x</value></data>
+<data name="DisplayName_BatteryBlockWarfare22x" xml:space="preserve"><value>Battery Block Warfare T1</value></data>
+<data name="DisplayName_BatteryBlockWarfare24x" xml:space="preserve"><value>Battery Block Warfare T2</value></data>
+<data name="DisplayName_BatteryBlockWarfare28x" xml:space="preserve"><value>Battery Block Warfare T3</value></data>
 
-<data name="DisplayName_SmallModularThruster2x" xml:space="preserve"><value>SmallModularThruster2x</value></data>
-<data name="DisplayName_SmallModularThruster4x" xml:space="preserve"><value>SmallModularThruster4x</value></data>
-<data name="DisplayName_SmallModularThruster8x" xml:space="preserve"><value>SmallModularThruster8x</value></data>
+<data name="DisplayName_SmallModularThruster2x" xml:space="preserve"><value>Small Modular Thruster T1</value></data>
+<data name="DisplayName_SmallModularThruster4x" xml:space="preserve"><value>Small Modular Thruster T2</value></data>
+<data name="DisplayName_SmallModularThruster8x" xml:space="preserve"><value>Small Modular Thruster T3</value></data>
 
-<data name="DisplayName_LargeModularThruster2x" xml:space="preserve"><value>LargeModularThruster2x</value></data>
-<data name="DisplayName_LargeModularThruster4x" xml:space="preserve"><value>LargeModularThruster4x</value></data>
-<data name="DisplayName_LargeModularThruster8x" xml:space="preserve"><value>LargeModularThruster8x</value></data>
+<data name="DisplayName_LargeModularThruster2x" xml:space="preserve"><value>Large Modular Thruster T1</value></data>
+<data name="DisplayName_LargeModularThruster4x" xml:space="preserve"><value>Large Modular Thruster T2</value></data>
+<data name="DisplayName_LargeModularThruster8x" xml:space="preserve"><value>Large Modular Thruster T3</value></data>
 
-<data name="DisplayName_WindTurbine2x" xml:space="preserve"><value>WindTurbine2x</value></data>
-<data name="DisplayName_WindTurbine4x" xml:space="preserve"><value>WindTurbine4x</value></data>
-<data name="DisplayName_WindTurbine8x" xml:space="preserve"><value>WindTurbine8x</value></data>
+<data name="DisplayName_WindTurbine2x" xml:space="preserve"><value>Wind Turbine T1</value></data>
+<data name="DisplayName_WindTurbine4x" xml:space="preserve"><value>Wind Turbine T2</value></data>
+<data name="DisplayName_WindTurbine8x" xml:space="preserve"><value>Wind Turbine T3</value></data>
 
 </root>
