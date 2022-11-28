@@ -7,7 +7,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>LargeBlockBeacon2x</SubtypeId>
             </Id>
-            <DisplayName>Маяк Т1</DisplayName>
+            <DisplayName>DisplayName_Beacon_2x</DisplayName>
             <Icon>Textures\beacon2x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Large</CubeSize>
@@ -64,7 +64,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>SmallBlockBeacon2x</SubtypeId>
             </Id>
-            <DisplayName>Маяк Т1</DisplayName>
+            <DisplayName>DisplayName_Beacon_2x</DisplayName>
             <Icon>Textures\beacon2x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Small</CubeSize>
@@ -114,7 +114,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>LargeBlockBeacon4x</SubtypeId>
             </Id>
-            <DisplayName>Маяк Т2</DisplayName>
+            <DisplayName>DisplayName_Beacon_4x</DisplayName>
             <Icon>Textures\beacon4x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Large</CubeSize>
@@ -171,7 +171,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>SmallBlockBeacon4x</SubtypeId>
             </Id>
-            <DisplayName>Маяк Т2</DisplayName>
+            <DisplayName>DisplayName_Beacon_4x</DisplayName>
             <Icon>Textures\beacon4x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Small</CubeSize>
@@ -222,7 +222,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>LargeBlockBeacon8x</SubtypeId>
             </Id>
-            <DisplayName>Маяк Т3</DisplayName>
+            <DisplayName>DisplayName_Beacon_8x</DisplayName>
             <Icon>Textures\beacon8x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Large</CubeSize>
@@ -279,7 +279,7 @@
                 <TypeId>Beacon</TypeId>
                 <SubtypeId>SmallBlockBeacon8x</SubtypeId>
             </Id>
-            <DisplayName>Маяк Т3</DisplayName>
+            <DisplayName>DisplayName_Beacon_8x</DisplayName>
             <Icon>Textures\beacon8x.dds</Icon>
             <Description>Description_Beacon</Description>
             <CubeSize>Small</CubeSize>

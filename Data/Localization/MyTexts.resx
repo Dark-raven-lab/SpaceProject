@@ -180,4 +180,13 @@
   <data name="DisplayName_SmallBattery_8x" xml:space="preserve">
     <value>Small Battery T3</value>
   </data>
+  <data name="DisplayName_Beacon_2x" xml:space="preserve">
+    <value>Beacon T1</value>
+  </data>
+  <data name="DisplayName_Beacon_4x" xml:space="preserve">
+    <value>Beacon T2</value>
+  </data>
+  <data name="DisplayName_Beacon_8x" xml:space="preserve">
+    <value>Beacon T3</value>
+  </data>
 </root>
