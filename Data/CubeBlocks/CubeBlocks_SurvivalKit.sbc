@@ -1,54 +1,72 @@
-<?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
   <CubeBlocks>
-    <!-- Tier 2-->
-    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>SurvivalKit</TypeId>
         <SubtypeId>SurvivalKitLarge2x</SubtypeId>
       </Id>
-      <DisplayName>Комплект для выживания Т1</DisplayName>
-      <GuiVisible>false</GuiVisible>
+      <DisplayName>DisplayName_SurvivalKit2x</DisplayName>
       <Description>Description_SurvivalKit</Description>
       <Icon>Textures\SurvivalKitLarge2x.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <ResearchGroup>Tier00Basics</ResearchGroup>
-      <ResearchCost>5</ResearchCost>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
+      <Mass>0</Mass>
       <Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
-      <Components>
-        <Component Subtype="Tech2x" Count="5"/>
-        <Component Subtype="SteelPlate" Count="30"/>
-        <Component Subtype="Construction" Count="3"/>
-        <Component Subtype="Medical" Count="5"/>
-        <Component Subtype="Motor" Count="6"/>
-        <Component Subtype="Display" Count="2"/>
-        <Component Subtype="Computer" Count="8"/>
-        <Component Subtype="SteelPlate" Count="15"/>
-      </Components>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <PCU>140</PCU>
+      <BlockPairName>SurvivalKit2x</BlockPairName>
       <MountPoints>
-        <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <Components>
+        <Component Subtype="Tech2x" Count="5" />
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="Medical" Count="5" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SurvivalKit_Construction1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SurvivalKit_Construction1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
-      <BlockPairName>SurvivalKit2x</BlockPairName>
-      <EdgeType>Light</EdgeType>
+      <MirroringZ>Y</MirroringZ>
+      <GuiVisible>false</GuiVisible>
+      <MirroringY>Z</MirroringY>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>45</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <EdgeType>Light</EdgeType>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
       <ScreenAreas>
-        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
-        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
+        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
       </ScreenAreas>
+      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>Tools</Class>
         <Class>BasicComponents2</Class>
@@ -56,71 +74,78 @@
         <Class>OreToIngotT1</Class>
       </BlueprintClasses>
       <AssemblySpeed>0.5</AssemblySpeed>
-
-      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
-
-      <InventoryMaxVolume>2</InventoryMaxVolume>
-      <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
-      </InventorySize>
-
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
       <ProgressSound>BlockMedicalProgress</ProgressSound>
-      <PCU>140</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>SurvivalKit</TypeId>
         <SubtypeId>SurvivalKit2x</SubtypeId>
       </Id>
-      <DisplayName>Комплект для выживания Т1</DisplayName>
-      <GuiVisible>false</GuiVisible>
+      <DisplayName>DisplayName_SurvivalKit2x</DisplayName>
       <Description>Description_SurvivalKit</Description>
       <Icon>Textures\SurvivalKitSmall2x.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="4" y="3" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
+      <Mass>0</Mass>
       <Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
-      <Components>
-        <Component Subtype="Tech2x" Count="5"/>
-        <Component Subtype="SteelPlate" Count="2"/>
-        <Component Subtype="Construction" Count="3"/>
-        <Component Subtype="Medical" Count="5"/>
-        <Component Subtype="Motor" Count="6"/>
-        <Component Subtype="Display" Count="2"/>
-        <Component Subtype="Computer" Count="8"/>
-        <Component Subtype="SteelPlate" Count="8"/>
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3"/>
-        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1"/>
-        <MountPoint Side="Back" StartX="2" StartY="0" EndX="4" EndY="3"/>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="4" EndY="3" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="3" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="3" />
-      </MountPoints>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" />
-      </BuildProgressModels>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <PCU>140</PCU>
       <BlockPairName>SurvivalKit2x</BlockPairName>
-      <EdgeType>Light</EdgeType>
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="3" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="4" EndY="3" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="4" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <Components>
+        <Component Subtype="Tech2x" Count="5" />
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="Medical" Count="5" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Computer" Count="8" />
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MirroringZ>Y</MirroringZ>
+      <GuiVisible>false</GuiVisible>
+      <MirroringY>Z</MirroringY>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>30</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+      </ScreenAreas>
+      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>Tools</Class>
         <Class>BasicComponents2</Class>
@@ -128,80 +153,74 @@
         <Class>OreToIngotT1</Class>
       </BlueprintClasses>
       <AssemblySpeed>0.5</AssemblySpeed>
-      <ScreenAreas>
-        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
-        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
-      </ScreenAreas>
-
-      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
-      </InventorySize>
-
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
       <ProgressSound>BlockMedicalProgress</ProgressSound>
-
-      <PCU>140</PCU>
     </Definition>
-
-
-    <!-- Tier 4-->
-    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>SurvivalKit</TypeId>
         <SubtypeId>SurvivalKitLarge4x</SubtypeId>
       </Id>
-      <DisplayName>Комплект для выживания Т2</DisplayName>
-      <GuiVisible>false</GuiVisible>
+      <DisplayName>DisplayName_SurvivalKit4x</DisplayName>
       <Description>Description_SurvivalKit</Description>
       <Icon>Textures\SurvivalKitLarge4x.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <ResearchGroup>Tier00Basics</ResearchGroup>
-      <ResearchCost>5</ResearchCost>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
+      <Mass>0</Mass>
       <Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
-      <Components>
-        <Component Subtype="Tech4x" Count="5"/>
-        <Component Subtype="SteelPlate" Count="45"/>
-        <Component Subtype="Construction" Count="5"/>
-        <Component Subtype="Medical" Count="7"/>
-        <Component Subtype="Motor" Count="9"/>
-        <Component Subtype="Display" Count="3"/>
-        <Component Subtype="Computer" Count="12"/>
-        <Component Subtype="SteelPlate" Count="23"/>
-      </Components>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <PCU>140</PCU>
+      <BlockPairName>SurvivalKit4x</BlockPairName>
       <MountPoints>
-        <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <Components>
+        <Component Subtype="Tech4x" Count="5" />
+        <Component Subtype="SteelPlate" Count="45" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Medical" Count="7" />
+        <Component Subtype="Motor" Count="9" />
+        <Component Subtype="Display" Count="3" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="SteelPlate" Count="23" />
+      </Components>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SurvivalKit_Construction1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SurvivalKit_Construction1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
-      <BlockPairName>SurvivalKit4x</BlockPairName>
-      <EdgeType>Light</EdgeType>
+      <MirroringZ>Y</MirroringZ>
+      <GuiVisible>false</GuiVisible>
+      <MirroringY>Z</MirroringY>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>68</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <EdgeType>Light</EdgeType>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
       <ScreenAreas>
-        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
-        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
+        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
       </ScreenAreas>
+      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>Tools</Class>
         <Class>SimpleComponents</Class>
@@ -209,71 +228,78 @@
         <Class>OreToIngotT2</Class>
       </BlueprintClasses>
       <AssemblySpeed>0.7</AssemblySpeed>
-
-      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
-
-      <InventoryMaxVolume>2</InventoryMaxVolume>
-      <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
-      </InventorySize>
-
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
       <ProgressSound>BlockMedicalProgress</ProgressSound>
-      <PCU>140</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>SurvivalKit</TypeId>
         <SubtypeId>SurvivalKit4x</SubtypeId>
       </Id>
-      <DisplayName>Комплект для выживания Т2</DisplayName>
-      <GuiVisible>false</GuiVisible>
+      <DisplayName>DisplayName_SurvivalKit4x</DisplayName>
       <Description>Description_SurvivalKit</Description>
       <Icon>Textures\SurvivalKitSmall4x.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="4" y="3" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
+      <Mass>0</Mass>
       <Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
-      <Components>
-        <Component Subtype="Tech4x" Count="5"/>
-        <Component Subtype="SteelPlate" Count="3"/>
-        <Component Subtype="Construction" Count="5"/>
-        <Component Subtype="Medical" Count="7"/>
-        <Component Subtype="Motor" Count="9"/>
-        <Component Subtype="Display" Count="3"/>
-        <Component Subtype="Computer" Count="12"/>
-        <Component Subtype="SteelPlate" Count="12"/>
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3"/>
-        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1"/>
-        <MountPoint Side="Back" StartX="2" StartY="0" EndX="4" EndY="3"/>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="4" EndY="3" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="3" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="3" />
-      </MountPoints>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" />
-      </BuildProgressModels>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <PCU>140</PCU>
       <BlockPairName>SurvivalKit4x</BlockPairName>
-      <EdgeType>Light</EdgeType>
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="3" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="4" EndY="3" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="4" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <Components>
+        <Component Subtype="Tech4x" Count="5" />
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="Medical" Count="7" />
+        <Component Subtype="Motor" Count="9" />
+        <Component Subtype="Display" Count="3" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="SteelPlate" Count="12" />
+      </Components>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MirroringZ>Y</MirroringZ>
+      <GuiVisible>false</GuiVisible>
+      <MirroringY>Z</MirroringY>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>45</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+      </ScreenAreas>
+      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>Tools</Class>
         <Class>SimpleComponents</Class>
@@ -281,79 +307,74 @@
         <Class>OreToIngotT2</Class>
       </BlueprintClasses>
       <AssemblySpeed>0.7</AssemblySpeed>
-      <ScreenAreas>
-        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
-        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
-      </ScreenAreas>
-
-      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
-      </InventorySize>
-
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
       <ProgressSound>BlockMedicalProgress</ProgressSound>
-
-      <PCU>140</PCU>
     </Definition>
-
-    <!-- Tier 8 -->
-    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>SurvivalKit</TypeId>
         <SubtypeId>SurvivalKitLarge8x</SubtypeId>
       </Id>
-      <DisplayName>Комплект для выживания Т3</DisplayName>
-      <GuiVisible>false</GuiVisible>
+      <DisplayName>DisplayName_SurvivalKit8x</DisplayName>
       <Description>Description_SurvivalKit</Description>
       <Icon>Textures\SurvivalKitLarge8x.dds</Icon>
-      <CubeSize>Large</CubeSize>
-      <ResearchGroup>Tier00Basics</ResearchGroup>
-      <ResearchCost>5</ResearchCost>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="1" y="1" z="1" />
-      <ModelOffset x="0" y="0" z="0" />
+      <Mass>0</Mass>
       <Model>Models\Cubes\Large\SurvivalKit.mwm</Model>
-      <Components>
-        <Component Subtype="Tech8x" Count="5"/>
-        <Component Subtype="SteelPlate" Count="68"/>
-        <Component Subtype="Construction" Count="7"/>
-        <Component Subtype="Medical" Count="11"/>
-        <Component Subtype="Motor" Count="14"/>
-        <Component Subtype="Display" Count="4"/>
-        <Component Subtype="Computer" Count="17"/>
-        <Component Subtype="SteelPlate" Count="34"/>
-      </Components>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <PCU>140</PCU>
+      <BlockPairName>SurvivalKit8x</BlockPairName>
       <MountPoints>
-        <MountPoint Side="Left" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Right" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0" EndX="0.9" EndY="0.9" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <Components>
+        <Component Subtype="Tech8x" Count="5" />
+        <Component Subtype="SteelPlate" Count="68" />
+        <Component Subtype="Construction" Count="7" />
+        <Component Subtype="Medical" Count="11" />
+        <Component Subtype="Motor" Count="14" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Computer" Count="17" />
+        <Component Subtype="SteelPlate" Count="34" />
+      </Components>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SurvivalKit_Construction1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\SurvivalKit_Construction1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SurvivalKit_Construction2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\SurvivalKit_Construction3.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
-      <BlockPairName>SurvivalKit8x</BlockPairName>
-      <EdgeType>Light</EdgeType>
+      <MirroringZ>Y</MirroringZ>
+      <GuiVisible>false</GuiVisible>
+      <MirroringY>Z</MirroringY>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>102</BuildTimeSeconds>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <EdgeType>Light</EdgeType>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
       <ScreenAreas>
-        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
-        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
+        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
       </ScreenAreas>
+      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryMaxVolume>2</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>EliteTools</Class>
         <Class>Components</Class>
@@ -361,71 +382,78 @@
         <Class>OreToIngotT3</Class>
       </BlueprintClasses>
       <AssemblySpeed>1</AssemblySpeed>
-
-      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
-
-      <InventoryMaxVolume>2</InventoryMaxVolume>
-      <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
-      </InventorySize>
-
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
       <ProgressSound>BlockMedicalProgress</ProgressSound>
-      <PCU>140</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition">
+    <Definition xsi:type="MyObjectBuilder_SurvivalKitDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>SurvivalKit</TypeId>
         <SubtypeId>SurvivalKit8x</SubtypeId>
       </Id>
-      <DisplayName>Комплект для выживания Т3</DisplayName>
-      <GuiVisible>false</GuiVisible>
+      <DisplayName>DisplayName_SurvivalKit8x</DisplayName>
       <Description>Description_SurvivalKit</Description>
       <Icon>Textures\SurvivalKitSmall8x.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="4" y="3" z="3" />
-      <ModelOffset x="0" y="0" z="0" />
+      <Mass>0</Mass>
       <Model>Models\Cubes\Small\SurvivalKit.mwm</Model>
-      <Components>
-        <Component Subtype="Tech8x" Count="5"/>
-        <Component Subtype="SteelPlate" Count="4"/>
-        <Component Subtype="Construction" Count="7"/>
-        <Component Subtype="Medical" Count="11"/>
-        <Component Subtype="Motor" Count="14"/>
-        <Component Subtype="Display" Count="4"/>
-        <Component Subtype="Computer" Count="17"/>
-        <Component Subtype="SteelPlate" Count="17"/>
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="3"/>
-        <MountPoint Side="Back" StartX="1" StartY="0" EndX="2" EndY="1"/>
-        <MountPoint Side="Back" StartX="2" StartY="0" EndX="4" EndY="3"/>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="4" EndY="3" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="3" EndY="3" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="3" EndY="3" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="3" Default="true" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="4" EndY="3" />
-      </MountPoints>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" />
-      </BuildProgressModels>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <PCU>140</PCU>
       <BlockPairName>SurvivalKit8x</BlockPairName>
-      <EdgeType>Light</EdgeType>
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="3" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1" StartY="0" EndX="2" EndY="1" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="4" EndY="3" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="4" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <Components>
+        <Component Subtype="Tech8x" Count="5" />
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Construction" Count="7" />
+        <Component Subtype="Medical" Count="11" />
+        <Component Subtype="Motor" Count="14" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Computer" Count="17" />
+        <Component Subtype="SteelPlate" Count="17" />
+      </Components>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SurvivalKitConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\SurvivalKitConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MirroringZ>Y</MirroringZ>
+      <GuiVisible>false</GuiVisible>
+      <MirroringY>Z</MirroringY>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>68</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" TextureResolution="512" ScreenWidth="1" ScreenHeight="1" />
+      </ScreenAreas>
+      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>EliteTools</Class>
         <Class>Components</Class>
@@ -433,29 +461,7 @@
         <Class>OreToIngotT3</Class>
       </BlueprintClasses>
       <AssemblySpeed>1</AssemblySpeed>
-      <ScreenAreas>
-        <ScreenArea Name="CockpitScreen_01" DisplayName="Top panel" />
-        <ScreenArea Name="CockpitScreen_02" DisplayName="Bottom panel" />
-      </ScreenAreas>
-
-      <StandbyPowerConsumption>0.015</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.2</OperationalPowerConsumption>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
-      <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
-      </InventorySize>
-
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PrimarySound>BlockAssembler</PrimarySound>
-      <ActionSound>BlockAssemblerProcess</ActionSound>
       <ProgressSound>BlockMedicalProgress</ProgressSound>
-
-      <PCU>140</PCU>
     </Definition>
   </CubeBlocks>
 </Definitions>

@@ -1,602 +1,1666 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <BlockVariantGroups>
-
-        <!-- Production -->
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefineryGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
-            <DisplayName>DisplayName_Block_Refinery</DisplayName>
-            <Description>Description_Refinery</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
-              <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery2x" />
-              <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial2x" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery4x" />
-              <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial4x" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery8x" />
-            <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TrashCanGroup" />
-            <Icon>Textures\StoneIncinerator.dds</Icon>
-            <DisplayName>Stone Incinerator</DisplayName>
-            <Description>Rapidly vaporizes Stone leaving only trace amounts of ressources.</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Refinery" Subtype="StoneIncinerator" />
-                <Block Type="MyObjectBuilder_Refinery" Subtype="StoneIncineratorSmall" />
-<!--                <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeTrashCan" />-->
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
-            <DisplayName>DisplayName_Block_Assembler</DisplayName>
-            <Description>Description_Assembler</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
-              <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge2x" />
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit2x" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler2x" />
-              <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial2x" />
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge4x" />
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit4x" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler4x" />
-              <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial4x" />
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge8x" />
-                <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit8x" />
-                <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler8x" />
-            <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-
-        <!-- Energy -->
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BatteryGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
-            <DisplayName>DisplayName_Block_Battery</DisplayName>
-            <Description>Description_Battery</Description>
-            <Blocks>
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockWarfare2" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockWarfare2" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
-
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock2x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockWarfare22x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock2x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockWarfare22x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock2x" />
-
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock4x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockWarfare24x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock4x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockWarfare24x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock4x" />
-
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock8x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockWarfare28x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock8x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockWarfare28x" />
-              <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock8x" />
-
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EnergyRenewableGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_EnergyRenewableGroup</DisplayName>
-            <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel2x" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel2x" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine2x" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel4x" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel4x" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine4x" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel8x" />
-                <Block Type="MyObjectBuilder_SolarPanel" Subtype="SmallBlockSolarPanel8x" />
-                <Block Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EnergyFueledGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_EnergyFueledGroup</DisplayName>
-            <Description>Description_BlockGroup_EnergyFueledGroup</Description>
-            <Blocks>
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGeneratorWarfare2" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGeneratorWarfare2" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGeneratorWarfare2" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGeneratorWarfare2" />
-              <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine" />
-              <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine" />
-
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator2x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGeneratorWarfare22x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator2x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGeneratorWarfare22x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator2x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGeneratorWarfare22x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator2x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGeneratorWarfare22x" />
-              <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine2x" />
-              <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine2x" />
-
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator4x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGeneratorWarfare24x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator4x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGeneratorWarfare24x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator4x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGeneratorWarfare24x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator4x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGeneratorWarfare24x" />
-              <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine4x" />
-              <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine4x" />
-
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator8x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGeneratorWarfare28x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator8x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGeneratorWarfare28x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator8x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGeneratorWarfare28x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator8x" />
-              <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGeneratorWarfare28x" />
-              <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="LargeHydrogenEngine8x" />
-              <Block Type="MyObjectBuilder_HydrogenEngine" Subtype="SmallHydrogenEngine8x" />
-
-            </Blocks>
-        </BlockVariantGroup>
-
-        <!-- Gases -->
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GasGeneratorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
-            <DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
-            <Description>Description_OxygenGenerator</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="" />
-                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall" />
-                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorLarge2x" />
-                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall2x" />
-                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorLarge4x" />
-                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall4x" />
-                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorLarge8x" />
-                <Block Type="MyObjectBuilder_OxygenGenerator" Subtype="OxygenGeneratorSmall8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TankGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
-            <Description>Description_BlockGroup_TankGroup</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeOxygenTank" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallLargeOxygenTank" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankDefault2x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeOxygenTank2x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall2x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallLargeOxygenTank2x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall2x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank2x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall2x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank2x" />
-              <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial2x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankDefault4x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeOxygenTank4x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall4x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallLargeOxygenTank4x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall4x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank4x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall4x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank4x" />
-              <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial4x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankDefault8x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeOxygenTank8x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="OxygenTankSmall8x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallLargeOxygenTank8x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankSmall8x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTank8x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTankSmall8x" />
-                <Block Type="MyObjectBuilder_OxygenTank" Subtype="SmallHydrogenTank8x" />
-            <Block Type="MyObjectBuilder_OxygenTank" Subtype="LargeHydrogenTankIndustrial8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OxygenFarmGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
-            <DisplayName>DisplayName_Block_OxygenFarm</DisplayName>
-            <Description>Description_OxygenFarm</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarm" />
-                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarm2x" />
-                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarm4x" />
-                <Block Type="MyObjectBuilder_OxygenFarm" Subtype="LargeBlockOxygenFarm8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-
-        <!-- Logistics -->
-
-      <BlockVariantGroup>
-        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
-        <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
-        <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
-        <Description>Description_BlockGroup_ContainerGroup</Description>
-        <Blocks>
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer2x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer2x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer2x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer2x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer2x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer2x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer4x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer4x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer4x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer4x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer4x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer4x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer8x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer8x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer8x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer8x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer8x" />
-          <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer8x" />
-        </Blocks>
-      </BlockVariantGroup>
-
-
-        <!-- Control -->
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="GyroscopeGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
-            <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
-            <Description>Description_Gyroscope</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro2x" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro2x" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro4x" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro4x" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro8x" />
-                <Block Type="MyObjectBuilder_Gyro" Subtype="SmallBlockGyro8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <!-- Thrusters -->
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterAtmoGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
-            <DisplayName>DisplayName_Block_LargeAtmoThrust</DisplayName>
-            <Description>Description_AtmosphericThrust</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterHydroGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrust</DisplayName>
-            <Description>Description_HydrogenThrust</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrust2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrust4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrust8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterIonGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
-            <DisplayName>DisplayName_Block_LargeThrust</DisplayName>
-            <Description>Description_IonThrust</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust" />
-
-            </Blocks>
-        </BlockVariantGroup>
-
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterSciFiIonGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Large_IonThrusterLarge_SciFi.dds</Icon>
-            <DisplayName>DisplayName_Block_LargeThrustSciFi</DisplayName>
-            <Description>Description_IonThrust</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrustSciFi8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrustSciFi8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrustSciFi8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrustSciFi8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterSciFiAtmoGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterLarge_SciFi.dds</Icon>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi</DisplayName>
-            <Description>Description_AtmosphericThrust</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustSciFi" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustSciFi" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustSciFi" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustSciFi" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustSciFi2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustSciFi2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustSciFi2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustSciFi2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustSciFi4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustSciFi4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustSciFi4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustSciFi4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrustSciFi8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrustSciFi8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrustSciFi8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrustSciFi8x" />
-            </Blocks>
-        </BlockVariantGroup>
-      
-      
-              <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterHydroGroupIndustrial" />
-            <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialLarge.dds</Icon>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial</DisplayName>
-            <Description>Description_HydrogenThrust</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrial" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrial" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrial2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrial2x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrial4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrial4x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrustIndustrial8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrustIndustrial8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrustIndustrial8x" />
-                <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrustIndustrial8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-      <BlockVariantGroup>
-        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ModularThrusterGroup" />
-        <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLarge.dds</Icon>
-        <DisplayName>DisplayName_Block_LargeModularThruster</DisplayName>
-        <Description>Description_IonThrust</Description>
-        <Blocks>
-          <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThruster" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThruster" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThruster" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThruster" />
-
-          <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThruster2x" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThruster2x" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThruster2x" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThruster2x" />
-
-          <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThruster4x" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThruster4x" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThruster4x" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThruster4x" />
-
-          <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeModularThruster8x" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallModularThruster8x" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeModularThruster8x" />
-          <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallModularThruster8x" />
-        </Blocks>
-      </BlockVariantGroup>
-
-
-        <!-- Ship Tools-->
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipToolGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_ShipToolGroup</DisplayName>
-            <Description>Description_BlockGroup_ShipToolGroup</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder" />
-                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder" />
-                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder" />
-                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder" />
-                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
-                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill" />
-                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder2x" />
-                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder2x" />
-                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder2x" />
-                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder2x" />
-                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill2x" />
-                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill2x" />
-                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder4x" />
-                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder4x" />
-                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder4x" />
-                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder4x" />
-                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill4x" />
-                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill4x" />
-                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="LargeShipGrinder8x" />
-                <Block Type="MyObjectBuilder_ShipGrinder" Subtype="SmallShipGrinder8x" />
-                <Block Type="MyObjectBuilder_ShipWelder" Subtype="LargeShipWelder8x" />
-                <Block Type="MyObjectBuilder_ShipWelder" Subtype="SmallShipWelder8x" />
-                <Block Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill8x" />
-                <Block Type="MyObjectBuilder_Drill" Subtype="LargeBlockDrill8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OreDetectorGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
-            <DisplayName>DisplayName_Block_OreDetector</DisplayName>
-            <Description>Description_OreDetector</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector2x" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector2x" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector4x" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector4x" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector8x" />
-                <Block Type="MyObjectBuilder_OreDetector" Subtype="SmallBlockOreDetector8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-        <!-- High-Tech -->
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="JumpDriveGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
-            <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
-            <Description>Description_JumpDrive</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive" />
-                <Block Type="MyObjectBuilder_JumpDrive" Subtype="SmallJumpDrive" />
-                <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
-                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive2x" />
-                <Block Type="MyObjectBuilder_JumpDrive" Subtype="SmallJumpDrive2x" />
-                <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock2x" />
-                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive4x" />
-                <Block Type="MyObjectBuilder_JumpDrive" Subtype="SmallJumpDrive4x" />
-                <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock4x" />
-                <Block Type="MyObjectBuilder_JumpDrive" Subtype="LargeJumpDrive8x" />
-                <Block Type="MyObjectBuilder_JumpDrive" Subtype="SmallJumpDrive8x" />
-                <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-
-<!--        Lights-->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightingGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
-            <Description>Description_BlockGroup_LightingGroup</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockSmallLight" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_2corner" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_1corner" />
-                <Block Type="MyObjectBuilder_InteriorLight" Subtype="SmallBlockLight_2corner" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightLarge" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="RotatingLightSmall" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight2x" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight2x" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight4x" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight4x" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight8x" />
-                <Block Type="MyObjectBuilder_ReflectorLight" Subtype="SmallBlockFrontLight8x" />
-            </Blocks>
-        </BlockVariantGroup>
-
-<!--        Comm-->
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AntennaGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_AntennaGroup</DisplayName>
-            <Description>Description_BlockGroup_AntennaGroup</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntenna" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon" />
-                <Block Type="MyObjectBuilder_LaserAntenna" Subtype="LargeBlockLaserAntenna" />
-                <Block Type="MyObjectBuilder_RadioAntenna" Subtype="SmallBlockRadioAntenna" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon" />
-                <Block Type="MyObjectBuilder_LaserAntenna" Subtype="SmallBlockLaserAntenna" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon2x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon2x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon4x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon4x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LargeBlockBeacon8x" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SmallBlockBeacon8x" />
-            </Blocks>
-        </BlockVariantGroup>
-    </BlockVariantGroups>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+  <BlockVariantGroups>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>RefineryGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Refinery</DisplayName>
+      <Description>Description_Refinery</Description>
+      <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>LargeRefinery</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>Blast Furnace</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>LargeRefineryIndustrial</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>LargeRefinery2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>LargeRefineryIndustrial2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>LargeRefinery4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>LargeRefineryIndustrial4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>LargeRefinery8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>LargeRefineryIndustrial8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>TrashCanGroup</SubtypeId>
+      </Id>
+      <DisplayName>Stone Incinerator</DisplayName>
+      <Description>Rapidly vaporizes Stone leaving only trace amounts of ressources.</Description>
+      <Icon>Textures\StoneIncinerator.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>StoneIncinerator</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Refinery</TypeId>
+          <SubtypeId>StoneIncineratorSmall</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>AssemblerGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Assembler</DisplayName>
+      <Description>Description_Assembler</Description>
+      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKitLarge</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKit</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>BasicAssembler</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssembler</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssemblerIndustrial</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKitLarge2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKit2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssembler2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssemblerIndustrial2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKitLarge4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKit4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssembler4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssemblerIndustrial4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKitLarge8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKit8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssembler8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssemblerIndustrial8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>BatteryGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Battery</DisplayName>
+      <Description>Description_Battery</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>LargeBlockBatteryBlock</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>LargeBlockBatteryBlockWarfare2</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockBatteryBlock</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockBatteryBlockWarfare2</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockSmallBatteryBlock</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>LargeBlockBatteryBlock2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>LargeBlockBatteryBlockWarfare22x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockBatteryBlock2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockBatteryBlockWarfare22x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockSmallBatteryBlock2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>LargeBlockBatteryBlock4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>LargeBlockBatteryBlockWarfare24x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockBatteryBlock4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockBatteryBlockWarfare24x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockSmallBatteryBlock4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>LargeBlockBatteryBlock8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>LargeBlockBatteryBlockWarfare28x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockBatteryBlock8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockBatteryBlockWarfare28x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>BatteryBlock</TypeId>
+          <SubtypeId>SmallBlockSmallBatteryBlock8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>EnergyRenewableGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_EnergyRenewableGroup</DisplayName>
+      <Description>Description_BlockGroup_EnergyRenewableGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarPanel.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>SolarPanel</TypeId>
+          <SubtypeId>LargeBlockSolarPanel</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SolarPanel</TypeId>
+          <SubtypeId>SmallBlockSolarPanel</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>WindTurbine</TypeId>
+          <SubtypeId>LargeBlockWindTurbine</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SolarPanel</TypeId>
+          <SubtypeId>LargeBlockSolarPanel2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SolarPanel</TypeId>
+          <SubtypeId>SmallBlockSolarPanel2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>WindTurbine</TypeId>
+          <SubtypeId>LargeBlockWindTurbine2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SolarPanel</TypeId>
+          <SubtypeId>LargeBlockSolarPanel4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SolarPanel</TypeId>
+          <SubtypeId>SmallBlockSolarPanel4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>WindTurbine</TypeId>
+          <SubtypeId>LargeBlockWindTurbine4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SolarPanel</TypeId>
+          <SubtypeId>LargeBlockSolarPanel8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SolarPanel</TypeId>
+          <SubtypeId>SmallBlockSolarPanel8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>WindTurbine</TypeId>
+          <SubtypeId>LargeBlockWindTurbine8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>EnergyFueledGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_EnergyFueledGroup</DisplayName>
+      <Description>Description_BlockGroup_EnergyFueledGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockSmallGenerator</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockSmallGeneratorWarfare2</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockLargeGenerator</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockLargeGeneratorWarfare2</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockSmallGenerator</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockSmallGeneratorWarfare2</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockLargeGenerator</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockLargeGeneratorWarfare2</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>LargeHydrogenEngine</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>SmallHydrogenEngine</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockSmallGenerator2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockSmallGeneratorWarfare22x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockLargeGenerator2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockLargeGeneratorWarfare22x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockSmallGenerator2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockSmallGeneratorWarfare22x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockLargeGenerator2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockLargeGeneratorWarfare22x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>LargeHydrogenEngine2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>SmallHydrogenEngine2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockSmallGenerator4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockSmallGeneratorWarfare24x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockLargeGenerator4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockLargeGeneratorWarfare24x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockSmallGenerator4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockSmallGeneratorWarfare24x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockLargeGenerator4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockLargeGeneratorWarfare24x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>LargeHydrogenEngine4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>SmallHydrogenEngine4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockSmallGenerator8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockSmallGeneratorWarfare28x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockLargeGenerator8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>LargeBlockLargeGeneratorWarfare28x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockSmallGenerator8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockSmallGeneratorWarfare28x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockLargeGenerator8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Reactor</TypeId>
+          <SubtypeId>SmallBlockLargeGeneratorWarfare28x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>LargeHydrogenEngine8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>SmallHydrogenEngine8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>GasGeneratorGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OxygenGenerator</DisplayName>
+      <Description>Description_OxygenGenerator</Description>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId />
+        </Block>
+        <Block>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorSmall</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorLarge2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorSmall2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorLarge4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorSmall4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorLarge8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorSmall8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>TankGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
+      <Description>Description_BlockGroup_TankGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId />
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeOxygenTank</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankSmall</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallLargeOxygenTank</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmall</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTank</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmall</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTank</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankIndustrial</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankDefault2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeOxygenTank2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankSmall2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallLargeOxygenTank2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmall2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTank2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmall2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTank2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankIndustrial2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankDefault4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeOxygenTank4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankSmall4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallLargeOxygenTank4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmall4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTank4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmall4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTank4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankIndustrial4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankDefault8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeOxygenTank8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankSmall8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallLargeOxygenTank8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmall8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTank8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmall8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTank8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankIndustrial8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>OxygenFarmGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OxygenFarm</DisplayName>
+      <Description>Description_OxygenFarm</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponics.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>OxygenFarm</TypeId>
+          <SubtypeId>LargeBlockOxygenFarm</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenFarm</TypeId>
+          <SubtypeId>LargeBlockOxygenFarm2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenFarm</TypeId>
+          <SubtypeId>LargeBlockOxygenFarm4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenFarm</TypeId>
+          <SubtypeId>LargeBlockOxygenFarm8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>ContainerGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
+      <Description>Description_BlockGroup_ContainerGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockSmallContainer</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeContainer</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockSmallContainer</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockMediumContainer</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockLargeContainer</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeIndustrialContainer</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockSmallContainer2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeContainer2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockSmallContainer2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockMediumContainer2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockLargeContainer2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeIndustrialContainer2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockSmallContainer4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeContainer4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockSmallContainer4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockMediumContainer4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockLargeContainer4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeIndustrialContainer4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockSmallContainer8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeContainer8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockSmallContainer8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockMediumContainer8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockLargeContainer8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeIndustrialContainer8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>GyroscopeGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
+      <Description>Description_Gyroscope</Description>
+      <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Gyro</TypeId>
+          <SubtypeId>LargeBlockGyro</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Gyro</TypeId>
+          <SubtypeId>SmallBlockGyro</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Gyro</TypeId>
+          <SubtypeId>LargeBlockGyro2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Gyro</TypeId>
+          <SubtypeId>SmallBlockGyro2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Gyro</TypeId>
+          <SubtypeId>LargeBlockGyro4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Gyro</TypeId>
+          <SubtypeId>SmallBlockGyro4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Gyro</TypeId>
+          <SubtypeId>LargeBlockGyro8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Gyro</TypeId>
+          <SubtypeId>SmallBlockGyro8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>ThrusterAtmoGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeAtmoThrust</DisplayName>
+      <Description>Description_AtmosphericThrust</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrust8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrust8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrust8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrust8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>ThrusterHydroGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeHydrogenThrust</DisplayName>
+      <Description>Description_HydrogenThrust</Description>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrust8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrust8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrust8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrust8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>ThrusterIonGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeThrust</DisplayName>
+      <Description>Description_IonThrust</Description>
+      <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrust</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrust</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>ThrusterSciFiIonGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeThrustSciFi</DisplayName>
+      <Description>Description_IonThrust</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Large_IonThrusterLarge_SciFi.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrustSciFi</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrustSciFi</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrustSciFi</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrustSciFi</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrustSciFi2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrustSciFi2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrustSciFi2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrustSciFi2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrustSciFi4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrustSciFi4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrustSciFi4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrustSciFi4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrustSciFi8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrustSciFi8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrustSciFi8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrustSciFi8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>ThrusterSciFiAtmoGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi</DisplayName>
+      <Description>Description_AtmosphericThrust</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Large_AtmosphericThrusterLarge_SciFi.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>ThrusterHydroGroupIndustrial</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial</DisplayName>
+      <Description>Description_HydrogenThrust</Description>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterIndustrialLarge.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>ModularThrusterGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeModularThruster</DisplayName>
+      <Description>Description_IonThrust</Description>
+      <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLarge.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeModularThruster</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallModularThruster</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeModularThruster</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallModularThruster</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeModularThruster2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallModularThruster2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeModularThruster2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallModularThruster2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeModularThruster4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallModularThruster4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeModularThruster4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallModularThruster4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeModularThruster8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallModularThruster8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeModularThruster8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallModularThruster8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>ShipToolGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_ShipToolGroup</DisplayName>
+      <Description>Description_BlockGroup_ShipToolGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Grinder.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>ShipGrinder</TypeId>
+          <SubtypeId>LargeShipGrinder</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipGrinder</TypeId>
+          <SubtypeId>SmallShipGrinder</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipWelder</TypeId>
+          <SubtypeId>LargeShipWelder</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipWelder</TypeId>
+          <SubtypeId>SmallShipWelder</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Drill</TypeId>
+          <SubtypeId>SmallBlockDrill</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Drill</TypeId>
+          <SubtypeId>LargeBlockDrill</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipGrinder</TypeId>
+          <SubtypeId>LargeShipGrinder2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipGrinder</TypeId>
+          <SubtypeId>SmallShipGrinder2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipWelder</TypeId>
+          <SubtypeId>LargeShipWelder2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipWelder</TypeId>
+          <SubtypeId>SmallShipWelder2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Drill</TypeId>
+          <SubtypeId>SmallBlockDrill2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Drill</TypeId>
+          <SubtypeId>LargeBlockDrill2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipGrinder</TypeId>
+          <SubtypeId>LargeShipGrinder4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipGrinder</TypeId>
+          <SubtypeId>SmallShipGrinder4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipWelder</TypeId>
+          <SubtypeId>LargeShipWelder4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipWelder</TypeId>
+          <SubtypeId>SmallShipWelder4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Drill</TypeId>
+          <SubtypeId>SmallBlockDrill4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Drill</TypeId>
+          <SubtypeId>LargeBlockDrill4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipGrinder</TypeId>
+          <SubtypeId>LargeShipGrinder8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipGrinder</TypeId>
+          <SubtypeId>SmallShipGrinder8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipWelder</TypeId>
+          <SubtypeId>LargeShipWelder8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ShipWelder</TypeId>
+          <SubtypeId>SmallShipWelder8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Drill</TypeId>
+          <SubtypeId>SmallBlockDrill8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Drill</TypeId>
+          <SubtypeId>LargeBlockDrill8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>OreDetectorGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OreDetector</DisplayName>
+      <Description>Description_OreDetector</Description>
+      <Icon>Textures\GUI\Icons\Cubes\detector.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>OreDetector</TypeId>
+          <SubtypeId>LargeOreDetector</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OreDetector</TypeId>
+          <SubtypeId>SmallBlockOreDetector</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OreDetector</TypeId>
+          <SubtypeId>LargeOreDetector2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OreDetector</TypeId>
+          <SubtypeId>SmallBlockOreDetector2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OreDetector</TypeId>
+          <SubtypeId>LargeOreDetector4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OreDetector</TypeId>
+          <SubtypeId>SmallBlockOreDetector4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OreDetector</TypeId>
+          <SubtypeId>LargeOreDetector8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OreDetector</TypeId>
+          <SubtypeId>SmallBlockOreDetector8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>JumpDriveGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
+      <Description>Description_JumpDrive</Description>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>LargeJumpDrive</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>SmallJumpDrive</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SafeZoneBlock</TypeId>
+          <SubtypeId>SafeZoneBlock</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>LargeJumpDrive2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>SmallJumpDrive2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SafeZoneBlock</TypeId>
+          <SubtypeId>SafeZoneBlock2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>LargeJumpDrive4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>SmallJumpDrive4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SafeZoneBlock</TypeId>
+          <SubtypeId>SafeZoneBlock4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>LargeJumpDrive8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>SmallJumpDrive8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SafeZoneBlock</TypeId>
+          <SubtypeId>SafeZoneBlock8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>LightingGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
+      <Description>Description_BlockGroup_LightingGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>LargeBlockFrontLight</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>SmallBlockFrontLight</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>SmallLight</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>SmallBlockSmallLight</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>LargeBlockLight_1corner</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>LargeBlockLight_2corner</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>SmallBlockLight_1corner</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>SmallBlockLight_2corner</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>RotatingLightLarge</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>RotatingLightSmall</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>LargeBlockFrontLight2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>SmallBlockFrontLight2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>LargeBlockFrontLight4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>SmallBlockFrontLight4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>LargeBlockFrontLight8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>SmallBlockFrontLight8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>AntennaGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_AntennaGroup</DisplayName>
+      <Description>Description_BlockGroup_AntennaGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>RadioAntenna</TypeId>
+          <SubtypeId>LargeBlockRadioAntenna</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Beacon</TypeId>
+          <SubtypeId>LargeBlockBeacon</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>LaserAntenna</TypeId>
+          <SubtypeId>LargeBlockLaserAntenna</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>RadioAntenna</TypeId>
+          <SubtypeId>SmallBlockRadioAntenna</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Beacon</TypeId>
+          <SubtypeId>SmallBlockBeacon</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>LaserAntenna</TypeId>
+          <SubtypeId>SmallBlockLaserAntenna</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Beacon</TypeId>
+          <SubtypeId>LargeBlockBeacon2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Beacon</TypeId>
+          <SubtypeId>SmallBlockBeacon2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Beacon</TypeId>
+          <SubtypeId>LargeBlockBeacon4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Beacon</TypeId>
+          <SubtypeId>SmallBlockBeacon4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Beacon</TypeId>
+          <SubtypeId>LargeBlockBeacon8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Beacon</TypeId>
+          <SubtypeId>SmallBlockBeacon8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+  </BlockVariantGroups>
 </Definitions>

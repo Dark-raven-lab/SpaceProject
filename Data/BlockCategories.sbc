@@ -1,17 +1,19 @@
-<?xml version="1.0"  encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
   <CategoryClasses>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category Enabled="true">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
+        <SubtypeId />
       </Id>
       <DisplayName>DisplayName_Category_ShipTools</DisplayName>
-      <Name>ShipTools</Name>
-      <SearchBlocks>false</SearchBlocks>
-      <IsShipCategory>true</IsShipCategory>
-      <IsBlockCategory>false</IsBlockCategory>
+      <StrictSearch>false</StrictSearch>
+      <ShowAnimations>false</ShowAnimations>
       <IsToolCategory>true</IsToolCategory>
+      <IsAnimationCategory>false</IsAnimationCategory>
+      <SearchBlocks>false</SearchBlocks>
+      <IsBlockCategory>false</IsBlockCategory>
+      <IsShipCategory>true</IsShipCategory>
       <ItemIds>
         <string>ShipGrinder/LargeShipGrinder</string>
         <string>ShipWelder/LargeShipWelder</string>
@@ -19,21 +21,18 @@
         <string>Drill/SmallBlockDrill</string>
         <string>ShipGrinder/SmallShipGrinder</string>
         <string>ShipWelder/SmallShipWelder</string>
-
         <string>ShipGrinder/LargeShipGrinder2x</string>
         <string>ShipWelder/LargeShipWelder2x</string>
         <string>Drill/LargeBlockDrill2x</string>
         <string>Drill/SmallBlockDrill2x</string>
         <string>ShipGrinder/SmallShipGrinder2x</string>
         <string>ShipWelder/SmallShipWelder2x</string>
-
         <string>ShipGrinder/LargeShipGrinder4x</string>
         <string>ShipWelder/LargeShipWelder4x</string>
         <string>Drill/LargeBlockDrill4x</string>
         <string>Drill/SmallBlockDrill4x</string>
         <string>ShipGrinder/SmallShipGrinder4x</string>
         <string>ShipWelder/SmallShipWelder4x</string>
-
         <string>ShipGrinder/LargeShipGrinder8x</string>
         <string>ShipWelder/LargeShipWelder8x</string>
         <string>Drill/LargeBlockDrill8x</string>
@@ -41,14 +40,22 @@
         <string>ShipGrinder/SmallShipGrinder8x</string>
         <string>ShipWelder/SmallShipWelder8x</string>
       </ItemIds>
+      <ShowInCreative>true</ShowInCreative>
+      <Name>ShipTools</Name>
     </Category>
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+    <Category Enabled="true">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
+        <SubtypeId />
       </Id>
       <DisplayName>Ускорители</DisplayName>
-      <Name>Ускорители</Name>
+      <StrictSearch>false</StrictSearch>
+      <ShowAnimations>false</ShowAnimations>
+      <IsToolCategory>false</IsToolCategory>
+      <IsAnimationCategory>false</IsAnimationCategory>
+      <SearchBlocks>true</SearchBlocks>
+      <IsBlockCategory>true</IsBlockCategory>
+      <IsShipCategory>false</IsShipCategory>
       <ItemIds>
         <string>Thrust/LargeBlockLargeThrust</string>
         <string>Thrust/LargeBlockSmallThrust</string>
@@ -65,6 +72,8 @@
         <string>Thrust/LargeBlockLargeModularThruster</string>
         <string>Thrust/LargeBlockSmallModularThruster</string>
       </ItemIds>
+      <ShowInCreative>true</ShowInCreative>
+      <Name>Ускорители</Name>
     </Category>
   </CategoryClasses>
 </Definitions>
