@@ -4,58 +4,6 @@
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>SmallBlockSmallBatteryBlock</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_SmallBattery</DisplayName>
-      <Description>Description_Battery</Description>
-      <Icon>Textures/GUI/Icons/Cubes/Battery1x1.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DamageEffectId>214</DamageEffectId>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <BlockPairName>Battery1x1Block</BlockPairName>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <Components>
-        <Component Subtype="SteelPlate" Count="2" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="PowerCell" Count="2">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Computer" Count="2" />
-        <Component Subtype="Construction" Count="1" />
-        <Component Subtype="SteelPlate" Count="2" />
-      </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>8</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>0.2</MaxPowerOutput>
-      <RechargeMultiplier>0.8</RechargeMultiplier>
-      <AdaptibleInput>true</AdaptibleInput>
-      <RequiredPowerInput>0.2</RequiredPowerInput>
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>0.05</MaxStoredPower>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
         <SubtypeId>SmallBlockSmallBatteryBlock2x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_SmallBattery_2x</DisplayName>
