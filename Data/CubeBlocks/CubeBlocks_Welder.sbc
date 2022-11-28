@@ -1,517 +1,533 @@
-<?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <CubeBlocks>
-        <!--Small Welder-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>SmallShipWelder</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_ShipWelder</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="1" y="1" z="3"/>
-            <Model>Models\Cubes\Small\Welder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="SteelPlate" Count="10"/>
-                <Component Subtype="Construction" Count="15"/>
-                <Component Subtype="SmallTube" Count="6"/>
-                <Component Subtype="Motor" Count="2"/>
-                <Component Subtype="Computer" Count="2"/>
-                <Component Subtype="Construction" Count="2"/>
-                <Component Subtype="SteelPlate" Count="2"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5"/>
-                <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5"/>
-                <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5"/>
-                <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8"/>
-                <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipWelder</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>18</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelder</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>2.5</SensorRadius>
-            <PCU>150</PCU>
-            <IsAirTight>false</IsAirTight>
-        </Definition>
-        <!--Large Welder-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>LargeShipWelder</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_ShipWelder</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="0" y="0" z="1"/>
-            <Model>Models\Cubes\Large\Welder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="SteelPlate" Count="15"/>
-                <Component Subtype="Construction" Count="25"/>
-                <Component Subtype="LargeTube" Count="1"/>
-                <Component Subtype="Motor" Count="2"/>
-                <Component Subtype="Computer" Count="2"/>
-                <Component Subtype="Construction" Count="5"/>
-                <Component Subtype="SteelPlate" Count="5"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80"/>
-                <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80"/>
-                <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70"/>
-                <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipWelder</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>24</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelderLarge</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>6</SensorRadius>
-            <PCU>150</PCU>
-        </Definition>
-
-        <!--        Tier 2-->
-        <!--Small Welder-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>SmallShipWelder2x</SubtypeId>
-            </Id>
-            <DisplayName>Сварщик Т1</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Welder2x.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="1" y="1" z="3"/>
-            <Model>Models\Cubes\Small\Welder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="Tech2x" Count="40"/>
-                <Component Subtype="SteelPlate" Count="15"/>
-                <Component Subtype="Construction" Count="23"/>
-                <Component Subtype="SmallTube" Count="9"/>
-                <Component Subtype="Motor" Count="3"/>
-                <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="Construction" Count="3"/>
-                <Component Subtype="SteelPlate" Count="3"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5"/>
-                <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5"/>
-                <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5"/>
-                <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8"/>
-                <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipWelder2x</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>27</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelder</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>4.3750</SensorRadius>
-            <PCU>150</PCU>
-            <IsAirTight>false</IsAirTight>
-
-        </Definition>
-        <!--Large Welder-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>LargeShipWelder2x</SubtypeId>
-            </Id>
-            <DisplayName>Сварщик Т1</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Welder2x.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="0" y="0" z="1"/>
-            <Model>Models\Cubes\Large\Welder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="Tech2x" Count="80"/>
-                <Component Subtype="SteelPlate" Count="23"/>
-                <Component Subtype="Construction" Count="38"/>
-                <Component Subtype="LargeTube" Count="2"/>
-                <Component Subtype="Motor" Count="3"/>
-                <Component Subtype="Computer" Count="3"/>
-                <Component Subtype="Construction" Count="8"/>
-                <Component Subtype="SteelPlate" Count="8"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80"/>
-                <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80"/>
-                <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70"/>
-                <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipWelder2x</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>36</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelderLarge</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>10.5000</SensorRadius>
-            <PCU>150</PCU>
-
-        </Definition>
-
-        <!--        Tier 4-->
-        <!--Small Welder-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>SmallShipWelder4x</SubtypeId>
-            </Id>
-            <DisplayName>Сварщик Т2</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Welder4x.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="1" y="1" z="3"/>
-            <Model>Models\Cubes\Small\Welder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="Tech4x" Count="40"/>
-                <Component Subtype="SteelPlate" Count="23"/>
-                <Component Subtype="Construction" Count="34"/>
-                <Component Subtype="SmallTube" Count="14"/>
-                <Component Subtype="Motor" Count="5"/>
-                <Component Subtype="Computer" Count="5"/>
-                <Component Subtype="Construction" Count="5"/>
-                <Component Subtype="SteelPlate" Count="5"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5"/>
-                <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5"/>
-                <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5"/>
-                <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8"/>
-                <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipWelder4x</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>41</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelder</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>7.6563</SensorRadius>
-            <PCU>150</PCU>
-            <IsAirTight>false</IsAirTight>
-
-        </Definition>
-        <!--Large Welder-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>LargeShipWelder4x</SubtypeId>
-            </Id>
-            <DisplayName>Сварщик Т2</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Welder4x.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="0" y="0" z="1"/>
-            <Model>Models\Cubes\Large\Welder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="Tech4x" Count="80"/>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="57"/>
-                <Component Subtype="LargeTube" Count="3"/>
-                <Component Subtype="Motor" Count="5"/>
-                <Component Subtype="Computer" Count="5"/>
-                <Component Subtype="Construction" Count="12"/>
-                <Component Subtype="SteelPlate" Count="12"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80"/>
-                <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80"/>
-                <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70"/>
-                <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipWelder4x</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>54</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelderLarge</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>18.3750</SensorRadius>
-            <PCU>150</PCU>
-
-        </Definition>
-
-        <!--        Tier 8-->
-        <!--Small Welder-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>SmallShipWelder8x</SubtypeId>
-            </Id>
-            <DisplayName>Сварщик Т3</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Welder8x.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="3" y="3" z="6"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="1" y="1" z="3"/>
-            <Model>Models\Cubes\Small\Welder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="Tech8x" Count="40"/>
-                <Component Subtype="SteelPlate" Count="34"/>
-                <Component Subtype="Construction" Count="51"/>
-                <Component Subtype="SmallTube" Count="21"/>
-                <Component Subtype="Motor" Count="7"/>
-                <Component Subtype="Computer" Count="7"/>
-                <Component Subtype="Construction" Count="7"/>
-                <Component Subtype="SteelPlate" Count="7"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\WelderConstruction_2.mwm"/>
-            </BuildProgressModels>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5"/>
-                <MountPoint Side="Right" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5"/>
-                <MountPoint Side="Top" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5"/>
-                <MountPoint Side="Bottom" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8"/>
-                <MountPoint Side="Back" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35"/>
-                <MountPoint Side="Back" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipWelder8x</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>61</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelder</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>13.3984</SensorRadius>
-            <PCU>150</PCU>
-            <IsAirTight>false</IsAirTight>
-
-        </Definition>
-        <!--Large Welder-->
-        <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
-            <Id>
-                <TypeId>ShipWelder</TypeId>
-                <SubtypeId>LargeShipWelder8x</SubtypeId>
-            </Id>
-            <DisplayName>Сварщик Т3</DisplayName>
-            <GuiVisible>false</GuiVisible>
-            <Icon>Textures\Welder8x.dds</Icon>
-            <Description>Description_ShipWelder</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2"/>
-            <ModelOffset x="0" y="0" z="0"/>
-            <Center x="0" y="0" z="1"/>
-            <Model>Models\Cubes\Large\Welder.mwm</Model>
-            <UseModelIntersection>true</UseModelIntersection>
-            <UsesDeformation>false</UsesDeformation>
-            <Components>
-                <Component Subtype="Tech8x" Count="80"/>
-                <Component Subtype="SteelPlate" Count="51"/>
-                <Component Subtype="Construction" Count="85"/>
-                <Component Subtype="LargeTube" Count="4"/>
-                <Component Subtype="Motor" Count="7"/>
-                <Component Subtype="Computer" Count="7"/>
-                <Component Subtype="Construction" Count="17"/>
-                <Component Subtype="SteelPlate" Count="17"/>
-            </Components>
-            <CriticalComponent Subtype="Motor" Index="0"/>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm"/>
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm"/>
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WelderConstruction_3.mwm"/>
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
-                <StaticMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>OutsideVoxel</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0.01</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <MountPoints>
-                <MountPoint Side="Left" StartX="1.18" StartY="0.20" EndX="1.92" EndY="0.80"/>
-                <MountPoint Side="Right" StartX="0.08" StartY="0.20" EndX="0.82" EndY="0.80"/>
-                <MountPoint Side="Top" StartX="0.30" StartY="0.30" EndX="0.70" EndY="0.70"/>
-                <MountPoint Side="Bottom" StartX="0.30" StartY="1.30" EndX="0.70" EndY="1.70"/>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
-            </MountPoints>
-            <BlockPairName>ShipWelder8x</BlockPairName>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <Public>true</Public>
-            <BuildTimeSeconds>81</BuildTimeSeconds>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <Flare>ShipWelderLarge</Flare>
-            <EmissiveColorPreset>Welder</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <SensorRadius>32.1563</SensorRadius>
-            <PCU>150</PCU>
-
-        </Definition>
-    </CubeBlocks>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_ShipWelder</DisplayName>
+      <Description>Description_ShipWelder</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\Welder.mwm</Model>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <IsAirTight>false</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <PCU>150</PCU>
+      <UsesDeformation>false</UsesDeformation>
+      <Center x="1" y="1" z="3" />
+      <BlockPairName>ShipWelder</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WelderConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="SmallTube" Count="6" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="6" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <UseModelIntersection>true</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <SensorOffset>0</SensorOffset>
+      <SensorRadius>2.5</SensorRadius>
+      <Flare>ShipWelder</Flare>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeShipWelder</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_ShipWelder</DisplayName>
+      <Description>Description_ShipWelder</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Welder.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\Welder.mwm</Model>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <PCU>150</PCU>
+      <UsesDeformation>false</UsesDeformation>
+      <Center x="0" y="0" z="1" />
+      <BlockPairName>ShipWelder</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\WelderConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.18" StartY="0.2" EndX="1.92" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.08" StartY="0.2" EndX="0.82" EndY="0.8" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="1.3" EndX="0.7" EndY="1.7" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="2" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <UseModelIntersection>true</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>24</BuildTimeSeconds>
+      <SensorOffset>0</SensorOffset>
+      <SensorRadius>6</SensorRadius>
+      <Flare>ShipWelderLarge</Flare>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallShipWelder2x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_ShipWelder2x</DisplayName>
+      <Description>Description_ShipWelder</Description>
+      <Icon>Textures\Welder2x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\Welder.mwm</Model>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <IsAirTight>false</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <PCU>150</PCU>
+      <UsesDeformation>false</UsesDeformation>
+      <Center x="1" y="1" z="3" />
+      <BlockPairName>ShipWelder2x</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WelderConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <Components>
+        <Component Subtype="Tech2x" Count="40" />
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="23" />
+        <Component Subtype="SmallTube" Count="9" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="6" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <GuiVisible>false</GuiVisible>
+      <UseModelIntersection>true</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>27</BuildTimeSeconds>
+      <SensorOffset>0</SensorOffset>
+      <SensorRadius>4.375</SensorRadius>
+      <Flare>ShipWelder</Flare>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeShipWelder2x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_ShipWelder2x</DisplayName>
+      <Description>Description_ShipWelder</Description>
+      <Icon>Textures\Welder2x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\Welder.mwm</Model>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <PCU>150</PCU>
+      <UsesDeformation>false</UsesDeformation>
+      <Center x="0" y="0" z="1" />
+      <BlockPairName>ShipWelder2x</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\WelderConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.18" StartY="0.2" EndX="1.92" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.08" StartY="0.2" EndX="0.82" EndY="0.8" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="1.3" EndX="0.7" EndY="1.7" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <Components>
+        <Component Subtype="Tech2x" Count="80" />
+        <Component Subtype="SteelPlate" Count="23" />
+        <Component Subtype="Construction" Count="38" />
+        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Construction" Count="8" />
+        <Component Subtype="SteelPlate" Count="8" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="2" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <GuiVisible>false</GuiVisible>
+      <UseModelIntersection>true</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>36</BuildTimeSeconds>
+      <SensorOffset>0</SensorOffset>
+      <SensorRadius>10.5</SensorRadius>
+      <Flare>ShipWelderLarge</Flare>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallShipWelder4x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_ShipWelder4x</DisplayName>
+      <Description>Description_ShipWelder</Description>
+      <Icon>Textures\Welder4x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\Welder.mwm</Model>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <IsAirTight>false</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <PCU>150</PCU>
+      <UsesDeformation>false</UsesDeformation>
+      <Center x="1" y="1" z="3" />
+      <BlockPairName>ShipWelder4x</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WelderConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <Components>
+        <Component Subtype="Tech4x" Count="40" />
+        <Component Subtype="SteelPlate" Count="23" />
+        <Component Subtype="Construction" Count="34" />
+        <Component Subtype="SmallTube" Count="14" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="6" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <GuiVisible>false</GuiVisible>
+      <UseModelIntersection>true</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>41</BuildTimeSeconds>
+      <SensorOffset>0</SensorOffset>
+      <SensorRadius>7.6563</SensorRadius>
+      <Flare>ShipWelder</Flare>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeShipWelder4x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_ShipWelder4x</DisplayName>
+      <Description>Description_ShipWelder</Description>
+      <Icon>Textures\Welder4x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\Welder.mwm</Model>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <PCU>150</PCU>
+      <UsesDeformation>false</UsesDeformation>
+      <Center x="0" y="0" z="1" />
+      <BlockPairName>ShipWelder4x</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\WelderConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.18" StartY="0.2" EndX="1.92" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.08" StartY="0.2" EndX="0.82" EndY="0.8" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="1.3" EndX="0.7" EndY="1.7" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <Components>
+        <Component Subtype="Tech4x" Count="80" />
+        <Component Subtype="SteelPlate" Count="34" />
+        <Component Subtype="Construction" Count="57" />
+        <Component Subtype="LargeTube" Count="3" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="Construction" Count="12" />
+        <Component Subtype="SteelPlate" Count="12" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="2" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <GuiVisible>false</GuiVisible>
+      <UseModelIntersection>true</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>54</BuildTimeSeconds>
+      <SensorOffset>0</SensorOffset>
+      <SensorRadius>18.375</SensorRadius>
+      <Flare>ShipWelderLarge</Flare>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallShipWelder8x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_ShipWelder8x</DisplayName>
+      <Description>Description_ShipWelder</Description>
+      <Icon>Textures\Welder8x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\Welder.mwm</Model>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <IsAirTight>false</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <PCU>150</PCU>
+      <UsesDeformation>false</UsesDeformation>
+      <Center x="1" y="1" z="3" />
+      <BlockPairName>ShipWelder8x</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WelderConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WelderConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="3.5" StartY="0.5" EndX="5.8" EndY="2.5" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.2" StartY="0.5" EndX="2.5" EndY="2.5" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.8" StartY="0.2" EndX="2.2" EndY="2.5" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.8" StartY="3.5" EndX="2.2" EndY="5.8" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.25" StartY="0.25" EndX="0.35" EndY="2.75" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2.65" StartY="0.25" EndX="2.75" EndY="2.75" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.35" StartY="0.25" EndX="2.65" EndY="0.35" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0.35" StartY="2.65" EndX="2.65" EndY="2.75" />
+      </MountPoints>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <Components>
+        <Component Subtype="Tech8x" Count="40" />
+        <Component Subtype="SteelPlate" Count="34" />
+        <Component Subtype="Construction" Count="51" />
+        <Component Subtype="SmallTube" Count="21" />
+        <Component Subtype="Motor" Count="7" />
+        <Component Subtype="Computer" Count="7" />
+        <Component Subtype="Construction" Count="7" />
+        <Component Subtype="SteelPlate" Count="7" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="6" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <GuiVisible>false</GuiVisible>
+      <UseModelIntersection>true</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>61</BuildTimeSeconds>
+      <SensorOffset>0</SensorOffset>
+      <SensorRadius>13.3984</SensorRadius>
+      <Flare>ShipWelder</Flare>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeShipWelder8x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_ShipWelder8x</DisplayName>
+      <Description>Description_ShipWelder</Description>
+      <Icon>Textures\Welder8x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\Welder.mwm</Model>
+      <EmissiveColorPreset>Welder</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <PCU>150</PCU>
+      <UsesDeformation>false</UsesDeformation>
+      <Center x="0" y="0" z="1" />
+      <BlockPairName>ShipWelder8x</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\WelderConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WelderConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\WelderConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.18" StartY="0.2" EndX="1.92" EndY="0.8" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.08" StartY="0.2" EndX="0.82" EndY="0.8" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="0.3" EndX="0.7" EndY="0.7" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="1.3" EndX="0.7" EndY="1.7" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <Components>
+        <Component Subtype="Tech8x" Count="80" />
+        <Component Subtype="SteelPlate" Count="51" />
+        <Component Subtype="Construction" Count="85" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Motor" Count="7" />
+        <Component Subtype="Computer" Count="7" />
+        <Component Subtype="Construction" Count="17" />
+        <Component Subtype="SteelPlate" Count="17" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="2" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <GuiVisible>false</GuiVisible>
+      <UseModelIntersection>true</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>81</BuildTimeSeconds>
+      <SensorOffset>0</SensorOffset>
+      <SensorRadius>32.1563</SensorRadius>
+      <Flare>ShipWelderLarge</Flare>
+    </Definition>
+  </CubeBlocks>
 </Definitions>
