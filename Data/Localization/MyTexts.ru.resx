@@ -291,13 +291,13 @@
 <data name="DisplayName_SmallReactor4x" xml:space="preserve"><value>Малый реактор Т2</value></data>
 <data name="DisplayName_LargeReactor4x" xml:space="preserve"><value>Большой реактор Т2</value></data>
 <data name="DisplayName_SmallReactor8x" xml:space="preserve"><value>Малый реактор Т3</value></data>
-<data name="DisplayName_LargeReactor8x" xml:space="preserve"><value>Большой реактор Т3/value></data>
+<data name="DisplayName_LargeReactor8x" xml:space="preserve"><value>Большой реактор Т3</value></data>
 
 <data name="DisplayName_Refinery2x" xml:space="preserve"><value>Очистительный завод Т1</value></data>
 <data name="DisplayName_Refinery4x" xml:space="preserve"><value>Очистительный завод Т2</value></data>
 <data name="DisplayName_Refinery8x" xml:space="preserve"><value>Очистительный завод Т3</value></data>
 
-<data name="DisplayName_SafeZone2x" xml:space="preserve"><value>Безопасная зона Т1/value></data>
+<data name="DisplayName_SafeZone2x" xml:space="preserve"><value>Безопасная зона Т1</value></data>
 <data name="DisplayName_SafeZone4x" xml:space="preserve"><value>Безопасная зона Т2</value></data>
 <data name="DisplayName_SafeZone8x" xml:space="preserve"><value>Безопасная зона Т3</value></data>
 
