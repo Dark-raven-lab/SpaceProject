@@ -1662,5 +1662,36 @@
         </Block>
       </Blocks>
     </BlockVariantGroup>
+	<BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>AirVentGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_AirVentGroup</DisplayName>
+      <Description>Description_BlockGroup_AirVentGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>AirVent</TypeId>
+          <SubtypeId>BlockAirVent</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>AirVent</TypeId>
+          <SubtypeId>ConveyorAirVent</SubtypeId>
+        </Block>
+		<Block>
+          <TypeId>AirVent</TypeId>
+          <SubtypeId>SmallConveyorAirVent</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>AirVent</TypeId>
+          <SubtypeId>ConveyorAirVentSlope</SubtypeId>
+        </Block>
+		<Block>
+          <TypeId>AirVent</TypeId>
+          <SubtypeId>SmallConveyorAirVentSlope</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
   </BlockVariantGroups>
 </Definitions>

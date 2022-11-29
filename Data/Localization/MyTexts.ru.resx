@@ -339,4 +339,8 @@
 <data name="DisplayName_WindTurbine2x" xml:space="preserve"><value>Ветрогенератор Т1</value></data>
 <data name="DisplayName_WindTurbine4x" xml:space="preserve"><value>Ветрогенератор Т2</value></data>
 <data name="DisplayName_WindTurbine8x" xml:space="preserve"><value>Ветрогенератор Т3</value></data>
+
+<data name="DisplayName_ConveyorAirVent" xml:space="preserve"><value>Вентиляция с конвейром</value></data>
+<data name="DisplayName_ConveyorAirVent_Slope" xml:space="preserve"><value>Вентиляция с угловым конвейром</value></data>
+
 </root>
