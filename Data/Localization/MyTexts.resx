@@ -339,4 +339,7 @@
 <data name="DisplayName_WindTurbine4x" xml:space="preserve"><value>Wind Turbine T2</value></data>
 <data name="DisplayName_WindTurbine8x" xml:space="preserve"><value>Wind Turbine T3</value></data>
 
+<data name="DisplayName_ConveyorAirVent" xml:space="preserve"><value>Vent with a conveyor</value></data>
+<data name="DisplayName_ConveyorAirVent_Slope" xml:space="preserve"><value>Vent with corner conveyor</value></data>
+
 </root>
