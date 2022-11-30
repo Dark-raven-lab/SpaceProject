@@ -7,7 +7,8 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>alb_ThrusterLarge5Blade</SubtypeId>
 			</Id>
-			<DisplayName>Large Heli-Propeller</DisplayName>
+			<DisplayName>DisplayName_Large_Heli_Propeller</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
 			<Icon>Textures\Icons\HeloProp.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -94,7 +95,8 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>alb_ThrusterTailRotor5Blade</SubtypeId>
 			</Id>
-			<DisplayName>Small Heli-Propeller</DisplayName>
+			<DisplayName>DisplayName_Small_Heli_Propeller</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
 			<Icon>Textures\Icons\HeloProp.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -181,7 +183,8 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>alb_ThrusterLarge5Blade2x</SubtypeId>
 			</Id>
-			<DisplayName>Large Heli-Propeller2x</DisplayName>
+			<DisplayName>DisplayName_Large_Heli_Propeller2x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
 			<Icon>Textures\Icons\HeloProp2x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -268,7 +271,8 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>alb_ThrusterTailRotor5Blade2x</SubtypeId>
 			</Id>
-			<DisplayName>Small Heli-Propeller2x</DisplayName>
+			<DisplayName>DisplayName_Small_Heli_Propeller2x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
 			<Icon>Textures\Icons\HeloProp2x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -355,7 +359,8 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>alb_ThrusterLarge5Blade4x</SubtypeId>
 			</Id>
-			<DisplayName>Large Heli-Propeller4x</DisplayName>
+			<DisplayName>DisplayName_Large_Heli_Propeller4x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
 			<Icon>Textures\Icons\HeloProp4x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -442,7 +447,8 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>alb_ThrusterTailRotor5Blade4x</SubtypeId>
 			</Id>
-			<DisplayName>Small Heli-Propeller4x</DisplayName>
+			<DisplayName>DisplayName_Small_Heli_Propeller4x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
 			<Icon>Textures\Icons\HeloProp4x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -529,7 +535,8 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>alb_ThrusterLarge5Blade8x</SubtypeId>
 			</Id>
-			<DisplayName>Large Heli-Propeller8x</DisplayName>
+			<DisplayName>DisplayName_Large_Heli_Propeller8x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
 			<Icon>Textures\Icons\HeloProp8x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -616,7 +623,8 @@
 				<TypeId>Thrust</TypeId>
 				<SubtypeId>alb_ThrusterTailRotor5Blade8x</SubtypeId>
 			</Id>
-			<DisplayName>Small Heli-Propeller8x</DisplayName>
+			<DisplayName>DisplayName_Small_Heli_Propeller8x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
 			<Icon>Textures\Icons\HeloProp8x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
