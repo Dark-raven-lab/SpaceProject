@@ -13,7 +13,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="7" y="7" z="3"/>
-			<ModelOffset x="0" y="0" z="-0.8"/>
+			<ModelOffset x="0" y="0" z="-0.98"/>
 			<Model>Models\Cubes\Heli\HeloBaseLarge5.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
@@ -101,7 +101,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="2"/>
-			<ModelOffset x="0" y="0" z="-0.6"/>
+			<ModelOffset x="0" y="0" z="-0.75"/>
 			<Model>Models\Cubes\Heli\HeloBaseTail5.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
@@ -189,7 +189,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="7" y="7" z="3"/>
-			<ModelOffset x="0" y="0" z="-0.8"/>
+			<ModelOffset x="0" y="0" z="-0.98"/>
 			<Model>Models\Cubes\Heli\HeloBaseLarge5.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
@@ -277,7 +277,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="2"/>
-			<ModelOffset x="0" y="0" z="-0.6"/>
+			<ModelOffset x="0" y="0" z="-0.75"/>
 			<Model>Models\Cubes\Heli\HeloBaseTail5.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
@@ -365,7 +365,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="7" y="7" z="3"/>
-			<ModelOffset x="0" y="0" z="-0.8"/>
+			<ModelOffset x="0" y="0" z="-0.98"/>
 			<Model>Models\Cubes\Heli\HeloBaseLarge5.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
@@ -453,7 +453,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="2"/>
-			<ModelOffset x="0" y="0" z="-0.6"/>
+			<ModelOffset x="0" y="0" z="-0.75"/>
 			<Model>Models\Cubes\Heli\HeloBaseTail5.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
@@ -541,7 +541,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="7" y="7" z="3"/>
-			<ModelOffset x="0" y="0" z="-0.8"/>
+			<ModelOffset x="0" y="0" z="-0.98"/>
 			<Model>Models\Cubes\Heli\HeloBaseLarge5.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
@@ -629,7 +629,7 @@
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="2"/>
-			<ModelOffset x="0" y="0" z="-0.6"/>
+			<ModelOffset x="0" y="0" z="-0.75"/>
 			<Model>Models\Cubes\Heli\HeloBaseTail5.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="10"/>
