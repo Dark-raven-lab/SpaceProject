@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd=" http://www.w3.org/2001/XMLSchema" xmlns:xsi=" http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>helisound</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.2</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\helicopterloop.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>heliheavy</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.2</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\heliheavy.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>planepropeller</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.1</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\idle.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>
