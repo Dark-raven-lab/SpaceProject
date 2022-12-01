@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+
+<!-- tube Cover -->
+<!-- aero-wing-plane-thr-cover-largeA SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-thr-cover-largeA_Small</SubtypeId>
+      </Id>
+      <DisplayName>Plane 3x3 Tube Cover A</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-thr-cover-largeA.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-thr-cover-largeA\aero-wing-plane-thr-cover-largeA_Small.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-thr-cover-largeA\aero-wing-plane-thr-cover-largeA_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"  Default="true"/>
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-thr-cover-largeA</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+
+<!-- aero-wing-plane-thr-cover-largeA LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-thr-cover-largeA_Large</SubtypeId>
+      </Id>
+      <DisplayName>Plane 3x3 Tube Cover A</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-thr-cover-largeA.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+		<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-thr-cover-largeA\aero-wing-plane-thr-cover-largeA_Large.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-thr-cover-largeA\aero-wing-plane-thr-cover-largeA_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"  Default="true"/>
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-thr-cover-largeA</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+     </Definition>
+  
+<!-- aero-wing-plane-thr-cover-largeB SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-thr-cover-largeB_Small</SubtypeId>
+      </Id>
+      <DisplayName>Plane 3x3 Tube Cover B</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-thr-cover-largeB.dds</Icon>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+	<Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-thr-cover-largeB\aero-wing-plane-thr-cover-largeB_Small.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-thr-cover-largeB\aero-wing-plane-thr-cover-largeB_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"  Default="true"/>
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-thr-cover-largeB</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+
+<!-- aero-wing-plane-thr-cover-largeB LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-thr-cover-largeB_Large</SubtypeId>
+      </Id>
+      <DisplayName>Plane 3x3 Tube Cover B</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-thr-cover-largeB.dds</Icon>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+		<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-thr-cover-largeB\aero-wing-plane-thr-cover-largeB_Large.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-thr-cover-largeB\aero-wing-plane-thr-cover-largeB_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"  Default="true"/>
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-thr-cover-largeB</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+     </Definition>
+
+<!-- aero-wing-plane-thr-cover-largeC SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-thr-cover-largeC_Small</SubtypeId>
+      </Id>
+      <DisplayName>Plane 3x3 Tube Cover C</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-thr-cover-largeC.dds</Icon>
+	<GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-thr-cover-largeC\aero-wing-plane-thr-cover-largeC_Small.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-thr-cover-largeC\aero-wing-plane-thr-cover-largeC_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"  Default="true"/>
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-thr-cover-largeC</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+
+<!-- aero-wing-plane-thr-cover-largeC LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-thr-cover-largeC_Large</SubtypeId>
+      </Id>
+      <DisplayName>Plane 3x3 Tube Cover C</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-thr-cover-largeC.dds</Icon>
+	<GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+		<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-thr-cover-largeC\aero-wing-plane-thr-cover-largeC_Large.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-thr-cover-largeC\aero-wing-plane-thr-cover-largeC_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"  Default="true"/>
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-thr-cover-largeC</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+     </Definition>
+
+<!-- aero-wing-plane-thr-cover-largeD SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-thr-cover-largeD_Small</SubtypeId>
+      </Id>
+      <DisplayName>Plane 3x3 Tube Cover D</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-thr-cover-largeD.dds</Icon>
+	<GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-thr-cover-largeD\aero-wing-plane-thr-cover-largeD_Small.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-thr-cover-largeD\aero-wing-plane-thr-cover-largeD_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"  Default="true"/>
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-thr-cover-largeD</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+
+<!-- aero-wing-plane-thr-cover-largeD LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-thr-cover-largeD_Large</SubtypeId>
+      </Id>
+      <DisplayName>Plane 3x3 Tube Cover D</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-thr-cover-largeD.dds</Icon>
+	<GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+		<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-thr-cover-largeD\aero-wing-plane-thr-cover-largeD_Large.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-thr-cover-largeD\aero-wing-plane-thr-cover-largeD_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"  Default="true"/>
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-thr-cover-largeD</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+     </Definition>
+
+
+<!-- aero-wing-plane-1x1tube-cover-A SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-1x1tube-cover-A_Small</SubtypeId>
+      </Id>
+      <DisplayName>Plane 1x1 Tube Cover A</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-1x1tube-cover-A.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-1x1tube-cover-A\aero-wing-plane-1x1tube-cover-A_Small.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-1x1tube-cover-A\aero-wing-plane-1x1tube-cover-A_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-1x1tube-cover-A</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+
+<!-- aero-wing-plane-1x1tube-cover-A LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-1x1tube-cover-A_Large</SubtypeId>
+      </Id>
+      <DisplayName>Plane 1x1 Tube Cover A</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-1x1tube-cover-A.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+		<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-1x1tube-cover-A\aero-wing-plane-1x1tube-cover-A_Large.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-1x1tube-cover-A\aero-wing-plane-1x1tube-cover-A_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-1x1tube-cover-A</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+     </Definition>
+  
+<!-- aero-wing-plane-1x1tube-cover-B SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-1x1tube-cover-B_Small</SubtypeId>
+      </Id>
+      <DisplayName>Plane 1x1 Tube Cover B</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-1x1tube-cover-B.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+	<Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-1x1tube-cover-B\aero-wing-plane-1x1tube-cover-B_Small.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-1x1tube-cover-B\aero-wing-plane-1x1tube-cover-B_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-1x1tube-cover-B</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+
+<!-- aero-wing-plane-1x1tube-cover-B LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-1x1tube-cover-B_Large</SubtypeId>
+      </Id>
+      <DisplayName>Plane 1x1 Tube Cover B</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-1x1tube-cover-B.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+		<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-1x1tube-cover-B\aero-wing-plane-1x1tube-cover-B_Large.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-1x1tube-cover-B\aero-wing-plane-1x1tube-cover-B_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-1x1tube-cover-B</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+     </Definition>
+
+<!-- aero-wing-plane-1x1tube-cover-C SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-1x1tube-cover-C_Small</SubtypeId>
+      </Id>
+      <DisplayName>Plane 1x1 Tube Cover C</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-1x1tube-cover-C.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-1x1tube-cover-C\aero-wing-plane-1x1tube-cover-C_Small.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-1x1tube-cover-C\aero-wing-plane-1x1tube-cover-C_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-1x1tube-cover-C</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+
+<!-- aero-wing-plane-1x1tube-cover-C LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-1x1tube-cover-C_Large</SubtypeId>
+      </Id>
+      <DisplayName>Plane 1x1 Tube Cover C</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-1x1tube-cover-C.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+		<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-1x1tube-cover-C\aero-wing-plane-1x1tube-cover-C_Large.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-1x1tube-cover-C\aero-wing-plane-1x1tube-cover-C_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-1x1tube-cover-C</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+     </Definition>
+
+<!-- aero-wing-plane-1x1tube-cover-D SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-1x1tube-cover-D_Small</SubtypeId>
+      </Id>
+      <DisplayName>Plane 1x1 Tube Cover D</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-1x1tube-cover-D.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-1x1tube-cover-D\aero-wing-plane-1x1tube-cover-D_Small.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-1x1tube-cover-D\aero-wing-plane-1x1tube-cover-D_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-1x1tube-cover-D</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <PCU>1</PCU>
+    </Definition>
+
+
+<!-- aero-wing-plane-1x1tube-cover-D LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>aero-wing-plane-1x1tube-cover-D_Large</SubtypeId>
+      </Id>
+      <DisplayName>Plane 1x1 Tube Cover D</DisplayName>
+      <Icon>Textures\Icons\aero-wing-plane-1x1tube-cover-D.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+		<Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\aero-wing-plane-1x1tube-cover-D\aero-wing-plane-1x1tube-cover-D_Large.mwm</Model>
+	<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\aero-wing-plane-1x1tube-cover-D\aero-wing-plane-1x1tube-cover-D_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+	</MountPoints>
+	<BlockPairName>aero-wing-plane-1x1tube-cover-D</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PCU>1</PCU>
+     </Definition>
+
+  </CubeBlocks>
+</Definitions>

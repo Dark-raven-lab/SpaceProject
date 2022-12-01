@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcBlockAirBrakesOpen</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>12</MaxDistance>
+      <Volume>0.845168</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\ArcBlockAirBrakesOpen3d.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcBlockAirBrakesClose</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>15</MaxDistance>
+      <Volume>0.8</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\ArcBlockAirBrakesClose3d.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealBlockAirBrakesOpen</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>8</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\BLOCK\RealBlockAirBrakesOpen3d.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealBlockAirBrakesClose</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>8</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\BLOCK\RealBlockAirBrakesClose3d.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcBlockLGDOpen</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>12</MaxDistance>
+      <Volume>0.845168</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\ArcBlockLGDOpen3d.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcBlockLGDClose</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>15</MaxDistance>
+      <Volume>0.8</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\ArcBlockLGDClose3d.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealBlockLGDOpen</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>8</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\BLOCK\RealBlockLGDOpen3d.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealBlockLGDClose</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>8</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\BLOCK\RealBlockLGDClose3d.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>

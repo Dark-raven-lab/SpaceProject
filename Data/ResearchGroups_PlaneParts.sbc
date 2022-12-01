@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchGroups>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="83705847600" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+        <BlockId Type="MyObjectBuilder_LandingGear" Subtype="SmallBlockLandingGear" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="83705847601" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="83705847602" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-wheel_suspension_Small" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-2x2wheel_suspension_in_wing_Small" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-2xwheel_suspension_Small" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-2x2wheel_suspension_side_Small" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-1x1wheel_suspension_front_Small" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-wheel_double_2x2_Small" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-wheel_single_2x2_Small" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-wheel_double_1x1_Small" />
+
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-wheel_suspension_Large" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-2x2wheel_suspension_in_wing_Large" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-2xwheel_suspension_Large" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-2x2wheel_suspension_side_Large" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-1x1wheel_suspension_front_Large" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-wheel_double_2x2_Large" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-wheel_single_2x2_Large" />
+        <BlockId Type="MyObjectBuilder_MotorSuspension" Subtype="aero-wing-plane-wheel_double_1x1_Large" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="83705847603" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_1x5x1_rounded_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_2x5x1_rounded_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_3x5x1_rounded_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_4x5x1_rounded_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x5x1_rounded_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_6x5x1_rounded_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x3x1_rounded_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x2x1_rounded_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x1x1_rounded_edge_Small" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="aero-wing_1x1x1_rounded_edge_Small" />
+
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_1x5x1_rounded_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_2x5x1_rounded_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_3x5x1_rounded_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_4x5x1_rounded_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x5x1_rounded_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_6x5x1_rounded_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x3x1_rounded_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x2x1_rounded_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x1x1_rounded_edge_Large" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="aero-wing_1x1x1_rounded_edge_Large" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="83705847604" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_2x5x1_pointed_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_3x5x1_pointed_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_4x5x1_pointed_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x5x1_pointed_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_6x5x1_pointed_edge_Small" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_7x5x1_pointed_edge_Small" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="aero-wing_2x1x1_pointed_edge_Small" />
+
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_2x5x1_pointed_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_3x5x1_pointed_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_4x5x1_pointed_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_5x5x1_pointed_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_6x5x1_pointed_edge_Large" />
+        <BlockId Type="MyObjectBuilder_TerminalBlock" Subtype="aero-wing_7x5x1_pointed_edge_Large" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="aero-wing_2x1x1_pointed_edge_Large" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="83705847605" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorBlock" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorSlope" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorCorner" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorCornerInv" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorRoundSlope" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorRoundCorner" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorRoundCornerInv" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorSlope2Base" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorSlope2Tip" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorCorner2Base" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorCorner2Tip" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorInvCorner2Base" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_SmallBlockArmorInvCorner2Tip" />
+
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorBlock" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorSlope" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorCorner" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorCornerInv" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorRoundSlope" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorRoundCorner" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorRoundCornerInv" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorSlope2Base" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorSlope2Tip" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorCorner2Base" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorCorner2Tip" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorInvCorner2Base" />
+        <BlockId Type="MyObjectBuilder_CubeBlock" Subtype="Plane_LargeBlockArmorInvCorner2Tip" />
+
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="83705847606" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_AdvancedDoor" Subtype="aero-wing-plane-air_brake_double_1x1x1_Small" />
+        <BlockId Type="MyObjectBuilder_AdvancedDoor" Subtype="aero-wing-plane-air_brake_single_1x1x1_Small" />
+        <BlockId Type="MyObjectBuilder_MotorStator" Subtype="aero-wing-plane-motorstator_1x1x5_Small" />
+        <BlockId Type="MyObjectBuilder_MotorStator" Subtype="aero-wing-plane-motorstator_1x1x11_Small" />
+        <BlockId Type="MyObjectBuilder_MotorStator" Subtype="aero-wing-plane-motorstator_1x1x15_Small" />
+
+        <BlockId Type="MyObjectBuilder_AdvancedDoor" Subtype="aero-wing-plane-air_brake_double_1x1x1_Large" />
+        <BlockId Type="MyObjectBuilder_AdvancedDoor" Subtype="aero-wing-plane-air_brake_single_1x1x1_Large" />
+        <BlockId Type="MyObjectBuilder_MotorStator" Subtype="aero-wing-plane-motorstator_1x1x5_Large" />
+        <BlockId Type="MyObjectBuilder_MotorStator" Subtype="aero-wing-plane-motorstator_1x1x11_Large" />
+        <BlockId Type="MyObjectBuilder_MotorStator" Subtype="aero-wing-plane-motorstator_1x1x15_Large" />
+
+      </Members>
+    </ResearchGroup>
+
+
+  </ResearchGroups>
+</Definitions>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+<!-- na -->
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="aero-wing-plane-twin-landing-gear-door5x5_Group" />
+            <Icon>Textures\Icons\aero-wing-plane-twin-landing-gear-door5x5.dds</Icon>
+            <DisplayName>Plane Landing Gear Door Twin 5x5</DisplayName>
+            <Description>Landing Gear Doors</Description>
+            <Blocks>
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-twin-landing-gear-door5x5_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_side_5x3_Large" />
+				<Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_front_5x3_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_tiny_1x3_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_in_wing_5x3_Large" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-twin-landing-gear-door5x5_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_side_5x3_Small" />
+				<Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_front_5x3_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_tiny_1x3_Small" />
+                <Block Type="AdvancedDoor" Subtype="aero-wing-plane-landing-gear-door_in_wing_5x3_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+	
+		
+		
+    </BlockVariantGroups>
+</Definitions>
