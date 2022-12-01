@@ -342,4 +342,14 @@
 <data name="DisplayName_ConveyorAirVent" xml:space="preserve"><value>Vent with a conveyor</value></data>
 <data name="DisplayName_ConveyorAirVent_Slope" xml:space="preserve"><value>Vent with corner conveyor</value></data>
 
+<data name="DisplayName_Large_Heli_Propeller" xml:space="preserve"><value>Large Heli Propeller</value></data>
+<data name="DisplayName_Small_Heli_Propeller" xml:space="preserve"><value>Small Heli Propeller</value></data>
+<data name="DisplayName_Large_Heli_Propeller2x" xml:space="preserve"><value>Large Heli Propeller T1</value></data>
+<data name="DisplayName_Small_Heli_Propeller2x" xml:space="preserve"><value>Small Heli Propeller T1</value></data>
+<data name="DisplayName_Large_Heli_Propeller4x" xml:space="preserve"><value>Large Heli Propeller T2</value></data>
+<data name="DisplayName_Small_Heli_Propeller4x" xml:space="preserve"><value>Small Heli Propeller T2</value></data>
+<data name="DisplayName_Large_Heli_Propeller8x" xml:space="preserve"><value>Large Heli Propeller T3</value></data>
+<data name="DisplayName_Small_Heli_Propeller8x" xml:space="preserve"><value>Small Heli Propeller T3</value></data>
+<data name="Description_Heli_Propeller" xml:space="preserve"><value>Powerful propeller for flying in the atmosphere. Creates upward thrust.</value></data>
+
 </root>

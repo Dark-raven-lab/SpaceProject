@@ -343,4 +343,14 @@
 <data name="DisplayName_ConveyorAirVent" xml:space="preserve"><value>Вентиляция с конвейром</value></data>
 <data name="DisplayName_ConveyorAirVent_Slope" xml:space="preserve"><value>Вентиляция с угловым конвейром</value></data>
 
+<data name="DisplayName_Large_Heli_Propeller" xml:space="preserve"><value>Большой винт вертолета</value></data>
+<data name="DisplayName_Small_Heli_Propeller" xml:space="preserve"><value>Малый винт вертолета</value></data>
+<data name="DisplayName_Large_Heli_Propeller2x" xml:space="preserve"><value>Большой винт вертолета T1</value></data>
+<data name="DisplayName_Small_Heli_Propeller2x" xml:space="preserve"><value>Малый винт вертолета T1</value></data>
+<data name="DisplayName_Large_Heli_Propeller4x" xml:space="preserve"><value>Большой винт вертолета T2</value></data>
+<data name="DisplayName_Small_Heli_Propeller4x" xml:space="preserve"><value>Малый винт вертолета T2</value></data>
+<data name="DisplayName_Large_Heli_Propeller8x" xml:space="preserve"><value>Большой винт вертолета T3</value></data>
+<data name="DisplayName_Small_Heli_Propeller8x" xml:space="preserve"><value>Малый винт вертолета T3</value></data>
+<data name="Description_Heli_Propeller" xml:space="preserve"><value>Мощный пропеллер для полёта в атмосфере. Создаёт тягу вверх..</value></data>
+
 </root>

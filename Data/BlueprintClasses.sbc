@@ -37,6 +37,14 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="AirVent/ConveyorAirVentSlope" BlueprintTypeId="(null)" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="AirVent/SmallConveyorAirVent" BlueprintTypeId="(null)" />
     <Entry Class="SmallBlocks" BlueprintSubtypeId="AirVent/SmallConveyorAirVentSlope" BlueprintTypeId="(null)" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterLarge5Blade" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterTailRotor5Blade" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterLarge5Blade2x" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterTailRotor5Blade2x" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterLarge5Blade4x" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterTailRotor5Blade4x" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterLarge5Blade8x" />
+	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterTailRotor5Blade8x" />
   </BlueprintClassEntries>
   <BlueprintClasses>
     <Class Enabled="true">

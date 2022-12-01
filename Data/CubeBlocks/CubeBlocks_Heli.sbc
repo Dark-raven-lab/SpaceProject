@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<!-- T0 -->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>alb_ThrusterLarge5Blade</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Large_Heli_Propeller</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
+			<Icon>Textures\Icons\HeloProp.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="7" z="3"/>
+			<ModelOffset x="0" y="0" z="-0.98"/>
+			<Model>Models\Cubes\Heli\HeloBaseLarge5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="15"/>
+				<Component Subtype="LargeTube" Count="5"/>
+				<Component Subtype="MetalGrid" Count="20"/>
+				<Component Subtype="Motor" Count="350"/>
+				<Component Subtype="Construction" Count="20"/>
+				<Component Subtype="SteelPlate" Count="30"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ThrusterLarge5Blade</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="3" StartY="3" EndX="4" EndY="4"/>
+			</MountPoints>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>2000000</ForceMagnitude>
+			<MaxPowerConsumption>8.33</MaxPowerConsumption>
+			<MinPowerConsumption>0.00002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0.2</FlameDamageLengthScale>
+			<FlameDamage>0.0</FlameDamage>
+			<FlameLengthScale>0.0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.25</X>
+				<!-- Red Flame Region -->
+				<Y>0.25</Y>
+				<!-- Green Flame Region -->
+				<Z>0.25</Z>
+				<!-- Blue Flame Region -->
+				<W>0.25</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.50</X>
+				<!-- Red Flame Region -->
+				<Y>0.50</Y>
+				<!-- Green Flame Region -->
+				<Z>0.50</Z>
+				<!-- Blue Flame Region -->
+				<W>0.50</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareSize>0.0</FlameGlareSize>
+			<FlameGlareQuerySize>1</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>3.0</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.8</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>2</PropellerAccelerationTime>
+			<PropellerDecelerationTime>5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>900</PropellerMaxVisibleDistance>
+			<PrimarySound>helisound</PrimarySound>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<PCU>30</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>alb_ThrusterTailRotor5Blade</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Small_Heli_Propeller</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
+			<Icon>Textures\Icons\HeloProp.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="2"/>
+			<ModelOffset x="0" y="0" z="-0.75"/>
+			<Model>Models\Cubes\Heli\HeloBaseTail5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="30"/>
+				<Component Subtype="Motor" Count="90"/>
+				<Component Subtype="MetalGrid" Count="10"/>
+				<Component Subtype="Construction" Count="10"/>
+				<Component Subtype="SteelPlate" Count="20"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ThrusterTailRotor5Blade</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
+			</MountPoints>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>576000</ForceMagnitude>
+			<MaxPowerConsumption>2.4</MaxPowerConsumption>
+			<MinPowerConsumption>0.00002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0.2</FlameDamageLengthScale>
+			<FlameDamage>0.0</FlameDamage>
+			<FlameLengthScale>0.0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.25</X>
+				<!-- Red Flame Region -->
+				<Y>0.25</Y>
+				<!-- Green Flame Region -->
+				<Z>0.25</Z>
+				<!-- Blue Flame Region -->
+				<W>0.25</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.50</X>
+				<!-- Red Flame Region -->
+				<Y>0.50</Y>
+				<!-- Green Flame Region -->
+				<Z>0.50</Z>
+				<!-- Blue Flame Region -->
+				<W>0.50</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareSize>0.0</FlameGlareSize>
+			<FlameGlareQuerySize>1</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>3.0</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.9</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>4</PropellerAccelerationTime>
+			<PropellerDecelerationTime>3.5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>900</PropellerMaxVisibleDistance>
+			<PrimarySound>helisound</PrimarySound>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<PCU>25</PCU>
+		</Definition>
+		<!-- T1 -->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>alb_ThrusterLarge5Blade2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Large_Heli_Propeller2x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
+			<Icon>Textures\Icons\HeloProp2x.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="7" z="3"/>
+			<ModelOffset x="0" y="0" z="-0.98"/>
+			<Model>Models\Cubes\Heli\HeloBaseLarge5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="15"/>
+				<Component Subtype="LargeTube" Count="5"/>
+				<Component Subtype="MetalGrid" Count="20"/>
+				<Component Subtype="Motor" Count="350"/>
+				<Component Subtype="Construction" Count="20"/>
+				<Component Subtype="SteelPlate" Count="30"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ThrusterLarge5Blade2x</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="3" StartY="3" EndX="4" EndY="4"/>
+			</MountPoints>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>2000000</ForceMagnitude>
+			<MaxPowerConsumption>8.33</MaxPowerConsumption>
+			<MinPowerConsumption>0.00002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0.2</FlameDamageLengthScale>
+			<FlameDamage>0.0</FlameDamage>
+			<FlameLengthScale>0.0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.25</X>
+				<!-- Red Flame Region -->
+				<Y>0.25</Y>
+				<!-- Green Flame Region -->
+				<Z>0.25</Z>
+				<!-- Blue Flame Region -->
+				<W>0.25</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.50</X>
+				<!-- Red Flame Region -->
+				<Y>0.50</Y>
+				<!-- Green Flame Region -->
+				<Z>0.50</Z>
+				<!-- Blue Flame Region -->
+				<W>0.50</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareSize>0.0</FlameGlareSize>
+			<FlameGlareQuerySize>1</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>3.0</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.8</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>2</PropellerAccelerationTime>
+			<PropellerDecelerationTime>5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>900</PropellerMaxVisibleDistance>
+			<PrimarySound>helisound</PrimarySound>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<PCU>30</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>alb_ThrusterTailRotor5Blade2x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Small_Heli_Propeller2x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
+			<Icon>Textures\Icons\HeloProp2x.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="2"/>
+			<ModelOffset x="0" y="0" z="-0.75"/>
+			<Model>Models\Cubes\Heli\HeloBaseTail5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="30"/>
+				<Component Subtype="Motor" Count="90"/>
+				<Component Subtype="MetalGrid" Count="10"/>
+				<Component Subtype="Construction" Count="10"/>
+				<Component Subtype="SteelPlate" Count="20"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ThrusterTailRotor5Blade2x</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
+			</MountPoints>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>576000</ForceMagnitude>
+			<MaxPowerConsumption>2.4</MaxPowerConsumption>
+			<MinPowerConsumption>0.00002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0.2</FlameDamageLengthScale>
+			<FlameDamage>0.0</FlameDamage>
+			<FlameLengthScale>0.0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.25</X>
+				<!-- Red Flame Region -->
+				<Y>0.25</Y>
+				<!-- Green Flame Region -->
+				<Z>0.25</Z>
+				<!-- Blue Flame Region -->
+				<W>0.25</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.50</X>
+				<!-- Red Flame Region -->
+				<Y>0.50</Y>
+				<!-- Green Flame Region -->
+				<Z>0.50</Z>
+				<!-- Blue Flame Region -->
+				<W>0.50</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareSize>0.0</FlameGlareSize>
+			<FlameGlareQuerySize>1</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>3.0</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.9</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>4</PropellerAccelerationTime>
+			<PropellerDecelerationTime>3.5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>900</PropellerMaxVisibleDistance>
+			<PrimarySound>helisound</PrimarySound>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<PCU>25</PCU>
+		</Definition>
+		<!-- T2-->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>alb_ThrusterLarge5Blade4x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Large_Heli_Propeller4x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
+			<Icon>Textures\Icons\HeloProp4x.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="7" z="3"/>
+			<ModelOffset x="0" y="0" z="-0.98"/>
+			<Model>Models\Cubes\Heli\HeloBaseLarge5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="15"/>
+				<Component Subtype="LargeTube" Count="5"/>
+				<Component Subtype="MetalGrid" Count="20"/>
+				<Component Subtype="Motor" Count="350"/>
+				<Component Subtype="Construction" Count="20"/>
+				<Component Subtype="SteelPlate" Count="30"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ThrusterLarge5Blade4x</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="3" StartY="3" EndX="4" EndY="4"/>
+			</MountPoints>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>2000000</ForceMagnitude>
+			<MaxPowerConsumption>8.33</MaxPowerConsumption>
+			<MinPowerConsumption>0.00002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0.2</FlameDamageLengthScale>
+			<FlameDamage>0.0</FlameDamage>
+			<FlameLengthScale>0.0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.25</X>
+				<!-- Red Flame Region -->
+				<Y>0.25</Y>
+				<!-- Green Flame Region -->
+				<Z>0.25</Z>
+				<!-- Blue Flame Region -->
+				<W>0.25</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.50</X>
+				<!-- Red Flame Region -->
+				<Y>0.50</Y>
+				<!-- Green Flame Region -->
+				<Z>0.50</Z>
+				<!-- Blue Flame Region -->
+				<W>0.50</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareSize>0.0</FlameGlareSize>
+			<FlameGlareQuerySize>1</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>3.0</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.8</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>2</PropellerAccelerationTime>
+			<PropellerDecelerationTime>5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>900</PropellerMaxVisibleDistance>
+			<PrimarySound>helisound</PrimarySound>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<PCU>30</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>alb_ThrusterTailRotor5Blade4x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Small_Heli_Propeller4x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
+			<Icon>Textures\Icons\HeloProp4x.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="2"/>
+			<ModelOffset x="0" y="0" z="-0.75"/>
+			<Model>Models\Cubes\Heli\HeloBaseTail5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="30"/>
+				<Component Subtype="Motor" Count="90"/>
+				<Component Subtype="MetalGrid" Count="10"/>
+				<Component Subtype="Construction" Count="10"/>
+				<Component Subtype="SteelPlate" Count="20"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ThrusterTailRotor5Blade4x</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
+			</MountPoints>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>576000</ForceMagnitude>
+			<MaxPowerConsumption>2.4</MaxPowerConsumption>
+			<MinPowerConsumption>0.00002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0.2</FlameDamageLengthScale>
+			<FlameDamage>0.0</FlameDamage>
+			<FlameLengthScale>0.0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.25</X>
+				<!-- Red Flame Region -->
+				<Y>0.25</Y>
+				<!-- Green Flame Region -->
+				<Z>0.25</Z>
+				<!-- Blue Flame Region -->
+				<W>0.25</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.50</X>
+				<!-- Red Flame Region -->
+				<Y>0.50</Y>
+				<!-- Green Flame Region -->
+				<Z>0.50</Z>
+				<!-- Blue Flame Region -->
+				<W>0.50</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareSize>0.0</FlameGlareSize>
+			<FlameGlareQuerySize>1</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>3.0</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.9</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>4</PropellerAccelerationTime>
+			<PropellerDecelerationTime>3.5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>900</PropellerMaxVisibleDistance>
+			<PrimarySound>helisound</PrimarySound>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<PCU>25</PCU>
+		</Definition>
+		<!-- T3 -->
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>alb_ThrusterLarge5Blade8x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Large_Heli_Propeller8x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
+			<Icon>Textures\Icons\HeloProp8x.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="7" z="3"/>
+			<ModelOffset x="0" y="0" z="-0.98"/>
+			<Model>Models\Cubes\Heli\HeloBaseLarge5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="15"/>
+				<Component Subtype="LargeTube" Count="5"/>
+				<Component Subtype="MetalGrid" Count="20"/>
+				<Component Subtype="Motor" Count="350"/>
+				<Component Subtype="Construction" Count="20"/>
+				<Component Subtype="SteelPlate" Count="30"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Heli\HeloBaseLarge5.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ThrusterLarge5Blade8x</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="3" StartY="3" EndX="4" EndY="4"/>
+			</MountPoints>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>2000000</ForceMagnitude>
+			<MaxPowerConsumption>8.33</MaxPowerConsumption>
+			<MinPowerConsumption>0.00002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0.2</FlameDamageLengthScale>
+			<FlameDamage>0.0</FlameDamage>
+			<FlameLengthScale>0.0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.25</X>
+				<!-- Red Flame Region -->
+				<Y>0.25</Y>
+				<!-- Green Flame Region -->
+				<Z>0.25</Z>
+				<!-- Blue Flame Region -->
+				<W>0.25</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.50</X>
+				<!-- Red Flame Region -->
+				<Y>0.50</Y>
+				<!-- Green Flame Region -->
+				<Z>0.50</Z>
+				<!-- Blue Flame Region -->
+				<W>0.50</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareSize>0.0</FlameGlareSize>
+			<FlameGlareQuerySize>1</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>3.0</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.8</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>2</PropellerAccelerationTime>
+			<PropellerDecelerationTime>5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>900</PropellerMaxVisibleDistance>
+			<PrimarySound>helisound</PrimarySound>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<PCU>30</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+			<Id>
+				<TypeId>Thrust</TypeId>
+				<SubtypeId>alb_ThrusterTailRotor5Blade8x</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Small_Heli_Propeller8x</DisplayName>
+			<Description>Description_Heli_Propeller</Description>
+			<Icon>Textures\Icons\HeloProp8x.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="2"/>
+			<ModelOffset x="0" y="0" z="-0.75"/>
+			<Model>Models\Cubes\Heli\HeloBaseTail5.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="Construction" Count="30"/>
+				<Component Subtype="Motor" Count="90"/>
+				<Component Subtype="MetalGrid" Count="10"/>
+				<Component Subtype="Construction" Count="10"/>
+				<Component Subtype="SteelPlate" Count="20"/>
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0"/>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Heli\HeloBaseTail5.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>ThrusterTailRotor5Blade8x</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="1" StartY="1" EndX="2" EndY="2"/>
+			</MountPoints>
+			<MirroringX>Z</MirroringX>
+			<MirroringZ>X</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<ResourceSinkGroup>Thrust</ResourceSinkGroup>
+			<ForceMagnitude>576000</ForceMagnitude>
+			<MaxPowerConsumption>2.4</MaxPowerConsumption>
+			<MinPowerConsumption>0.00002</MinPowerConsumption>
+			<SlowdownFactor>1</SlowdownFactor>
+			<MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+			<MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+			<EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+			<EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+			<NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+			<FlameDamageLengthScale>0.2</FlameDamageLengthScale>
+			<FlameDamage>0.0</FlameDamage>
+			<FlameLengthScale>0.0</FlameLengthScale>
+			<FlameIdleColor>
+				<X>0.25</X>
+				<!-- Red Flame Region -->
+				<Y>0.25</Y>
+				<!-- Green Flame Region -->
+				<Z>0.25</Z>
+				<!-- Blue Flame Region -->
+				<W>0.25</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameIdleColor>
+			<FlameFullColor>
+				<X>0.50</X>
+				<!-- Red Flame Region -->
+				<Y>0.50</Y>
+				<!-- Green Flame Region -->
+				<Z>0.50</Z>
+				<!-- Blue Flame Region -->
+				<W>0.50</W>
+				<!-- Transparency of the Flame Region-->
+			</FlameFullColor>
+			<FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+			<FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+			<FlameGlareMaterial>GlareSsThrustLarge</FlameGlareMaterial>
+			<FlameVisibilityDistance>0</FlameVisibilityDistance>
+			<FlameGlareSize>0.0</FlameGlareSize>
+			<FlameGlareQuerySize>1</FlameGlareQuerySize>
+			<PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+			<PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+			<PropellerRoundsPerSecondOnFullSpeed>3.0</PropellerRoundsPerSecondOnFullSpeed>
+			<PropellerRoundsPerSecondOnIdleSpeed>0.9</PropellerRoundsPerSecondOnIdleSpeed>
+			<PropellerAccelerationTime>4</PropellerAccelerationTime>
+			<PropellerDecelerationTime>3.5</PropellerDecelerationTime>
+			<PropellerMaxVisibleDistance>900</PropellerMaxVisibleDistance>
+			<PrimarySound>helisound</PrimarySound>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<Public>true</Public>
+			<PCU>25</PCU>
+		</Definition>
+	</CubeBlocks>
+	<BlockPositions>
+  </BlockPositions>
+</Definitions>
