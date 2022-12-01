@@ -361,4 +361,23 @@
 <data name="DisplayName_Wing_5x5x1_rounded_edge" xml:space="preserve"><value>Скругленное крыло 5х5х1</value></data>
 <data name="DisplayName_Wing_6x5x1_rounded_edge" xml:space="preserve"><value>Скругленное крыло 6х5х1</value></data>
 
+<data name="Wing_1x1x1_rounded_edge" xml:space="preserve">Скругленное крыло 1х1х1<value></value></data>
+
+<data name="Wing_5x3x1_rounded_edge" xml:space="preserve">Скругленное крыло 5х3х1<value></value></data>
+<data name="Wing_5x2x1_rounded_edge" xml:space="preserve">Скругленное крыло 5х2х1<value></value></data>
+<data name="Wing_5x1x1_rounded_edge" xml:space="preserve">Скругленное крыло 5х1х1<value></value></data>
+
+<data name="Wing_2x5x1_pointed_edge" xml:space="preserve"><value>Заостренное крыло 2х5х1</value></data>
+<data name="Wing_3x5x1_pointed_edge" xml:space="preserve"><value>Заостренное крыло 3х5х1</value></data>
+<data name="Wing_4x5x1_pointed_edge" xml:space="preserve"><value>Заостренное крыло 4х5х1</value></data>
+<data name="Wing_5x5x1_pointed_edge" xml:space="preserve"><value>Заостренное крыло 5х5х1</value></data>
+<data name="Wing_6x5x1_pointed_edge" xml:space="preserve"><value>Заостренное крыло 6х5х1</value></data>
+<data name="Wing_7x5x1_pointed_edge" xml:space="preserve"><value>Заостренное крыло 7х5х1</value></data>
+
+<data name="Wing_2x1x1_pointed_edge" xml:space="preserve"><value>Заостренное крыло 2х1х1</value></data>
+
+<data name="Wing_tip_A_1x1x1_rounded_half" xml:space="preserve"><value>Конец крыла тип А скрегленный половина 1х1х1</value></data>
+<data name="Wing_tip_B_1x1x1_rounded_half" xml:space="preserve"><value>Конец крыла тип Б скрегленный половина 1х1х1</value></data>
+<data name="Wing_tip_C_1x1x1_rounded_full" xml:space="preserve"><value>Конец крыла тип С скрегленный полный 1х1х1</value></data>
+
 </root>
