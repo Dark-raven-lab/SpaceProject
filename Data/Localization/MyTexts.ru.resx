@@ -353,12 +353,4 @@
 <data name="DisplayName_Small_Heli_Propeller8x" xml:space="preserve"><value>Малый винт вертолета T3</value></data>
 <data name="Description_Heli_Propeller" xml:space="preserve"><value>Мощный пропеллер для полёта в атмосфере. Создаёт тягу вверх..</value></data>
 
-<!--Plane mod -->
-<data name="DisplayName_Wing_1x5x1_rounded_edge" xml:space="preserve"><value>Скругленное крыло 1х5х1</value></data>
-<data name="DisplayName_Wing_2x5x1_rounded_edge" xml:space="preserve"><value>Скругленное крыло 2х5х1</value></data>
-<data name="DisplayName_Wing_3x5x1_rounded_edge" xml:space="preserve"><value>Скругленное крыло 3х5х1</value></data>
-<data name="DisplayName_Wing_4x5x1_rounded_edge" xml:space="preserve"><value>Скругленное крыло 4х5х1</value></data>
-<data name="DisplayName_Wing_5x5x1_rounded_edge" xml:space="preserve"><value>Скругленное крыло 5х5х1</value></data>
-<data name="DisplayName_Wing_6x5x1_rounded_edge" xml:space="preserve"><value>Скругленное крыло 6х5х1</value></data>
-
 </root>
