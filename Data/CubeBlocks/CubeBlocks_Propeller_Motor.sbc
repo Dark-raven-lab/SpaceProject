@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+<!-- Motor classic -->
+<!-- propeller_motor_classic_3x3 SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>propeller_motor_classic_3x3_Small</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Prop_Motor_classic_3x3</DisplayName>
+      <Icon>Textures\Icons\Motor_classic_3x3_128.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="3" y="3" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\propeller_motor_classic_3x3\propeller_motor_classic_3x3_Small.mwm</Model>
+	<BuildProgressModels>
+	<Model BuildPercentUpperBound="1.00" File="Models\propeller_motor_classic_3x3\propeller_motor_classic_3x3_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" Default="true"/>
+                <MountPoint Side="Front" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+	</MountPoints>
+	<BlockPairName>propeller_motor_classic_3x3</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+
+      <PCU>1</PCU>
+    </Definition>
+
+<!-- propeller_motor_classic_3x3 LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>propeller_motor_classic_3x3_Large</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Prop_Motor_classic_3x3</DisplayName>
+      <Icon>Textures\Icons\Motor_classic_3x3_128.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="SteelPlate" Count="40" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="3" y="3" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\propeller_motor_classic_3x3\propeller_motor_classic_3x3_Large.mwm</Model>
+	<BuildProgressModels>
+	<Model BuildPercentUpperBound="1.00" File="Models\propeller_motor_classic_3x3\propeller_motor_classic_3x3_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" Default="true"/>
+                <MountPoint Side="Front" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+	</MountPoints>
+	<BlockPairName>propeller_motor_classic_3x3</BlockPairName>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+ 
+      <PCU>1</PCU>
+     </Definition>
+ 
+<!-- Motor modern -->
+<!-- propeller_motor_modern_1x2 SMALL -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>propeller_motor_modern_1x2_Small</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Prop_Motor_modern_1x2</DisplayName>
+      <Icon>Textures\Icons\Motor_modern_1x2_128.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+        <Component Subtype="SteelPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="2" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\propeller_motor_modern_1x2\propeller_motor_modern_1x2_Small.mwm</Model>
+	<BuildProgressModels>
+	<Model BuildPercentUpperBound="1.00" File="Models\propeller_motor_modern_1x2\propeller_motor_modern_1x2_Small_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" Default="true"/>
+                <MountPoint Side="Front" StartX="0.00" StartY="1.00" EndX="1.00" EndY="2.00" />
+	</MountPoints>
+	<BlockPairName>propeller_motor_modern_1x2</BlockPairName>
+        <Center x="0" y="1" z="0" />
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+
+      <PCU>1</PCU>
+    </Definition>
+
+<!-- propeller_motor_modern_1x2 LARGE -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>propeller_motor_modern_1x2_Large</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Prop_Motor_modern_1x2</DisplayName>
+      <Icon>Textures\Icons\Motor_modern_1x2_128.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Components>
+	<Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+
+	<Size x="1" y="2" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\propeller_motor_modern_1x2\propeller_motor_modern_1x2_Large.mwm</Model>
+	<BuildProgressModels>
+	<Model BuildPercentUpperBound="1.00" File="Models\propeller_motor_modern_1x2\propeller_motor_modern_1x2_Large_Constr1.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" Default="true"/>
+                <MountPoint Side="Front" StartX="0.00" StartY="1.00" EndX="1.00" EndY="2.00" />
+	</MountPoints>
+	<BlockPairName>propeller_motor_modern_1x2</BlockPairName>
+        <Center x="0" y="1" z="0" />
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+ 
+      <PCU>1</PCU>
+     </Definition>
+
+  </CubeBlocks>
+</Definitions>

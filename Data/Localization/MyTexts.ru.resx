@@ -353,4 +353,12 @@
 <data name="DisplayName_Small_Heli_Propeller8x" xml:space="preserve"><value>Малый винт вертолета T3</value></data>
 <data name="Description_Heli_Propeller" xml:space="preserve"><value>Мощный пропеллер для полёта в атмосфере. Создаёт тягу вверх..</value></data>
 
+<data name="DisplayName_Prop_S_2blade_silver_forw" xml:space="preserve"><value>Пропеллер 2х-лопастной серебристый прямой</value></data>
+<data name="DisplayName_Prop_S_2blade_silver_backw" xml:space="preserve"><value>Пропеллер 2х-лопастной серебристый обратный</value></data>
+<data name="DisplayName_Prop_S_8blade_silver_forw" xml:space="preserve"><value>Пропеллер 8и-лопастной серебристый прямой</value></data>
+<data name="DisplayName_Prop_S_8blade_silver_backw" xml:space="preserve"><value>Пропеллер 8и-лопастной серебристый обратный</value></data>
+
+<data name="DisplayName_Prop_Motor_classic_3x3" xml:space="preserve"><value>Классический многоцилидровый авиамотор</value></data>
+<data name="DisplayName_Prop_Motor_modern_1x2" xml:space="preserve"><value>Современный авиамотор</value></data>
+
 </root>

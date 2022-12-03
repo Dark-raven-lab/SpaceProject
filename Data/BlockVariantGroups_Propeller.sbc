@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+<!-- 10x (S)-->
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="propeller_2_blade_forward_silver_10x_Group" />
+            <Icon>Textures\Icons\2prop_hell_forw_S.dds</Icon>
+            <DisplayName>Prop_S_2blade_silver_forw</DisplayName>
+            <Description>2 Blade Prop S</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_forward_silver_10x_Large" />
+
+				<Block Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_backward_silver_10x_Large" />
+
+                <Block Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_forward_silver_10x_Small" />
+
+				<Block Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_backward_silver_10x_Small" />
+
+            </Blocks>
+        </BlockVariantGroup>
+
+  		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="propeller_8_blade_forward_silver_10x_Group" />
+            <Icon>Textures\Icons\8prop_hell_forw_S.dds</Icon>
+            <DisplayName>Prop_S_8blade_silver_forw</DisplayName>
+            <Description>8 Blade Prop S</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="propeller_8_blade_forward_silver_10x_Large" />
+
+				<Block Type="MyObjectBuilder_Thrust" Subtype="propeller_8_blade_backward_silver_10x_Large" />
+
+                <Block Type="MyObjectBuilder_Thrust" Subtype="propeller_8_blade_forward_silver_10x_Small" />
+
+				<Block Type="MyObjectBuilder_Thrust" Subtype="propeller_8_blade_backward_silver_10x_Small" />
+
+            </Blocks>
+        </BlockVariantGroup>	
+		
+		
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="propeller_motor_classic_3x3_Group" />
+            <Icon>Textures\Icons\Motor_classic_3x3_128.dds</Icon>
+            <DisplayName>Prop_Motor_classic_3x3</DisplayName>
+            <Description>Prop_Motor</Description>
+            <Blocks>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="propeller_motor_classic_3x3_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="propeller_motor_modern_1x2_Large" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="propeller_motor_classic_3x3_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="propeller_motor_modern_1x2_Small" />
+            </Blocks>
+        </BlockVariantGroup>	
+		
+    </BlockVariantGroups>
+</Definitions>
