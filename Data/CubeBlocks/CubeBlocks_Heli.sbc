@@ -9,7 +9,7 @@
 			</Id>
 			<DisplayName>DisplayName_Large_Heli_Propeller</DisplayName>
 			<Description>Description_Heli_Propeller</Description>
-			<Icon>Textures\Icons\HeloProp.dds</Icon>
+			<Icon>Textures\Heli\HeloProp.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="7" y="7" z="3"/>
@@ -97,7 +97,7 @@
 			</Id>
 			<DisplayName>DisplayName_Small_Heli_Propeller</DisplayName>
 			<Description>Description_Heli_Propeller</Description>
-			<Icon>Textures\Icons\HeloProp.dds</Icon>
+			<Icon>Textures\Heli\HeloProp.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="2"/>
@@ -185,7 +185,7 @@
 			</Id>
 			<DisplayName>DisplayName_Large_Heli_Propeller2x</DisplayName>
 			<Description>Description_Heli_Propeller</Description>
-			<Icon>Textures\Icons\HeloProp2x.dds</Icon>
+			<Icon>Textures\Heli\HeloProp2x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="7" y="7" z="3"/>
@@ -273,7 +273,7 @@
 			</Id>
 			<DisplayName>DisplayName_Small_Heli_Propeller2x</DisplayName>
 			<Description>Description_Heli_Propeller</Description>
-			<Icon>Textures\Icons\HeloProp2x.dds</Icon>
+			<Icon>Textures\Heli\HeloProp2x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="2"/>
@@ -361,7 +361,7 @@
 			</Id>
 			<DisplayName>DisplayName_Large_Heli_Propeller4x</DisplayName>
 			<Description>Description_Heli_Propeller</Description>
-			<Icon>Textures\Icons\HeloProp4x.dds</Icon>
+			<Icon>Textures\Heli\HeloProp4x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="7" y="7" z="3"/>
@@ -449,7 +449,7 @@
 			</Id>
 			<DisplayName>DisplayName_Small_Heli_Propeller4x</DisplayName>
 			<Description>Description_Heli_Propeller</Description>
-			<Icon>Textures\Icons\HeloProp4x.dds</Icon>
+			<Icon>Textures\Heli\HeloProp4x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="2"/>
@@ -537,7 +537,7 @@
 			</Id>
 			<DisplayName>DisplayName_Large_Heli_Propeller8x</DisplayName>
 			<Description>Description_Heli_Propeller</Description>
-			<Icon>Textures\Icons\HeloProp8x.dds</Icon>
+			<Icon>Textures\Heli\HeloProp8x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="7" y="7" z="3"/>
@@ -625,7 +625,7 @@
 			</Id>
 			<DisplayName>DisplayName_Small_Heli_Propeller8x</DisplayName>
 			<Description>Description_Heli_Propeller</Description>
-			<Icon>Textures\Icons\HeloProp8x.dds</Icon>
+			<Icon>Textures\Heli\HeloProp8x.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="2"/>
