@@ -33,10 +33,6 @@
     <Entry Class="OreToIngotT3" BlueprintSubtypeId="GoldOreToIngotCraft" BlueprintTypeId="(null)" />
     <Entry Class="OreToIngotT3" BlueprintSubtypeId="PlatinumOreToIngotCraft" BlueprintTypeId="(null)" />
     <Entry Class="OreToIngotT3" BlueprintSubtypeId="UraniumOreToIngotCraft" BlueprintTypeId="(null)" />
-	<Entry Class="LargeBlocks" BlueprintSubtypeId="AirVent/ConveyorAirVent" BlueprintTypeId="(null)" />
-    <Entry Class="LargeBlocks" BlueprintSubtypeId="AirVent/ConveyorAirVentSlope" BlueprintTypeId="(null)" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="AirVent/SmallConveyorAirVent" BlueprintTypeId="(null)" />
-    <Entry Class="SmallBlocks" BlueprintSubtypeId="AirVent/SmallConveyorAirVentSlope" BlueprintTypeId="(null)" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterLarge5Blade" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterTailRotor5Blade" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterLarge5Blade2x" />
