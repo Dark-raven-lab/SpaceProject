@@ -1,300 +1,274 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<CubeBlocks>
-		<Definition xsi:type="MyObjectBuilder_AirVentDefinition">
-			<Id>
-				<TypeId>AirVent</TypeId>
-				<SubtypeId>BlockAirVent</SubtypeId>
-			</Id>
-			<DisplayName>DisplayName_Block_AirVent</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
-			<Description>Description_AirVent</Description>
-			<CubeSize>Large</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\Large\OxygenPressurizer.mwm</Model>
-			<Components>
-				<Component Subtype="SteelPlate" Count="30"/>
-				<Component Subtype="Construction" Count="20"/>
-				<Component Subtype="Motor" Count="10"/>
-				<Component Subtype="Computer" Count="5"/>
-				<Component Subtype="SteelPlate" Count="15"/>
-			</Components>
-			<CriticalComponent Subtype="Computer" Index="0"/>
-			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="1"/>
-				<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
-				<MountPoint Side="Left" StartX="0.5" StartY="0" EndX="1" EndY="1"/>
-				<MountPoint Side="Right" StartX="0" StartY="0" EndX="0.5" EndY="1"/>
-				<MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.5"/>
-			</MountPoints>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenPressurizerConstruction_1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenPressurizerConstruction_2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenPressurizerConstruction_3.mwm"/>
-			</BuildProgressModels>
-			<BlockPairName>AirVent</BlockPairName>
-			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>20</BuildTimeSeconds>
-			<ResourceSourceGroup>Battery</ResourceSourceGroup>
-			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<OperationalPowerConsumption>0.1</OperationalPowerConsumption>
-			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
-			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-			<DamagedSound>ParticleWeapExpl</DamagedSound>
-			<PressurizeSound>BlockAirVentExhale</PressurizeSound>
-			<DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
-			<IdleSound>BlockAirVentIdle</IdleSound>
-			<EmissiveColorPreset>Extended</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-			<PCU>10</PCU>
-		</Definition>
-		<Definition xsi:type="MyObjectBuilder_AirVentDefinition">
-			<Id>
-				<TypeId>AirVent</TypeId>
-				<SubtypeId>ConveyorAirVent</SubtypeId>
-			</Id>
-			<PCU>10</PCU>
-			<BlockPairName>ConveyorAirVent</BlockPairName>
-			<DisplayName>DisplayName_ConveyorAirVent</DisplayName>
-			<Description>Description_AirVent</Description>
-			<Icon>Textures\Icons\ConveyorAirVent.dds</Icon>
-			<CubeSize>Large</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\AirVents\ConveyorAirVent.mwm</Model>
-			<Components>
-				<Component Subtype="SteelPlate" Count="30"/>
-				<Component Subtype="InteriorPlate" Count="20"/>
-				<Component Subtype="Construction" Count="20"/>
-				<Component Subtype="SmallTube" Count="20"/>
-				<Component Subtype="Motor" Count="16"/>
-				<Component Subtype="Computer" Count="5"/>
-				<Component Subtype="SteelPlate" Count="15"/>
-			</Components>
-			<CriticalComponent Subtype="Computer" Index="0"/>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\AirVents\ConveyorAirVent_Build1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\AirVents\ConveyorAirVent_Build2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\AirVents\ConveyorAirVent_Build3.mwm"/>
-			</BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.46" EndY="1.00"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Front" StartX="0.54" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Front" StartX="0.46" StartY="0.54" EndX="0.54" EndY="1.00"/>
-				<MountPoint Side="Front" StartX="0.46" StartY="0.00" EndX="0.54" EndY="0.46"/>
-			</MountPoints>
-			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>26</BuildTimeSeconds>
-			<ResourceSourceGroup>Battery</ResourceSourceGroup>
-			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<OperationalPowerConsumption>0.1</OperationalPowerConsumption>
-			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
-			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-			<DamagedSound>ParticleWeapExpl</DamagedSound>
-			<PressurizeSound>BlockAirVentExhale</PressurizeSound>
-			<DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
-			<IdleSound>BlockAirVentIdle</IdleSound>
-			<EmissiveColorPreset>Extended</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-		</Definition>
-		<Definition xsi:type="MyObjectBuilder_AirVentDefinition">
-			<Id>
-				<TypeId>AirVent</TypeId>
-				<SubtypeId>SmallConveyorAirVent</SubtypeId>
-			</Id>
-			<PCU>10</PCU>
-			<BlockPairName>ConveyorAirVent</BlockPairName>
-			<DisplayName>DisplayName_ConveyorAirVent</DisplayName>
-			<Description>Description_AirVent</Description>
-			<Icon>Textures\Icons\ConveyorAirVent.dds</Icon>
-			<CubeSize>Small</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\AirVents\SmallConveyorAirVent.mwm</Model>
-			<Components>
-				<Component Subtype="SteelPlate" Count="5"/>
-				<Component Subtype="InteriorPlate" Count="5"/>
-				<Component Subtype="Construction" Count="10"/>
-				<Component Subtype="Motor" Count="3"/>
-				<Component Subtype="Computer" Count="5"/>
-				<Component Subtype="SteelPlate" Count="3"/>
-			</Components>
-			<CriticalComponent Subtype="Computer" Index="0"/>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\AirVents\SmallConveyorAirVent_Build1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\AirVents\SmallConveyorAirVent_Build2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\AirVents\SmallConveyorAirVent_Build3.mwm"/>
-			</BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.46" EndY="1.00"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Front" StartX="0.54" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Front" StartX="0.46" StartY="0.54" EndX="0.54" EndY="1.00"/>
-				<MountPoint Side="Front" StartX="0.46" StartY="0.00" EndX="0.54" EndY="0.46"/>
-			</MountPoints>
-			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>14</BuildTimeSeconds>
-			<ResourceSourceGroup>Battery</ResourceSourceGroup>
-			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<OperationalPowerConsumption>0.01</OperationalPowerConsumption>
-			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<VentilationCapacityPerSecond>30</VentilationCapacityPerSecond>
-			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-			<DamagedSound>ParticleWeapExpl</DamagedSound>
-			<PressurizeSound>BlockAirVentExhale</PressurizeSound>
-			<DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
-			<IdleSound>BlockAirVentIdle</IdleSound>
-			<EmissiveColorPreset>Extended</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-		</Definition>
-		<Definition xsi:type="MyObjectBuilder_AirVentDefinition">
-			<Id>
-				<TypeId>AirVent</TypeId>
-				<SubtypeId>ConveyorAirVentSlope</SubtypeId>
-			</Id>
-			<PCU>10</PCU>
-			<GuiVisible>false</GuiVisible>
-			<BlockPairName>ConveyorAirVentSlope</BlockPairName>
-			<DisplayName>DisplayName_ConveyorAirVent_Slope</DisplayName>
-			<Description>Description_AirVent</Description>
-			<Icon>Textures\Icons\ConveyorAirVentSlope.dds</Icon>
-			<CubeSize>Large</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\AirVents\ConveyorAirVentSlope.mwm</Model>
-			<Components>
-				<Component Subtype="SteelPlate" Count="30"/>
-				<Component Subtype="InteriorPlate" Count="10"/>
-				<Component Subtype="Construction" Count="20"/>
-				<Component Subtype="SmallTube" Count="10"/>
-				<Component Subtype="Motor" Count="12"/>
-				<Component Subtype="Computer" Count="5"/>
-				<Component Subtype="SteelPlate" Count="15"/>
-			</Components>
-			<CriticalComponent Subtype="Computer" Index="0"/>
-			<MountPoints>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.20" EndX="0.40" EndY="0.40"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.80" EndY="0.80"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.40" EndX="0.60" EndY="0.60"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.20" EndY="0.20"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Left" StartX="0.60" StartY="0.20" EndX="1.00" EndY="0.40"/>
-				<MountPoint Side="Left" StartX="0.20" StartY="0.60" EndX="1.00" EndY="0.80"/>
-				<MountPoint Side="Left" StartX="0.40" StartY="0.40" EndX="1.00" EndY="0.60"/>
-				<MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.20"/>
-			</MountPoints>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\AirVents\ConveyorAirVentSlope_Build1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\AirVents\ConveyorAirVentSlope_Build2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\AirVents\ConveyorAirVentSlope_Build3.mwm"/>
-			</BuildProgressModels>
-			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>22</BuildTimeSeconds>
-			<ResourceSourceGroup>Battery</ResourceSourceGroup>
-			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<OperationalPowerConsumption>0.1</OperationalPowerConsumption>
-			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
-			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-			<DamagedSound>ParticleWeapExpl</DamagedSound>
-			<PressurizeSound>BlockAirVentExhale</PressurizeSound>
-			<DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
-			<IdleSound>BlockAirVentIdle</IdleSound>
-			<EmissiveColorPreset>Extended</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-		</Definition>
-		<Definition xsi:type="MyObjectBuilder_AirVentDefinition">
-			<Id>
-				<TypeId>AirVent</TypeId>
-				<SubtypeId>SmallConveyorAirVentSlope</SubtypeId>
-			</Id>
-			<PCU>10</PCU>
-			<GuiVisible>false</GuiVisible>
-			<BlockPairName>ConveyorAirVentSlope</BlockPairName>
-			<DisplayName>DisplayName_ConveyorAirVent_Slope</DisplayName>
-			<Description>Description_AirVent</Description>
-			<Icon>Textures\Icons\ConveyorAirVentSlope.dds</Icon>
-			<CubeSize>Small</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="1"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\AirVents\SmallConveyorAirVentSlope.mwm</Model>
-			<Components>
-				<Component Subtype="SteelPlate" Count="5"/>
-				<Component Subtype="InteriorPlate" Count="2"/>
-				<Component Subtype="Construction" Count="10"/>
-				<Component Subtype="Motor" Count="2"/>
-				<Component Subtype="Computer" Count="5"/>
-				<Component Subtype="SteelPlate" Count="3"/>
-			</Components>
-			<CriticalComponent Subtype="Computer" Index="0"/>
-			<MountPoints>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.20" EndX="0.40" EndY="0.40"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.80" EndY="0.80"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.40" EndX="0.60" EndY="0.60"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.20" EndY="0.20"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00"/>
-				<MountPoint Side="Left" StartX="0.60" StartY="0.20" EndX="1.00" EndY="0.40"/>
-				<MountPoint Side="Left" StartX="0.20" StartY="0.60" EndX="1.00" EndY="0.80"/>
-				<MountPoint Side="Left" StartX="0.40" StartY="0.40" EndX="1.00" EndY="0.60"/>
-				<MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.20"/>
-			</MountPoints>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\AirVents\SmallConveyorAirVentSlope_Build1.mwm"/>
-				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\AirVents\SmallConveyorAirVentSlope_Build2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\AirVents\SmallConveyorAirVentSlope_Build3.mwm"/>
-			</BuildProgressModels>
-			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>12</BuildTimeSeconds>
-			<ResourceSourceGroup>Battery</ResourceSourceGroup>
-			<ResourceSinkGroup>Factory</ResourceSinkGroup>
-			<OperationalPowerConsumption>0.01</OperationalPowerConsumption>
-			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
-			<VentilationCapacityPerSecond>30</VentilationCapacityPerSecond>
-			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-			<DamagedSound>ParticleWeapExpl</DamagedSound>
-			<PressurizeSound>BlockAirVentExhale</PressurizeSound>
-			<DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
-			<IdleSound>BlockAirVentIdle</IdleSound>
-			<EmissiveColorPreset>Extended</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-		</Definition>
-	</CubeBlocks>
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+      <Id>
+        <TypeId>AirVent</TypeId>
+        <SubtypeId>ConveyorAirVent</SubtypeId>
+      </Id>
+      <PCU>10</PCU>
+      <BlockPairName>ConveyorAirVent</BlockPairName>
+      <DisplayName>DisplayName_ConveyorAirVent</DisplayName>
+      <Description>Description_AirVent</Description>
+      <Icon>Textures\Icons\ConveyorAirVent.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\AirVents\ConveyorAirVent.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\AirVents\ConveyorAirVent_Build1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\AirVents\ConveyorAirVent_Build2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\AirVents\ConveyorAirVent_Build3.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.46" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.54" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.46" StartY="0.54" EndX="0.54" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.46" StartY="0.00" EndX="0.54" EndY="0.46" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>26</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
+
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+      <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+      <IdleSound>BlockAirVentIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>AirVent</TypeId>
+          <SubtypeId>ConveyorAirVentSlope</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+      <Id>
+        <TypeId>AirVent</TypeId>
+        <SubtypeId>SmallConveyorAirVent</SubtypeId>
+      </Id>
+      <PCU>10</PCU>
+      <BlockPairName>ConveyorAirVent</BlockPairName>
+      <DisplayName>DisplayName_ConveyorAirVent</DisplayName>
+      <Description>Description_AirVent</Description>
+      <Icon>Textures\Icons\ConveyorAirVent.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\AirVents\SmallConveyorAirVent.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="Motor" Count="3" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\AirVents\SmallConveyorAirVent_Build1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\AirVents\SmallConveyorAirVent_Build2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\AirVents\SmallConveyorAirVent_Build3.mwm" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.46" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.54" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.46" StartY="0.54" EndX="0.54" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.46" StartY="0.00" EndX="0.54" EndY="0.46" />
+      </MountPoints>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.01</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <VentilationCapacityPerSecond>30</VentilationCapacityPerSecond>
+
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+      <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+      <IdleSound>BlockAirVentIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>AirVent</TypeId>
+          <SubtypeId>SmallConveyorAirVentSlope</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+      <Id>
+        <TypeId>AirVent</TypeId>
+        <SubtypeId>ConveyorAirVentSlope</SubtypeId>
+      </Id>
+      <PCU>10</PCU>
+      <GuiVisible>false</GuiVisible>
+      <BlockPairName>ConveyorAirVentSlope</BlockPairName>
+      <DisplayName>DisplayName_ConveyorAirVent_Slope</DisplayName>
+      <Description>Description_AirVent</Description>
+      <Icon>Textures\Icons\ConveyorAirVentSlope.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\AirVents\ConveyorAirVentSlope.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="10" />
+        <Component Subtype="Motor" Count="12" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.20" EndX="0.40" EndY="0.40" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.40" EndX="0.60" EndY="0.60" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.20" EndY="0.20" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.60" StartY="0.20" EndX="1.00" EndY="0.40" />
+        <MountPoint Side="Left" StartX="0.20" StartY="0.60" EndX="1.00" EndY="0.80" />
+        <MountPoint Side="Left" StartX="0.40" StartY="0.40" EndX="1.00" EndY="0.60" />
+        <MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.20" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\AirVents\ConveyorAirVentSlope_Build1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\AirVents\ConveyorAirVentSlope_Build2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\AirVents\ConveyorAirVentSlope_Build3.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>22</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
+
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+      <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+      <IdleSound>BlockAirVentIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+      <Id>
+        <TypeId>AirVent</TypeId>
+        <SubtypeId>SmallConveyorAirVentSlope</SubtypeId>
+      </Id>
+      <PCU>10</PCU>
+      <GuiVisible>false</GuiVisible>
+      <BlockPairName>ConveyorAirVentSlope</BlockPairName>
+      <DisplayName>DisplayName_ConveyorAirVent_Slope</DisplayName>
+      <Description>Description_AirVent</Description>
+      <Icon>Textures\Icons\ConveyorAirVentSlope.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\AirVents\SmallConveyorAirVentSlope.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.20" EndX="0.40" EndY="0.40" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.60" EndX="0.80" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.40" EndX="0.60" EndY="0.60" />
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.20" EndY="0.20" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.80" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.60" StartY="0.20" EndX="1.00" EndY="0.40" />
+        <MountPoint Side="Left" StartX="0.20" StartY="0.60" EndX="1.00" EndY="0.80" />
+        <MountPoint Side="Left" StartX="0.40" StartY="0.40" EndX="1.00" EndY="0.60" />
+        <MountPoint Side="Left" StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.20" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\AirVents\SmallConveyorAirVentSlope_Build1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\AirVents\SmallConveyorAirVentSlope_Build2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\AirVents\SmallConveyorAirVentSlope_Build3.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>12</BuildTimeSeconds>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.01</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <VentilationCapacityPerSecond>30</VentilationCapacityPerSecond>
+
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <PressurizeSound>BlockAirVentExhale</PressurizeSound>
+      <DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+      <IdleSound>BlockAirVentIdle</IdleSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+    </Definition>
+
+  </CubeBlocks>
 </Definitions>
