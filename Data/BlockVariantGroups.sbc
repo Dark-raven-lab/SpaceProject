@@ -1535,20 +1535,12 @@
           <SubtypeId>SmallJumpDrive</SubtypeId>
         </Block>
         <Block>
-          <TypeId>SafeZoneBlock</TypeId>
-          <SubtypeId>SafeZoneBlock</SubtypeId>
-        </Block>
-        <Block>
           <TypeId>JumpDrive</TypeId>
           <SubtypeId>LargeJumpDrive2x</SubtypeId>
         </Block>
         <Block>
           <TypeId>JumpDrive</TypeId>
           <SubtypeId>SmallJumpDrive2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SafeZoneBlock</TypeId>
-          <SubtypeId>SafeZoneBlock2x</SubtypeId>
         </Block>
         <Block>
           <TypeId>JumpDrive</TypeId>
@@ -1559,20 +1551,12 @@
           <SubtypeId>SmallJumpDrive4x</SubtypeId>
         </Block>
         <Block>
-          <TypeId>SafeZoneBlock</TypeId>
-          <SubtypeId>SafeZoneBlock4x</SubtypeId>
-        </Block>
-        <Block>
           <TypeId>JumpDrive</TypeId>
           <SubtypeId>LargeJumpDrive8x</SubtypeId>
         </Block>
         <Block>
           <TypeId>JumpDrive</TypeId>
           <SubtypeId>SmallJumpDrive8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SafeZoneBlock</TypeId>
-          <SubtypeId>SafeZoneBlock8x</SubtypeId>
         </Block>
       </Blocks>
     </BlockVariantGroup>
