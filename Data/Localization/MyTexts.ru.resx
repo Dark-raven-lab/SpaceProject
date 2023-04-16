@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -725,4 +725,22 @@
     <value>Мощный пропеллер для полёта в атмосфере. Создаёт тягу вверх..</value>
     <comment/>
   </data>
+	<data name="DisplayName_Prop_S_2blade_silver_forw" xml:space="preserve">
+	<value>Пропеллер 2х-лопастной серебристый прямой</value>
+  </data>
+	<data name="DisplayName_Prop_S_2blade_silver_backw" xml:space="preserve">
+	<value>Пропеллер 2х-лопастной серебристый обратный</value>
+	</data>
+	<data name="DisplayName_Prop_S_8blade_silver_forw" xml:space="preserve">
+	<value>Пропеллер 8и-лопастной серебристый прямой</value>
+	</data>
+	<data name="DisplayName_Prop_S_8blade_silver_backw" xml:space="preserve">
+	<value>Пропеллер 8и-лопастной серебристый обратный</value>
+	</data>
+	<data name="DisplayName_Prop_Motor_classic_3x3" xml:space="preserve">
+	<value>Классический многоцилидровый авиамотор</value>
+	</data>
+	<data name="DisplayName_Prop_Motor_modern_1x2" xml:space="preserve">
+	<value>Современный авиамотор</value>
+	</data>
 </root>

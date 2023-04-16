@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>propeller_default_TN_SG</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.8</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+         <Wave Type="D3">
+          <Loop>Audio\propeller-default.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+
+   <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>propeller_default_TN_LG</SubtypeId>
+      </Id>
+      <Category>SHIP_JET</Category>
+      <MaxDistance>150</MaxDistance>
+      <Volume>1.0</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+         <Wave Type="D3">
+          <Loop>Audio\propeller-default.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>

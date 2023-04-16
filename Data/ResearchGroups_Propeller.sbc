@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ResearchGroups>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="146366763700" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="146366763701" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_forward_silver_10x_Small" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_backward_silver_10x_Small" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_forward_silver_10x_Large" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_backward_silver_10x_Large" />
+      </Members>
+    </ResearchGroup>
+
+
+  </ResearchGroups>
+</Definitions>
