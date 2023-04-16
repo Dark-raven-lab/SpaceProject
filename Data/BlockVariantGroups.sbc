@@ -1017,6 +1017,54 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>SmallBlockSmallThrust</SubtypeId>
         </Block>
+		<Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrust2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrust2x</SubtypeId>
+        </Block>
+		<Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrust4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrust4x</SubtypeId>
+        </Block>
+		<Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrust8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrust8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrust8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrust8x</SubtypeId>
+        </Block>
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup Enabled="true">
