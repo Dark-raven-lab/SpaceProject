@@ -6,8 +6,7 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>+ Takeshi</DisplayName>
-      <Name>z-mod-Takeshi</Name>
+      <Name>AirPropellers</Name>
       <ItemIds>
 		<string>Thrust/propeller_2_blade_forward_silver_10x_Small</string>
 		<string>Thrust/propeller_2_blade_backward_silver_10x_Small</string>

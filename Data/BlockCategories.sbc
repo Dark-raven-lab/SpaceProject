@@ -80,8 +80,8 @@
 				<TypeId>GuiBlockCategoryDefinition</TypeId>
 				<SubtypeId/>
 			</Id>
-			<DisplayName>Helicopter Stuff</DisplayName>
-			<Name>Helicopter Stuff</Name>
+			<DisplayName>Винтовые ускорители</DisplayName>
+			<Name>AirPropellers</Name>
 			<ItemIds>
 				<string>Thrust/alb_ThrusterLarge5Blade</string>
 				<string>Thrust/alb_ThrusterTailRotor5Blade</string>
