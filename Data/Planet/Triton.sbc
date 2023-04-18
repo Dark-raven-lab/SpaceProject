@@ -255,9 +255,6 @@
 	<CloudLayers>
 		 <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.15</RelativeAltitude>
         <AngularVelocity>0.000373112</AngularVelocity>
         <!--<InitialRotation>-99</InitialRotation>-->
@@ -271,9 +268,6 @@
 	    
 	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.21</RelativeAltitude>
         <AngularVelocity>-0.00026112</AngularVelocity>
         <!--<InitialRotation>-19</InitialRotation>-->
@@ -287,9 +281,6 @@
 	  
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>.27</RelativeAltitude>
         <AngularVelocity>0.000480394</AngularVelocity>
         <!--<InitialRotation>-132</InitialRotation>-->
@@ -303,9 +294,6 @@
 	  
 	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.33</RelativeAltitude>
         <AngularVelocity>-0.000391114</AngularVelocity>
         <!--<InitialRotation>-54</InitialRotation>-->
@@ -319,9 +307,6 @@
 	  
 	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.39</RelativeAltitude>
         <AngularVelocity>0.00029121135</AngularVelocity>
         <!--<InitialRotation>-14</InitialRotation>-->
@@ -335,9 +320,6 @@
 	  
 	  	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.45</RelativeAltitude>
         <AngularVelocity>-0.00037131135</AngularVelocity>
         <!--<InitialRotation>2</InitialRotation>-->
@@ -351,9 +333,6 @@
 
 	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.51</RelativeAltitude>
         <AngularVelocity>0.0004812112</AngularVelocity>
         <!--<InitialRotation>35</InitialRotation>-->
@@ -367,9 +346,6 @@
 	  
 	  	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.57</RelativeAltitude>
         <AngularVelocity>-0.000396112</AngularVelocity>
         <!--<InitialRotation>-114</InitialRotation>-->
@@ -383,9 +359,6 @@
 	  
 	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TritonAurora.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.63</RelativeAltitude>
         <AngularVelocity>0.000286112</AngularVelocity>
         <!--<InitialRotation>79</InitialRotation>-->
@@ -399,9 +372,6 @@
 	  
 <!--	<CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TritonAurora.dds</Texture>
-        </Textures>
         <RelativeAltitude>.7</RelativeAltitude>
         <AngularVelocity>0.003915112</AngularVelocity>
         <<InitialRotation>134</InitialRotation>
@@ -415,9 +385,6 @@
 	  
 	  	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TritonAurora.dds</Texture>
-        </Textures>
         <RelativeAltitude>.77</RelativeAltitude>
         <AngularVelocity>-0.00473112</AngularVelocity>
         <InitialRotation>121</InitialRotation>
@@ -432,9 +399,6 @@
 		<InitialRotation>-15</InitialRotation>
 		  	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TritonAurora.dds</Texture>
-        </Textures>
         <RelativeAltitude>.83</RelativeAltitude>
         <AngularVelocity>0.00384113</AngularVelocity>
         <InitialRotation>-34</InitialRotation>
@@ -448,9 +412,6 @@
 	  
 	  	  	  <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TritonAurora.dds</Texture>
-        </Textures>
         <RelativeAltitude>.89</RelativeAltitude>
         <AngularVelocity>-0.00296113</AngularVelocity>
         <InitialRotation>77</InitialRotation>
@@ -464,9 +425,6 @@
 
      <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>1.0</RelativeAltitude>
         <RotationAxis>
           <X>0</X>
@@ -483,9 +441,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>2.0</RelativeAltitude>
         <RotationAxis>
           <X>0.2</X>
@@ -502,9 +457,6 @@
 	  
 	        <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>2.5</RelativeAltitude>
         <RotationAxis>
           <X>2</X>
@@ -521,9 +473,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>3.0</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
