@@ -1405,9 +1405,6 @@
       <CloudLayer>
         <!-- Far layer -->
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.9</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -1425,9 +1422,6 @@
       <!-- Near layers -->
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>1.0</RelativeAltitude>
         <RotationAxis>
           <X>0</X>
@@ -1443,9 +1437,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>2.0</RelativeAltitude>
         <RotationAxis>
           <X>0.2</X>
@@ -1461,9 +1452,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>3.0</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -3119,9 +3107,6 @@
             <W>1</W>
         </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/AlienSky.dds</Texture>
-        </Textures>
         <RelativeAltitude>1</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -3144,9 +3129,6 @@
               <W>1</W>
           </Color>
           <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/AlienSky.dds</Texture>
-        </Textures>
         <RelativeAltitude>1</RelativeAltitude>
         <RotationAxis>
           <X>0</X>
@@ -3167,9 +3149,6 @@
               <W>1</W>
           </Color>
               <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/AlienSky.dds</Texture>
-        </Textures>
         <RelativeAltitude>1.5</RelativeAltitude>
         <RotationAxis>
           <X>0.2</X>
@@ -3802,9 +3781,6 @@
               <W>1</W>
           </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
         <RelativeAltitude>-0.2</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -3827,9 +3803,6 @@
               <W>1</W>
           </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
         <RelativeAltitude>-0.2</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -3851,9 +3824,6 @@
               <W>1</W>
           </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
         <RelativeAltitude>-0.2</RelativeAltitude>
         <RotationAxis>
           <X>0.5</X>
@@ -3877,9 +3847,6 @@
               <W>1</W>
           </Color>
               <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
-        </Textures>
         <RelativeAltitude>1</RelativeAltitude>
         <RotationAxis>
           <X>0</X>
@@ -3901,9 +3868,6 @@
               <W>1</W>
           </Color>
               <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
-        </Textures>
         <RelativeAltitude>1.2</RelativeAltitude>
         <RotationAxis>
           <X>0.2</X>
@@ -3924,9 +3888,6 @@
               <W>1</W>
           </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
         <RelativeAltitude>1.4</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -5173,9 +5134,7 @@
       <CloudLayer>
         <!-- Far layer -->
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TitanSky.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>1.9</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -5191,9 +5150,7 @@
       </CloudLayer>
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TitanSky.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>1.89</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -5209,9 +5166,7 @@
       </CloudLayer>
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TitanSky.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>1.88</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -5227,9 +5182,7 @@
       </CloudLayer>
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TitanSkySolid.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>1.87</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -5248,9 +5201,7 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TitanSky.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>1.0</RelativeAltitude>
         <RotationAxis>
           <X>0</X>
@@ -5265,9 +5216,7 @@
       </CloudLayer>
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TitanSky.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>2.0</RelativeAltitude>
         <RotationAxis>
           <X>1</X>
@@ -5282,9 +5231,7 @@
       </CloudLayer>
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/TitanSky.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>3.0</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -6791,9 +6738,6 @@
       <CloudLayer>
         <!-- First Far layer -->
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.9</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -6810,9 +6754,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.91</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -6829,9 +6770,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.92</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -6849,9 +6787,6 @@
       <!-- Second Far Layer -->
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.9</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -6868,9 +6803,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.91</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -6887,9 +6819,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.92</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -6907,9 +6836,6 @@
       <!-- Near layers -->
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>1.0</RelativeAltitude>
         <RotationAxis>
           <X>0</X>
@@ -6924,9 +6850,6 @@
       </CloudLayer>
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>2.0</RelativeAltitude>
         <RotationAxis>
           <X>0.2</X>
@@ -6941,9 +6864,6 @@
       </CloudLayer>
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>3.0</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -7659,9 +7579,6 @@
           </Color>
         <!-- Far layer -->
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
         <RelativeAltitude>-0.2</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -7684,9 +7601,6 @@
               <W>1</W>
           </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
         <RelativeAltitude>-0.2</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -7708,9 +7622,7 @@
               <W>1</W>
           </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>-0.2</RelativeAltitude>
         <RotationAxis>
           <X>0.5</X>
@@ -7734,9 +7646,7 @@
               <W>1</W>
           </Color>
               <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>1</RelativeAltitude>
         <RotationAxis>
           <X>0</X>
@@ -7758,9 +7668,7 @@
               <W>1</W>
           </Color>
               <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky02.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>1.2</RelativeAltitude>
         <RotationAxis>
           <X>0.2</X>
@@ -7781,9 +7689,7 @@
               <W>1</W>
           </Color>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/MartianSky.dds</Texture>
-        </Textures>
+
         <RelativeAltitude>1.4</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -8731,9 +8637,6 @@
       <CloudLayer>
         <!-- First Far layer -->
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.9</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -8750,9 +8653,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.91</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -8769,9 +8669,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.92</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -8789,9 +8686,6 @@
       <!-- Second Far Layer -->
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.9</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -8808,9 +8702,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.91</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -8827,9 +8718,6 @@
 
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/EarthFarClouds.dds</Texture>
-        </Textures>
         <RelativeAltitude>0.92</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
@@ -8847,9 +8735,6 @@
       <!-- Near layers -->
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>1.0</RelativeAltitude>
         <RotationAxis>
           <X>0</X>
@@ -8864,9 +8749,6 @@
       </CloudLayer>
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>2.0</RelativeAltitude>
         <RotationAxis>
           <X>0.2</X>
@@ -8881,9 +8763,6 @@
       </CloudLayer>
       <CloudLayer>
         <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
-        <Textures>
-          <Texture>Textures/Models/Environment/Sky/Landsky_texture.dds</Texture>
-        </Textures>
         <RelativeAltitude>3.0</RelativeAltitude>
         <RotationAxis>
           <X>-0.2</X>
