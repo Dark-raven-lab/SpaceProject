@@ -465,6 +465,10 @@
     <value>Большой ионный НФ-ускоритель Т3</value>
     <comment/>
   </data>
+  <data name="DisplayName_JumpDrive" xml:space="preserve">
+    <value>Прыжковый двигатель</value>
+    <comment/>
+  </data>
   <data name="DisplayName_JumpDrive2x" xml:space="preserve">
     <value>Прыжковый двигатель Т1</value>
     <comment/>

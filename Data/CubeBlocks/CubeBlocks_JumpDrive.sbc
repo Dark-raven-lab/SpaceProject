@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <CubeBlocks>
+    <!-- Small T0-->
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>JumpDrive</TypeId>
@@ -58,12 +59,280 @@
       <EdgeType>Light</EdgeType>
       <MaxJumpMass>125000</MaxJumpMass>
       <MinJumpDistance>5000</MinJumpDistance>
-      <MaxJumpDistance>200000</MaxJumpDistance>
-      <PowerNeededForJump>0.3</PowerNeededForJump>
-      <RequiredPowerInput>5</RequiredPowerInput>
+      <MaxJumpDistance>100000</MaxJumpDistance>
+      <PowerNeededForJump>0.5</PowerNeededForJump>
+      <RequiredPowerInput>8</RequiredPowerInput>
       <PowerEfficiency>0.8</PowerEfficiency>
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
     </Definition>
+    
+    <!-- Small T1-->
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>SmallJumpDrive2x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_JumpDrive2x</DisplayName>
+      <Icon>Textures\JumpDrive2x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DamageEffectId>213</DamageEffectId>
+      <PCU>100</PCU>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\JumpDrive\JumpDriveConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Components>
+        <Component Subtype="Tech2x" Count="8" />
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="GravityGenerator" Count="2" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="PowerCell" Count="12" />
+        <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="2" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>JumpDrive2x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <MaxJumpMass>225000</MaxJumpMass>
+      <MinJumpDistance>5000</MinJumpDistance>
+      <MaxJumpDistance>200000</MaxJumpDistance>
+      <PowerNeededForJump>0.75</PowerNeededForJump>
+      <RequiredPowerInput>16</RequiredPowerInput>
+      <PowerEfficiency>0.8</PowerEfficiency>
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+    </Definition>
+    
+    <!-- Small T2-->
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>SmallJumpDrive4x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_JumpDrive4x</DisplayName>
+      <Icon>Textures\JumpDrive4x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DamageEffectId>213</DamageEffectId>
+      <PCU>100</PCU>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\JumpDrive\JumpDriveConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Components>
+        <Component Subtype="Tech4x" Count="8" />
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="GravityGenerator" Count="2" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="PowerCell" Count="12" />
+        <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="2" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>JumpDrive4x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <MaxJumpMass>500000</MaxJumpMass>
+      <MinJumpDistance>5000</MinJumpDistance>
+      <MaxJumpDistance>400000</MaxJumpDistance>
+      <PowerNeededForJump>1</PowerNeededForJump>
+      <RequiredPowerInput>32</RequiredPowerInput>
+      <PowerEfficiency>0.8</PowerEfficiency>
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+    </Definition>
+    
+    <!-- Small T3-->
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>SmallJumpDrive8x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_JumpDrive8x</DisplayName>
+      <Icon>Textures\JumpDrive8x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DamageEffectId>213</DamageEffectId>
+      <PCU>100</PCU>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\JumpDrive\JumpDriveConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Components>
+        <Component Subtype="Tech8x" Count="8" />
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="GravityGenerator" Count="2" />
+        <Component Subtype="Detector" Count="2" />
+        <Component Subtype="PowerCell" Count="12" />
+        <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="2" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>JumpDrive8x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <MaxJumpMass>1000000</MaxJumpMass>
+      <MinJumpDistance>5000</MinJumpDistance>
+      <MaxJumpDistance>800000</MaxJumpDistance>
+      <PowerNeededForJump>1.5</PowerNeededForJump>
+      <RequiredPowerInput>64</RequiredPowerInput>
+      <PowerEfficiency>0.8</PowerEfficiency>
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+    </Definition>
+
+
+    <!-- Large T0-->
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>LargeJumpDrive</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_JumpDrive</DisplayName>
+      <Description>Description_JumpDrive</Description>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDrive.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>true</IsAirTight>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <PCU>100</PCU>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\JumpDriveConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="60" />
+        <Component Subtype="MetalGrid" Count="75" />
+        <Component Subtype="GravityGenerator" Count="30" />
+        <Component Subtype="Detector" Count="30" />
+        <Component Subtype="PowerCell" Count="180" />
+        <Component Subtype="Superconductor" Count="1500" />
+        <Component Subtype="Computer" Count="450" />
+        <Component Subtype="Construction" Count="60" />
+        <Component Subtype="SteelPlate" Count="30" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="2" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>JumpDrive</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>180</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <MaxJumpMass>2000000</MaxJumpMass>
+      <MinJumpDistance>5000</MinJumpDistance>
+      <MaxJumpDistance>2000000</MaxJumpDistance>
+      <PowerNeededForJump>3</PowerNeededForJump>
+      <RequiredPowerInput>32</RequiredPowerInput>
+      <PowerEfficiency>0.8</PowerEfficiency>
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+    </Definition>
+
+    <!-- Large T1-->
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>JumpDrive</TypeId>
@@ -122,78 +391,16 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>180</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxJumpMass>2187500</MaxJumpMass>
+      <MaxJumpMass>4000000</MaxJumpMass>
       <MinJumpDistance>5000</MinJumpDistance>
-      <MaxJumpDistance>3500000</MaxJumpDistance>
-      <PowerNeededForJump>6</PowerNeededForJump>
+      <MaxJumpDistance>4000000</MaxJumpDistance>
+      <PowerNeededForJump>4.5</PowerNeededForJump>
       <RequiredPowerInput>64</RequiredPowerInput>
       <PowerEfficiency>0.8</PowerEfficiency>
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>JumpDrive</TypeId>
-        <SubtypeId>SmallJumpDrive2x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_JumpDrive2x</DisplayName>
-      <Icon>Textures\JumpDrive2x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DestroySound>WepLrgWarheadExpl</DestroySound>
-      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-      <DamageEffectId>213</DamageEffectId>
-      <PCU>100</PCU>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\JumpDrive\JumpDriveConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MountPoints>
-        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
-        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
-        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
-        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
-        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
-        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
-      </MountPoints>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <Components>
-        <Component Subtype="Tech2x" Count="8" />
-        <Component Subtype="SteelPlate" Count="4" />
-        <Component Subtype="MetalGrid" Count="5" />
-        <Component Subtype="GravityGenerator" Count="2" />
-        <Component Subtype="Detector" Count="2" />
-        <Component Subtype="PowerCell" Count="12" />
-        <Component Subtype="Superconductor" Count="100" />
-        <Component Subtype="Computer" Count="30" />
-        <Component Subtype="Construction" Count="4" />
-        <Component Subtype="SteelPlate" Count="2" />
-      </Components>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="2" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <MirroringY>Z</MirroringY>
-      <BlockPairName>JumpDrive2x</BlockPairName>
-      <GuiVisible>false</GuiVisible>
-      <MirroringZ>Y</MirroringZ>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <MaxJumpMass>218750</MaxJumpMass>
-      <MinJumpDistance>5000</MinJumpDistance>
-      <MaxJumpDistance>350000</MaxJumpDistance>
-      <PowerNeededForJump>0.6</PowerNeededForJump>
-      <RequiredPowerInput>10</RequiredPowerInput>
-      <PowerEfficiency>0.8</PowerEfficiency>
-      <ResourceSinkGroup>Charging</ResourceSinkGroup>
-    </Definition>
+    
+    <!-- Large T2-->
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>JumpDrive</TypeId>
@@ -252,78 +459,16 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>270</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxJumpMass>3828125</MaxJumpMass>
+      <MaxJumpMass>8000000</MaxJumpMass>
       <MinJumpDistance>5000</MinJumpDistance>
-      <MaxJumpDistance>6125000</MaxJumpDistance>
-      <PowerNeededForJump>12</PowerNeededForJump>
+      <MaxJumpDistance>8000000</MaxJumpDistance>
+      <PowerNeededForJump>6.75</PowerNeededForJump>
       <RequiredPowerInput>128</RequiredPowerInput>
       <PowerEfficiency>0.8</PowerEfficiency>
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>JumpDrive</TypeId>
-        <SubtypeId>SmallJumpDrive4x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_JumpDrive4x</DisplayName>
-      <Icon>Textures\JumpDrive4x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DestroySound>WepLrgWarheadExpl</DestroySound>
-      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-      <DamageEffectId>213</DamageEffectId>
-      <PCU>100</PCU>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\JumpDrive\JumpDriveConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MountPoints>
-        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
-        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
-        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
-        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
-        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
-        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
-      </MountPoints>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <Components>
-        <Component Subtype="Tech4x" Count="8" />
-        <Component Subtype="SteelPlate" Count="4" />
-        <Component Subtype="MetalGrid" Count="5" />
-        <Component Subtype="GravityGenerator" Count="2" />
-        <Component Subtype="Detector" Count="2" />
-        <Component Subtype="PowerCell" Count="12" />
-        <Component Subtype="Superconductor" Count="100" />
-        <Component Subtype="Computer" Count="30" />
-        <Component Subtype="Construction" Count="4" />
-        <Component Subtype="SteelPlate" Count="2" />
-      </Components>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="2" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <MirroringY>Z</MirroringY>
-      <BlockPairName>JumpDrive4x</BlockPairName>
-      <GuiVisible>false</GuiVisible>
-      <MirroringZ>Y</MirroringZ>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <MaxJumpMass>382812</MaxJumpMass>
-      <MinJumpDistance>5000</MinJumpDistance>
-      <MaxJumpDistance>612500</MaxJumpDistance>
-      <PowerNeededForJump>1.2</PowerNeededForJump>
-      <RequiredPowerInput>20</RequiredPowerInput>
-      <PowerEfficiency>0.8</PowerEfficiency>
-      <ResourceSinkGroup>Charging</ResourceSinkGroup>
-    </Definition>
+    
+    <!-- Large T3-->
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>JumpDrive</TypeId>
@@ -382,77 +527,15 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>405</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxJumpMass>6699218</MaxJumpMass>
+      <MaxJumpMass>16000000</MaxJumpMass>
       <MinJumpDistance>5000</MinJumpDistance>
-      <MaxJumpDistance>10718750</MaxJumpDistance>
-      <PowerNeededForJump>24</PowerNeededForJump>
+      <MaxJumpDistance>16000000</MaxJumpDistance>
+      <PowerNeededForJump>10</PowerNeededForJump>
       <RequiredPowerInput>256</RequiredPowerInput>
       <PowerEfficiency>0.8</PowerEfficiency>
       <ResourceSinkGroup>Charging</ResourceSinkGroup>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>JumpDrive</TypeId>
-        <SubtypeId>SmallJumpDrive8x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_JumpDrive8x</DisplayName>
-      <Icon>Textures\JumpDrive8x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DestroySound>WepLrgWarheadExpl</DestroySound>
-      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-      <DamageEffectId>213</DamageEffectId>
-      <PCU>100</PCU>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\JumpDrive\JumpDriveConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\JumpDrive\JumpDriveConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\JumpDrive\JumpDriveConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MountPoints>
-        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
-        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
-        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
-        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="2.9" />
-        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="1.9" EndY="2.9" />
-        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="2.9" EndY="1.9" />
-      </MountPoints>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <Components>
-        <Component Subtype="Tech8x" Count="8" />
-        <Component Subtype="SteelPlate" Count="4" />
-        <Component Subtype="MetalGrid" Count="5" />
-        <Component Subtype="GravityGenerator" Count="2" />
-        <Component Subtype="Detector" Count="2" />
-        <Component Subtype="PowerCell" Count="12" />
-        <Component Subtype="Superconductor" Count="100" />
-        <Component Subtype="Computer" Count="30" />
-        <Component Subtype="Construction" Count="4" />
-        <Component Subtype="SteelPlate" Count="2" />
-      </Components>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="2" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <MirroringY>Z</MirroringY>
-      <BlockPairName>JumpDrive8x</BlockPairName>
-      <GuiVisible>false</GuiVisible>
-      <MirroringZ>Y</MirroringZ>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>25</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <MaxJumpMass>669921</MaxJumpMass>
-      <MinJumpDistance>5000</MinJumpDistance>
-      <MaxJumpDistance>1071875</MaxJumpDistance>
-      <PowerNeededForJump>2.4</PowerNeededForJump>
-      <RequiredPowerInput>40</RequiredPowerInput>
-      <PowerEfficiency>0.8</PowerEfficiency>
-      <ResourceSinkGroup>Charging</ResourceSinkGroup>
-    </Definition>
+    
+
   </CubeBlocks>
 </Definitions>

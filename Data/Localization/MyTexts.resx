@@ -465,6 +465,10 @@
     <value>Large Ion Thrust SciFi T3</value>
     <comment/>
   </data>
+  <data name="DisplayName_JumpDrive" xml:space="preserve">
+    <value>Jump Drive</value>
+    <comment/>
+  </data>
   <data name="DisplayName_JumpDrive2x" xml:space="preserve">
     <value>Jump Drive T1</value>
     <comment/>
