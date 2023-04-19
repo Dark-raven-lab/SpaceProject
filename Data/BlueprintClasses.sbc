@@ -2,9 +2,9 @@
 <Definitions>
   <BlueprintClassEntries>
     <Entry Class="StoneIncinerator" BlueprintSubtypeId="StoneOreToIngotIncinerate" BlueprintTypeId="(null)" />
-    <Entry Class="TechAdmin" BlueprintSubtypeId="Tech2x" BlueprintTypeId="(null)" />
-    <Entry Class="TechAdmin" BlueprintSubtypeId="Tech4x" BlueprintTypeId="(null)" />
-    <Entry Class="TechAdmin" BlueprintSubtypeId="Tech8x" BlueprintTypeId="(null)" />
+    <Entry Class="Components" BlueprintSubtypeId="Tech2x"/>
+    <Entry Class="Components" BlueprintSubtypeId="Tech4x"/>
+    <Entry Class="Components" BlueprintSubtypeId="Tech8x"/>
     <Entry Class="BasicComponents2" BlueprintSubtypeId="SolarCell" BlueprintTypeId="(null)" />
     <Entry Class="BasicComponents2" BlueprintSubtypeId="SteelPlate" BlueprintTypeId="(null)" />
     <Entry Class="BasicComponents2" BlueprintSubtypeId="Display" BlueprintTypeId="(null)" />
