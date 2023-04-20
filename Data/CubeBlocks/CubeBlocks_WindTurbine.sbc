@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <CubeBlocks>
+
+      <!-- Large T1 -->
     <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>WindTurbine</TypeId>
@@ -75,6 +77,8 @@
       <RaycastersCount>9</RaycastersCount>
       <RaycasterSize>20</RaycasterSize>
     </Definition>
+
+     <!-- Large T2 -->
     <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>WindTurbine</TypeId>
@@ -149,6 +153,8 @@
       <RaycastersCount>9</RaycastersCount>
       <RaycasterSize>20</RaycasterSize>
     </Definition>
+
+     <!-- Large T3 -->
     <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>WindTurbine</TypeId>

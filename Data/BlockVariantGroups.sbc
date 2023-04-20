@@ -255,20 +255,12 @@
           <SubtypeId>SmallBlockSolarPanel</SubtypeId>
         </Block>
         <Block>
-          <TypeId>WindTurbine</TypeId>
-          <SubtypeId>LargeBlockWindTurbine</SubtypeId>
-        </Block>
-        <Block>
           <TypeId>SolarPanel</TypeId>
           <SubtypeId>LargeBlockSolarPanel2x</SubtypeId>
         </Block>
         <Block>
           <TypeId>SolarPanel</TypeId>
           <SubtypeId>SmallBlockSolarPanel2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>WindTurbine</TypeId>
-          <SubtypeId>LargeBlockWindTurbine2x</SubtypeId>
         </Block>
         <Block>
           <TypeId>SolarPanel</TypeId>
@@ -279,16 +271,35 @@
           <SubtypeId>SmallBlockSolarPanel4x</SubtypeId>
         </Block>
         <Block>
-          <TypeId>WindTurbine</TypeId>
-          <SubtypeId>LargeBlockWindTurbine4x</SubtypeId>
-        </Block>
-        <Block>
           <TypeId>SolarPanel</TypeId>
           <SubtypeId>LargeBlockSolarPanel8x</SubtypeId>
         </Block>
         <Block>
           <TypeId>SolarPanel</TypeId>
           <SubtypeId>SmallBlockSolarPanel8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>EnergyWindGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_WindTurbine</DisplayName>
+      <Description>Description_WindTurbine</Description>
+      <Icon>Textures\GUI\Icons\Cubes\WindTurbine.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>WindTurbine</TypeId>
+          <SubtypeId>LargeBlockWindTurbine</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>WindTurbine</TypeId>
+          <SubtypeId>LargeBlockWindTurbine2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>WindTurbine</TypeId>
+          <SubtypeId>LargeBlockWindTurbine4x</SubtypeId>
         </Block>
         <Block>
           <TypeId>WindTurbine</TypeId>
@@ -338,14 +349,6 @@
           <SubtypeId>SmallBlockLargeGeneratorWarfare2</SubtypeId>
         </Block>
         <Block>
-          <TypeId>HydrogenEngine</TypeId>
-          <SubtypeId>LargeHydrogenEngine</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>HydrogenEngine</TypeId>
-          <SubtypeId>SmallHydrogenEngine</SubtypeId>
-        </Block>
-        <Block>
           <TypeId>Reactor</TypeId>
           <SubtypeId>LargeBlockSmallGenerator2x</SubtypeId>
         </Block>
@@ -376,14 +379,6 @@
         <Block>
           <TypeId>Reactor</TypeId>
           <SubtypeId>SmallBlockLargeGeneratorWarfare22x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>HydrogenEngine</TypeId>
-          <SubtypeId>LargeHydrogenEngine2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>HydrogenEngine</TypeId>
-          <SubtypeId>SmallHydrogenEngine2x</SubtypeId>
         </Block>
         <Block>
           <TypeId>Reactor</TypeId>
@@ -418,14 +413,6 @@
           <SubtypeId>SmallBlockLargeGeneratorWarfare24x</SubtypeId>
         </Block>
         <Block>
-          <TypeId>HydrogenEngine</TypeId>
-          <SubtypeId>LargeHydrogenEngine4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>HydrogenEngine</TypeId>
-          <SubtypeId>SmallHydrogenEngine4x</SubtypeId>
-        </Block>
-        <Block>
           <TypeId>Reactor</TypeId>
           <SubtypeId>LargeBlockSmallGenerator8x</SubtypeId>
         </Block>
@@ -456,6 +443,41 @@
         <Block>
           <TypeId>Reactor</TypeId>
           <SubtypeId>SmallBlockLargeGeneratorWarfare28x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>EnergyHydroGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Hydrogen_Engine</DisplayName>
+      <Description>Description_PowerGenerator</Description>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>LargeHydrogenEngine</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>SmallHydrogenEngine</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>LargeHydrogenEngine2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>SmallHydrogenEngine2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>LargeHydrogenEngine4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>HydrogenEngine</TypeId>
+          <SubtypeId>SmallHydrogenEngine4x</SubtypeId>
         </Block>
         <Block>
           <TypeId>HydrogenEngine</TypeId>
@@ -1017,7 +1039,7 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>SmallBlockSmallThrust</SubtypeId>
         </Block>
-		<Block>
+		    <Block>
           <TypeId>Thrust</TypeId>
           <SubtypeId>LargeBlockLargeThrust2x</SubtypeId>
         </Block>
@@ -1033,7 +1055,7 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>SmallBlockSmallThrust2x</SubtypeId>
         </Block>
-		<Block>
+		    <Block>
           <TypeId>Thrust</TypeId>
           <SubtypeId>LargeBlockLargeThrust4x</SubtypeId>
         </Block>
@@ -1049,7 +1071,7 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>SmallBlockSmallThrust4x</SubtypeId>
         </Block>
-		<Block>
+		    <Block>
           <TypeId>Thrust</TypeId>
           <SubtypeId>LargeBlockLargeThrust8x</SubtypeId>
         </Block>
