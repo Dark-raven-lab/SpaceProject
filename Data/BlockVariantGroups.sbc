@@ -1660,65 +1660,6 @@
     <BlockVariantGroup Enabled="true">
       <Id>
         <TypeId>BlockVariantGroup</TypeId>
-        <SubtypeId>AntennaGroup</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_BlockGroup_AntennaGroup</DisplayName>
-      <Description>Description_BlockGroup_AntennaGroup</Description>
-      <Icon>Textures\GUI\Icons\Cubes\antenna.dds</Icon>
-      <Blocks>
-        <Block>
-          <TypeId>RadioAntenna</TypeId>
-          <SubtypeId>LargeBlockRadioAntenna</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Beacon</TypeId>
-          <SubtypeId>LargeBlockBeacon</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>LaserAntenna</TypeId>
-          <SubtypeId>LargeBlockLaserAntenna</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>RadioAntenna</TypeId>
-          <SubtypeId>SmallBlockRadioAntenna</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Beacon</TypeId>
-          <SubtypeId>SmallBlockBeacon</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>LaserAntenna</TypeId>
-          <SubtypeId>SmallBlockLaserAntenna</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Beacon</TypeId>
-          <SubtypeId>LargeBlockBeacon2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Beacon</TypeId>
-          <SubtypeId>SmallBlockBeacon2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Beacon</TypeId>
-          <SubtypeId>LargeBlockBeacon4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Beacon</TypeId>
-          <SubtypeId>SmallBlockBeacon4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Beacon</TypeId>
-          <SubtypeId>LargeBlockBeacon8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Beacon</TypeId>
-          <SubtypeId>SmallBlockBeacon8x</SubtypeId>
-        </Block>
-      </Blocks>
-    </BlockVariantGroup>
-    <BlockVariantGroup Enabled="true">
-      <Id>
-        <TypeId>BlockVariantGroup</TypeId>
         <SubtypeId>HelicopterGroup</SubtypeId>
       </Id>
       <DisplayName>DisplayName_BlockGroup_Helicopter</DisplayName>
