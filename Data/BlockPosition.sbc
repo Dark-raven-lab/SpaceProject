@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <BlockPositions>
+
+    <BlockPosition>
+      <Name>propeller_motor_classic_3x3</Name>
+      <Position>
+        <Y>5</Y>
+        <X>10</X>
+      </Position>
+    </BlockPosition>
+
+    <BlockPosition>
+      <Name>Prop_S_2blade_silver_forw</Name>
+      <Position>
+        <Y>5</Y>
+        <X>11</X>
+      </Position>
+    </BlockPosition>
+
+    <BlockPosition>
+      <Name>Prop_S_8blade_silver_forw</Name>
+      <Position>
+        <Y>5</Y>
+        <X>12</X>
+      </Position>
+    </BlockPosition>
+	
+    <BlockPosition>
+      <Name>ThrusterLarge5Blade</Name>
+      <Position>
+        <Y>5</Y>
+        <X>13</X>
+      </Position>
+    </BlockPosition>
+	
+    <BlockPosition>
+      <Name>ThrusterTailRotor5Blade</Name>
+      <Position>
+        <Y>5</Y>
+        <X>14</X>
+      </Position>
+    </BlockPosition>
+
+    <BlockPosition>
+      <Name>HydrogenTankSmall</Name>
+      <Position>
+        <Y>16</Y>
+        <X>5</X>
+      </Position>
+    </BlockPosition>
+
+    <BlockPosition>
+      <Name>HydrogenTankMedium</Name>
+      <Position>
+        <Y>16</Y>
+        <X>6</X>
+      </Position>
+    </BlockPosition>
+
+    <BlockPosition>
+      <Name>HydrogenTankIndustrial</Name>
+      <Position>
+        <Y>16</Y>
+        <X>7</X>
+      </Position>
+    </BlockPosition>
+
+  </BlockPositions>
+</Definitions>
