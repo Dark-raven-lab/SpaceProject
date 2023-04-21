@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <CubeBlocks>
-
-    <!-- Large OxygenTankDefault2x-->
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>OxygenTank</TypeId>
@@ -13,17 +11,22 @@
       <Icon>Textures\OxygenTank2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <IsAirTight>false</IsAirTight>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <IsAirTight>false</IsAirTight>
       <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
@@ -41,16 +44,7 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="1.7" EndX="0.9" EndY="1.9" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="2" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
-      <BlockPairName>OxygenTank2x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
       <Components>
         <Component Subtype="Tech2x" Count="8" />
         <Component Subtype="SteelPlate" Count="90" />
@@ -60,38 +54,42 @@
         <Component Subtype="Construction" Count="60" />
         <Component Subtype="SteelPlate" Count="30" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="2" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <BlockPairName>OxygenTank2x</BlockPairName>
+      <MirroringY>Z</MirroringY>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>48</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>OxygenBottles</Class>
       </BlueprintClasses>
-      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
-      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
-      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
-      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
-      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
-      <LeakPercent>1</LeakPercent>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Oxygen</SubtypeId>
       </StoredGasId>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <LeakPercent>1</LeakPercent>
+      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
+      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
+      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
+      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
+      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>200000</Capacity>
     </Definition>
-    <!-- Large OxygenTankDefault4x-->
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>OxygenTank</TypeId>
@@ -102,17 +100,22 @@
       <Icon>Textures\OxygenTank4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <IsAirTight>false</IsAirTight>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <IsAirTight>false</IsAirTight>
       <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
@@ -130,16 +133,7 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="1.7" EndX="0.9" EndY="1.9" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="2" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
-      <BlockPairName>OxygenTank4x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
       <Components>
         <Component Subtype="Tech4x" Count="8" />
         <Component Subtype="SteelPlate" Count="135" />
@@ -149,38 +143,42 @@
         <Component Subtype="Construction" Count="90" />
         <Component Subtype="SteelPlate" Count="45" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="2" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <BlockPairName>OxygenTank4x</BlockPairName>
+      <MirroringY>Z</MirroringY>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>72</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>OxygenBottles</Class>
       </BlueprintClasses>
-      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
-      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
-      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
-      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
-      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
-      <LeakPercent>1</LeakPercent>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Oxygen</SubtypeId>
       </StoredGasId>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <LeakPercent>1</LeakPercent>
+      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
+      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
+      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
+      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
+      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>400000</Capacity>
     </Definition>
-    <!-- Large OxygenTankDefault8x-->
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>OxygenTank</TypeId>
@@ -191,17 +189,22 @@
       <Icon>Textures\OxygenTank8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <IsAirTight>false</IsAirTight>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <IsAirTight>false</IsAirTight>
       <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0.1" StartY="0.1" EndX="0.9" EndY="0.9" />
@@ -219,16 +222,7 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="1.7" EndX="0.9" EndY="1.9" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="2" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
-      <BlockPairName>OxygenTank8x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
       <Components>
         <Component Subtype="Tech8x" Count="8" />
         <Component Subtype="SteelPlate" Count="203" />
@@ -238,39 +232,42 @@
         <Component Subtype="Construction" Count="135" />
         <Component Subtype="SteelPlate" Count="68" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="2" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <BlockPairName>OxygenTank8x</BlockPairName>
+      <MirroringY>Z</MirroringY>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>108</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>OxygenBottles</Class>
       </BlueprintClasses>
-      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
-      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
-      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
-      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
-      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
-      <LeakPercent>1</LeakPercent>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Oxygen</SubtypeId>
       </StoredGasId>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <LeakPercent>1</LeakPercent>
+      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
+      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
+      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
+      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
+      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>800000</Capacity>
     </Definition>
-
-    <!-- Small OxygenTankSmall2x-->
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>OxygenTank</TypeId>
@@ -281,16 +278,20 @@
       <Icon>Textures\OxygenTankSmall2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -304,15 +305,7 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <BlockPairName>OxygenTank2x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
       <Components>
         <Component Subtype="Tech2x" Count="4" />
         <Component Subtype="SteelPlate" Count="15" />
@@ -322,39 +315,43 @@
         <Component Subtype="Construction" Count="15" />
         <Component Subtype="SteelPlate" Count="9" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <BlockPairName>OxygenTank2x</BlockPairName>
       <Center x="1" y="1" z="1" />
+      <MirroringY>Z</MirroringY>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>21</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>OxygenBottles</Class>
       </BlueprintClasses>
-      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
-      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
-      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
-      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
-      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
-      <LeakPercent>1</LeakPercent>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Oxygen</SubtypeId>
       </StoredGasId>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <LeakPercent>1</LeakPercent>
+      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
+      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
+      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
+      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
+      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>100000</Capacity>
     </Definition>
-    <!-- Small OxygenTankSmall4x-->
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>OxygenTank</TypeId>
@@ -365,16 +362,20 @@
       <Icon>Textures\OxygenTankSmall4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -388,15 +389,7 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <BlockPairName>OxygenTank4x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
       <Components>
         <Component Subtype="Tech4x" Count="4" />
         <Component Subtype="SteelPlate" Count="23" />
@@ -406,39 +399,43 @@
         <Component Subtype="Construction" Count="23" />
         <Component Subtype="SteelPlate" Count="14" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <BlockPairName>OxygenTank4x</BlockPairName>
       <Center x="1" y="1" z="1" />
+      <MirroringY>Z</MirroringY>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>32</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>OxygenBottles</Class>
       </BlueprintClasses>
-      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
-      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
-      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
-      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
-      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
-      <LeakPercent>1</LeakPercent>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Oxygen</SubtypeId>
       </StoredGasId>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <LeakPercent>1</LeakPercent>
+      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
+      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
+      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
+      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
+      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>200000</Capacity>
     </Definition>
-    <!-- Small OxygenTankSmall8x-->
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>OxygenTank</TypeId>
@@ -449,16 +446,20 @@
       <Icon>Textures\OxygenTankSmall8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="1" EndX="3" EndY="2" />
@@ -472,15 +473,7 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <BlockPairName>OxygenTank8x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
       <Components>
         <Component Subtype="Tech8x" Count="4" />
         <Component Subtype="SteelPlate" Count="34" />
@@ -490,38 +483,42 @@
         <Component Subtype="Construction" Count="34" />
         <Component Subtype="SteelPlate" Count="21" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <BlockPairName>OxygenTank8x</BlockPairName>
       <Center x="1" y="1" z="1" />
+      <MirroringY>Z</MirroringY>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>48</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
       <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
-      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventorySize>
         <X>2</X>
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
       <BlueprintClasses>
         <Class>OxygenBottles</Class>
       </BlueprintClasses>
-      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
-      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
-      <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
-      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
-      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
-      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
-      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
-      <LeakPercent>1</LeakPercent>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <StoredGasId>
         <TypeId>GasProperties</TypeId>
         <SubtypeId>Oxygen</SubtypeId>
       </StoredGasId>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <LeakPercent>1</LeakPercent>
+      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
+      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
+      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
+      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
+      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>400000</Capacity>
     </Definition>
-
   </CubeBlocks>
 </Definitions>
