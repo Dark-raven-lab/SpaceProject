@@ -729,22 +729,68 @@
     <value>Мощный пропеллер для полёта в атмосфере. Создаёт тягу вверх..</value>
     <comment/>
   </data>
-	<data name="DisplayName_Prop_S_2blade_silver_forw" xml:space="preserve">
-	<value>Пропеллер 2х-лопастной серебристый прямой</value>
+  <data name="DisplayName_Prop_S_2blade_silver_forw" xml:space="preserve">
+    <value>Пропеллер 2х-лопастной серебристый прямой</value>
+    <comment/>
   </data>
-	<data name="DisplayName_Prop_S_2blade_silver_backw" xml:space="preserve">
-	<value>Пропеллер 2х-лопастной серебристый обратный</value>
-	</data>
-	<data name="DisplayName_Prop_S_8blade_silver_forw" xml:space="preserve">
-	<value>Пропеллер 8и-лопастной серебристый прямой</value>
-	</data>
-	<data name="DisplayName_Prop_S_8blade_silver_backw" xml:space="preserve">
-	<value>Пропеллер 8и-лопастной серебристый обратный</value>
-	</data>
-	<data name="DisplayName_Prop_Motor_classic_3x3" xml:space="preserve">
-	<value>Классический многоцилидровый авиамотор</value>
-	</data>
-	<data name="DisplayName_Prop_Motor_modern_1x2" xml:space="preserve">
-	<value>Современный авиамотор</value>
-	</data>
+  <data name="DisplayName_Prop_S_2blade_silver_backw" xml:space="preserve">
+    <value>Пропеллер 2х-лопастной серебристый обратный</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_8blade_silver_forw" xml:space="preserve">
+    <value>Пропеллер 8и-лопастной серебристый прямой</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_8blade_silver_backw" xml:space="preserve">
+    <value>Пропеллер 8и-лопастной серебристый обратный</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_Motor_classic_3x3" xml:space="preserve">
+    <value>Классический многоцилидровый авиамотор</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_Motor_modern_1x2" xml:space="preserve">
+    <value>Современный авиамотор</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTank2x" xml:space="preserve">
+    <value>Водородный бак Т1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTank4x" xml:space="preserve">
+    <value>Водородный бак Т2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTank8x" xml:space="preserve">
+    <value>Водородный бак Т3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankSmall2x" xml:space="preserve">
+    <value>Малый водородный бак Т1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankSmall4x" xml:space="preserve">
+    <value>Малый водородный бак Т2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankSmall8x" xml:space="preserve">
+    <value>Малый водородный бак Т3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_HydrogenTankMedium" xml:space="preserve">
+    <value>Средний водородный бак</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_HydrogenTankMedium2x" xml:space="preserve">
+    <value>Средний водородный бак Т1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_HydrogenTankMedium4x" xml:space="preserve">
+    <value>Средний водородный бак Т2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_HydrogenTankMedium8x" xml:space="preserve">
+    <value>Средний водородный бак Т3</value>
+    <comment/>
+  </data>
 </root>

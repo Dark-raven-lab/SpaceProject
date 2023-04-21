@@ -729,22 +729,68 @@
     <value>Powerful propeller for flying in the atmosphere. Creates upward thrust.</value>
     <comment/>
   </data>
-  	<data name="DisplayName_Prop_S_2blade_silver_forw" xml:space="preserve">
-	<value>Prop S 2blade silver forward</value>
+  <data name="DisplayName_Prop_S_2blade_silver_forw" xml:space="preserve">
+    <value>Prop S 2blade silver forward</value>
+    <comment/>
   </data>
-	<data name="DisplayName_Prop_S_2blade_silver_backw" xml:space="preserve">
-	<value>Prop S 2blade silver backward</value>
-	</data>
-	<data name="DisplayName_Prop_S_8blade_silver_forw" xml:space="preserve">
-	<value>Prop S 8blade silver forward</value>
-	</data>
-	<data name="DisplayName_Prop_S_8blade_silver_backw" xml:space="preserve">
-	<value>Prop S 8blade silver backward</value>
-	</data>
-	<data name="DisplayName_Prop_Motor_classic_3x3" xml:space="preserve">
-	<value>Prop Motor classic</value>
-	</data>
-	<data name="DisplayName_Prop_Motor_modern_1x2" xml:space="preserve">
-	<value>Prop Motor modern</value>
-	</data>
+  <data name="DisplayName_Prop_S_2blade_silver_backw" xml:space="preserve">
+    <value>Prop S 2blade silver backward</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_8blade_silver_forw" xml:space="preserve">
+    <value>Prop S 8blade silver forward</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_8blade_silver_backw" xml:space="preserve">
+    <value>Prop S 8blade silver backward</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_Motor_classic_3x3" xml:space="preserve">
+    <value>Prop Motor classic</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_Motor_modern_1x2" xml:space="preserve">
+    <value>Prop Motor modern</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTank2x" xml:space="preserve">
+    <value>Hydrogen Tank T1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTank4x" xml:space="preserve">
+    <value>Hydrogen Tank T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTank8x" xml:space="preserve">
+    <value>Hydrogen Tank T3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankSmall2x" xml:space="preserve">
+    <value>Small Hydrogen Tank T1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankSmall4x" xml:space="preserve">
+    <value>Small Hydrogen Tank T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_HydrogenTankSmall8x" xml:space="preserve">
+    <value>Small Hydrogen Tank T3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_HydrogenTankMedium" xml:space="preserve">
+    <value>Medium Hydrogen Tank</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_HydrogenTankMedium2x" xml:space="preserve">
+    <value>Medium Hydrogen Tank T1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_HydrogenTankMedium4x" xml:space="preserve">
+    <value>Medium Hydrogen Tank T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_HydrogenTankMedium8x" xml:space="preserve">
+    <value>Medium Hydrogen Tank T3</value>
+    <comment/>
+  </data>
 </root>
