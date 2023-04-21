@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <BlockVariantGroups>
     <BlockVariantGroup Enabled="true">
@@ -535,19 +535,15 @@
     <BlockVariantGroup Enabled="true">
       <Id>
         <TypeId>BlockVariantGroup</TypeId>
-        <SubtypeId>TankGroup</SubtypeId>
+        <SubtypeId>OxygenTankGroup</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
+      <DisplayName>DisplayName_BlockGroup_OxygenTankGroup</DisplayName>
       <Description>Description_BlockGroup_TankGroup</Description>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
       <Blocks>
         <Block>
           <TypeId>OxygenTank</TypeId>
-          <SubtypeId />
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeOxygenTank</SubtypeId>
+          <SubtypeId>OxygenTankDefault</SubtypeId>
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
@@ -555,35 +551,7 @@
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallLargeOxygenTank</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTankSmall</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTank</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTankSmall</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTank</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTankIndustrial</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
           <SubtypeId>OxygenTankDefault2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeOxygenTank2x</SubtypeId>
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
@@ -591,35 +559,7 @@
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallLargeOxygenTank2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTankSmall2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTank2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTankSmall2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTank2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTankIndustrial2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
           <SubtypeId>OxygenTankDefault4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeOxygenTank4x</SubtypeId>
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
@@ -627,63 +567,11 @@
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallLargeOxygenTank4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTankSmall4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTank4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTankSmall4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTank4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTankIndustrial4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
           <SubtypeId>OxygenTankDefault8x</SubtypeId>
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeOxygenTank8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
           <SubtypeId>OxygenTankSmall8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallLargeOxygenTank8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTankSmall8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTank8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTankSmall8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTank8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>LargeHydrogenTankIndustrial8x</SubtypeId>
         </Block>
       </Blocks>
     </BlockVariantGroup>
@@ -1039,7 +927,7 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>SmallBlockSmallThrust</SubtypeId>
         </Block>
-		    <Block>
+        <Block>
           <TypeId>Thrust</TypeId>
           <SubtypeId>LargeBlockLargeThrust2x</SubtypeId>
         </Block>
@@ -1055,7 +943,7 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>SmallBlockSmallThrust2x</SubtypeId>
         </Block>
-		    <Block>
+        <Block>
           <TypeId>Thrust</TypeId>
           <SubtypeId>LargeBlockLargeThrust4x</SubtypeId>
         </Block>
@@ -1071,7 +959,7 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>SmallBlockSmallThrust4x</SubtypeId>
         </Block>
-		    <Block>
+        <Block>
           <TypeId>Thrust</TypeId>
           <SubtypeId>LargeBlockLargeThrust8x</SubtypeId>
         </Block>
@@ -1682,7 +1570,7 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>alb_ThrusterTailRotor5Blade2x</SubtypeId>
         </Block>
-         <Block>
+        <Block>
           <TypeId>Thrust</TypeId>
           <SubtypeId>alb_ThrusterLarge5Blade4x</SubtypeId>
         </Block>
@@ -1690,13 +1578,126 @@
           <TypeId>Thrust</TypeId>
           <SubtypeId>alb_ThrusterTailRotor5Blade4x</SubtypeId>
         </Block>
-         <Block>
+        <Block>
           <TypeId>Thrust</TypeId>
           <SubtypeId>alb_ThrusterLarge5Blade8x</SubtypeId>
         </Block>
         <Block>
           <TypeId>Thrust</TypeId>
           <SubtypeId>alb_ThrusterTailRotor5Blade8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>TankGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_TankGroup</DisplayName>
+      <Description>Description_BlockGroup_TankGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTank</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTank2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTank4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTank8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTank</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTank2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTank4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTank8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>HydrogenTankIndustrialGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_HydrogenTankIndustrialGroup</DisplayName>
+      <Description>Description_BlockGroup_TankGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenTankIndustrial.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankIndustrial</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankIndustrial2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankIndustrial4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankIndustrial8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>HydrogenTankSmallGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_LargeHydrogenTankSmallGroup</DisplayName>
+      <Description>Description_BlockGroup_TankGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmall.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmall</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmall2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmall4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmall8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmall</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmall2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmall4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmall8x</SubtypeId>
         </Block>
       </Blocks>
     </BlockVariantGroup>
