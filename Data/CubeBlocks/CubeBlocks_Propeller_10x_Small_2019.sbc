@@ -380,24 +380,4 @@
 
   </CubeBlocks>
 
-  <BlockPositions>
-
-    <BlockPosition>
-      <Name>Prop_2blade_silver_forw</Name>
-      <Position>
-        <X>10</X>
-        <Y>5</Y>
-      </Position>
-    </BlockPosition>
-
-    <BlockPosition>
-      <Name>Prop_8blade_silver_forw</Name>
-      <Position>
-        <X>13</X>
-        <Y>5</Y>
-      </Position>
-    </BlockPosition>
-
-
-  </BlockPositions>
 </Definitions>
