@@ -41,6 +41,9 @@
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterTailRotor5Blade4x" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterLarge5Blade8x" />
 	<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/alb_ThrusterTailRotor5Blade8x" />
+  <Entry Class="LargeBlocks" BlueprintSubtypeId="1x1LargePistonBase" />
+  <Entry Class="LargeBlocks" BlueprintSubtypeId="1x5LargePistonBase" />
+  <Entry Class="SmallBlocks" BlueprintSubtypeId="3x3PistonBase" />
   </BlueprintClassEntries>
   <BlueprintClasses>
     <Class Enabled="true">
