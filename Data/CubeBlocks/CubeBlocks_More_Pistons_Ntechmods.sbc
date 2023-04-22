@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- Region Piston-->
+    <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition"> <!--Seen on HUD -->
+      <Id>
+        <TypeId>ExtendedPistonBase</TypeId>
+        <SubtypeId>1x1LargePistonBase</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_PistonBase</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
+      <Description>Description_Piston_1x1</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <Center x="0" y="0" z="0"></Center>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\1x1PistonBase.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
+        <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.7" />
+        <MountPoint Side="Right" StartX="0.25" StartY="0" EndX="0.75" EndY="0.7" />
+        <MountPoint Side="Front" StartX="0.25" StartY="0" EndX="0.75" EndY="0.7" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.7" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\1x1PistonBase_Constr1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\1x1PistonBase_Constr2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\1x1PistonBase_Constr3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ShortExpandedPistonBase</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+	    <Maximum>5.0</Maximum>
+	    <Minimum>0.0</Minimum>
+      <PrimarySound>BlockPiston</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.002</RequiredPowerInput>
+      <TopPart>PistonTop</TopPart>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DefaultMaxImpulseAxis>50000</DefaultMaxImpulseAxis>
+      <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
+      <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
+      <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>     
+    </Definition>
+	
+    <!-- 1x5 piston base -->
+    <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition"> <!--Seen on HUD -->
+      <Id>
+        <TypeId>ExtendedPistonBase</TypeId>
+        <SubtypeId>1x5LargePistonBase</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_PistonBase</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
+      <Description>Description_Piston_1x5</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <Center x="0" y="0" z="0"></Center>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\1x5PistonBase.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+		    <MountPoint Side="Front" StartX="0.20" StartY="0.01" EndX="0.80" EndY="4.68" />
+		    <MountPoint Side="Back" StartX="0.20" StartY="0.01" EndX="0.80" EndY="4.68" />
+		    <MountPoint Side="Left" StartX="0.20" StartY="0.01" EndX="0.80" EndY="4.68" />
+		    <MountPoint Side="Right" StartX="0.20" StartY="0.01" EndX="0.80" EndY="4.68" />
+		    <MountPoint Side="Bottom" StartX="0.01" StartY="0.01" EndX="0.99" EndY="0.99" Default="true"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.45" File="Models\Cubes\Large\1x5PistonBase_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>1x5ExtendedPistonBase</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+	    <Maximum>35</Maximum>
+	    <Minimum>0.0</Minimum>
+      <PrimarySound>BlockPiston</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.002</RequiredPowerInput>
+      <TopPart>PistonTop</TopPart>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DefaultMaxImpulseAxis>50000</DefaultMaxImpulseAxis>
+      <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
+      <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
+      <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>        
+      <GuiVisible>false</GuiVisible>	
+    </Definition>
+
+    <!-- Piston top -->
+    <Definition>
+      <Id>
+        <TypeId>PistonTop</TypeId>
+        <SubtypeId>LargePistonTop</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_PistonTop</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
+      <Description>Description_PistonTop</Description>
+      <Public>false</Public>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\PistonTop.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="LargeTube" Count="8" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+        <MountPoint Side="Right" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+        <MountPoint Side="Front" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+        <MountPoint Side="Back" StartX="0.2" StartY="0.8" EndX="0.8" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\PistonTopConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\PistonTopConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\PistonTopConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>PistonTop</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>1</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+    <!-- Small Block 3x3 Piston -->
+    <Definition xsi:type="MyObjectBuilder_ExtendedPistonBaseDefinition"> <!--Seen on HUD -->
+      <Id>
+        <TypeId>ExtendedPistonBase</TypeId>
+        <SubtypeId>3x3SmallPistonBase</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_PistonBase</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
+      <Description>Description_Piston_3x3</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <Center x="0" y="0" z="0"></Center>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\3x3PistonBase.mwm</Model>
+      <PlaceDecals>false</PlaceDecals>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="6" />
+        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	    <MountPoints>
+		    <MountPoint Side="Front" StartX="0.23" StartY="0.00" EndX="2.75" EndY="1.79" />
+		    <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="2.77" EndY="1.79" />
+		    <MountPoint Side="Left" StartX="0.25" StartY="0.00" EndX="2.76" EndY="1.79" />
+		    <MountPoint Side="Right" StartX="0.24" StartY="0.00" EndX="2.75" EndY="1.79" />
+		    <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" Default="true" />
+	    </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.80" File="Models\Cubes\Small\3x3PistonBase_Constr1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ShortExpandedPistonBase</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+	    <Maximum>2.5</Maximum>
+	    <Minimum>0.0</Minimum>
+      <PrimarySound>BlockPiston</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.002</RequiredPowerInput>
+      <TopPart>ShortExpandedPistonTop</TopPart>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <DefaultMaxImpulseAxis>50000</DefaultMaxImpulseAxis>
+      <DefaultMaxImpulseNonAxis>50000</DefaultMaxImpulseNonAxis>
+      <DangerousImpulseThreshold>100000</DangerousImpulseThreshold>
+      <MaxImpulse>340282300000000000000000000000000000000</MaxImpulse> //Float.Max
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>     
+    </Definition>
+	
+    <Definition>
+      <Id>
+        <TypeId>PistonTop</TypeId>
+        <SubtypeId>PistonTop3x3Small</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_PistonTop</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
+      <Description>Description_PistonTop</Description>
+      <CubeSize>Small</CubeSize>
+      <Public>false</Public>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\PistonTop3x3Small.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="LargeTube" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\PistonTopConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\PistonTopConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ShortExpandedPistonTop</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>1</PCU>      
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -793,4 +793,16 @@
     <value>Средний водородный бак Т3</value>
     <comment/>
   </data>
+  <data name="Description_Piston_1x1" xml:space="preserve">
+    <value>Этот поршень может выдвигаться от 2.5 м до 7.5 м.</value>
+    <comment/>
+  </data>
+  <data name="Description_Piston_3x3" xml:space="preserve">
+    <value>Этот поршень может выдвигаться от 1.5 м до 4 м.</value>
+    <comment/>
+  </data>
+  <data name="Description_Piston_1x5" xml:space="preserve">
+    <value>Этот поршень может выдвигаться от 12.5 м до 35 м.</value>
+    <comment/>
+  </data>
 </root>

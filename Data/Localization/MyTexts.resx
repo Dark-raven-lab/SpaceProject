@@ -793,4 +793,16 @@
     <value>Medium Hydrogen Tank T3</value>
     <comment/>
   </data>
+  <data name="Description_Piston_1x1" xml:space="preserve">
+    <value>This piston fits in a 2.5m space and can extend 2.5m to 7.5m.</value>
+    <comment/>
+  </data>
+  <data name="Description_Piston_3x3" xml:space="preserve">
+    <value>This piston fits in a 1.5m space and can extend 1.5m to 4m.</value>
+    <comment/>
+  </data>
+  <data name="Description_Piston_1x5" xml:space="preserve">
+    <value>This piston fits in a 12.5m long space and can extend to 35m.</value>
+    <comment/>
+  </data>
 </root>
