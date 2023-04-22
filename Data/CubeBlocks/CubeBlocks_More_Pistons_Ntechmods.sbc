@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
@@ -8,9 +8,9 @@
         <TypeId>ExtendedPistonBase</TypeId>
         <SubtypeId>1x1LargePistonBase</SubtypeId>
       </Id>
-      <DisplayName>1x1 Piston</DisplayName>
+      <DisplayName>DisplayName_Block_PistonBase</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
-      <Description>This piston fits in a 2.5m space and can extend to 7.5m.</Description>
+      <Description>Description_Piston_1x1</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -70,9 +70,9 @@
         <TypeId>ExtendedPistonBase</TypeId>
         <SubtypeId>1x5LargePistonBase</SubtypeId>
       </Id>
-      <DisplayName>1x5 Piston</DisplayName>
+      <DisplayName>DisplayName_Block_PistonBase</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
-      <Description>This piston fits in a 12.5m long space and can extend to 35m.</Description>
+      <Description>Description_Piston_1x5</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="5" z="1" />
@@ -175,9 +175,9 @@
         <TypeId>ExtendedPistonBase</TypeId>
         <SubtypeId>3x3SmallPistonBase</SubtypeId>
       </Id>
-      <DisplayName>3x3 Small Piston</DisplayName>
+      <DisplayName>DisplayName_Block_PistonBase</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Piston.dds</Icon>
-      <Description>This piston fits in a 1.5m space and can extend 1.5m to 4m.</Description>
+      <Description>Description_Piston_3x3</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
