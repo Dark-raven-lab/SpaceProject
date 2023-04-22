@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
@@ -62,12 +62,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>     
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>ExtendedPistonBase</TypeId>
-          <SubtypeId>1x5LargePistonBase</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
     </Definition>
 	
     <!-- 1x5 piston base -->
