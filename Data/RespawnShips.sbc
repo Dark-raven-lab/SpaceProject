@@ -55,7 +55,7 @@
         <SubtypeId>RescuePod</SubtypeId>
       </Id>
       <DisplayName>Планер (сложно)</DisplayName>
-      <Icon>Textures\GUI\Icons\RespawnShips\RespawnPlanetPod.png</Icon>
+      <Icon>Textures\GUI\Icons\Rescue_Pod_hard.png</Icon>
       <CooldownSeconds>300</CooldownSeconds>
 	    <Prefab>RescuePod</Prefab>
       
@@ -90,7 +90,7 @@
         <SubtypeId>RespBot</SubtypeId>
       </Id>
       <DisplayName>Планер (легко)</DisplayName>
-      <Icon>Textures\GUI\Icons\RespawnShips\RespawnPlanetPod.png</Icon>
+      <Icon>Textures\GUI\Icons\Rescue_Pod_norm.png</Icon>
       <CooldownSeconds>300</CooldownSeconds>
 	    <Prefab>RespBot</Prefab>
       
