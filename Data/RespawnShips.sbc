@@ -125,7 +125,7 @@
         <SubtypeId>Thrusters_Survival_Drop_Pod</SubtypeId>
       </Id>
       <DisplayName>Капсула (легко)</DisplayName>
-      <Icon>Textures\GUI\Icons\RespawnShips\RespawnPlanetPod.png</Icon>
+      <Icon>Textures\GUI\Icons\Thrusters_Survival_Drop_Pod.png</Icon>
       <CooldownSeconds>300</CooldownSeconds>
 	    <Prefab>Thrusters_Survival_Drop_Pod</Prefab>
 
