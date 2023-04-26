@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RespawnShips>
+  <!-- DEFAULT-->
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnPlanetPod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnMoonPod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>Planet</Prefab>
+      
+      <MinimalAirDensity>0.8</MinimalAirDensity>
+      <PlanetDeployAltitude>10</PlanetDeployAltitude>
+      <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+
+      <InitialLinearVelocity x="0" y="0" z="0" />
+      <InitialAngularVelocity x="0" y="0" z="0" />
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnMoonPod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnMoonPod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>moon</Prefab>
+      
+      <PlanetDeployAltitude>8</PlanetDeployAltitude>
+      <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnSpacePod</SubtypeId>
+      </Id>
+      <DisplayName>space spawn</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnSpacePod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>pod</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+    
+  <!-- Kender-->
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RescuePod</SubtypeId>
+      </Id>
+      <DisplayName>Планер (сложно)</DisplayName>
+      <Icon>Textures\GUI\Icons\Rescue_Pod_hard.png</Icon>
+      <CooldownSeconds>300</CooldownSeconds>
+	    <Prefab>RescuePod</Prefab>
+      
+      <!-- CUSTOM SPAWN -->
+      <SpawnPosition x="-3967232" y="-32232" z="-767232" />
+      <!-- specific position / if there is a planet-box nearly, you land on a planet! - check the distance. -->
+      
+      <!--<SpawnPositionDispersionMin>10000</SpawnPositionDispersionMin>-->
+      <!-- minimum deviation from position -->
+      <!--<SpawnPositionDispersionMax>15000</SpawnPositionDispersionMax>-->
+      <!-- maximum deviation from position -->
+
+      <PlanetDeployAltitude>3000</PlanetDeployAltitude>
+
+      <!-- PLANET SPAWN-->
+      <!--<MinimalAirDensity>0.0</MinimalAirDensity>
+	    <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere> 
+	    <PlanetTypes> 	
+		    <PlanetType>EarthLike</PlanetType>
+        <PlanetType>Pertam</PlanetType>
+	    </PlanetTypes>-->
+
+      <InitialLinearVelocity x="0" y="100" z="0" />
+      <InitialAngularVelocity x="0" y="0" z="0" />
+      <HelpTextLocalizationId>Очень неблагоприятная планета</HelpTextLocalizationId>
+    </Ship>
+
+  <!-- Kender-->
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespBot</SubtypeId>
+      </Id>
+      <DisplayName>Планер (легко)</DisplayName>
+      <Icon>Textures\GUI\Icons\Rescue_Pod_norm.png</Icon>
+      <CooldownSeconds>300</CooldownSeconds>
+	    <Prefab>RespBot</Prefab>
+      
+      <!-- CUSTOM SPAWN -->
+      <SpawnPosition x="0" y="0" z="0" />
+      <!-- specific position / if there is a planet-box nearly, you land on a planet! - check the distance. -->
+      
+      <!--<SpawnPositionDispersionMin>10000</SpawnPositionDispersionMin>-->
+      <!-- minimum deviation from position -->
+      <!--<SpawnPositionDispersionMax>15000</SpawnPositionDispersionMax>-->
+      <!-- maximum deviation from position -->
+
+      <PlanetDeployAltitude>12000</PlanetDeployAltitude>
+
+      <!-- PLANET SPAWN-->
+      <!--<MinimalAirDensity>0.0</MinimalAirDensity>
+	    <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere> 
+	    <PlanetTypes> 	
+		    <PlanetType>EarthLike</PlanetType>
+        <PlanetType>Pertam</PlanetType>
+	    </PlanetTypes>-->
+
+      <InitialLinearVelocity x="0" y="-100" z="30" />
+      <InitialAngularVelocity x="0" y="0" z="0" />
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+
+    <!-- Dark raven-->
+	  <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Thrusters_Survival_Drop_Pod</SubtypeId>
+      </Id>
+      <DisplayName>Капсула (легко)</DisplayName>
+      <Icon>Textures\GUI\Icons\Thrusters_Survival_Drop_Pod.png</Icon>
+      <CooldownSeconds>300</CooldownSeconds>
+	    <Prefab>Thrusters_Survival_Drop_Pod</Prefab>
+
+      <!-- CUSTOM SPAWN -->
+      <SpawnPosition x="0" y="0" z="0" />
+      <!-- specific position / if there is a planet-box nearly, you land on a planet! - check the distance. -->
+
+      <!--<SpawnPositionDispersionMin>10000</SpawnPositionDispersionMin>-->
+      <!-- minimum deviation from position -->
+      <!--<SpawnPositionDispersionMax>15000</SpawnPositionDispersionMax>-->
+      <!-- maximum deviation from position -->
+
+      <PlanetDeployAltitude>12000</PlanetDeployAltitude>
+
+      <!-- PLANET SPAWN-->
+      <!--<MinimalAirDensity>0.0</MinimalAirDensity>
+	    <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere> 
+	    <PlanetTypes> 	
+		    <PlanetType>EarthLike</PlanetType>
+        <PlanetType>Pertam</PlanetType>
+	    </PlanetTypes>-->
+
+      <InitialLinearVelocity x="0" y="-100" z="0" />
+      <InitialAngularVelocity x="0" y="0" z="0" />
+      <HelpTextLocalizationId>Капсула для выживания с возможностью манёвра.</HelpTextLocalizationId>
+    </Ship>
+	
+  </RespawnShips>
+</Definitions>
