@@ -6,7 +6,7 @@
         <TypeId>HydrogenEngine</TypeId>
         <SubtypeId>LargeHydrogenEngine</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_HydrogenEngine</DisplayName>
+      <DisplayName>DisplayName_Block_Hydrogen_Engine</DisplayName>
       <Description>Description_PowerGenerator</Description>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLarge.dds</Icon>
       <Mass>0</Mass>
@@ -58,7 +58,7 @@
       <EdgeType>Light</EdgeType>
       <MaxPowerOutput>10</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.01</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.05</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -69,7 +69,7 @@
           <Ratio>1</Ratio>
         </FuelInfo>
       </FuelInfos>
-      <FuelCapacity>100000</FuelCapacity>
+      <FuelCapacity>20000</FuelCapacity>
       <AnimationVisibilityDistance>100</AnimationVisibilityDistance>
       <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
       <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
@@ -145,9 +145,9 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>90</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxPowerOutput>10</MaxPowerOutput>
+      <MaxPowerOutput>20</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.0125</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.0625</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -158,7 +158,7 @@
           <Ratio>1</Ratio>
         </FuelInfo>
       </FuelInfos>
-      <FuelCapacity>200000</FuelCapacity>
+      <FuelCapacity>40000</FuelCapacity>
       <AnimationVisibilityDistance>100</AnimationVisibilityDistance>
       <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
       <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
@@ -234,9 +234,9 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>135</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxPowerOutput>20</MaxPowerOutput>
+      <MaxPowerOutput>40</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.015</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.075</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -247,7 +247,7 @@
           <Ratio>1</Ratio>
         </FuelInfo>
       </FuelInfos>
-      <FuelCapacity>400000</FuelCapacity>
+      <FuelCapacity>80000</FuelCapacity>
       <AnimationVisibilityDistance>100</AnimationVisibilityDistance>
       <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
       <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
@@ -323,9 +323,9 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>203</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxPowerOutput>40</MaxPowerOutput>
+      <MaxPowerOutput>80</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.0175</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -336,7 +336,7 @@
           <Ratio>1</Ratio>
         </FuelInfo>
       </FuelInfos>
-      <FuelCapacity>800000</FuelCapacity>
+      <FuelCapacity>160000</FuelCapacity>
       <AnimationVisibilityDistance>100</AnimationVisibilityDistance>
       <AnimationSpinDownSpeed>5</AnimationSpinDownSpeed>
       <AnimationSpinUpSpeed>5</AnimationSpinUpSpeed>
@@ -361,7 +361,7 @@
         <TypeId>HydrogenEngine</TypeId>
         <SubtypeId>SmallHydrogenEngine</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_HydrogenEngine</DisplayName>
+      <DisplayName>DisplayName_Block_Hydrogen_Engine</DisplayName>
       <Description>Description_PowerGenerator</Description>
       <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineSmall.dds</Icon>
       <Mass>0</Mass>
@@ -417,7 +417,7 @@
       <EdgeType>Light</EdgeType>
       <MaxPowerOutput>0.5</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.01</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.05</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -498,7 +498,7 @@
       <EdgeType>Light</EdgeType>
       <MaxPowerOutput>1</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.0125</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.0625</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -579,7 +579,7 @@
       <EdgeType>Light</EdgeType>
       <MaxPowerOutput>2</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.015</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.075</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -660,7 +660,7 @@
       <EdgeType>Light</EdgeType>
       <MaxPowerOutput>4</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.0175</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
