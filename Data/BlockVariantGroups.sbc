@@ -535,23 +535,42 @@
     <BlockVariantGroup Enabled="true">
       <Id>
         <TypeId>BlockVariantGroup</TypeId>
-        <SubtypeId>OxygenTankGroup</SubtypeId>
+        <SubtypeId>SmallOxygenTankGroup</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlockGroup_OxygenTankGroup</DisplayName>
+      <DisplayName>DisplayName_BlockGroup_SmallOxygenTankGroup</DisplayName>
       <Description>Description_BlockGroup_TankGroup</Description>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTank.dds</Icon>
       <Blocks>
         <Block>
           <TypeId>OxygenTank</TypeId>
-          <SubtypeId>OxygenTankDefault</SubtypeId>
+          <SubtypeId>LargeOxygenTankSmall</SubtypeId>
         </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeOxygenTankSmall2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeOxygenTankSmall4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeOxygenTankSmall8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>MediumOxygenTankGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_MediumOxygenTankGroup</DisplayName>
+      <Description>Description_BlockGroup_TankGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
+      <Blocks>
         <Block>
           <TypeId>OxygenTank</TypeId>
           <SubtypeId>OxygenTankSmall</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>OxygenTankDefault2x</SubtypeId>
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
@@ -559,15 +578,7 @@
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
-          <SubtypeId>OxygenTankDefault4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
           <SubtypeId>OxygenTankSmall4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>OxygenTankDefault8x</SubtypeId>
         </Block>
         <Block>
           <TypeId>OxygenTank</TypeId>
