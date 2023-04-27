@@ -44,7 +44,7 @@
     </BlockPosition>
 
     <BlockPosition>
-      <Name>HydrogenTankSmall</Name>
+      <Name>HydrogenTankIndustrial</Name>
       <Position>
         <Y>16</Y>
         <X>5</X>
@@ -52,7 +52,7 @@
     </BlockPosition>
 
     <BlockPosition>
-      <Name>HydrogenTankMedium</Name>
+      <Name>HydrogenTankSmall</Name>
       <Position>
         <Y>16</Y>
         <X>6</X>
@@ -60,10 +60,26 @@
     </BlockPosition>
 
     <BlockPosition>
-      <Name>HydrogenTankIndustrial</Name>
+      <Name>HydrogenTankMedium</Name>
       <Position>
         <Y>16</Y>
         <X>7</X>
+      </Position>
+    </BlockPosition>
+
+    <BlockPosition>
+      <Name>OxygenTankSmall</Name>
+      <Position>
+        <Y>16</Y>
+        <X>8</X>
+      </Position>
+    </BlockPosition>
+
+    <BlockPosition>
+      <Name>OxygenTankMedium</Name>
+      <Position>
+        <Y>16</Y>
+        <X>9</X>
       </Position>
     </BlockPosition>
 

@@ -509,28 +509,48 @@
     <value>Large Oxygen Tank</value>
     <comment/>
   </data>
-  <data name="DisplayName_OxygenTank2x" xml:space="preserve">
-    <value>Oxygen Tank T1</value>
+  <data name="DisplayName_OxygenTankSmall" xml:space="preserve">
+    <value>Small Oxygen Tank</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_OxygenTankSmall2x" xml:space="preserve">
+    <value>Small Oxygen Tank T1</value>
     <comment/>
   </data>
   <data name="DisplayName_LargeOxygenTank2x" xml:space="preserve">
     <value>Large Oxygen Tank T1</value>
     <comment/>
   </data>
-  <data name="DisplayName_OxygenTank4x" xml:space="preserve">
-    <value>Oxygen Tank T2</value>
+  <data name="DisplayName_OxygenTankSmall4x" xml:space="preserve">
+    <value>Small Oxygen Tank T2</value>
     <comment/>
   </data>
   <data name="DisplayName_LargeOxygenTank4x" xml:space="preserve">
     <value>Large Oxygen Tank T2</value>
     <comment/>
   </data>
-  <data name="DisplayName_OxygenTank8x" xml:space="preserve">
-    <value>Oxygen Tank T3</value>
+  <data name="DisplayName_OxygenTankSmall8x" xml:space="preserve">
+    <value>Small Oxygen Tank T3</value>
     <comment/>
   </data>
   <data name="DisplayName_LargeOxygenTank8x" xml:space="preserve">
     <value>Large Oxygen Tank T3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_OxygenTankMedium" xml:space="preserve">
+    <value>Medium Oxygen Tank</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_OxygenTankMedium2x" xml:space="preserve">
+    <value>Medium Oxygen Tank T1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_OxygenTankMedium4x" xml:space="preserve">
+    <value>Medium Oxygen Tank T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_OxygenTankMedium8x" xml:space="preserve">
+    <value>Medium Oxygen Tank T3</value>
     <comment/>
   </data>
   <data name="DisplayName_SmallReactor2x" xml:space="preserve">
