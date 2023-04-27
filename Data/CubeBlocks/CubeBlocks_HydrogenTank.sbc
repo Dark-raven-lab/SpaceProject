@@ -1196,7 +1196,7 @@
       <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
       <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
       <GasExplosionNeededVolumeToReachMaxRadius>30000</GasExplosionNeededVolumeToReachMaxRadius>
-      <Capacity>500000</Capacity>
+      <Capacity>50000</Capacity>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
