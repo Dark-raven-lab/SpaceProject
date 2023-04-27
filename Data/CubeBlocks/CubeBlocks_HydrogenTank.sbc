@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <CubeBlocks>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -1456,5 +1456,368 @@
       <GasExplosionNeededVolumeToReachMaxRadius>120000</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>400000</Capacity>
     </Definition>
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <Id>
+                <TypeId>OxygenTank</TypeId>
+                <SubtypeId>LargeHydrogenTankIndustrial</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_HydrogenTankIndustrial</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenTankIndustrial.dds</Icon>
+            <Description>Description_HydrogenTank</Description>
+            <Public>true</Public>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\HydrogenTankIndustrial.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="160" />
+                <Component Subtype="LargeTube" Count="80" />
+                <Component Subtype="SmallTube" Count="60" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="120" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="1.1" StartY="1.1" EndX="1.9" EndY="1.9" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="3" EndY="2.7" Default="true" />
+                <MountPoint Side="Bottom" StartX="0.3" StartY="0" EndX="2.7" EndY="0.3" />
+                <MountPoint Side="Bottom" StartX="0.3" StartY="2.7" EndX="2.7" EndY="3" />
+                <MountPoint Side="Left" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+                <MountPoint Side="Left" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+                <MountPoint Side="Right" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+                <MountPoint Side="Right" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+                <MountPoint Side="Front" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+                <MountPoint Side="Front" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+                <MountPoint Side="Back" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+                <MountPoint Side="Back" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HydrogenTankIndustrial</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+            <ResourceSinkGroup>Factory</ResourceSinkGroup>
+            <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+            <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+            <Capacity>15000000</Capacity>
+            <InventoryMaxVolume>0.75</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+            <StoredGasId>
+                <TypeId>GasProperties</TypeId>
+                <SubtypeId>Hydrogen</SubtypeId>
+            </StoredGasId>
+            <BlueprintClasses>
+                <Class>HydrogenBottles</Class>
+            </BlueprintClasses>
+            <BuildTimeSeconds>50</BuildTimeSeconds>
+            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <EmissiveColorPreset>Extended</EmissiveColorPreset>
+            <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+            <DestroySound>WepLrgWarheadExpl</DestroySound>
+            <PCU>25</PCU>
+            <LeakPercent>0.0025</LeakPercent>
+            <GasExplosionMaxRadius>20</GasExplosionMaxRadius>
+            <GasExplosionNeededVolumeToReachMaxRadius>15000000</GasExplosionNeededVolumeToReachMaxRadius>
+            <GasExplosionDamageMultiplier>0.00015</GasExplosionDamageMultiplier>
+            <GasExplosionSound>ArcHydrogenExplosion</GasExplosionSound>
+            <GasExplosionEffect>Explosion_Warhead_30</GasExplosionEffect>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>300</unsignedInt>
+                <unsignedInt>600</unsignedInt>
+            </TieredUpdateTimes>
+            <IsAirTight>false</IsAirTight>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>LargeHydrogenTankIndustrial4x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_HydrogenTankIndustrial4x</DisplayName>
+      <Description>Description_HydrogenTank</Description>
+      <DLC>HeavyIndustry</DLC>
+      <Icon>Textures\HydrogenTankIndustrial4x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\HydrogenTankIndustrial.mwm</Model>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+      </TieredUpdateTimes>
+      <PCU>25</PCU>
+      <GuiVisible>false</GuiVisible>
+      <MountPoints>
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.1" StartY="1.1" EndX="1.9" EndY="1.9" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0.3" EndX="3" EndY="2.7" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="0" EndX="2.7" EndY="0.3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="2.7" EndX="2.7" EndY="3" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <BlockPairName>HydrogenTankIndustrial4x</BlockPairName>
+      <Components>
+        <Component Subtype="Tech4x" Count="38" />
+        <Component Subtype="SteelPlate" Count="360" />
+        <Component Subtype="LargeTube" Count="180" />
+        <Component Subtype="SmallTube" Count="135" />
+        <Component Subtype="Computer" Count="18" />
+        <Component Subtype="Construction" Count="90" />
+        <Component Subtype="SteelPlate" Count="270" />
+      </Components>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>113</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <InventoryMaxVolume>0.75</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
+      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
+      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
+      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
+      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
+      <LeakPercent>1</LeakPercent>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Hydrogen</SubtypeId>
+      </StoredGasId>
+      <Capacity>6E+07</Capacity>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>LargeHydrogenTankIndustrial8x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_HydrogenTankIndustrial8x</DisplayName>
+      <Description>Description_HydrogenTank</Description>
+      <DLC>HeavyIndustry</DLC>
+      <Icon>Textures\HydrogenTankIndustrial8x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\HydrogenTankIndustrial.mwm</Model>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+      </TieredUpdateTimes>
+      <PCU>25</PCU>
+      <GuiVisible>false</GuiVisible>
+      <MountPoints>
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.1" StartY="1.1" EndX="1.9" EndY="1.9" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0.3" EndX="3" EndY="2.7" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="0" EndX="2.7" EndY="0.3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="2.7" EndX="2.7" EndY="3" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <BlockPairName>HydrogenTankIndustrial8x</BlockPairName>
+      <Components>
+        <Component Subtype="Tech8x" Count="38" />
+        <Component Subtype="SteelPlate" Count="540" />
+        <Component Subtype="LargeTube" Count="270" />
+        <Component Subtype="SmallTube" Count="203" />
+        <Component Subtype="Computer" Count="27" />
+        <Component Subtype="Construction" Count="135" />
+        <Component Subtype="SteelPlate" Count="405" />
+      </Components>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>169</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <InventoryMaxVolume>0.75</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
+      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
+      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
+      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
+      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
+      <LeakPercent>1</LeakPercent>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Hydrogen</SubtypeId>
+      </StoredGasId>
+      <Capacity>1.2E+08</Capacity>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>LargeHydrogenTankIndustrial2x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_HydrogenTankIndustrial2x</DisplayName>
+      <Description>Description_HydrogenTank</Description>
+      <DLC>HeavyIndustry</DLC>
+      <Icon>Textures\HydrogenTankIndustrial2x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\HydrogenTankIndustrial.mwm</Model>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <TieredUpdateTimes>
+        <unsignedInt>100</unsignedInt>
+        <unsignedInt>300</unsignedInt>
+        <unsignedInt>600</unsignedInt>
+      </TieredUpdateTimes>
+      <PCU>25</PCU>
+      <GuiVisible>false</GuiVisible>
+      <MountPoints>
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.1" StartY="1.1" EndX="1.9" EndY="1.9" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0.3" EndX="3" EndY="2.7" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="0" EndX="2.7" EndY="0.3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.3" StartY="2.7" EndX="2.7" EndY="3" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.45" StartY="1.45" EndX="1.55" EndY="1.55" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.6" StartY="0" EndX="2.4" EndY="0.2" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <BlockPairName>HydrogenTankIndustrial2x</BlockPairName>
+      <Components>
+        <Component Subtype="Tech2x" Count="38" />
+        <Component Subtype="SteelPlate" Count="240" />
+        <Component Subtype="LargeTube" Count="120" />
+        <Component Subtype="SmallTube" Count="90" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="Construction" Count="60" />
+        <Component Subtype="SteelPlate" Count="180" />
+      </Components>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>75</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <InventoryMaxVolume>0.75</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <StandbyPowerConsumption>1E-06</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
+      <EmptyDamageEffectName>Damage_HeavyMech_Damaged</EmptyDamageEffectName>
+      <GasExplosionDamageMultiplier>0</GasExplosionDamageMultiplier>
+      <GasExplosionNeededVolumeToReachMaxRadius>0</GasExplosionNeededVolumeToReachMaxRadius>
+      <GasExplosionMaxRadius>0</GasExplosionMaxRadius>
+      <LeakPercent>1</LeakPercent>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Hydrogen</SubtypeId>
+      </StoredGasId>
+      <Capacity>3E+07</Capacity>
+    </Definition>
+
   </CubeBlocks>
 </Definitions>
