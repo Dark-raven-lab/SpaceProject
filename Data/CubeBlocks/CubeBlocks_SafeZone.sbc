@@ -14,17 +14,13 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <PCU>50</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <BlockPairName>SafeZone</BlockPairName>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0.5" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="1" EndX="2" EndY="2" />
@@ -34,10 +30,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="2" y="2" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="750" />
         <Component Subtype="Construction" Count="180" />
@@ -47,12 +39,22 @@
         <Component Subtype="Computer" Count="120" />
         <Component Subtype="SteelPlate" Count="50" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="2" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <GuiVisible>false</GuiVisible>
+      <ActionSound>BlockSafeZone</ActionSound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <ActionSound>BlockSafeZone</ActionSound>
       <ScreenAreas>
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
@@ -79,17 +81,13 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <PCU>50</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <BlockPairName>SafeZone2x</BlockPairName>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0.5" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="1" EndX="2" EndY="2" />
@@ -99,10 +97,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="2" y="2" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="Tech2x" Count="60" />
         <Component Subtype="SteelPlate" Count="1125" />
@@ -113,12 +107,22 @@
         <Component Subtype="Computer" Count="180" />
         <Component Subtype="SteelPlate" Count="75" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="2" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <GuiVisible>false</GuiVisible>
+      <ActionSound>BlockSafeZone</ActionSound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>72</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <ActionSound>BlockSafeZone</ActionSound>
       <ScreenAreas>
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
@@ -145,17 +149,13 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <PCU>50</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <BlockPairName>SafeZone4x</BlockPairName>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0.5" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="1" EndX="2" EndY="2" />
@@ -165,10 +165,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="2" y="2" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="Tech4x" Count="60" />
         <Component Subtype="SteelPlate" Count="1687" />
@@ -179,12 +175,22 @@
         <Component Subtype="Computer" Count="270" />
         <Component Subtype="SteelPlate" Count="112" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="2" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <GuiVisible>false</GuiVisible>
+      <ActionSound>BlockSafeZone</ActionSound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>130</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <ActionSound>BlockSafeZone</ActionSound>
       <ScreenAreas>
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
@@ -211,17 +217,13 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <PCU>50</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <BlockPairName>SafeZone8x</BlockPairName>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0.5" EndX="2" EndY="1" />
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="1" EndX="2" EndY="2" />
@@ -231,10 +233,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="2" y="2" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="Tech8x" Count="60" />
         <Component Subtype="SteelPlate" Count="2530" />
@@ -245,12 +243,22 @@
         <Component Subtype="Computer" Count="405" />
         <Component Subtype="SteelPlate" Count="168" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="2" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <GuiVisible>false</GuiVisible>
+      <ActionSound>BlockSafeZone</ActionSound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>233</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <ActionSound>BlockSafeZone</ActionSound>
       <ScreenAreas>
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
