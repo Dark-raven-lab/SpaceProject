@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <CubeBlocks>
     <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -33,8 +33,6 @@
       <Components>
         <Component Subtype="SteelPlate" Count="750" />
         <Component Subtype="Construction" Count="180" />
-        <Component Subtype="GravityGenerator" Count="10" />
-        <Component Subtype="ZoneChip" Count="5" />
         <Component Subtype="MetalGrid" Count="80" />
         <Component Subtype="Computer" Count="120" />
         <Component Subtype="SteelPlate" Count="50" />
@@ -59,14 +57,14 @@
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
       </ScreenAreas>
-      <MaxSafeZoneRadius>500</MaxSafeZoneRadius>
+      <MaxSafeZoneRadius>20</MaxSafeZoneRadius>
       <MinSafeZoneRadius>10</MinSafeZoneRadius>
       <DefaultSafeZoneRadius>10</DefaultSafeZoneRadius>
-      <SafeZoneUpkeepTimeM>60</SafeZoneUpkeepTimeM>
-      <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
-      <SafeZoneActivationTimeS>120</SafeZoneActivationTimeS>
-      <SafeZoneUpkeep>1</SafeZoneUpkeep>
-      <MaxSafeZonePowerDrainkW>60000</MaxSafeZonePowerDrainkW>
+      <SafeZoneUpkeepTimeM>0</SafeZoneUpkeepTimeM>
+      <MinSafeZonePowerDrainkW>1000</MinSafeZonePowerDrainkW>
+      <SafeZoneActivationTimeS>60</SafeZoneActivationTimeS>
+      <SafeZoneUpkeep>0</SafeZoneUpkeep>
+      <MaxSafeZonePowerDrainkW>1500</MaxSafeZonePowerDrainkW>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -101,8 +99,8 @@
         <Component Subtype="Tech2x" Count="60" />
         <Component Subtype="SteelPlate" Count="1125" />
         <Component Subtype="Construction" Count="270" />
-        <Component Subtype="GravityGenerator" Count="15" />
-        <Component Subtype="ZoneChip" Count="7" />
+        <Component Subtype="GravityGenerator" Count="10" />
+        <Component Subtype="ZoneChip" Count="5" />
         <Component Subtype="MetalGrid" Count="120" />
         <Component Subtype="Computer" Count="180" />
         <Component Subtype="SteelPlate" Count="75" />
@@ -127,14 +125,14 @@
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
       </ScreenAreas>
-      <MaxSafeZoneRadius>500</MaxSafeZoneRadius>
+      <MaxSafeZoneRadius>50</MaxSafeZoneRadius>
       <MinSafeZoneRadius>10</MinSafeZoneRadius>
       <DefaultSafeZoneRadius>10</DefaultSafeZoneRadius>
-      <SafeZoneUpkeepTimeM>80</SafeZoneUpkeepTimeM>
-      <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
+      <SafeZoneUpkeepTimeM>0</SafeZoneUpkeepTimeM>
+      <MinSafeZonePowerDrainkW>1000</MinSafeZonePowerDrainkW>
       <SafeZoneActivationTimeS>120</SafeZoneActivationTimeS>
-      <SafeZoneUpkeep>1</SafeZoneUpkeep>
-      <MaxSafeZonePowerDrainkW>50000</MaxSafeZonePowerDrainkW>
+      <SafeZoneUpkeep>0</SafeZoneUpkeep>
+      <MaxSafeZonePowerDrainkW>6000</MaxSafeZonePowerDrainkW>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -195,14 +193,14 @@
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
       </ScreenAreas>
-      <MaxSafeZoneRadius>500</MaxSafeZoneRadius>
+      <MaxSafeZoneRadius>100</MaxSafeZoneRadius>
       <MinSafeZoneRadius>10</MinSafeZoneRadius>
       <DefaultSafeZoneRadius>10</DefaultSafeZoneRadius>
-      <SafeZoneUpkeepTimeM>100</SafeZoneUpkeepTimeM>
-      <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
-      <SafeZoneActivationTimeS>120</SafeZoneActivationTimeS>
+      <SafeZoneUpkeepTimeM>1440</SafeZoneUpkeepTimeM>
+      <MinSafeZonePowerDrainkW>1000</MinSafeZonePowerDrainkW>
+      <SafeZoneActivationTimeS>240</SafeZoneActivationTimeS>
       <SafeZoneUpkeep>1</SafeZoneUpkeep>
-      <MaxSafeZonePowerDrainkW>40000</MaxSafeZonePowerDrainkW>
+      <MaxSafeZonePowerDrainkW>12000</MaxSafeZonePowerDrainkW>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
