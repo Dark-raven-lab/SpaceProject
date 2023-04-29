@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <CubeBlocks>
     <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -263,14 +263,80 @@
         <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
         <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
       </ScreenAreas>
+      <MaxSafeZoneRadius>250</MaxSafeZoneRadius>
+      <MinSafeZoneRadius>10</MinSafeZoneRadius>
+      <DefaultSafeZoneRadius>10</DefaultSafeZoneRadius>
+      <SafeZoneUpkeepTimeM>1440</SafeZoneUpkeepTimeM>
+      <MinSafeZonePowerDrainkW>1000</MinSafeZonePowerDrainkW>
+      <SafeZoneActivationTimeS>300</SafeZoneActivationTimeS>
+      <SafeZoneUpkeep>5</SafeZoneUpkeep>
+      <MaxSafeZonePowerDrainkW>30000</MaxSafeZonePowerDrainkW>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>SafeZoneBlock</TypeId>
+        <SubtypeId>FactionSafeZoneBlock</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Faction_SafeZone</DisplayName>
+      <Description>Description_SafeZone</Description>
+      <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>50</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BlockPairName>FactionSafeZone</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="2" EndX="2" EndY="2.5" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1" StartY="1" EndX="2" EndY="2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1" StartY="0.5" EndX="2" EndY="2" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
+      </MountPoints>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="750" />
+        <Component Subtype="Construction" Count="180" />
+        <Component Subtype="GravityGenerator" Count="10" />
+        <Component Subtype="ZoneChip" Count="1" />
+        <Component Subtype="MetalGrid" Count="80" />
+        <Component Subtype="Computer" Count="120" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="2" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <ActionSound>BlockSafeZone</ActionSound>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
+      </ScreenAreas>
       <MaxSafeZoneRadius>500</MaxSafeZoneRadius>
       <MinSafeZoneRadius>10</MinSafeZoneRadius>
       <DefaultSafeZoneRadius>10</DefaultSafeZoneRadius>
-      <SafeZoneUpkeepTimeM>120</SafeZoneUpkeepTimeM>
-      <MinSafeZonePowerDrainkW>100</MinSafeZonePowerDrainkW>
-      <SafeZoneActivationTimeS>120</SafeZoneActivationTimeS>
-      <SafeZoneUpkeep>1</SafeZoneUpkeep>
-      <MaxSafeZonePowerDrainkW>30000</MaxSafeZonePowerDrainkW>
+      <SafeZoneUpkeepTimeM>1440</SafeZoneUpkeepTimeM>
+      <MinSafeZonePowerDrainkW>1000</MinSafeZonePowerDrainkW>
+      <SafeZoneActivationTimeS>300</SafeZoneActivationTimeS>
+      <SafeZoneUpkeep>5</SafeZoneUpkeep>
+      <MaxSafeZonePowerDrainkW>60000</MaxSafeZonePowerDrainkW>
     </Definition>
   </CubeBlocks>
 </Definitions>
