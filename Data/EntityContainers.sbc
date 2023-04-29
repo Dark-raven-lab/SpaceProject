@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <EntityContainers>
-    <Container Enabled="true">
+    <Container Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>SafeZoneBlock</TypeId>
         <SubtypeId>SafeZoneBlock2x</SubtypeId>
@@ -10,7 +10,7 @@
         <Component BuilderType="MyObjectBuilder_Inventory" ForceCreate="false" SubtypeId="SafeZoneBlock2x" />
       </DefaultComponents>
     </Container>
-    <Container Enabled="true">
+    <Container Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>SafeZoneBlock</TypeId>
         <SubtypeId>SafeZoneBlock4x</SubtypeId>
@@ -19,13 +19,22 @@
         <Component BuilderType="MyObjectBuilder_Inventory" ForceCreate="false" SubtypeId="SafeZoneBlock4x" />
       </DefaultComponents>
     </Container>
-    <Container Enabled="true">
+    <Container Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>SafeZoneBlock</TypeId>
         <SubtypeId>SafeZoneBlock8x</SubtypeId>
       </Id>
       <DefaultComponents>
         <Component BuilderType="MyObjectBuilder_Inventory" ForceCreate="false" SubtypeId="SafeZoneBlock8x" />
+      </DefaultComponents>
+    </Container>
+    <Container Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>SafeZoneBlock</TypeId>
+        <SubtypeId>FactionSafeZoneBlock</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory" ForceCreate="false" SubtypeId="FactionSafeZoneBlock" />
       </DefaultComponents>
     </Container>
   </EntityContainers>
@@ -35,75 +44,52 @@
         <TypeId>Inventory</TypeId>
         <SubtypeId>SafeZoneBlock2x</SubtypeId>
       </Id>
-      <Mass>3.402823E+38</Mass>
-      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
-      <MultiplierEnabled>true</MultiplierEnabled>
-      <MaxItemCount>2147483647</MaxItemCount>
-      <InputConstraint Whitelist="true">
+      <Volume>0.005</Volume>
+      <InputConstraint IsWhitelist="true">
         <Entry>
-          <SerializableDefinitionId>
-            <TypeId>
-            </TypeId>
-            <SubtypeId />
-          </SerializableDefinitionId>
-          <SerializableDefinitionId>
-            <TypeId>
-            </TypeId>
-            <SubtypeId />
-          </SerializableDefinitionId>
+          <TypeId>Component</TypeId>
+          <SubtypeId>ZoneChip</SubtypeId>
         </Entry>
       </InputConstraint>
-      <Volume>0.005</Volume>
     </EntityComponent>
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>SafeZoneBlock4x</SubtypeId>
       </Id>
-      <Mass>3.402823E+38</Mass>
-      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
-      <MultiplierEnabled>true</MultiplierEnabled>
-      <MaxItemCount>2147483647</MaxItemCount>
-      <InputConstraint Whitelist="true">
+      <Volume>0.005</Volume>
+      <InputConstraint IsWhitelist="true">
         <Entry>
-          <SerializableDefinitionId>
-            <TypeId>
-            </TypeId>
-            <SubtypeId />
-          </SerializableDefinitionId>
-          <SerializableDefinitionId>
-            <TypeId>
-            </TypeId>
-            <SubtypeId />
-          </SerializableDefinitionId>
+          <TypeId>Component</TypeId>
+          <SubtypeId>ZoneChip</SubtypeId>
         </Entry>
       </InputConstraint>
-      <Volume>0.005</Volume>
     </EntityComponent>
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>Inventory</TypeId>
         <SubtypeId>SafeZoneBlock8x</SubtypeId>
       </Id>
-      <Mass>3.402823E+38</Mass>
-      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
-      <MultiplierEnabled>true</MultiplierEnabled>
-      <MaxItemCount>2147483647</MaxItemCount>
-      <InputConstraint Whitelist="true">
+      <Volume>0.005</Volume>
+      <InputConstraint IsWhitelist="true">
         <Entry>
-          <SerializableDefinitionId>
-            <TypeId>
-            </TypeId>
-            <SubtypeId />
-          </SerializableDefinitionId>
-          <SerializableDefinitionId>
-            <TypeId>
-            </TypeId>
-            <SubtypeId />
-          </SerializableDefinitionId>
+          <TypeId>Component</TypeId>
+          <SubtypeId>ZoneChip</SubtypeId>
         </Entry>
       </InputConstraint>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>FactionSafeZoneBlock</SubtypeId>
+      </Id>
       <Volume>0.005</Volume>
+      <InputConstraint IsWhitelist="true">
+        <Entry>
+          <TypeId>Component</TypeId>
+          <SubtypeId>ZoneChip</SubtypeId>
+        </Entry>
+      </InputConstraint>
     </EntityComponent>
   </EntityComponents>
 </Definitions>
