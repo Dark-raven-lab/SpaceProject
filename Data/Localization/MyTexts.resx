@@ -589,6 +589,10 @@
     <value>Refinery T3</value>
     <comment/>
   </data>
+  <data name="DisplayName_SafeZone" xml:space="preserve">
+    <value>SafeZone</value>
+    <comment/>
+  </data>
   <data name="DisplayName_SafeZone2x" xml:space="preserve">
     <value>SafeZone T1</value>
     <comment/>
@@ -599,6 +603,10 @@
   </data>
   <data name="DisplayName_SafeZone8x" xml:space="preserve">
     <value>SafeZone T3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Faction_SafeZone" xml:space="preserve">
+    <value>Faction SafeZone</value>
     <comment/>
   </data>
   <data name="DisplayName_SolarPanel2x" xml:space="preserve">
