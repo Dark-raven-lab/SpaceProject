@@ -813,4 +813,16 @@
     <value>This piston fits in a 12.5m long space and can extend to 35m.</value>
     <comment/>
   </data>
+  <data name="DisplayName_Common_Tech" xml:space="preserve">
+    <value>Component T1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Rare_Tech" xml:space="preserve">
+    <value>Component T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Exotic_Tech" xml:space="preserve">
+    <value>Component T3</value>
+    <comment/>
+  </data>
 </root>

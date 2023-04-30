@@ -6,7 +6,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Tech2x</SubtypeId>
             </Id>
-            <DisplayName>Common Tech</DisplayName>
+            <DisplayName>DisplayName_Common_Tech</DisplayName>
             <Icon>Textures\tech2x.dds</Icon>
             <Size>
                 <X>1</X>
@@ -35,7 +35,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Tech4x</SubtypeId>
             </Id>
-            <DisplayName>Rare Tech</DisplayName>
+            <DisplayName>DisplayName_Rare_Tech</DisplayName>
             <Icon>Textures\tech4x.dds</Icon>
             <Size>
                 <X>1</X>
@@ -64,7 +64,7 @@
                 <TypeId>Component</TypeId>
                 <SubtypeId>Tech8x</SubtypeId>
             </Id>
-            <DisplayName>Exotic Tech</DisplayName>
+            <DisplayName>DisplayName_Exotic_Tech</DisplayName>
             <Icon>Textures\tech8x.dds</Icon>
             <Size>
                 <X>1</X>

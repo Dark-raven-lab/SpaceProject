@@ -813,4 +813,16 @@
     <value>Этот поршень может выдвигаться от 12.5 м до 35 м.</value>
     <comment/>
   </data>
+  <data name="DisplayName_Common_Tech" xml:space="preserve">
+    <value>Компоненты Т1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Rare_Tech" xml:space="preserve">
+    <value>Компоненты Т2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Exotic_Tech" xml:space="preserve">
+    <value>Компоненты Т3</value>
+    <comment/>
+  </data>
 </root>
