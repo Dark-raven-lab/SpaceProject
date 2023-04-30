@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Definition xsi:type="AnimationControllerDefinition">
+    <Id Type="MyObjectBuilder_AnimationControllerDefinition" Subtype="Default_Astronaut" />
+    <Layers>
+      <Layer>
+        <Name>Orb_Cockpit_Anim</Name>
+        <Mode>Replace</Mode>
+        <StateMachine>Orb_Cockpit_Anim</StateMachine>
+        <InitialSMNode>Nothing</InitialSMNode>
+        <BoneMask>BackJetpackDummy FrontJetpackDummy HeadDummy LeftLightDummy RightLightDummy RootNode SE_main_root SE_RigHead SE_RigL_Index_1 SE_RigL_Index_2 SE_RigL_Index_3 SE_RigL_Little_1 SE_RigL_Little_2 SE_RigL_Little_3 SE_RigL_Middle_1 SE_RigL_Middle_2 SE_RigL_Middle_3 SE_RigL_Ring_1 SE_RigL_Ring_2 SE_RigL_Ring_3 SE_RigL_Thumb_1 SE_RigL_Thumb_2 SE_RigL_Thumb_3 SE_RigL_Weapon_pin SE_RigLCalf SE_RigLCollarbone SE_RigLFoot SE_RigLForearm1 SE_RigLForearm2 SE_RigLForearm3 SE_RigLPalm SE_RigLR_Foot_tip1 SE_RigLThigh SE_RigLUpperarm SE_RigNeck SE_RigPelvis SE_RigR_Index_1 SE_RigR_Index_2 SE_RigR_Index_3 SE_RigR_Little_1 SE_RigR_Little_2 SE_RigR_Little_3 SE_RigR_Middle_1 SE_RigR_Middle_2 SE_RigR_Middle_3 SE_RigR_Ring_1 SE_RigR_Ring_2 SE_RigR_Ring_3 SE_RigR_Thumb_1 SE_RigR_Thumb_2 SE_RigR_Thumb_3 SE_RigR_Weapon_pin SE_RigRCalf SE_RigRCollarbone SE_RigRFoot SE_RigRForearm1 SE_RigRForearm2 SE_RigRForearm3 SE_RigRibcage SE_RigRibcageBone001 SE_RigRPalm SE_RigRR_Foot_tip1 SE_RigRThigh SE_RigRUpperarm SE_RigRUpVectorNode SE_RigSpine1 SE_RigSpine2 SE_RigSpine3 SE_RigSpine4</BoneMask>
+      </Layer>
+    </Layers>
+    <StateMachines>
+      <StateMachine>
+        <Name>Orb_Cockpit_Anim</Name>
+        <Nodes>
+          <Node>
+            <Name>Nothing</Name>
+            <AnimationTree>
+              <EdPos>
+                <X>-92</X>
+                <Y>-55</Y>
+              </EdPos>
+              <Orphans />
+            </AnimationTree>
+            <EdPos>
+              <X>-44</X>
+              <Y>59</Y>
+            </EdPos>
+            <Type>Normal</Type>
+            <Variables />
+          </Node>
+          <Node>
+            <Name>Any</Name>
+            <AnimationTree>
+              <EdPos>
+                <X>-41</X>
+                <Y>-48</Y>
+              </EdPos>
+              <Orphans />
+            </AnimationTree>
+            <EdPos>
+              <X>-62</X>
+              <Y>-87</Y>
+            </EdPos>
+            <Type>AnyExceptTarget</Type>
+            <Variables />
+          </Node>
+          <Node>
+            <Name>Sit</Name>
+            <EdPos>
+              <X>196</X>
+              <Y>63</Y>
+            </EdPos>
+            <Type>PassThrough</Type>
+            <Variables />
+          </Node>
+          <Node>
+            <Name>Orb_Cockpit_Anim</Name>
+            <AnimationTree>
+              <EdPos>
+                <X>0</X>
+                <Y>0</Y>
+              </EdPos>
+              <Child xsi:type="MyObjectBuilder_AnimationTreeNodeTrack">
+                <EdPos>
+                  <X>457</X>
+                  <Y>-40</Y>
+                </EdPos>
+                <PathToModel>Models\Characters\Animations\Orb_Cockpit_Anim.mwm</PathToModel>
+                <Loop>true</Loop>
+                <Speed>1</Speed>
+                <Interpolate>true</Interpolate>
+              </Child>
+            </AnimationTree>
+            <EdPos>
+              <X>642</X>
+              <Y>-41</Y>
+            </EdPos>
+            <Type>Normal</Type>
+            <Variables />
+          </Node>
+        </Nodes>
+        <Transitions>
+          <Transition From="Any" To="Nothing" TimeInSec="0" Sync="Restart" Curve="Smooth">
+            <Conditions>
+              <Conjunction>
+                <Condition Lhs="sitting" Op="Equal" Rhs="0" />
+              </Conjunction>
+            </Conditions>
+            <Priority xsi:nil="true" />
+          </Transition>
+          <Transition Name="sit" From="Nothing" To="Sit" TimeInSec="0" Sync="Restart" Curve="Smooth">
+            <Priority xsi:nil="true" />
+          </Transition>
+          <Transition From="Sit" To="Nothing" TimeInSec="0" Sync="Restart" Curve="Smooth">
+            <Conditions>
+              <Conjunction>
+                <Condition Op="AlwaysTrue" />
+              </Conjunction>
+            </Conditions>
+            <Priority xsi:nil="true" />
+          </Transition>
+          <Transition Name="Orb_Cockpit_Anim" From="Sit" To="Orb_Cockpit_Anim" TimeInSec="0" Sync="Restart" Curve="Smooth">
+            <Priority>1</Priority>
+          </Transition>
+        </Transitions>
+      </StateMachine>
+    </StateMachines>
+  </Definition>
+</Definitions>

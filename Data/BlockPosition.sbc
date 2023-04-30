@@ -82,6 +82,31 @@
         <X>9</X>
       </Position>
     </BlockPosition>
+	
+    <BlockPosition>
+      <Name>MA_FGC_SiloController</Name>
+      <Position>
+        <Y>3</Y>
+        <X>5</X>
+      </Position>
+    </BlockPosition>	
+
+    <BlockPosition>
+      <Name>RoverCockpit</Name>
+      <Position>
+        <Y>3</Y>
+        <X>6</X>
+      </Position>
+    </BlockPosition>	
+
+    <BlockPosition>
+      <Name>Orb_Cockpit_small</Name>
+      <Position>
+        <Y>3</Y>
+        <X>7</X>
+      </Position>
+    </BlockPosition>	
+
 
   </BlockPositions>
 </Definitions>

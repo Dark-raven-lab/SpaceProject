@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>DBSmallRoverCockpit</SubtypeId>
+      </Id>
+      <DisplayName>Rover Cockpit</DisplayName>
+      <Icon>Textures\darth_biomech\gui\RoverCockpit.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="3" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <!--Model>Models\Darth_Biomech\Rover_cockpit_small.mwm</Model-->
+      <Model>Models\Darth_Biomech\small\RoverCockpit.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>RoverCockpitSmallPosture</CharacterAnimation>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="7" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="BulletproofGlass" Count="50" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="5" EndY="5" />
+        <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="4" EndY="5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="3" />
+        <MountPoint Side="Front" StartX="1" StartY="2" EndX="4" EndY="3" />
+        <MountPoint Side="Left" StartX="1" StartY="1" EndX="5" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="1" EndX="4" EndY="3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Darth_Biomech\Rover_cockpit_progress_01.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Darth_Biomech\Rover_cockpit_progress_02.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Darth_Biomech\Rover_cockpit_progress_03.mwm" />
+      </BuildProgressModels>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_TopCenter" TextureResolution="256" ScreenWidth="13" ScreenHeight="9" Script="TSS_ArtificialHorizon" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_TopLeft" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" Script="TSS_EnergyHydrogen" />
+        <ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_TopRight" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" Script="TSS_Gravity" />
+        <ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="7" ScreenHeight="4" Script="TSS_ClockDigital" />
+        <ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_BottomLeft" TextureResolution="256" ScreenWidth="9" ScreenHeight="7" Script="TSS_ClockAnalog" />
+        <ScreenArea Name="CockpitScreen_06" DisplayName="DisplayName_Screen_BottomRight" TextureResolution="256" ScreenWidth="9" ScreenHeight="7" Script="TSS_Velocity" />
+      </ScreenAreas>
+      <BlockPairName>RoverCockpit</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>90</OxygenCapacity>
+      <IsPressurized>true</IsPressurized>
+      <EnableBuilderCockpit>true</EnableBuilderCockpit>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_CockpitDefinition">
+      <Id>
+        <TypeId>Cockpit</TypeId>
+        <SubtypeId>DBLargeRoverCockpit</SubtypeId>
+      </Id>
+      <DisplayName>Rover Cockpit</DisplayName>
+      <Icon>Textures\darth_biomech\gui\RoverCockpit.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <!--Model>Models\Darth_Biomech\Rover_cockpit_large.mwm</Model-->
+      <Model>Models\Darth_Biomech\large\RoverCockpit.mwm</Model>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <CharacterAnimation>RoverCockpitSmallPosture</CharacterAnimation>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="7" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Display" Count="5" />
+        <Component Subtype="BulletproofGlass" Count="50" />
+        <Component Subtype="Computer" Count="15" />
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0.5" EndX="0.5" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Darth_Biomech\Rover_cockpit_progress_01.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Darth_Biomech\Rover_cockpit_progress_02.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Darth_Biomech\Rover_cockpit_progress_03.mwm" />
+      </BuildProgressModels>
+      <ScreenAreas>
+        <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_TopCenter" TextureResolution="256" ScreenWidth="13" ScreenHeight="9" Script="TSS_ArtificialHorizon" />
+        <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_TopLeft" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" Script="TSS_EnergyHydrogen" />
+        <ScreenArea Name="CockpitScreen_03" DisplayName="DisplayName_Screen_TopRight" TextureResolution="256" ScreenWidth="4" ScreenHeight="3" Script="TSS_Gravity" />
+        <ScreenArea Name="CockpitScreen_04" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="7" ScreenHeight="4" Script="TSS_ClockDigital" />
+        <ScreenArea Name="CockpitScreen_05" DisplayName="DisplayName_Screen_BottomLeft" TextureResolution="256" ScreenWidth="9" ScreenHeight="7" Script="TSS_ClockAnalog" />
+        <ScreenArea Name="CockpitScreen_06" DisplayName="DisplayName_Screen_BottomRight" TextureResolution="256" ScreenWidth="9" ScreenHeight="7" Script="TSS_Velocity" />
+      </ScreenAreas>
+      <BlockPairName>RoverCockpit</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>true</EnableShipControl>
+      <DamageEffectId>214</DamageEffectId>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <PrimarySound>BlockCockpitSm</PrimarySound>
+      <OxygenCapacity>160</OxygenCapacity>
+      <IsPressurized>true</IsPressurized>
+      <EnableBuilderCockpit>true</EnableBuilderCockpit>
+    </Definition>
+  </CubeBlocks>
+  <BlockPositions>
+
+  </BlockPositions>
+</Definitions>
