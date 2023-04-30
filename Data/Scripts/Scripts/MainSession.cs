@@ -14,6 +14,7 @@ using VRage.Game.ModAPI.Ingame.Utilities;
 using VRage.ModAPI;
 using VRage.ObjectBuilders;
 using VRage.Utils;
+using ServerMod.GPS;
 
 namespace Example {
     [MySessionComponentDescriptor(MyUpdateOrder.NoUpdate)]
@@ -32,6 +33,12 @@ namespace Example {
 
         protected override void UnloadData() {
             MyAPIGateway.Gui.GuiControlRemoved -= OnGuiControlRemoved;
+        }
+
+        public override void UpdateAfterSimulation()
+        {
+            base.UpdateAfterSimulation();
+            GPSHelper.CreateGPSForPlanet();
         }
 
         private void LoadLocalization(string folder) {
