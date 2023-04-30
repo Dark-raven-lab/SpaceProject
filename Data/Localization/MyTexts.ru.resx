@@ -589,26 +589,6 @@
     <value>Очистительный завод Т3</value>
     <comment/>
   </data>
-  <data name="DisplayName_SafeZone" xml:space="preserve">
-    <value>Безопасная зона</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_SafeZone2x" xml:space="preserve">
-    <value>Безопасная зона Т1</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_SafeZone4x" xml:space="preserve">
-    <value>Безопасная зона Т2</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_SafeZone8x" xml:space="preserve">
-    <value>Безопасная зона Т3</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_Faction_SafeZone" xml:space="preserve">
-    <value>Фракционная Безопасная Зона</value>
-    <comment/>
-  </data>
   <data name="DisplayName_SolarPanel2x" xml:space="preserve">
     <value>Солнечная батарея Т1</value>
     <comment/>

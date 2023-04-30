@@ -1733,36 +1733,5 @@
           <Block Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipSmallMergeBlock" />
       </Blocks>
     </BlockVariantGroup>
-    <BlockVariantGroup Enabled="true">
-      <Id>
-        <TypeId>BlockVariantGroup</TypeId>
-        <SubtypeId>SafeZoneBlockGroup</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_BlockGroup_SafeZoneBlockGroup</DisplayName>
-      <Description>Description_BlockGroup_SafeZoneBlockGroup</Description>
-      <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
-      <Blocks>
-        <Block>
-          <TypeId>SafeZoneBlock</TypeId>
-          <SubtypeId>SafeZoneBlock</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SafeZoneBlock</TypeId>
-          <SubtypeId>SafeZoneBlock2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SafeZoneBlock</TypeId>
-          <SubtypeId>SafeZoneBlock4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SafeZoneBlock</TypeId>
-          <SubtypeId>SafeZoneBlock8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SafeZoneBlock</TypeId>
-          <SubtypeId>FactionSafeZoneBlock</SubtypeId>
-        </Block>
-      </Blocks>
-    </BlockVariantGroup>
   </BlockVariantGroups>
 </Definitions>
