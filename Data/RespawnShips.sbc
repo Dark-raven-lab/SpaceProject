@@ -68,7 +68,7 @@
       <!--<SpawnPositionDispersionMax>15000</SpawnPositionDispersionMax>-->
       <!-- maximum deviation from position -->
 
-      <PlanetDeployAltitude>1500</PlanetDeployAltitude>
+      <PlanetDeployAltitude>3000</PlanetDeployAltitude>
 
       <!-- PLANET SPAWN-->
       <!--<MinimalAirDensity>0.0</MinimalAirDensity>
