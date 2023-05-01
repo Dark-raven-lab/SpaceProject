@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Prefabs>
     <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
-      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="RescuePod" />
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="RespawnRescuePod" />
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
@@ -2181,7 +2181,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               </Blocks>
             </MyObjectBuilder_BlockGroup>
           </BlockGroups>
-          <DisplayName>RescuePod</DisplayName>
+          <DisplayName>Respawn Rescue Pod</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
           <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>

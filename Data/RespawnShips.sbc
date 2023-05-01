@@ -52,12 +52,12 @@
     <Ship>
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>RescuePod</SubtypeId>
+        <SubtypeId>RespawnRescuePod</SubtypeId>
       </Id>
       <DisplayName>Планер (сложно)</DisplayName>
       <Icon>Textures\GUI\Icons\Rescue_Pod_hard.png</Icon>
       <CooldownSeconds>300</CooldownSeconds>
-	    <Prefab>RescuePod</Prefab>
+	    <Prefab>RespawnRescuePod</Prefab>
       
       <!-- CUSTOM SPAWN -->
       <SpawnPosition x="-3967232" y="-32232" z="-767232" />
@@ -87,12 +87,12 @@
 	<Ship>
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>RespBot</SubtypeId>
+        <SubtypeId>RespawnRespBot</SubtypeId>
       </Id>
       <DisplayName>Планер (легко)</DisplayName>
       <Icon>Textures\GUI\Icons\Rescue_Pod_norm.png</Icon>
       <CooldownSeconds>300</CooldownSeconds>
-	    <Prefab>RespBot</Prefab>
+	    <Prefab>RespawnRespBot</Prefab>
       
       <!-- CUSTOM SPAWN -->
       <SpawnPosition x="0" y="0" z="0" />
@@ -122,12 +122,12 @@
 	  <Ship>
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>Thrusters_Survival_Drop_Pod</SubtypeId>
+        <SubtypeId>Respawn_Survival_Drop_Pod</SubtypeId>
       </Id>
       <DisplayName>Капсула (легко)</DisplayName>
       <Icon>Textures\GUI\Icons\Thrusters_Survival_Drop_Pod.png</Icon>
       <CooldownSeconds>300</CooldownSeconds>
-	    <Prefab>Thrusters_Survival_Drop_Pod</Prefab>
+	    <Prefab>Respawn_Survival_Drop_Pod</Prefab>
 
       <!-- CUSTOM SPAWN -->
       <SpawnPosition x="0" y="0" z="0" />

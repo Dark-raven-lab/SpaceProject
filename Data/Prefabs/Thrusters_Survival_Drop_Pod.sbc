@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Prefabs>
     <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
-      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="Thrusters_Survival_Drop_Pod" />
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="Respawn_Survival_Drop_Pod" />
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
@@ -7432,11 +7432,11 @@
               </Blocks>
             </MyObjectBuilder_BlockGroup>
           </BlockGroups>
-          <DisplayName>Thrusters Survival Drop Pod</DisplayName>
+          <DisplayName>Respawn Survival Pod</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <CreatePhysics>false</CreatePhysics>
           <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
-          <IsRespawnGrid>false</IsRespawnGrid>
+          <IsRespawnGrid>true</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>
           <TargetingTargets />
           <OxygenRooms>
