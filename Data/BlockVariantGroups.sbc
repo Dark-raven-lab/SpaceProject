@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <BlockVariantGroups>
     <BlockVariantGroup Enabled="true">
@@ -556,6 +556,22 @@
         <Block>
           <TypeId>OxygenTank</TypeId>
           <SubtypeId>LargeOxygenTankSmall8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallOxygenTankSmall</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallOxygenTankSmall2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallOxygenTankSmall4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallOxygenTankSmall8x</SubtypeId>
         </Block>
       </Blocks>
     </BlockVariantGroup>
