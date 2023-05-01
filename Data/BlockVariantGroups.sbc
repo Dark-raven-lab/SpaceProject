@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <BlockVariantGroups>
     <BlockVariantGroup Enabled="true">
@@ -1725,6 +1725,33 @@
         <Block>
           <TypeId>OxygenTank</TypeId>
           <SubtypeId>SmallHydrogenTankSmall8x</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>HydrogenTankMediumGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_HydrogenTankMediumGroup</DisplayName>
+      <Description>Description_BlockGroup_TankGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
+      <Blocks>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankMedium</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankMedium2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankMedium4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankMedium8x</SubtypeId>
         </Block>
       </Blocks>
     </BlockVariantGroup>

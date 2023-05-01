@@ -1479,20 +1479,6 @@
       <PCU>25</PCU>
       <DestroyEffectScale>1</DestroyEffectScale>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTankMedium2x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTankMedium4x</SubtypeId>
-        </BlockVariant>
-        <BlockVariant>
-          <TypeId>OxygenTank</TypeId>
-          <SubtypeId>SmallHydrogenTankMedium8x</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" RandomOrientation="false" Visible="true" />
