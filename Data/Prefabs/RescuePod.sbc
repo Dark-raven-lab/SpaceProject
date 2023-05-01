@@ -6,18 +6,18 @@
       <CubeGrids>
         <CubeGrid>
           <SubtypeName />
-          <EntityId>114227346186047805</EntityId>
+          <EntityId>116218925198618953</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
-          <Name>114227346186047805</Name>
+          <Name>116218925198618953</Name>
           <PositionAndOrientation>
             <Position x="0" y="0" z="0" />
-            <Forward x="0.22991164" y="0.455317557" z="0.860131562" />
-            <Up x="0.973099351" y="-0.120962262" z="-0.196075335" />
+            <Forward x="0.176315069" y="0.7699781" z="-0.6132263" />
+            <Up x="0.170510381" y="0.5896771" z="0.7894345" />
             <Orientation>
-              <X>0.7063747</X>
-              <Y>0.656582534</Y>
-              <Z>-0.248024046</Z>
-              <W>0.09175096</W>
+              <X>0.437764078</X>
+              <Y>-0.04182636</Y>
+              <Z>-0.1162929</Z>
+              <W>0.8905555</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -58,53 +58,13 @@
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SensorBlock">
-              <SubtypeName>SmallBlockSensor</SubtypeName>
-              <EntityId>85764987647633533</EntityId>
-              <Min x="0" y="-20" z="-12" />
-              <IntegrityPercent>0.166666582</IntegrityPercent>
-              <BuildPercent>0.166666582</BuildPercent>
-              <BlockOrientation Forward="Backward" Up="Down" />
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmall</SubtypeName>
+              <EntityId>94965753062017138</EntityId>
+              <Min x="0" y="-17" z="-16" />
+              <BlockOrientation Forward="Forward" Up="Right" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-              <ShowOnHUD>false</ShowOnHUD>
-              <ShowInTerminal>false</ShowInTerminal>
-              <ShowInToolbarConfig>false</ShowInToolbarConfig>
-              <ShowInInventory>true</ShowInInventory>
-              <NumberInGrid>1</NumberInGrid>
-              <Enabled>true</Enabled>
-              <FieldMin x="-5" y="-5" z="-5" />
-              <FieldMax x="5" y="5" z="5" />
-              <Toolbar>
-                <ToolbarType>Character</ToolbarType>
-                <SelectedSlot xsi:nil="true" />
-                <Slots>
-                  <Slot>
-                    <Index>0</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
-                      <Action>OnOff_Off</Action>
-                      <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>85764987647633533</BlockEntityId>
-                      <GroupName>Truster</GroupName>
-                    </Data>
-                  </Slot>
-                </Slots>
-                <SlotsGamepad />
-              </Toolbar>
-              <PlaySound>true</PlaySound>
-              <DetectPlayers>false</DetectPlayers>
-              <DetectFloatingObjects>false</DetectFloatingObjects>
-              <DetectSmallShips>false</DetectSmallShips>
-              <DetectLargeShips>false</DetectLargeShips>
-              <DetectStations>false</DetectStations>
-              <DetectSubgrids>false</DetectSubgrids>
-              <IsActive>false</IsActive>
-              <DetectAsteroids>true</DetectAsteroids>
-              <DetectOwner>false</DetectOwner>
-              <DetectFriendly>false</DetectFriendly>
-              <DetectNeutral>false</DetectNeutral>
-              <DetectEnemy>false</DetectEnemy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
@@ -115,10 +75,10 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>131365388468050752</EntityId>
+              <EntityId>81098035480787476</EntityId>
               <Min x="0" y="-24" z="-13" />
               <BlockOrientation Forward="Backward" Up="Left" />
-              <ColorMaskHSV x="0" y="0.15" z="0.25" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
               <ComponentContainer>
                 <Components>
@@ -148,7 +108,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorHalfSlopeInverted</SubtypeName>
-              <EntityId>85075239017440222</EntityId>
+              <EntityId>109608344123451947</EntityId>
               <Min x="1" y="-19" z="-16" />
               <IntegrityPercent>0.7333333</IntegrityPercent>
               <BuildPercent>0.7333333</BuildPercent>
@@ -172,7 +132,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExhaustBlock">
               <SubtypeName>SmallExhaustPipe</SubtypeName>
-              <EntityId>129969557953246743</EntityId>
+              <EntityId>129622072918592822</EntityId>
               <Min x="-1" y="-24" z="-15" />
               <BlockOrientation Forward="Right" Up="Down" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -189,7 +149,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>123335761134957094</EntityId>
+              <EntityId>136572992341375799</EntityId>
               <Min x="0" y="-18" z="-17" />
               <IntegrityPercent>0.8666666</IntegrityPercent>
               <BuildPercent>0.8666666</BuildPercent>
@@ -205,7 +165,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
               <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>115945754629999170</EntityId>
+              <EntityId>99770821253944703</EntityId>
               <Min x="0" y="-17" z="-15" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
@@ -219,11 +179,10 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
               <SubtypeName>OxygenGeneratorSmall</SubtypeName>
-              <EntityId>112286530972407103</EntityId>
+              <EntityId>143356524331093009</EntityId>
               <Min x="-1" y="-19" z="-15" />
-              <IntegrityPercent>0.9501247</IntegrityPercent>
               <BlockOrientation Forward="Down" Up="Left" />
-              <ColorMaskHSV x="0" y="0.15" z="0.25" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
               <ComponentContainer>
                 <Components>
@@ -232,19 +191,12 @@
                     <Component xsi:type="MyObjectBuilder_Inventory">
                       <Items>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>995.163159</Amount>
-                          <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-                            <SubtypeName>Ice</SubtypeName>
-                          </PhysicalContent>
-                          <ItemId>0</ItemId>
-                        </MyObjectBuilder_InventoryItem>
-                        <MyObjectBuilder_InventoryItem>
                           <Amount>1</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_GasContainerObject">
                             <SubtypeName>HydrogenBottle</SubtypeName>
                             <GasLevel>1</GasLevel>
                           </PhysicalContent>
-                          <ItemId>1</ItemId>
+                          <ItemId>0</ItemId>
                         </MyObjectBuilder_InventoryItem>
                         <MyObjectBuilder_InventoryItem>
                           <Amount>1</Amount>
@@ -252,6 +204,13 @@
                             <SubtypeName>OxygenBottle</SubtypeName>
                             <GasLevel>1</GasLevel>
                             <OxygenLevel>0</OxygenLevel>
+                          </PhysicalContent>
+                          <ItemId>1</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>757.925581</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Ore">
+                            <SubtypeName>Ice</SubtypeName>
                           </PhysicalContent>
                           <ItemId>2</ItemId>
                         </MyObjectBuilder_InventoryItem>
@@ -274,7 +233,7 @@
                       <TimerEnabled>false</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>240</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>30</FramesFromLastTrigger>
                       <TimerTickInFrames>300</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -291,7 +250,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
               <SubtypeName>SmallBlockGyro</SubtypeName>
-              <EntityId>113816258997067514</EntityId>
+              <EntityId>139231179087989315</EntityId>
               <Min x="0" y="-18" z="-16" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -306,7 +265,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallHeavyBlockArmorBlock</SubtypeName>
-              <EntityId>72386515196217997</EntityId>
+              <EntityId>139164859246160301</EntityId>
               <Min x="0" y="-18" z="-11" />
               <IntegrityPercent>0.5833333</IntegrityPercent>
               <BuildPercent>0.5833333</BuildPercent>
@@ -314,18 +273,17 @@
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallHeavyBlockArmorSlope2Base</SubtypeName>
-              <EntityId>125397449755228461</EntityId>
+              <SubtypeName>SmallHeavyBlockArmorBlock</SubtypeName>
+              <EntityId>91195272000939973</EntityId>
               <Min x="0" y="-16" z="-11" />
-              <IntegrityPercent>0.76000005</IntegrityPercent>
-              <BuildPercent>0.76000005</BuildPercent>
-              <BlockOrientation Forward="Down" Up="Backward" />
+              <IntegrityPercent>0.7777778</IntegrityPercent>
+              <BuildPercent>0.7777778</BuildPercent>
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>134973933388947802</EntityId>
+              <EntityId>83307269967130986</EntityId>
               <Min x="0" y="-19" z="-17" />
               <IntegrityPercent>0.466666639</IntegrityPercent>
               <BuildPercent>0.466666639</BuildPercent>
@@ -334,10 +292,8 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
               <SubtypeName>OffroadSmallWheel1x1</SubtypeName>
-              <EntityId>76243422367469732</EntityId>
+              <EntityId>87777318733570173</EntityId>
               <Min x="0" y="-18" z="-12" />
-              <IntegrityPercent>0.5</IntegrityPercent>
-              <BuildPercent>0.5</BuildPercent>
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
@@ -345,20 +301,11 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SurvivalKit">
               <SubtypeName>SurvivalKit</SubtypeName>
-              <EntityId>99834695895707382</EntityId>
+              <EntityId>105732200830941286</EntityId>
               <Min x="-1" y="-23" z="-15" />
-              <IntegrityPercent>0.7692308</IntegrityPercent>
               <BlockOrientation Forward="Left" Up="Forward" />
-              <ColorMaskHSV x="0.575" y="0" z="0" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-              <ConstructionStockpile>
-                <Items xsi:type="MyObjectBuilder_StockpileItem">
-                  <Amount>32</Amount>
-                  <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-                    <SubtypeName>Scrap</SubtypeName>
-                  </PhysicalContent>
-                </Items>
-              </ConstructionStockpile>
               <ComponentContainer>
                 <Components>
                   <ComponentData>
@@ -398,7 +345,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>30</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>10</FramesFromLastTrigger>
                       <TimerTickInFrames>60</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -527,7 +474,7 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallHeavyBlockArmorBlock</SubtypeName>
-              <EntityId>138940364636158676</EntityId>
+              <EntityId>102770790684820830</EntityId>
               <Min x="0" y="-19" z="-11" />
               <IntegrityPercent>0.722222269</IntegrityPercent>
               <BuildPercent>0.722222269</BuildPercent>
@@ -536,10 +483,10 @@
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
-              <EntityId>102961315693003872</EntityId>
+              <EntityId>75616768283931015</EntityId>
               <Min x="-1" y="-23" z="-17" />
               <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.575" y="0" z="0" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
               <CustomName>Батарея</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
@@ -548,7 +495,7 @@
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0.988542855</CurrentStoredPower>
+              <CurrentStoredPower>0.938267648</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -562,345 +509,14 @@
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <Min x="1" y="-17" z="-13" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallHeavyBlockArmorBlock</SubtypeName>
-              <EntityId>122413576622740139</EntityId>
-              <Min x="0" y="-20" z="-11" />
-              <IntegrityPercent>0.722222269</IntegrityPercent>
-              <BuildPercent>0.722222269</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallHeavyBlockArmorSlope</SubtypeName>
-              <Min x="0" y="-22" z="-12" />
-              <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallHeavyBlockArmorSlope2Base</SubtypeName>
-              <EntityId>74937631116001130</EntityId>
-              <Min x="0" y="-21" z="-11" />
-              <IntegrityPercent>0.76000005</IntegrityPercent>
-              <BuildPercent>0.76000005</BuildPercent>
-              <BlockOrientation Forward="Up" Up="Backward" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallHeavyBlockArmorSlope2Tip</SubtypeName>
-              <Min x="0" y="-22" z="-11" />
-              <BlockOrientation Forward="Up" Up="Backward" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorHalfSlopeInverted</SubtypeName>
-              <Min x="-1" y="-20" z="-16" />
-              <BlockOrientation Forward="Up" Up="Forward" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorHalfSlopeInverted</SubtypeName>
-              <Min x="-1" y="-18" z="-16" />
-              <BlockOrientation Forward="Up" Up="Forward" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorHalfSlopeInverted</SubtypeName>
-              <EntityId>122819211649450366</EntityId>
-              <Min x="-1" y="-19" z="-16" />
-              <IntegrityPercent>0.599999964</IntegrityPercent>
-              <BuildPercent>0.599999964</BuildPercent>
-              <BlockOrientation Forward="Up" Up="Forward" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorHalfSlopeInverted</SubtypeName>
-              <EntityId>81530307512709731</EntityId>
-              <Min x="1" y="-18" z="-16" />
-              <IntegrityPercent>0.599999964</IntegrityPercent>
-              <BuildPercent>0.599999964</BuildPercent>
-              <BlockOrientation Forward="Down" Up="Forward" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallHeavyBlockArmorBlock</SubtypeName>
-              <EntityId>113869167485327360</EntityId>
-              <Min x="0" y="-17" z="-11" />
-              <IntegrityPercent>0.7777778</IntegrityPercent>
-              <BuildPercent>0.7777778</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>78824688777546567</EntityId>
-              <Min x="2" y="-19" z="-14" />
-              <IntegrityPercent>0.466666639</IntegrityPercent>
-              <BuildPercent>0.466666639</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>115496911605649914</EntityId>
-              <Min x="-2" y="-19" z="-14" />
-              <IntegrityPercent>0.8666666</IntegrityPercent>
-              <BuildPercent>0.8666666</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>138689292748931549</EntityId>
-              <Min x="2" y="-18" z="-14" />
-              <IntegrityPercent>0.3333333</IntegrityPercent>
-              <BuildPercent>0.3333333</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>91052096717180509</EntityId>
-              <Min x="-2" y="-18" z="-14" />
-              <IntegrityPercent>0.7333333</IntegrityPercent>
-              <BuildPercent>0.7333333</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
-              <Min x="2" y="-20" z="-14" />
-              <BlockOrientation Forward="Up" Up="Right" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>100114079771920364</EntityId>
-              <Min x="-2" y="-21" z="-14" />
-              <IntegrityPercent>0.8666666</IntegrityPercent>
-              <BuildPercent>0.8666666</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
-              <Min x="2" y="-22" z="-14" />
-              <BlockOrientation Forward="Down" Up="Right" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>96789731836138521</EntityId>
-              <Min x="-2" y="-20" z="-14" />
-              <IntegrityPercent>0.8666666</IntegrityPercent>
-              <BuildPercent>0.8666666</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
-              <Min x="2" y="-24" z="-14" />
-              <BlockOrientation Forward="Up" Up="Right" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
-              <EntityId>126178958603485566</EntityId>
-              <Min x="-2" y="-24" z="-14" />
-              <IntegrityPercent>0.8</IntegrityPercent>
-              <BuildPercent>0.8</BuildPercent>
-              <BlockOrientation Forward="Up" Up="Left" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
-              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
-              <EntityId>126048192669702878</EntityId>
-              <Min x="-1" y="-24" z="-14" />
-              <BlockOrientation Forward="Left" Up="Down" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <Min x="-1" y="-17" z="-13" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
-              <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>79650275011851662</EntityId>
-              <Min x="0" y="-24" z="-14" />
-              <BlockOrientation Forward="Up" Up="Left" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExhaustBlock">
-              <SubtypeName>SmallExhaustPipe</SubtypeName>
-              <EntityId>73003975471930333</EntityId>
-              <Min x="1" y="-24" z="-15" />
-              <BlockOrientation Forward="Left" Up="Down" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-              <CustomName>Выхлопная труба</CustomName>
-              <ShowOnHUD>false</ShowOnHUD>
-              <ShowInTerminal>false</ShowInTerminal>
-              <ShowInToolbarConfig>false</ShowInToolbarConfig>
-              <ShowInInventory>true</ShowInInventory>
-              <NumberInGrid>2</NumberInGrid>
-              <Enabled>true</Enabled>
-              <ExhaustEffect>Fire</ExhaustEffect>
-              <PowerDependency>0</PowerDependency>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
-              <Min x="-1" y="-17" z="-17" />
-              <BlockOrientation Forward="Forward" Up="Left" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>133733375491519351</EntityId>
-              <Min x="0" y="-25" z="-14" />
-              <BlockOrientation Forward="Down" Up="Left" />
-              <ColorMaskHSV x="0" y="0.15" z="0.25" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-              <ComponentContainer>
-                <Components>
-                  <ComponentData>
-                    <TypeId>MyTimerComponent</TypeId>
-                    <Component xsi:type="MyObjectBuilder_TimerComponent">
-                      <Repeat>true</Repeat>
-                      <TimeToEvent>0</TimeToEvent>
-                      <SetTimeMinutes>0</SetTimeMinutes>
-                      <TimerEnabled>true</TimerEnabled>
-                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
-                      <TimerType>Frame100</TimerType>
-                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
-                      <TimerTickInFrames>100</TimerTickInFrames>
-                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
-                    </Component>
-                  </ComponentData>
-                </Components>
-              </ComponentContainer>
-              <CustomName>Truster</CustomName>
-              <ShowOnHUD>false</ShowOnHUD>
-              <ShowInTerminal>false</ShowInTerminal>
-              <ShowInToolbarConfig>false</ShowInToolbarConfig>
-              <ShowInInventory>true</ShowInInventory>
-              <NumberInGrid>2</NumberInGrid>
-              <Enabled>true</Enabled>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>85443069528392775</EntityId>
-              <Min x="-2" y="-23" z="-14" />
-              <IntegrityPercent>0.8666666</IntegrityPercent>
-              <BuildPercent>0.8666666</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>84594800220799189</EntityId>
-              <Min x="2" y="-23" z="-14" />
-              <IntegrityPercent>0.7333333</IntegrityPercent>
-              <BuildPercent>0.7333333</BuildPercent>
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
-              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
-              <EntityId>131491785226092390</EntityId>
-              <Min x="1" y="-24" z="-14" />
-              <BlockOrientation Forward="Right" Up="Down" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Parachute">
-              <SubtypeName>SmParachute</SubtypeName>
-              <EntityId>122399863313606743</EntityId>
-              <Min x="0" y="-17" z="-17" />
-              <BlockOrientation Forward="Up" Up="Forward" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-              <ComponentContainer>
-                <Components>
-                  <ComponentData>
-                    <TypeId>MyInventoryBase</TypeId>
-                    <Component xsi:type="MyObjectBuilder_Inventory">
-                      <Items>
-                        <MyObjectBuilder_InventoryItem>
-                          <Amount>1</Amount>
-                          <PhysicalContent xsi:type="MyObjectBuilder_Component">
-                            <SubtypeName>Canvas</SubtypeName>
-                          </PhysicalContent>
-                          <ItemId>0</ItemId>
-                        </MyObjectBuilder_InventoryItem>
-                      </Items>
-                      <nextItemId>1</nextItemId>
-                      <Volume>0.008</Volume>
-                      <Mass>9223372036854.775807</Mass>
-                      <MaxItemCount>2147483647</MaxItemCount>
-                      <Size xsi:nil="true" />
-                      <InventoryFlags>CanReceive</InventoryFlags>
-                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
-                    </Component>
-                  </ComponentData>
-                </Components>
-              </ComponentContainer>
-              <CustomName>Парашютный люк</CustomName>
-              <ShowOnHUD>false</ShowOnHUD>
-              <ShowInTerminal>false</ShowInTerminal>
-              <ShowInToolbarConfig>false</ShowInToolbarConfig>
-              <ShowInInventory>true</ShowInInventory>
-              <NumberInGrid>1</NumberInGrid>
-              <Enabled>true</Enabled>
-              <AnyoneCanUse>false</AnyoneCanUse>
-              <AutoDeploy>true</AutoDeploy>
-              <DeployHeight>375.000031</DeployHeight>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Beacon">
-              <SubtypeName>SmallBlockBeacon</SubtypeName>
-              <EntityId>84507601437831706</EntityId>
-              <Min x="0" y="-17" z="-14" />
-              <BlockOrientation Forward="Backward" Up="Up" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-              <CustomName>Маяк</CustomName>
-              <ShowOnHUD>false</ShowOnHUD>
-              <ShowInTerminal>true</ShowInTerminal>
-              <ShowInToolbarConfig>true</ShowInToolbarConfig>
-              <ShowInInventory>true</ShowInInventory>
-              <NumberInGrid>1</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>25000.0059</BroadcastRadius>
-              <HudText>Mayday ... SOS</HudText>
-            </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
-              <SubtypeName>OrbCockpit_small</SubtypeName>
-              <EntityId>142770877166316268</EntityId>
+              <SubtypeName>sb_ballckock_sb29</SubtypeName>
+              <EntityId>141107977909349250</EntityId>
               <Min x="-2" y="-16" z="-16" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
               <ComponentContainer>
                 <Components>
                   <ComponentData>
@@ -915,7 +531,7 @@
                           <ItemId>0</ItemId>
                         </MyObjectBuilder_InventoryItem>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>2</Amount>
+                          <Amount>4</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_Component">
                             <SubtypeName>SteelPlate</SubtypeName>
                           </PhysicalContent>
@@ -948,18 +564,6 @@
                             <SubtypeName>BulletproofGlass</SubtypeName>
                           </PhysicalContent>
                           <ItemId>5</ItemId>
-                        </MyObjectBuilder_InventoryItem>
-                        <MyObjectBuilder_InventoryItem>
-                          <Amount>1</Amount>
-                          <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
-                            <SubtypeName>AutomaticRifleItem</SubtypeName>
-                            <GunEntity xsi:type="MyObjectBuilder_AutomaticRifle">
-                              <SubtypeName>RifleGun</SubtypeName>
-                              <EntityId>0</EntityId>
-                              <PersistentFlags>None</PersistentFlags>
-                            </GunEntity>
-                          </PhysicalContent>
-                          <ItemId>6</ItemId>
                         </MyObjectBuilder_InventoryItem>
                         <MyObjectBuilder_InventoryItem>
                           <Amount>1</Amount>
@@ -1018,13 +622,6 @@
                         </MyObjectBuilder_InventoryItem>
                         <MyObjectBuilder_InventoryItem>
                           <Amount>1</Amount>
-                          <PhysicalContent xsi:type="MyObjectBuilder_Component">
-                            <SubtypeName>Canvas</SubtypeName>
-                          </PhysicalContent>
-                          <ItemId>14</ItemId>
-                        </MyObjectBuilder_InventoryItem>
-                        <MyObjectBuilder_InventoryItem>
-                          <Amount>1</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_Datapad">
                             <SubtypeName>Datapad</SubtypeName>
                             <Name>GPS SecretWelders - Станция</Name>
@@ -1034,10 +631,29 @@
 GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.701011443:#FF75C9F1:
 </Data>
                           </PhysicalContent>
+                          <ItemId>14</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>1</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+                            <SubtypeName>AutomaticRifleItem</SubtypeName>
+                            <GunEntity xsi:type="MyObjectBuilder_AutomaticRifle">
+                              <SubtypeName>RifleGun</SubtypeName>
+                              <EntityId>0</EntityId>
+                              <PersistentFlags>None</PersistentFlags>
+                            </GunEntity>
+                          </PhysicalContent>
                           <ItemId>15</ItemId>
                         </MyObjectBuilder_InventoryItem>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>1</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                            <SubtypeName>Canvas</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>16</ItemId>
+                        </MyObjectBuilder_InventoryItem>
                       </Items>
-                      <nextItemId>16</nextItemId>
+                      <nextItemId>17</nextItemId>
                       <Volume>1</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -1048,10 +664,9 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                   </ComponentData>
                 </Components>
               </ComponentContainer>
-              <CustomName>Orb Cockpit</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
-              <ShowInTerminal>true</ShowInTerminal>
-              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <UseSingleWeaponMode>false</UseSingleWeaponMode>
@@ -1060,11 +675,29 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                 <SelectedSlot xsi:nil="true" />
                 <Slots>
                   <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>141107977909349250</BlockEntityId>
+                      <GroupName>Свет</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>OnOff</Action>
+                      <BlockEntityId>135640308753495407</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
                     <Index>4</Index>
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>84507601437831706</BlockEntityId>
+                      <BlockEntityId>143356524331093009</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1072,7 +705,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>99834695895707382</BlockEntityId>
+                      <BlockEntityId>105732200830941286</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1080,7 +713,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>112553523400295687</BlockEntityId>
+                      <BlockEntityId>102684393791549882</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1089,7 +722,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>OnOff</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>142770877166316268</BlockEntityId>
+                      <BlockEntityId>141107977909349250</BlockEntityId>
                       <GroupName>Truster</GroupName>
                     </Data>
                   </Slot>
@@ -1099,20 +732,18 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Index>0</Index>
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
-                      <Action>Unlock</Action>
+                      <Action>OnOff</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>142770877166316268</BlockEntityId>
-                      <GroupName>Шасси</GroupName>
+                      <BlockEntityId>141107977909349250</BlockEntityId>
+                      <GroupName>Свет</GroupName>
                     </Data>
                   </Slot>
                   <Slot>
                     <Index>1</Index>
                     <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>142770877166316268</BlockEntityId>
-                      <GroupName>Свет</GroupName>
+                      <BlockEntityId>135640308753495407</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1120,7 +751,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>84507601437831706</BlockEntityId>
+                      <BlockEntityId>143356524331093009</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1128,7 +759,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>99834695895707382</BlockEntityId>
+                      <BlockEntityId>105732200830941286</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1136,7 +767,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>112553523400295687</BlockEntityId>
+                      <BlockEntityId>102684393791549882</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1145,7 +776,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                       <Action>OnOff</Action>
                       <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>142770877166316268</BlockEntityId>
+                      <BlockEntityId>141107977909349250</BlockEntityId>
                       <GroupName>Truster</GroupName>
                     </Data>
                   </Slot>
@@ -1164,31 +795,557 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                 <Slots />
                 <SlotsGamepad />
               </OnLockedToolbar>
-              <IsTargetLockingEnabled>false</IsTargetLockingEnabled>
               <PilotRelativeWorld>
-                <Position x="1.0851927995681763" y="-1.5085587501525879" z="-3.360090970993042" />
-                <Forward x="-0.5141316" y="-0.0576127358" z="0.8557742" />
-                <Up x="-0.0838289857" y="0.9963401" z="0.0167131554" />
+                <Position x="0.77283066511154175" y="-1.5071566104888916" z="-3.63291597366333" />
+                <Forward x="-0.07683681" y="-0.01645997" z="0.996907949" />
+                <Up x="0.0536966324" y="0.9983444" z="0.0206223819" />
                 <Orientation>
-                  <X>-0.03817482</X>
-                  <Y>0.9625122</Y>
-                  <Z>0.0193051938</Z>
-                  <W>0.267843634</W>
+                  <X>0.0272341128</X>
+                  <Y>0.9988555</Y>
+                  <Z>0.009281205</Z>
+                  <W>0.0382093638</W>
                 </Orientation>
               </PilotRelativeWorld>
               <PilotGunDefinition xsi:nil="true" />
               <IsInFirstPersonView>true</IsInFirstPersonView>
               <OxygenLevel>1</OxygenLevel>
               <PilotJetpackEnabled xsi:nil="true" />
+              <TextPanels>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_ArtificialHorizon</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_EnergyHydrogen</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_Velocity</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_ClockAnalog</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+              </TextPanels>
               <TargetData>
                 <TargetId>0</TargetId>
                 <IsTargetLocked>false</IsTargetLocked>
                 <LockingProgress>0</LockingProgress>
               </TargetData>
             </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallHeavyBlockArmorBlock</SubtypeName>
+              <EntityId>129587588168625907</EntityId>
+              <Min x="0" y="-20" z="-11" />
+              <IntegrityPercent>0.722222269</IntegrityPercent>
+              <BuildPercent>0.722222269</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallHeavyBlockArmorSlope</SubtypeName>
+              <Min x="0" y="-22" z="-12" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallHeavyBlockArmorSlope2Base</SubtypeName>
+              <EntityId>122200135531504427</EntityId>
+              <Min x="0" y="-21" z="-11" />
+              <IntegrityPercent>0.76000005</IntegrityPercent>
+              <BuildPercent>0.76000005</BuildPercent>
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallHeavyBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="-22" z="-11" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorHalfSlopeInverted</SubtypeName>
+              <Min x="-1" y="-20" z="-16" />
+              <BlockOrientation Forward="Up" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorHalfSlopeInverted</SubtypeName>
+              <Min x="-1" y="-18" z="-16" />
+              <BlockOrientation Forward="Up" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorHalfSlopeInverted</SubtypeName>
+              <EntityId>81074291745497616</EntityId>
+              <Min x="-1" y="-19" z="-16" />
+              <IntegrityPercent>0.599999964</IntegrityPercent>
+              <BuildPercent>0.599999964</BuildPercent>
+              <BlockOrientation Forward="Up" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorHalfSlopeInverted</SubtypeName>
+              <EntityId>129634315450046607</EntityId>
+              <Min x="1" y="-18" z="-16" />
+              <IntegrityPercent>0.599999964</IntegrityPercent>
+              <BuildPercent>0.599999964</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallHeavyBlockArmorBlock</SubtypeName>
+              <Min x="0" y="-17" z="-11" />
+              <IntegrityPercent>0.888888955</IntegrityPercent>
+              <BuildPercent>0.888888955</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <EntityId>122271434429948478</EntityId>
+              <Min x="2" y="-19" z="-14" />
+              <IntegrityPercent>0.466666639</IntegrityPercent>
+              <BuildPercent>0.466666639</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <EntityId>101238662724368425</EntityId>
+              <Min x="-2" y="-19" z="-14" />
+              <IntegrityPercent>0.8666666</IntegrityPercent>
+              <BuildPercent>0.8666666</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <EntityId>125226565187394878</EntityId>
+              <Min x="2" y="-18" z="-14" />
+              <IntegrityPercent>0.3333333</IntegrityPercent>
+              <BuildPercent>0.3333333</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <EntityId>74221752376390669</EntityId>
+              <Min x="-2" y="-18" z="-14" />
+              <IntegrityPercent>0.7333333</IntegrityPercent>
+              <BuildPercent>0.7333333</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="2" y="-20" z="-14" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <EntityId>132270993253476694</EntityId>
+              <Min x="-2" y="-21" z="-14" />
+              <IntegrityPercent>0.8666666</IntegrityPercent>
+              <BuildPercent>0.8666666</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="2" y="-22" z="-14" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <EntityId>115721193295633775</EntityId>
+              <Min x="-2" y="-20" z="-14" />
+              <IntegrityPercent>0.8666666</IntegrityPercent>
+              <BuildPercent>0.8666666</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="2" y="-24" z="-14" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <EntityId>129766689592935536</EntityId>
+              <Min x="-2" y="-24" z="-14" />
+              <IntegrityPercent>0.8</IntegrityPercent>
+              <BuildPercent>0.8</BuildPercent>
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>126471757765375014</EntityId>
+              <Min x="-1" y="-24" z="-14" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
+              <SubtypeName>SmallBlockConveyor</SubtypeName>
+              <EntityId>130861356511042224</EntityId>
+              <Min x="0" y="-17" z="-14" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
+              <SubtypeName>SmallBlockConveyor</SubtypeName>
+              <EntityId>79886692493280263</EntityId>
+              <Min x="0" y="-24" z="-14" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ExhaustBlock">
+              <SubtypeName>SmallExhaustPipe</SubtypeName>
+              <EntityId>108416050297576665</EntityId>
+              <Min x="1" y="-24" z="-15" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <CustomName>Выхлопная труба</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <ExhaustEffect>Fire</ExhaustEffect>
+              <PowerDependency>0</PowerDependency>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="-1" y="-17" z="-17" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
+              <EntityId>91498275224918875</EntityId>
+              <Min x="0" y="-25" z="-14" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Truster</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <EntityId>84932279091848475</EntityId>
+              <Min x="-2" y="-23" z="-14" />
+              <IntegrityPercent>0.8666666</IntegrityPercent>
+              <BuildPercent>0.8666666</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <EntityId>131947641705892787</EntityId>
+              <Min x="2" y="-23" z="-14" />
+              <IntegrityPercent>0.7333333</IntegrityPercent>
+              <BuildPercent>0.7333333</BuildPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>119058831130676313</EntityId>
+              <Min x="1" y="-24" z="-14" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Parachute">
+              <SubtypeName>SmParachute</SubtypeName>
+              <EntityId>81206153979255320</EntityId>
+              <Min x="0" y="-17" z="-17" />
+              <BlockOrientation Forward="Up" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>1</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                            <SubtypeName>Canvas</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>2</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>3</nextItemId>
+                      <Volume>0.008</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Парашютный люк</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <AnyoneCanUse>false</AnyoneCanUse>
+              <AutoDeploy>true</AutoDeploy>
+              <DeployHeight>375.000031</DeployHeight>
+            </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
               <SubtypeName>TimerBlockSmall</SubtypeName>
-              <EntityId>90416349545250673</EntityId>
+              <EntityId>106087022055929982</EntityId>
               <Min x="0" y="-20" z="-16" />
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -1209,7 +1366,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>OnOff</Action>
-                      <BlockEntityId>84507601437831706</BlockEntityId>
+                      <BlockEntityId>117419416313031406</BlockEntityId>
                     </Data>
                   </Slot>
                   <Slot>
@@ -1217,7 +1374,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>Start</Action>
-                      <BlockEntityId>90416349545250673</BlockEntityId>
+                      <BlockEntityId>106087022055929982</BlockEntityId>
                     </Data>
                   </Slot>
                 </Slots>
@@ -1244,9 +1401,9 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
               <SubtypeName>SmallBlockSmallHydrogenThrust</SubtypeName>
-              <EntityId>93995075061649870</EntityId>
+              <EntityId>125816185269125575</EntityId>
               <Min x="0" y="-24" z="-15" />
-              <ColorMaskHSV x="0" y="0.15" z="0.25" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
               <ComponentContainer>
                 <Components>
@@ -1276,7 +1433,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
               <SubtypeName>SmallShipSmallMergeBlock</SubtypeName>
-              <EntityId>83203769316276563</EntityId>
+              <EntityId>140758632917415231</EntityId>
               <Min x="0" y="-25" z="-15" />
               <IntegrityPercent>0.416666538</IntegrityPercent>
               <BuildPercent>0.416666538</BuildPercent>
@@ -1293,7 +1450,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>115517284733055276</EntityId>
+              <EntityId>126157794366381674</EntityId>
               <Min x="0" y="-20" z="-17" />
               <IntegrityPercent>0.8666666</IntegrityPercent>
               <BuildPercent>0.8666666</BuildPercent>
@@ -1336,23 +1493,33 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>80309102249206818</EntityId>
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
               <Min x="2" y="-17" z="-14" />
-              <IntegrityPercent>0.7333333</IntegrityPercent>
-              <BuildPercent>0.7333333</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Right" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Beacon">
+              <SubtypeName>SmallBlockBeacon</SubtypeName>
+              <EntityId>117419416313031406</EntityId>
               <Min x="1" y="-17" z="-15" />
+              <BlockOrientation Forward="Backward" Up="Up" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>sos</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>20000</BroadcastRadius>
+              <HudText>Mayday ... SOS</HudText>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
               <SubtypeName>SmallAirVent</SubtypeName>
-              <EntityId>112553523400295687</EntityId>
+              <EntityId>135640308753495407</EntityId>
               <Min x="-1" y="-17" z="-15" />
               <BlockOrientation Forward="Left" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -1373,19 +1540,10 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
-              <SubtypeName>SmallBlockConveyor</SubtypeName>
-              <EntityId>137122890207971752</EntityId>
-              <Min x="0" y="-17" z="-16" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>125368295191303416</EntityId>
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
               <Min x="-2" y="-17" z="-14" />
-              <IntegrityPercent>0.8666666</IntegrityPercent>
-              <BuildPercent>0.8666666</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Left" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
@@ -1398,7 +1556,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
-              <EntityId>116953173866801688</EntityId>
+              <EntityId>85109797625122387</EntityId>
               <Min x="-2" y="-19" z="-15" />
               <IntegrityPercent>0.8666666</IntegrityPercent>
               <BuildPercent>0.8666666</BuildPercent>
@@ -1408,7 +1566,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
-              <EntityId>105365261404632055</EntityId>
+              <EntityId>130246543529929656</EntityId>
               <Min x="-2" y="-19" z="-16" />
               <IntegrityPercent>0.6</IntegrityPercent>
               <BuildPercent>0.6</BuildPercent>
@@ -1425,7 +1583,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>113536870356508379</EntityId>
+              <EntityId>135211106143685754</EntityId>
               <Min x="-2" y="-19" z="-13" />
               <IntegrityPercent>0.7333333</IntegrityPercent>
               <BuildPercent>0.7333333</BuildPercent>
@@ -1434,7 +1592,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>103509592432564106</EntityId>
+              <EntityId>125302881143021685</EntityId>
               <Min x="2" y="-19" z="-13" />
               <IntegrityPercent>0.466666639</IntegrityPercent>
               <BuildPercent>0.466666639</BuildPercent>
@@ -1443,7 +1601,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorInvCorner2Tip</SubtypeName>
-              <EntityId>101153559149474726</EntityId>
+              <EntityId>87759325934813760</EntityId>
               <Min x="1" y="-17" z="-16" />
               <IntegrityPercent>0.8</IntegrityPercent>
               <BuildPercent>0.8</BuildPercent>
@@ -1460,7 +1618,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LandingGear">
               <SubtypeName>SmallBlockLandingGear</SubtypeName>
-              <EntityId>139969441211483177</EntityId>
+              <EntityId>119456171548552327</EntityId>
               <Min x="2" y="-20" z="-12" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -1488,7 +1646,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LandingGear">
               <SubtypeName>SmallBlockLandingGear</SubtypeName>
-              <EntityId>119666320517232349</EntityId>
+              <EntityId>120438103037728784</EntityId>
               <Min x="-2" y="-20" z="-12" />
               <BlockOrientation Forward="Up" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -1509,14 +1667,80 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <FailedAttachSound>ArcShipLandGearNothing01</FailedAttachSound>
               <AttachedEntityId xsi:nil="true" />
               <MasterToSlave xsi:nil="true" />
-              <GearPivotPosition xsi:nil="true" />
-              <OtherPivot xsi:nil="true" />
+              <GearPivotPosition>
+                <X>-1.00134826</X>
+                <Y>-9.52374</Y>
+                <Z>-5.22785425</Z>
+              </GearPivotPosition>
+              <OtherPivot>
+                <Position>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Position>
+                <Orientation>
+                  <PackedValue>0</PackedValue>
+                </Orientation>
+                <Matrix>
+                  <M11>1</M11>
+                  <M12>0</M12>
+                  <M13>0</M13>
+                  <M14>0</M14>
+                  <M21>0</M21>
+                  <M22>1</M22>
+                  <M23>0</M23>
+                  <M24>0</M24>
+                  <M31>0</M31>
+                  <M32>0</M32>
+                  <M33>1</M33>
+                  <M34>0</M34>
+                  <M41>0</M41>
+                  <M42>0</M42>
+                  <M43>0</M43>
+                  <M44>1</M44>
+                  <Up>
+                    <X>0</X>
+                    <Y>1</Y>
+                    <Z>0</Z>
+                  </Up>
+                  <Down>
+                    <X>-0</X>
+                    <Y>-1</Y>
+                    <Z>-0</Z>
+                  </Down>
+                  <Right>
+                    <X>1</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                  </Right>
+                  <Left>
+                    <X>-1</X>
+                    <Y>-0</Y>
+                    <Z>-0</Z>
+                  </Left>
+                  <Forward>
+                    <X>-0</X>
+                    <Y>-0</Y>
+                    <Z>-1</Z>
+                  </Forward>
+                  <Backward>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                  </Backward>
+                  <Translation>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                  </Translation>
+                </Matrix>
+              </OtherPivot>
               <LockMode>Unlocked</LockMode>
               <IsParkingEnabled>true</IsParkingEnabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockLight_1corner</SubtypeName>
-              <EntityId>142594247599958743</EntityId>
+              <EntityId>117857209869762286</EntityId>
               <Min x="-2" y="-18" z="-13" />
               <BlockOrientation Forward="Backward" Up="Left" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -1540,7 +1764,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockLight_1corner</SubtypeName>
-              <EntityId>99692127423492868</EntityId>
+              <EntityId>134111453451894062</EntityId>
               <Min x="2" y="-18" z="-13" />
               <BlockOrientation Forward="Backward" Up="Right" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -1564,7 +1788,7 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockLight_1corner</SubtypeName>
-              <EntityId>111882502908435190</EntityId>
+              <EntityId>79253878789931413</EntityId>
               <Min x="-2" y="-18" z="-15" />
               <BlockOrientation Forward="Left" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
@@ -1588,10 +1812,8 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
               <SubtypeName>SmallBlockLight_1corner</SubtypeName>
-              <EntityId>133701423390664422</EntityId>
+              <EntityId>126858554763586615</EntityId>
               <Min x="2" y="-18" z="-15" />
-              <IntegrityPercent>0.333333343</IntegrityPercent>
-              <BuildPercent>0.333333343</BuildPercent>
               <BlockOrientation Forward="Right" Up="Forward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
@@ -1612,12 +1834,14 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <BlinkOffset>0</BlinkOffset>
               <Offset>0.5</Offset>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-              <SubtypeName>SmallHeavyBlockArmorSlope2Tip</SubtypeName>
-              <Min x="0" y="-15" z="-11" />
-              <BlockOrientation Forward="Down" Up="Backward" />
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
+              <SubtypeName>OffroadSmallWheel1x1</SubtypeName>
+              <EntityId>98285645682318295</EntityId>
+              <Min x="0" y="-14" z="-11" />
+              <BlockOrientation Forward="Left" Up="Backward" />
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <YieldLastComponent>true</YieldLastComponent>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
@@ -1633,18 +1857,9 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Wheel">
-              <SubtypeName>SmallWheel1x1</SubtypeName>
-              <EntityId>103851248183223114</EntityId>
-              <Min x="0" y="-14" z="-11" />
-              <BlockOrientation Forward="Up" Up="Backward" />
-              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
-              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
-              <YieldLastComponent>true</YieldLastComponent>
-            </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorBlock</SubtypeName>
-              <EntityId>84372448607377418</EntityId>
+              <EntityId>74485405958919049</EntityId>
               <Min x="-2" y="-22" z="-14" />
               <IntegrityPercent>0.8666666</IntegrityPercent>
               <BuildPercent>0.8666666</BuildPercent>
@@ -1658,12 +1873,22 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallHeavyBlockArmorSlope2Base</SubtypeName>
+              <EntityId>142442321138895484</EntityId>
+              <Min x="0" y="-15" z="-11" />
+              <IntegrityPercent>0.76000005</IntegrityPercent>
+              <BuildPercent>0.76000005</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+            </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Searchlight">
               <SubtypeName>SmallSearchlight</SubtypeName>
-              <EntityId>85427326991959188</EntityId>
+              <EntityId>102684393791549882</EntityId>
               <Min x="0" y="-14" z="-17" />
               <BlockOrientation Forward="Up" Up="Forward" />
-              <ColorMaskHSV x="0" y="0.15" z="0.25" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
               <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
               <ShareMode>Faction</ShareMode>
               <ComponentContainer>
@@ -1686,12 +1911,12 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               </ComponentContainer>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
-              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <Radius>6.25</Radius>
-              <ReflectorRadius>75</ReflectorRadius>
+              <Radius>10</Radius>
+              <ReflectorRadius>120</ReflectorRadius>
               <ColorBlue>0</ColorBlue>
               <Falloff>1.5</Falloff>
               <Intensity>3</Intensity>
@@ -1701,11 +1926,10 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <Offset>0.5</Offset>
               <PreviousControlledEntityId xsi:nil="true" />
               <RotationSpeed>0.08</RotationSpeed>
-              <Rotation>2.08122087</Rotation>
-              <Elevation>0.271467477</Elevation>
+              <Rotation>-0.56576705</Rotation>
+              <Elevation>0.6440703</Elevation>
               <TargetCharacters>true</TargetCharacters>
               <Flags>
-                <TargetMeteors>false</TargetMeteors>
                 <TargetCharacters>true</TargetCharacters>
               </Flags>
               <Range>800</Range>
@@ -1715,29 +1939,86 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <EnableIdleRotation>true</EnableIdleRotation>
               <PreviousIdleRotationState>true</PreviousIdleRotationState>
             </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_EventControllerBlock">
+              <SubtypeName>EventControllerSmall</SubtypeName>
+              <EntityId>98988273095962725</EntityId>
+              <Min x="-1" y="-17" z="-14" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <SkinSubtypeId>Heavy_Rust_Armor</SkinSubtypeId>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyEventAngleChanged</TypeId>
+                    <Component xsi:type="MyObjectBuilder_EventAngleChanged">
+                      <Angle>0</Angle>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyEventSurfaceHeight</TypeId>
+                    <Component xsi:type="MyObjectBuilder_EventSurfaceHeight">
+                      <Height>1</Height>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyEventGridSpeedChanged</TypeId>
+                    <Component xsi:type="MyObjectBuilder_EventGridSpeedChanged">
+                      <Speed>100</Speed>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyEventNaturalGravityChanged</TypeId>
+                    <Component xsi:type="MyObjectBuilder_EventNaturalGravityChanged">
+                      <Gravity>1</Gravity>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyEventDistanceToLockedTarget</TypeId>
+                    <Component xsi:type="MyObjectBuilder_EventDistanceToLockedTarget">
+                      <DistanceToLockedTarget>2500</DistanceToLockedTarget>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <ShowInToolbarConfig>false</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff_Off</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>98988273095962725</BlockEntityId>
+                      <GroupName>Truster</GroupName>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad />
+              </Toolbar>
+              <Threshold>0</Threshold>
+              <ANDGate>false</ANDGate>
+              <SelectedEvent>8</SelectedEvent>
+              <SelectedBlocks>
+                <long>119456171548552327</long>
+                <long>120438103037728784</long>
+              </SelectedBlocks>
+              <ConditionInvert>false</ConditionInvert>
+            </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <ConveyorLines>
-            <MyObjectBuilder_ConveyorLine>
-              <StartPosition x="0" y="-17" z="-16" />
-              <StartDirection>Up</StartDirection>
-              <EndPosition x="0" y="-16" z="-16" />
-              <EndDirection>Down</EndDirection>
-              <Sections />
-              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
-            </MyObjectBuilder_ConveyorLine>
             <MyObjectBuilder_ConveyorLine>
               <StartPosition x="0" y="-17" z="-15" />
               <StartDirection>Left</StartDirection>
               <EndPosition x="-1" y="-17" z="-15" />
               <EndDirection>Right</EndDirection>
-              <Sections />
-              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
-            </MyObjectBuilder_ConveyorLine>
-            <MyObjectBuilder_ConveyorLine>
-              <StartPosition x="0" y="-17" z="-15" />
-              <StartDirection>Forward</StartDirection>
-              <EndPosition x="0" y="-17" z="-16" />
-              <EndDirection>Backward</EndDirection>
               <Sections />
               <ConveyorLineType>SMALL_LINE</ConveyorLineType>
             </MyObjectBuilder_ConveyorLine>
@@ -1754,14 +2035,6 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <StartDirection>Up</StartDirection>
               <EndPosition x="0" y="-17" z="-15" />
               <EndDirection>Down</EndDirection>
-              <Sections />
-              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
-            </MyObjectBuilder_ConveyorLine>
-            <MyObjectBuilder_ConveyorLine>
-              <StartPosition x="0" y="-17" z="-17" />
-              <StartDirection>Backward</StartDirection>
-              <EndPosition x="0" y="-17" z="-16" />
-              <EndDirection>Forward</EndDirection>
               <Sections />
               <ConveyorLineType>SMALL_LINE</ConveyorLineType>
             </MyObjectBuilder_ConveyorLine>
@@ -1808,6 +2081,30 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
               <StartDirection>Forward</StartDirection>
               <EndPosition x="0" y="-24" z="-15" />
               <EndDirection>Backward</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="-17" z="-15" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="0" y="-17" z="-14" />
+              <EndDirection>Forward</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="-17" z="-14" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="0" y="-16" z="-14" />
+              <EndDirection>Down</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="-17" z="-17" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="0" y="-17" z="-15" />
+              <EndDirection>Forward</EndDirection>
               <Sections />
               <ConveyorLineType>SMALL_LINE</ConveyorLineType>
             </MyObjectBuilder_ConveyorLine>
@@ -1898,6 +2195,13 @@ GPS:SecretWelders - Станция:-3970844.30893646:14109.9762273091:-752780.70
                 <X>-3</X>
                 <Y>-26</Y>
                 <Z>-18</Z>
+              </StartingPosition>
+            </OxygenRoom>
+            <OxygenRoom OxygenAmount="0">
+              <StartingPosition>
+                <X>-2</X>
+                <Y>-16</Y>
+                <Z>-16</Z>
               </StartingPosition>
             </OxygenRoom>
           </OxygenRooms>
