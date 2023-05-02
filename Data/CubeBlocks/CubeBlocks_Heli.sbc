@@ -14,6 +14,7 @@
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffectScale>1</DestroyEffectScale>
       <PCU>30</PCU>
@@ -67,7 +68,7 @@
       <ForceMagnitude>1000000</ForceMagnitude>
       <MinPowerConsumption>2E-05</MinPowerConsumption>
       <MaxPowerConsumption>4.165</MaxPowerConsumption>
-      <ThrusterType>Ion</ThrusterType>
+      <ThrusterType>Atmospheric</ThrusterType>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
@@ -109,6 +110,7 @@
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <DestroyEffectScale>1</DestroyEffectScale>
       <PCU>25</PCU>
@@ -161,7 +163,7 @@
       <ForceMagnitude>408000</ForceMagnitude>
       <MinPowerConsumption>2E-05</MinPowerConsumption>
       <MaxPowerConsumption>2.4</MaxPowerConsumption>
-      <ThrusterType>Ion</ThrusterType>
+      <ThrusterType>Atmospheric</ThrusterType>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
@@ -258,7 +260,7 @@
       <ForceMagnitude>2000000</ForceMagnitude>
       <MinPowerConsumption>2E-05</MinPowerConsumption>
       <MaxPowerConsumption>6.25</MaxPowerConsumption>
-      <ThrusterType>Ion</ThrusterType>
+      <ThrusterType>Atmospheric</ThrusterType>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
@@ -354,7 +356,7 @@
       <ForceMagnitude>808000</ForceMagnitude>
       <MinPowerConsumption>2E-05</MinPowerConsumption>
       <MaxPowerConsumption>3.6</MaxPowerConsumption>
-      <ThrusterType>Ion</ThrusterType>
+      <ThrusterType>Atmospheric</ThrusterType>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
@@ -451,7 +453,7 @@
       <ForceMagnitude>2000000</ForceMagnitude>
       <MinPowerConsumption>2E-05</MinPowerConsumption>
       <MaxPowerConsumption>9.37</MaxPowerConsumption>
-      <ThrusterType>Ion</ThrusterType>
+      <ThrusterType>Atmospheric</ThrusterType>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
@@ -547,7 +549,7 @@
       <ForceMagnitude>161000</ForceMagnitude>
       <MinPowerConsumption>2E-05</MinPowerConsumption>
       <MaxPowerConsumption>5.4</MaxPowerConsumption>
-      <ThrusterType>Ion</ThrusterType>
+      <ThrusterType>Atmospheric</ThrusterType>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
@@ -644,7 +646,7 @@
       <ForceMagnitude>8000000</ForceMagnitude>
       <MinPowerConsumption>2E-05</MinPowerConsumption>
       <MaxPowerConsumption>14.6</MaxPowerConsumption>
-      <ThrusterType>Ion</ThrusterType>
+      <ThrusterType>Atmospheric</ThrusterType>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
@@ -740,7 +742,7 @@
       <ForceMagnitude>3232000</ForceMagnitude>
       <MinPowerConsumption>2E-05</MinPowerConsumption>
       <MaxPowerConsumption>8.1</MaxPowerConsumption>
-      <ThrusterType>Ion</ThrusterType>
+      <ThrusterType>Atmospheric</ThrusterType>
       <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
