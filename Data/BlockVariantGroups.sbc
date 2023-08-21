@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <BlockVariantGroups>
     <BlockVariantGroup Enabled="true">
@@ -74,7 +74,7 @@
       </Id>
       <DisplayName>DisplayName_Block_Assembler</DisplayName>
       <Description>Description_Assembler</Description>
-      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
       <Blocks>
         <Block>
           <TypeId>SurvivalKit</TypeId>
