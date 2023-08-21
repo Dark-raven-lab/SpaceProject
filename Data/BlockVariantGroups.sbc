@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <BlockVariantGroups>
     <BlockVariantGroup Enabled="true">
@@ -1504,7 +1504,7 @@
       </Id>
       <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
       <Description>Description_BlockGroup_LightingGroup</Description>
-      <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
       <Blocks>
         <Block>
           <TypeId>ReflectorLight</TypeId>
