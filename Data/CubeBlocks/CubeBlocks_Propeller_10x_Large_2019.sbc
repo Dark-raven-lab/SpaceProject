@@ -26,9 +26,9 @@
         <Component Subtype="SteelPlate" Count="20" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_2_blade_forward_Constr1_Large.mwm" />
       </BuildProgressModels>
@@ -121,9 +121,9 @@
         <Component Subtype="SteelPlate" Count="20" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_2_blade_backward_Constr1_Large.mwm" />
       </BuildProgressModels>
@@ -191,6 +191,388 @@
       <PCU>15</PCU>
     </Definition>
 
+<!-- propeller_S_3_blade_forward_silver_Large -->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_3_blade_forward_silver_10x_Large</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Prop_S_3blade_silver_forw</DisplayName>
+      <Icon>Textures\Icons\3prop_hell_forw_S.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\base_prop_10\Large\3B_forw_sil\propeller_base_forward_Large.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="150" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+	    <MountPoints>
+		    <MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_3_blade_forward_Constr1_Large.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>Prop_S_3blade_silver_forw</BlockPairName>
+      <Center x="3" y="3" z="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>630000</ForceMagnitude>
+      <MaxPowerConsumption>3.54</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0.66</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameLengthScale>0.00</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>300</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0</FlameGlareQuerySize>
+      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>6</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>2.0</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>1</PropellerAccelerationTime>
+      <PropellerDecelerationTime>10</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>300</PropellerMaxVisibleDistance>
+      <PrimarySound>propeller_default_TN_LG</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+<!-- propeller_S_3_blade_backward_silver_Large -->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_3_blade_backward_silver_10x_Large</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Prop_S_3blade_silver_backw</DisplayName>
+      <Icon>Textures\Icons\3prop_hell_back_S.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\base_prop_10\Large\3B_backw_sil\propeller_base_backward_Large.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="150" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+	    <MountPoints>
+		    <MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_3_blade_backward_Constr1_Large.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>Prop_S_3blade_silver_backw</BlockPairName>
+      <Center x="3" y="3" z="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>630000</ForceMagnitude>
+      <MaxPowerConsumption>3.54</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0.66</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameLengthScale>0.00</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>300</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0</FlameGlareQuerySize>
+      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>6</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>2.0</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>1</PropellerAccelerationTime>
+      <PropellerDecelerationTime>10</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>300</PropellerMaxVisibleDistance>
+      <PrimarySound>propeller_default_TN_LG</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+<!-- propeller_S_4_blade_forward_silver_Large -->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_4_blade_forward_silver_10x_Large</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Prop_S_4blade_silver_forw</DisplayName>
+      <Icon>Textures\Icons\4prop_hell_forw_S.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\base_prop_10\Large\4B_forw_sil\propeller_base_forward_Large.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="187" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+	    <MountPoints>
+		    <MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_4_blade_forward_Constr1_Large.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>Prop_S_4blade_silver_forw</BlockPairName>
+      <Center x="3" y="3" z="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>840000</ForceMagnitude>
+      <MaxPowerConsumption>4.72</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0.66</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameLengthScale>0.00</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>300</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0</FlameGlareQuerySize>
+      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>6</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>2.0</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>1</PropellerAccelerationTime>
+      <PropellerDecelerationTime>10</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>300</PropellerMaxVisibleDistance>
+      <PrimarySound>propeller_default_TN_LG</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
+<!-- propeller_S_4_blade_backward_silver_Large -->
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>propeller_4_blade_backward_silver_10x_Large</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Prop_S_4blade_silver_backw</DisplayName>
+      <Icon>Textures\Icons\4prop_hell_back_S.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="7" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\base_prop_10\Large\4B_backw_sil\propeller_base_backward_Large.mwm</Model>
+      <ThrusterType>Atmospheric</ThrusterType>
+      <SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="187" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+	    <MountPoints>
+		    <MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_4_blade_backward_Constr1_Large.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>Prop_S_4blade_silver_backw</BlockPairName>
+      <Center x="3" y="3" z="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+      <ForceMagnitude>840000</ForceMagnitude>
+      <MaxPowerConsumption>4.72</MaxPowerConsumption>
+      <MinPowerConsumption>0.000002</MinPowerConsumption>
+      <SlowdownFactor>1</SlowdownFactor>
+      <MinPlanetaryInfluence>0.66</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+      <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+      <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+      <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+      <FlameLengthScale>0.00</FlameLengthScale>
+      <FlameIdleColor>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameVisibilityDistance>300</FlameVisibilityDistance>
+      <FlameGlareQuerySize>0</FlameGlareQuerySize>
+      <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>6</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>2.0</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>1</PropellerAccelerationTime>
+      <PropellerDecelerationTime>10</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>300</PropellerMaxVisibleDistance>
+      <PrimarySound>propeller_default_TN_LG</PrimarySound>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <Public>true</Public>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>15</PCU>
+    </Definition>
+
 <!-- propeller_S_8_blade_forward_silver_Large -->
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
       <Id>
@@ -215,9 +597,9 @@
         <Component Subtype="SteelPlate" Count="130" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_8_blade_forward_Constr1_Large.mwm" />
       </BuildProgressModels>
@@ -310,9 +692,9 @@
         <Component Subtype="SteelPlate" Count="130" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_8_blade_backward_Constr1_Large.mwm" />
       </BuildProgressModels>

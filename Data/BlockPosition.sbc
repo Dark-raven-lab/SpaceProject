@@ -20,10 +20,26 @@
     </BlockPosition>
 
     <BlockPosition>
-      <Name>Prop_S_8blade_silver_forw</Name>
+      <Name>Prop_S_3blade_silver_forw</Name>
       <Position>
         <Y>5</Y>
         <X>12</X>
+      </Position>
+    </BlockPosition>
+
+    <BlockPosition>
+      <Name>Prop_S_4blade_silver_forw</Name>
+      <Position>
+        <Y>5</Y>
+        <X>13</X>
+      </Position>
+    </BlockPosition>
+
+    <BlockPosition>
+      <Name>Prop_S_8blade_silver_forw</Name>
+      <Position>
+        <Y>5</Y>
+        <X>14</X>
       </Position>
     </BlockPosition>
 	
@@ -31,7 +47,7 @@
       <Name>ThrusterLarge5Blade</Name>
       <Position>
         <Y>5</Y>
-        <X>13</X>
+        <X>15</X>
       </Position>
     </BlockPosition>
 	
@@ -39,7 +55,7 @@
       <Name>ThrusterTailRotor5Blade</Name>
       <Position>
         <Y>5</Y>
-        <X>14</X>
+        <X>16</X>
       </Position>
     </BlockPosition>
 

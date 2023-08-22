@@ -745,6 +745,22 @@
     <value>Prop S 2blade silver backward</value>
     <comment/>
   </data>
+  <data name="DisplayName_Prop_S_3blade_silver_forw" xml:space="preserve">
+    <value>Prop S 3blade silver forward</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_3blade_silver_backw" xml:space="preserve">
+    <value>Prop S 3blade silver backward</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_4blade_silver_forw" xml:space="preserve">
+    <value>Prop S 4blade silver forward</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_4blade_silver_backw" xml:space="preserve">
+    <value>Prop S 4blade silver backward</value>
+    <comment/>
+  </data>
   <data name="DisplayName_Prop_S_8blade_silver_forw" xml:space="preserve">
     <value>Prop S 8blade silver forward</value>
     <comment/>

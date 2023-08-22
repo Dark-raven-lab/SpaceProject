@@ -32,14 +32,6 @@
 
 
 
-
-
-
-
-
-
-
-
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_forward_silver_10x_Small" />
       <UnlockedByGroups>
@@ -61,7 +53,6 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_2_blade_backward_silver_10x_Large" />
       <UnlockedByGroups>
@@ -71,13 +62,71 @@
 
 
     <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_forward_silver_10x_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>146366763701</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_backward_silver_10x_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>146366763701</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_forward_silver_10x_Large" />
+      <UnlockedByGroups>
+        <GroupSubtype>146366763701</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_backward_silver_10x_Large" />
+      <UnlockedByGroups>
+        <GroupSubtype>146366763701</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_forward_silver_10x_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>146366763702</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_backward_silver_10x_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>146366763702</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_forward_silver_10x_Large" />
+      <UnlockedByGroups>
+        <GroupSubtype>146366763702</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_backward_silver_10x_Large" />
+      <UnlockedByGroups>
+        <GroupSubtype>146366763702</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+
+
+    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_8_blade_forward_silver_10x_Small" />
       <UnlockedByGroups>
         <GroupSubtype>146366763703</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-
- 
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_8_blade_backward_silver_10x_Small" />
@@ -86,15 +135,12 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-
-
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_8_blade_forward_silver_10x_Large" />
       <UnlockedByGroups>
         <GroupSubtype>146366763703</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_Thrust" Subtype="propeller_8_blade_backward_silver_10x_Large" />

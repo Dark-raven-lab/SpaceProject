@@ -745,6 +745,22 @@
     <value>Пропеллер 2х-лопастной серебристый обратный</value>
     <comment/>
   </data>
+  <data name="DisplayName_Prop_S_3blade_silver_forw" xml:space="preserve">
+    <value>Пропеллер 3х-лопастной серебристый прямой</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_3blade_silver_backw" xml:space="preserve">
+    <value>Пропеллер 3х-лопастной серебристый обратный</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_4blade_silver_forw" xml:space="preserve">
+    <value>Пропеллер 4х-лопастной серебристый прямой</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Prop_S_4blade_silver_backw" xml:space="preserve">
+    <value>Пропеллер 4х-лопастной серебристый обратный</value>
+    <comment/>
+  </data>
   <data name="DisplayName_Prop_S_8blade_silver_forw" xml:space="preserve">
     <value>Пропеллер 8и-лопастной серебристый прямой</value>
     <comment/>
