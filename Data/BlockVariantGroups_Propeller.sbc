@@ -14,6 +14,32 @@
             </Blocks>
         </BlockVariantGroup>
 
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="propeller_3_blade_forward_silver_10x_Group" />
+            <Icon>Textures\Icons\3prop_hell_forw_S.dds</Icon>
+            <DisplayName>Prop_S_3blade_silver_forw</DisplayName>
+            <Description>3 Blade Prop S</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_forward_silver_10x_Large" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_backward_silver_10x_Large" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_forward_silver_10x_Small" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_backward_silver_10x_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="propeller_4_blade_forward_silver_10x_Group" />
+            <Icon>Textures\Icons\4prop_hell_forw_S.dds</Icon>
+            <DisplayName>Prop_S_4blade_silver_forw</DisplayName>
+            <Description>4 Blade Prop S</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_forward_silver_10x_Large" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_backward_silver_10x_Large" />
+                <Block Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_forward_silver_10x_Small" />
+				<Block Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_backward_silver_10x_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
   		<BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="propeller_8_blade_forward_silver_10x_Group" />
             <Icon>Textures\Icons\8prop_hell_forw_S.dds</Icon>

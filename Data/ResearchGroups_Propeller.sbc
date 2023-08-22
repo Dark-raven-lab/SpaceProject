@@ -22,6 +22,26 @@
       </Members>
     </ResearchGroup>
 
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="146366763702" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_forward_silver_10x_Small" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_backward_silver_10x_Small" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_forward_silver_10x_Large" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_3_blade_backward_silver_10x_Large" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="146366763703" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_forward_silver_10x_Small" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_backward_silver_10x_Small" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_forward_silver_10x_Large" />
+        <BlockId Type="MyObjectBuilder_Thrust" Subtype="propeller_4_blade_backward_silver_10x_Large" />
+      </Members>
+    </ResearchGroup>
+
 
   </ResearchGroups>
 </Definitions>
