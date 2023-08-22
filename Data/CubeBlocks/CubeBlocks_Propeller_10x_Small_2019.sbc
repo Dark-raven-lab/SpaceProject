@@ -25,9 +25,9 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_2_blade_forward_Constr1_Small.mwm" />
       </BuildProgressModels>
@@ -119,9 +119,9 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_2_blade_backward_Constr1_Small.mwm" />
       </BuildProgressModels>
@@ -145,7 +145,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>25</BuildTimeSeconds>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-      <ForceMagnitude>80000</ForceMagnitude>
+      <ForceMagnitude>88000</ForceMagnitude>
       <MaxPowerConsumption>0.701</MaxPowerConsumption>
       <MinPowerConsumption>0.000002</MinPowerConsumption>
       <SlowdownFactor>1</SlowdownFactor>
@@ -212,9 +212,9 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_3_blade_forward_Constr1_Small.mwm" />
       </BuildProgressModels>
@@ -306,9 +306,9 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_3_blade_backward_Constr1_Small.mwm" />
       </BuildProgressModels>
@@ -399,9 +399,9 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_4_blade_forward_Constr1_Small.mwm" />
       </BuildProgressModels>
@@ -493,9 +493,9 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_4_blade_backward_Constr1_Small.mwm" />
       </BuildProgressModels>
@@ -587,9 +587,9 @@
         <Component Subtype="SteelPlate" Count="10" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Front" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_8_blade_forward_Constr1_Small.mwm" />
       </BuildProgressModels>
@@ -682,9 +682,9 @@
         <Component Subtype="SteelPlate" Count="10" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-	<MountPoints>
-		<MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
-	</MountPoints>
+	    <MountPoints>
+		    <MountPoint Side="Back" StartX="3.00" StartY="3.00" EndX="4.00" EndY="4.00" Default="true"/>
+	    </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="1.00" File="Models\constr_10\propeller_8_blade_backward_Constr1_Small.mwm" />
       </BuildProgressModels>
