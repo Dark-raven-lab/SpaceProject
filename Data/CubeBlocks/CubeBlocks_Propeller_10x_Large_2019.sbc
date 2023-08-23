@@ -592,6 +592,7 @@
         <Component Subtype="SteelPlate" Count="100" />
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="LargeTube" Count="50" />
+        <Component Subtype="MetalGrid" Count="10" />
         <Component Subtype="Motor" Count="470" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="SteelPlate" Count="130" />
@@ -687,6 +688,7 @@
         <Component Subtype="SteelPlate" Count="100" />
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="LargeTube" Count="50" />
+        <Component Subtype="MetalGrid" Count="10" />
         <Component Subtype="Motor" Count="470" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="SteelPlate" Count="130" />
