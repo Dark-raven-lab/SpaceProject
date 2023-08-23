@@ -100,13 +100,13 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="8" />
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="MetalGrid" Count="5" />
         <Component Subtype="GravityGenerator" Count="2" />
         <Component Subtype="Detector" Count="2" />
         <Component Subtype="PowerCell" Count="12" />
         <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="Tech2x" Count="8" />
         <Component Subtype="Computer" Count="30" />
         <Component Subtype="Construction" Count="4" />
         <Component Subtype="SteelPlate" Count="2" />
@@ -166,13 +166,13 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech4x" Count="8" />
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="MetalGrid" Count="5" />
         <Component Subtype="GravityGenerator" Count="2" />
         <Component Subtype="Detector" Count="2" />
         <Component Subtype="PowerCell" Count="12" />
         <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="Tech4x" Count="8" />
         <Component Subtype="Computer" Count="30" />
         <Component Subtype="Construction" Count="4" />
         <Component Subtype="SteelPlate" Count="2" />
@@ -232,13 +232,13 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech8x" Count="8" />
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="MetalGrid" Count="5" />
         <Component Subtype="GravityGenerator" Count="2" />
         <Component Subtype="Detector" Count="2" />
         <Component Subtype="PowerCell" Count="12" />
         <Component Subtype="Superconductor" Count="100" />
+        <Component Subtype="Tech8x" Count="8" />
         <Component Subtype="Computer" Count="30" />
         <Component Subtype="Construction" Count="4" />
         <Component Subtype="SteelPlate" Count="2" />
@@ -368,13 +368,13 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="75" />
         <Component Subtype="SteelPlate" Count="60" />
         <Component Subtype="MetalGrid" Count="75" />
         <Component Subtype="GravityGenerator" Count="30" />
         <Component Subtype="Detector" Count="30" />
         <Component Subtype="PowerCell" Count="180" />
         <Component Subtype="Superconductor" Count="1500" />
+        <Component Subtype="Tech2x" Count="75" />
         <Component Subtype="Computer" Count="450" />
         <Component Subtype="Construction" Count="60" />
         <Component Subtype="SteelPlate" Count="30" />
@@ -436,13 +436,13 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech4x" Count="75" />
         <Component Subtype="SteelPlate" Count="90" />
         <Component Subtype="MetalGrid" Count="113" />
         <Component Subtype="GravityGenerator" Count="45" />
         <Component Subtype="Detector" Count="45" />
         <Component Subtype="PowerCell" Count="270" />
         <Component Subtype="Superconductor" Count="2250" />
+        <Component Subtype="Tech4x" Count="75" />
         <Component Subtype="Computer" Count="675" />
         <Component Subtype="Construction" Count="90" />
         <Component Subtype="SteelPlate" Count="45" />
@@ -504,13 +504,13 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech8x" Count="75" />
         <Component Subtype="SteelPlate" Count="135" />
         <Component Subtype="MetalGrid" Count="169" />
         <Component Subtype="GravityGenerator" Count="68" />
         <Component Subtype="Detector" Count="68" />
         <Component Subtype="PowerCell" Count="405" />
         <Component Subtype="Superconductor" Count="3375" />
+        <Component Subtype="Tech8x" Count="75" />
         <Component Subtype="Computer" Count="1013" />
         <Component Subtype="Construction" Count="135" />
         <Component Subtype="SteelPlate" Count="68" />

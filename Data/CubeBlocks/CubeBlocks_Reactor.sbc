@@ -42,13 +42,13 @@
       <CubeSize>Small</CubeSize>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech2x" Count="7" />
         <Component Subtype="SteelPlate" Count="2" />
         <Component Subtype="Construction" Count="15" />
         <Component Subtype="MetalGrid" Count="3" />
         <Component Subtype="LargeTube" Count="2" />
         <Component Subtype="Reactor" Count="5" />
         <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Tech2x" Count="7" />
         <Component Subtype="Computer" Count="15" />
         <Component Subtype="SteelPlate" Count="3" />
       </Components>
@@ -124,13 +124,13 @@
       <CubeSize>Small</CubeSize>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech2x" Count="22" />
         <Component Subtype="SteelPlate" Count="60" />
         <Component Subtype="Construction" Count="14" />
         <Component Subtype="MetalGrid" Count="14" />
         <Component Subtype="LargeTube" Count="5" />
         <Component Subtype="Reactor" Count="143" />
         <Component Subtype="Motor" Count="8" />
+        <Component Subtype="Tech2x" Count="22" />
         <Component Subtype="Computer" Count="38" />
         <Component Subtype="SteelPlate" Count="30" />
       </Components>
@@ -203,13 +203,13 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech2x" Count="22" />
         <Component Subtype="SteelPlate" Count="75" />
         <Component Subtype="Construction" Count="60" />
         <Component Subtype="MetalGrid" Count="6" />
         <Component Subtype="LargeTube" Count="12" />
         <Component Subtype="Reactor" Count="150" />
         <Component Subtype="Motor" Count="9" />
+        <Component Subtype="Tech2x" Count="22" />
         <Component Subtype="Computer" Count="38" />
         <Component Subtype="SteelPlate" Count="45" />
       </Components>
@@ -284,7 +284,6 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech2x" Count="130" />
         <Component Subtype="SteelPlate" Count="1200" />
         <Component Subtype="Construction" Count="105" />
         <Component Subtype="MetalGrid" Count="60" />
@@ -292,6 +291,7 @@
         <Component Subtype="Superconductor" Count="150" />
         <Component Subtype="Reactor" Count="3000" />
         <Component Subtype="Motor" Count="30" />
+        <Component Subtype="Tech2x" Count="130" />
         <Component Subtype="Computer" Count="113" />
         <Component Subtype="SteelPlate" Count="300" />
       </Components>
@@ -364,13 +364,13 @@
       <CubeSize>Small</CubeSize>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech4x" Count="7" />
         <Component Subtype="SteelPlate" Count="3" />
         <Component Subtype="Construction" Count="23" />
         <Component Subtype="MetalGrid" Count="5" />
         <Component Subtype="LargeTube" Count="3" />
         <Component Subtype="Reactor" Count="7" />
         <Component Subtype="Motor" Count="3" />
+        <Component Subtype="Tech4x" Count="7" />
         <Component Subtype="Computer" Count="23" />
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
@@ -446,13 +446,13 @@
       <CubeSize>Small</CubeSize>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech4x" Count="22" />
         <Component Subtype="SteelPlate" Count="90" />
         <Component Subtype="Construction" Count="21" />
         <Component Subtype="MetalGrid" Count="21" />
         <Component Subtype="LargeTube" Count="7" />
         <Component Subtype="Reactor" Count="214" />
         <Component Subtype="Motor" Count="12" />
+        <Component Subtype="Tech4x" Count="22" />
         <Component Subtype="Computer" Count="57" />
         <Component Subtype="SteelPlate" Count="45" />
       </Components>
@@ -525,13 +525,13 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech4x" Count="22" />
         <Component Subtype="SteelPlate" Count="113" />
         <Component Subtype="Construction" Count="90" />
         <Component Subtype="MetalGrid" Count="9" />
         <Component Subtype="LargeTube" Count="18" />
         <Component Subtype="Reactor" Count="225" />
         <Component Subtype="Motor" Count="14" />
+        <Component Subtype="Tech4x" Count="22" />
         <Component Subtype="Computer" Count="57" />
         <Component Subtype="SteelPlate" Count="68" />
       </Components>
@@ -606,7 +606,6 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech4x" Count="130" />
         <Component Subtype="SteelPlate" Count="1800" />
         <Component Subtype="Construction" Count="158" />
         <Component Subtype="MetalGrid" Count="90" />
@@ -614,6 +613,7 @@
         <Component Subtype="Superconductor" Count="225" />
         <Component Subtype="Reactor" Count="4500" />
         <Component Subtype="Motor" Count="45" />
+        <Component Subtype="Tech4x" Count="130" />
         <Component Subtype="Computer" Count="169" />
         <Component Subtype="SteelPlate" Count="450" />
       </Components>
@@ -686,13 +686,13 @@
       <CubeSize>Small</CubeSize>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech8x" Count="7" />
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="Construction" Count="34" />
         <Component Subtype="MetalGrid" Count="7" />
         <Component Subtype="LargeTube" Count="4" />
         <Component Subtype="Reactor" Count="11" />
         <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Tech8x" Count="7" />
         <Component Subtype="Computer" Count="34" />
         <Component Subtype="SteelPlate" Count="7" />
       </Components>
@@ -768,13 +768,13 @@
       <CubeSize>Small</CubeSize>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
-        <Component Subtype="Tech8x" Count="22" />
         <Component Subtype="SteelPlate" Count="135" />
         <Component Subtype="Construction" Count="31" />
         <Component Subtype="MetalGrid" Count="31" />
         <Component Subtype="LargeTube" Count="11" />
         <Component Subtype="Reactor" Count="321" />
         <Component Subtype="Motor" Count="17" />
+        <Component Subtype="Tech8x" Count="22" />
         <Component Subtype="Computer" Count="85" />
         <Component Subtype="SteelPlate" Count="68" />
       </Components>
@@ -847,13 +847,13 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech8x" Count="22" />
         <Component Subtype="SteelPlate" Count="169" />
         <Component Subtype="Construction" Count="135" />
         <Component Subtype="MetalGrid" Count="14" />
         <Component Subtype="LargeTube" Count="27" />
         <Component Subtype="Reactor" Count="338" />
         <Component Subtype="Motor" Count="21" />
+        <Component Subtype="Tech8x" Count="22" />
         <Component Subtype="Computer" Count="85" />
         <Component Subtype="SteelPlate" Count="102" />
       </Components>
@@ -928,7 +928,6 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech8x" Count="130" />
         <Component Subtype="SteelPlate" Count="2700" />
         <Component Subtype="Construction" Count="237" />
         <Component Subtype="MetalGrid" Count="135" />
@@ -936,6 +935,7 @@
         <Component Subtype="Superconductor" Count="338" />
         <Component Subtype="Reactor" Count="6750" />
         <Component Subtype="Motor" Count="68" />
+        <Component Subtype="Tech8x" Count="130" />
         <Component Subtype="Computer" Count="254" />
         <Component Subtype="SteelPlate" Count="675" />
       </Components>

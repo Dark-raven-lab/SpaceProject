@@ -18,13 +18,12 @@
       <DamageEffectId>214</DamageEffectId>
       <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <BlockPairName>Battery1x1Block2x</BlockPairName>
-      <CriticalComponent Subtype="Computer" Index="0" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="1" y="1" z="1" />
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
+      <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="1" />
         <Component Subtype="SteelPlate" Count="3" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="PowerCell" Count="3">
@@ -33,6 +32,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Tech2x" Count="1" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="SteelPlate" Count="3" />
@@ -75,13 +75,12 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <PCU>15</PCU>
       <BlockPairName>BatteryBlock2x</BlockPairName>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="3" y="2" z="3" />
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
+      <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="8" />
         <Component Subtype="SteelPlate" Count="8" />
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="PowerCell" Count="30">
@@ -90,6 +89,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Tech2x" Count="8" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="SteelPlate" Count="30" />
@@ -135,13 +135,12 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <PCU>15</PCU>
       <BlockPairName>BatteryBlock2x</BlockPairName>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="1" y="1" z="1" />
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech2x" Count="20" />
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="Construction" Count="15" />
         <Component Subtype="PowerCell" Count="120">
@@ -150,6 +149,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Tech2x" Count="20" />
         <Component Subtype="Computer" Count="38" />
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="SteelPlate" Count="90" />
@@ -198,7 +198,6 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
       <Components>
-        <Component Subtype="Tech4x" Count="1" />
         <Component Subtype="SteelPlate" Count="5" />
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="PowerCell" Count="5">
@@ -207,6 +206,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Tech4x" Count="1" />
         <Component Subtype="Computer" Count="5" />
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="SteelPlate" Count="5" />
@@ -249,13 +249,12 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <PCU>15</PCU>
       <BlockPairName>BatteryBlock4x</BlockPairName>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="3" y="2" z="3" />
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
       <Components>
-        <Component Subtype="Tech4x" Count="8" />
         <Component Subtype="SteelPlate" Count="12" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="PowerCell" Count="45">
@@ -264,6 +263,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Tech4x" Count="8" />
         <Component Subtype="Computer" Count="5" />
         <Component Subtype="Construction" Count="7" />
         <Component Subtype="SteelPlate" Count="45" />
@@ -309,13 +309,12 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <PCU>15</PCU>
       <BlockPairName>BatteryBlock4x</BlockPairName>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="1" y="1" z="1" />
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech4x" Count="20" />
         <Component Subtype="SteelPlate" Count="45" />
         <Component Subtype="Construction" Count="23" />
         <Component Subtype="PowerCell" Count="180">
@@ -324,6 +323,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Tech4x" Count="20" />
         <Component Subtype="Computer" Count="57" />
         <Component Subtype="Construction" Count="45" />
         <Component Subtype="SteelPlate" Count="135" />
@@ -372,7 +372,6 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
       <Components>
-        <Component Subtype="Tech8x" Count="1" />
         <Component Subtype="SteelPlate" Count="7" />
         <Component Subtype="Construction" Count="4" />
         <Component Subtype="PowerCell" Count="7">
@@ -381,6 +380,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Tech8x" Count="1" />
         <Component Subtype="Computer" Count="7" />
         <Component Subtype="Construction" Count="4" />
         <Component Subtype="SteelPlate" Count="7" />
@@ -423,13 +423,12 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <PCU>15</PCU>
       <BlockPairName>BatteryBlock8x</BlockPairName>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="3" y="2" z="3" />
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
       <Components>
-        <Component Subtype="Tech8x" Count="8" />
         <Component Subtype="SteelPlate" Count="17" />
         <Component Subtype="Construction" Count="7" />
         <Component Subtype="PowerCell" Count="68">
@@ -438,6 +437,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Tech8x" Count="8" />
         <Component Subtype="Computer" Count="7" />
         <Component Subtype="Construction" Count="11" />
         <Component Subtype="SteelPlate" Count="68" />
@@ -483,13 +483,12 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <PCU>15</PCU>
       <BlockPairName>BatteryBlock8x</BlockPairName>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="1" y="1" z="1" />
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech8x" Count="20" />
         <Component Subtype="SteelPlate" Count="68" />
         <Component Subtype="Construction" Count="34" />
         <Component Subtype="PowerCell" Count="270">
@@ -498,6 +497,7 @@
             <SubtypeId>Scrap</SubtypeId>
           </DeconstructId>
         </Component>
+        <Component Subtype="Tech8x" Count="20" />
         <Component Subtype="Computer" Count="85" />
         <Component Subtype="Construction" Count="68" />
         <Component Subtype="SteelPlate" Count="203" />

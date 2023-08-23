@@ -36,13 +36,13 @@
       <MirroringY>Z</MirroringY>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="45" />
         <Component Subtype="InteriorPlate" Count="450" />
         <Component Subtype="Construction" Count="90" />
         <Component Subtype="MetalGrid" Count="36" />
         <Component Subtype="SmallTube" Count="90" />
         <Component Subtype="Motor" Count="30" />
         <Component Subtype="Display" Count="2" />
+        <Component Subtype="Tech2x" Count="45" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="InteriorPlate" Count="90" />
@@ -97,9 +97,9 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="11" />
         <Component Subtype="InteriorPlate" Count="83" />
         <Component Subtype="Construction" Count="38" />
+        <Component Subtype="Tech2x" Count="11" />
         <Component Subtype="Computer" Count="9" />
         <Component Subtype="Motor" Count="12" />
         <Component Subtype="Display" Count="2" />
@@ -156,13 +156,13 @@
       <MirroringY>Z</MirroringY>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech4x" Count="45" />
         <Component Subtype="InteriorPlate" Count="675" />
         <Component Subtype="Construction" Count="135" />
         <Component Subtype="MetalGrid" Count="54" />
         <Component Subtype="SmallTube" Count="135" />
         <Component Subtype="Motor" Count="45" />
         <Component Subtype="Display" Count="3" />
+        <Component Subtype="Tech4x" Count="45" />
         <Component Subtype="Computer" Count="18" />
         <Component Subtype="Construction" Count="45" />
         <Component Subtype="InteriorPlate" Count="135" />
@@ -217,9 +217,9 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech4x" Count="11" />
         <Component Subtype="InteriorPlate" Count="124" />
         <Component Subtype="Construction" Count="57" />
+        <Component Subtype="Tech4x" Count="11" />
         <Component Subtype="Computer" Count="14" />
         <Component Subtype="Motor" Count="18" />
         <Component Subtype="Display" Count="3" />
@@ -276,13 +276,13 @@
       <MirroringY>Z</MirroringY>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech8x" Count="45" />
         <Component Subtype="InteriorPlate" Count="1013" />
         <Component Subtype="Construction" Count="203" />
         <Component Subtype="MetalGrid" Count="81" />
         <Component Subtype="SmallTube" Count="203" />
         <Component Subtype="Motor" Count="68" />
         <Component Subtype="Display" Count="4" />
+        <Component Subtype="Tech8x" Count="45" />
         <Component Subtype="Computer" Count="27" />
         <Component Subtype="Construction" Count="68" />
         <Component Subtype="InteriorPlate" Count="203" />
@@ -337,9 +337,9 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech8x" Count="11" />
         <Component Subtype="InteriorPlate" Count="186" />
         <Component Subtype="Construction" Count="85" />
+        <Component Subtype="Tech8x" Count="11" />
         <Component Subtype="Computer" Count="21" />
         <Component Subtype="Motor" Count="27" />
         <Component Subtype="Display" Count="4" />

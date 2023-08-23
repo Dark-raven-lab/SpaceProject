@@ -39,10 +39,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <Components>
-        <Component Subtype="Tech2x" Count="3" />
         <Component Subtype="SteelPlate" Count="2" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="Tech2x" Count="3" />
         <Component Subtype="Thrust" Count="2" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="SteelPlate" Count="2" />
@@ -152,10 +152,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="4" />
       <Components>
-        <Component Subtype="Tech2x" Count="7" />
         <Component Subtype="SteelPlate" Count="2" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="Tech2x" Count="7" />
         <Component Subtype="Thrust" Count="18" />
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="SteelPlate" Count="6" />
@@ -266,10 +266,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <Components>
-        <Component Subtype="Tech2x" Count="10" />
         <Component Subtype="SteelPlate" Count="23" />
         <Component Subtype="Construction" Count="60" />
         <Component Subtype="LargeTube" Count="12" />
+        <Component Subtype="Tech2x" Count="10" />
         <Component Subtype="Thrust" Count="120" />
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="SteelPlate" Count="15" />
@@ -380,10 +380,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="4" />
       <Components>
-        <Component Subtype="Tech2x" Count="50" />
         <Component Subtype="SteelPlate" Count="150" />
         <Component Subtype="Construction" Count="105" />
         <Component Subtype="LargeTube" Count="60" />
+        <Component Subtype="Tech2x" Count="50" />
         <Component Subtype="Thrust" Count="1440" />
         <Component Subtype="Construction" Count="45" />
         <Component Subtype="SteelPlate" Count="75" />
@@ -497,10 +497,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <Components>
-        <Component Subtype="Tech4x" Count="3" />
         <Component Subtype="SteelPlate" Count="3" />
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="LargeTube" Count="3" />
+        <Component Subtype="Tech4x" Count="3" />
         <Component Subtype="Thrust" Count="3" />
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="SteelPlate" Count="3" />
@@ -610,10 +610,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="4" />
       <Components>
-        <Component Subtype="Tech4x" Count="7" />
         <Component Subtype="SteelPlate" Count="3" />
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="LargeTube" Count="12" />
+        <Component Subtype="Tech4x" Count="7" />
         <Component Subtype="Thrust" Count="27" />
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="SteelPlate" Count="9" />
@@ -724,10 +724,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <Components>
-        <Component Subtype="Tech4x" Count="10" />
         <Component Subtype="SteelPlate" Count="34" />
         <Component Subtype="Construction" Count="90" />
         <Component Subtype="LargeTube" Count="18" />
+        <Component Subtype="Tech4x" Count="10" />
         <Component Subtype="Thrust" Count="180" />
         <Component Subtype="Construction" Count="45" />
         <Component Subtype="SteelPlate" Count="23" />
@@ -838,10 +838,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="4" />
       <Components>
-        <Component Subtype="Tech4x" Count="50" />
         <Component Subtype="SteelPlate" Count="225" />
         <Component Subtype="Construction" Count="158" />
         <Component Subtype="LargeTube" Count="90" />
+        <Component Subtype="Tech4x" Count="50" />
         <Component Subtype="Thrust" Count="2160" />
         <Component Subtype="Construction" Count="68" />
         <Component Subtype="SteelPlate" Count="113" />
@@ -955,10 +955,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <Components>
-        <Component Subtype="Tech8x" Count="3" />
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="Construction" Count="4" />
         <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Tech8x" Count="3" />
         <Component Subtype="Thrust" Count="4" />
         <Component Subtype="Construction" Count="4" />
         <Component Subtype="SteelPlate" Count="4" />
@@ -1068,10 +1068,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="4" />
       <Components>
-        <Component Subtype="Tech8x" Count="7" />
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="Construction" Count="4" />
         <Component Subtype="LargeTube" Count="17" />
+        <Component Subtype="Tech8x" Count="7" />
         <Component Subtype="Thrust" Count="41" />
         <Component Subtype="Construction" Count="4" />
         <Component Subtype="SteelPlate" Count="14" />
@@ -1182,10 +1182,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <Components>
-        <Component Subtype="Tech8x" Count="10" />
         <Component Subtype="SteelPlate" Count="51" />
         <Component Subtype="Construction" Count="135" />
         <Component Subtype="LargeTube" Count="27" />
+        <Component Subtype="Tech8x" Count="10" />
         <Component Subtype="Thrust" Count="270" />
         <Component Subtype="Construction" Count="68" />
         <Component Subtype="SteelPlate" Count="34" />
@@ -1296,10 +1296,10 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="2" z="4" />
       <Components>
-        <Component Subtype="Tech8x" Count="50" />
         <Component Subtype="SteelPlate" Count="338" />
         <Component Subtype="Construction" Count="237" />
         <Component Subtype="LargeTube" Count="135" />
+        <Component Subtype="Tech8x" Count="50" />
         <Component Subtype="Thrust" Count="3240" />
         <Component Subtype="Construction" Count="102" />
         <Component Subtype="SteelPlate" Count="169" />

@@ -40,10 +40,10 @@
       </MountPoints>
       <CriticalComponent Subtype="Motor" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="40" />
         <Component Subtype="SteelPlate" Count="15" />
         <Component Subtype="Construction" Count="23" />
         <Component Subtype="SmallTube" Count="9" />
+        <Component Subtype="Tech2x" Count="40" />
         <Component Subtype="Motor" Count="3" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="Construction" Count="3" />
@@ -99,10 +99,10 @@
       </MountPoints>
       <CriticalComponent Subtype="Motor" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="80" />
         <Component Subtype="SteelPlate" Count="23" />
         <Component Subtype="Construction" Count="38" />
         <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="Tech2x" Count="80" />
         <Component Subtype="Motor" Count="3" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="Construction" Count="8" />
@@ -173,10 +173,10 @@
       </MountPoints>
       <CriticalComponent Subtype="Motor" Index="0" />
       <Components>
-        <Component Subtype="Tech4x" Count="40" />
         <Component Subtype="SteelPlate" Count="23" />
         <Component Subtype="Construction" Count="34" />
         <Component Subtype="SmallTube" Count="14" />
+        <Component Subtype="Tech4x" Count="40" />
         <Component Subtype="Motor" Count="5" />
         <Component Subtype="Computer" Count="5" />
         <Component Subtype="Construction" Count="5" />
@@ -232,10 +232,10 @@
       </MountPoints>
       <CriticalComponent Subtype="Motor" Index="0" />
       <Components>
-        <Component Subtype="Tech4x" Count="80" />
         <Component Subtype="SteelPlate" Count="34" />
         <Component Subtype="Construction" Count="57" />
         <Component Subtype="LargeTube" Count="3" />
+        <Component Subtype="Tech4x" Count="80" />
         <Component Subtype="Motor" Count="5" />
         <Component Subtype="Computer" Count="5" />
         <Component Subtype="Construction" Count="12" />
@@ -306,10 +306,10 @@
       </MountPoints>
       <CriticalComponent Subtype="Motor" Index="0" />
       <Components>
-        <Component Subtype="Tech8x" Count="40" />
         <Component Subtype="SteelPlate" Count="34" />
         <Component Subtype="Construction" Count="51" />
         <Component Subtype="SmallTube" Count="21" />
+        <Component Subtype="Tech8x" Count="40" />
         <Component Subtype="Motor" Count="7" />
         <Component Subtype="Computer" Count="7" />
         <Component Subtype="Construction" Count="7" />
@@ -365,10 +365,10 @@
       </MountPoints>
       <CriticalComponent Subtype="Motor" Index="0" />
       <Components>
-        <Component Subtype="Tech8x" Count="80" />
         <Component Subtype="SteelPlate" Count="51" />
         <Component Subtype="Construction" Count="85" />
         <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="Tech8x" Count="80" />
         <Component Subtype="Motor" Count="7" />
         <Component Subtype="Computer" Count="7" />
         <Component Subtype="Construction" Count="17" />

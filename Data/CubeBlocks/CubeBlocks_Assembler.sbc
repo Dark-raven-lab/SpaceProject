@@ -37,12 +37,12 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="30" />
         <Component Subtype="SteelPlate" Count="180" />
         <Component Subtype="Construction" Count="120" />
         <Component Subtype="Motor" Count="30" />
         <Component Subtype="Display" Count="15" />
         <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Tech2x" Count="30" />
         <Component Subtype="Computer" Count="240" />
         <Component Subtype="SteelPlate" Count="30" />
       </Components>
@@ -113,14 +113,14 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech4x" Count="30" />
         <Component Subtype="SteelPlate" Count="270" />
         <Component Subtype="Construction" Count="180" />
         <Component Subtype="Motor" Count="45" />
         <Component Subtype="Display" Count="23" />
         <Component Subtype="MetalGrid" Count="23" />
+        <Component Subtype="Tech4x" Count="30" />
         <Component Subtype="Computer" Count="360" />
-        <Component Subtype="SteelPlate" Count="45" />
+        <Component Subtype="SteelPlate" Count="40" />
       </Components>
       <ModelOffset x="0" y="0" z="0" />
       <Size x="1" y="1" z="2" />
@@ -189,14 +189,14 @@
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech8x" Count="30" />
         <Component Subtype="SteelPlate" Count="405" />
         <Component Subtype="Construction" Count="270" />
         <Component Subtype="Motor" Count="68" />
         <Component Subtype="Display" Count="34" />
         <Component Subtype="MetalGrid" Count="34" />
+        <Component Subtype="Tech8x" Count="30" />
         <Component Subtype="Computer" Count="540" />
-        <Component Subtype="SteelPlate" Count="68" />
+        <Component Subtype="SteelPlate" Count="50" />
       </Components>
       <ModelOffset x="0" y="0" z="0" />
       <Size x="1" y="1" z="2" />

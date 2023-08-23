@@ -215,11 +215,11 @@
       <Size x="7" y="7" z="3" />
       <ModelOffset x="0" y="0" z="-0.98" />
       <Components>
-        <Component Subtype="Tech2x" Count="7" />
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="LargeTube" Count="5" />
         <Component Subtype="MetalGrid" Count="15" />
+        <Component Subtype="Tech2x" Count="7" />
         <Component Subtype="Motor" Count="150" />
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="SteelPlate" Count="40" />
@@ -312,9 +312,9 @@
       <Size x="3" y="3" z="2" />
       <ModelOffset x="0" y="0" z="-0.75" />
       <Components>
-        <Component Subtype="Tech2x" Count="3" />
         <Component Subtype="SteelPlate" Count="10" />
         <Component Subtype="Construction" Count="30" />
+        <Component Subtype="Tech2x" Count="3" />
         <Component Subtype="Motor" Count="90" />
         <Component Subtype="MetalGrid" Count="1" />
         <Component Subtype="Construction" Count="15" />
@@ -408,11 +408,11 @@
       <Size x="7" y="7" z="3" />
       <ModelOffset x="0" y="0" z="-0.98" />
       <Components>
-        <Component Subtype="Tech4x" Count="7" />
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="LargeTube" Count="7" />
         <Component Subtype="MetalGrid" Count="22" />
+        <Component Subtype="Tech4x" Count="7" />
         <Component Subtype="Motor" Count="350" />
         <Component Subtype="Construction" Count="70" />
         <Component Subtype="SteelPlate" Count="70" />
@@ -505,9 +505,9 @@
       <Size x="3" y="3" z="2" />
       <ModelOffset x="0" y="0" z="-0.75" />
       <Components>
-        <Component Subtype="Tech4x" Count="3" />
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="Construction" Count="37" />
+        <Component Subtype="Tech4x" Count="3" />
         <Component Subtype="Motor" Count="135" />
         <Component Subtype="MetalGrid" Count="2" />
         <Component Subtype="Construction" Count="30" />
@@ -601,11 +601,11 @@
       <Size x="7" y="7" z="3" />
       <ModelOffset x="0" y="0" z="-0.98" />
       <Components>
-        <Component Subtype="Tech8x" Count="7" />
         <Component Subtype="SteelPlate" Count="75" />
         <Component Subtype="Construction" Count="85" />
         <Component Subtype="LargeTube" Count="10" />
         <Component Subtype="MetalGrid" Count="33" />
+        <Component Subtype="Tech8x" Count="7" />
         <Component Subtype="Motor" Count="340" />
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="SteelPlate" Count="50" />
@@ -698,9 +698,9 @@
       <Size x="3" y="3" z="2" />
       <ModelOffset x="0" y="0" z="-0.75" />
       <Components>
-        <Component Subtype="Tech4x" Count="3" />
         <Component Subtype="SteelPlate" Count="40" />
         <Component Subtype="Construction" Count="40" />
+        <Component Subtype="Tech4x" Count="3" />
         <Component Subtype="Motor" Count="200" />
         <Component Subtype="MetalGrid" Count="3" />
         <Component Subtype="Construction" Count="60" />

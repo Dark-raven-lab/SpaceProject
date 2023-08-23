@@ -43,12 +43,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech2x" Count="30" />
         <Component Subtype="SteelPlate" Count="1650" />
         <Component Subtype="Construction" Count="60" />
         <Component Subtype="LargeTube" Count="30" />
         <Component Subtype="Motor" Count="24" />
         <Component Subtype="MetalGrid" Count="30" />
+        <Component Subtype="Tech2x" Count="30" />
         <Component Subtype="Computer" Count="30" />
         <Component Subtype="SteelPlate" Count="150" />
       </Components>
@@ -118,12 +118,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech4x" Count="30" />
         <Component Subtype="SteelPlate" Count="2475" />
         <Component Subtype="Construction" Count="90" />
         <Component Subtype="LargeTube" Count="45" />
         <Component Subtype="Motor" Count="36" />
         <Component Subtype="MetalGrid" Count="45" />
+        <Component Subtype="Tech4x" Count="30" />
         <Component Subtype="Computer" Count="45" />
         <Component Subtype="SteelPlate" Count="225" />
       </Components>
@@ -193,12 +193,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech8x" Count="30" />
         <Component Subtype="SteelPlate" Count="3713" />
         <Component Subtype="Construction" Count="135" />
         <Component Subtype="LargeTube" Count="68" />
         <Component Subtype="Motor" Count="54" />
         <Component Subtype="MetalGrid" Count="68" />
+        <Component Subtype="Tech8x" Count="30" />
         <Component Subtype="Computer" Count="68" />
         <Component Subtype="SteelPlate" Count="338" />
       </Components>

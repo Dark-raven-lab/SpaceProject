@@ -31,12 +31,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech2x" Count="5" />
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="Medical" Count="5" />
         <Component Subtype="Motor" Count="6" />
         <Component Subtype="Display" Count="2" />
+        <Component Subtype="Tech2x" Count="5" />
         <Component Subtype="Computer" Count="8" />
         <Component Subtype="SteelPlate" Count="15" />
       </Components>
@@ -111,12 +111,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
       <Components>
-        <Component Subtype="Tech2x" Count="5" />
         <Component Subtype="SteelPlate" Count="2" />
         <Component Subtype="Construction" Count="3" />
         <Component Subtype="Medical" Count="5" />
         <Component Subtype="Motor" Count="6" />
         <Component Subtype="Display" Count="2" />
+        <Component Subtype="Tech2x" Count="5" />
         <Component Subtype="Computer" Count="8" />
         <Component Subtype="SteelPlate" Count="8" />
       </Components>
@@ -185,12 +185,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech4x" Count="5" />
         <Component Subtype="SteelPlate" Count="45" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="Medical" Count="7" />
         <Component Subtype="Motor" Count="9" />
         <Component Subtype="Display" Count="3" />
+        <Component Subtype="Tech4x" Count="5" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="SteelPlate" Count="23" />
       </Components>
@@ -265,12 +265,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
       <Components>
-        <Component Subtype="Tech4x" Count="5" />
         <Component Subtype="SteelPlate" Count="3" />
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="Medical" Count="7" />
         <Component Subtype="Motor" Count="9" />
         <Component Subtype="Display" Count="3" />
+        <Component Subtype="Tech4x" Count="5" />
         <Component Subtype="Computer" Count="12" />
         <Component Subtype="SteelPlate" Count="12" />
       </Components>
@@ -339,12 +339,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Large</CubeSize>
       <Components>
-        <Component Subtype="Tech8x" Count="5" />
         <Component Subtype="SteelPlate" Count="68" />
         <Component Subtype="Construction" Count="7" />
         <Component Subtype="Medical" Count="11" />
         <Component Subtype="Motor" Count="14" />
         <Component Subtype="Display" Count="4" />
+        <Component Subtype="Tech8x" Count="5" />
         <Component Subtype="Computer" Count="17" />
         <Component Subtype="SteelPlate" Count="34" />
       </Components>
@@ -419,12 +419,12 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
       <Components>
-        <Component Subtype="Tech8x" Count="5" />
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="Construction" Count="7" />
         <Component Subtype="Medical" Count="11" />
         <Component Subtype="Motor" Count="14" />
         <Component Subtype="Display" Count="4" />
+        <Component Subtype="Tech8x" Count="5" />
         <Component Subtype="Computer" Count="17" />
         <Component Subtype="SteelPlate" Count="17" />
       </Components>

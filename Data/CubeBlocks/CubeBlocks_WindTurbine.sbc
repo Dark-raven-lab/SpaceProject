@@ -32,7 +32,6 @@
       <MountPoints>
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="1" StartY="1" EndX="2" EndY="2" />
       </MountPoints>
-      <CriticalComponent Subtype="Computer" Index="0" />
       <Center x="1" y="0" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="3" y="3" z="3" />
@@ -50,12 +49,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
+      <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech2x" Count="15" />
         <Component Subtype="InteriorPlate" Count="15" />
         <Component Subtype="Motor" Count="12" />
         <Component Subtype="Construction" Count="30" />
         <Component Subtype="Girder" Count="36" />
+        <Component Subtype="Tech2x" Count="15" />
         <Component Subtype="Computer" Count="3" />
         <Component Subtype="InteriorPlate" Count="45" />
       </Components>
@@ -108,7 +108,6 @@
       <MountPoints>
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="1" StartY="1" EndX="2" EndY="2" />
       </MountPoints>
-      <CriticalComponent Subtype="Computer" Index="0" />
       <Center x="1" y="0" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="3" y="3" z="3" />
@@ -126,12 +125,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
+      <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech4x" Count="15" />
         <Component Subtype="InteriorPlate" Count="23" />
         <Component Subtype="Motor" Count="18" />
         <Component Subtype="Construction" Count="45" />
         <Component Subtype="Girder" Count="54" />
+        <Component Subtype="Tech4x" Count="15" />
         <Component Subtype="Computer" Count="5" />
         <Component Subtype="InteriorPlate" Count="68" />
       </Components>
@@ -184,7 +184,6 @@
       <MountPoints>
         <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="1" StartY="1" EndX="2" EndY="2" />
       </MountPoints>
-      <CriticalComponent Subtype="Computer" Index="0" />
       <Center x="1" y="0" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Size x="3" y="3" z="3" />
@@ -202,12 +201,13 @@
           <MinAllowed>0</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
+      <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
-        <Component Subtype="Tech8x" Count="15" />
         <Component Subtype="InteriorPlate" Count="34" />
         <Component Subtype="Motor" Count="27" />
         <Component Subtype="Construction" Count="68" />
         <Component Subtype="Girder" Count="81" />
+        <Component Subtype="Tech8x" Count="15" />
         <Component Subtype="Computer" Count="7" />
         <Component Subtype="InteriorPlate" Count="102" />
       </Components>
