@@ -31,7 +31,7 @@
                 <Item Amount="24" TypeId="Ingot" SubtypeId="Cobalt"/>
                 <Item Amount="18" TypeId="Ingot" SubtypeId="Silver"/>
                 <Item Amount="10" TypeId="Ingot" SubtypeId="Gold"/>
-                <Item Amount="2" TypeId="Ingot" SubtypeId="Uranium"/>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Platinum"/>
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech4x"/>
             <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
@@ -49,8 +49,8 @@
                 <Item Amount="36" TypeId="Ingot" SubtypeId="Cobalt"/>
                 <Item Amount="25" TypeId="Ingot" SubtypeId="Silver"/>
                 <Item Amount="16" TypeId="Ingot" SubtypeId="Gold"/>
-                <Item Amount="4" TypeId="Ingot" SubtypeId="Uranium"/>
-                <Item Amount="1" TypeId="Ingot" SubtypeId="Platinum"/>
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Platinum"/>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium"/>
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="Tech8x"/>
             <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
