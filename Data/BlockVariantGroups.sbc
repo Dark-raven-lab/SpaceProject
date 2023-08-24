@@ -51,25 +51,6 @@
     <BlockVariantGroup Enabled="true">
       <Id>
         <TypeId>BlockVariantGroup</TypeId>
-        <SubtypeId>TrashCanGroup</SubtypeId>
-      </Id>
-      <DisplayName>Stone Incinerator</DisplayName>
-      <Description>Rapidly vaporizes Stone leaving only trace amounts of ressources.</Description>
-      <Icon>Textures\StoneIncinerator.dds</Icon>
-      <Blocks>
-        <Block>
-          <TypeId>Refinery</TypeId>
-          <SubtypeId>StoneIncinerator</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Refinery</TypeId>
-          <SubtypeId>StoneIncineratorSmall</SubtypeId>
-        </Block>
-      </Blocks>
-    </BlockVariantGroup>
-    <BlockVariantGroup Enabled="true">
-      <Id>
-        <TypeId>BlockVariantGroup</TypeId>
         <SubtypeId>SurvivalKitGroup</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_SurvivalKit</DisplayName>

@@ -8,18 +8,20 @@
       </Id>
       <DisplayName>DisplayName_StoneIncinerator</DisplayName>
       <Description>Быстро перерабатывает камень оставляя полезные ресурсы.</Description>
+      <Public>true</Public>
       <Icon>Textures\StoneIncinerator.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\BasicAssembler.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <PCU>90</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <BlockPairName>StoneIncinerator</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicAssembler_Construction1.mwm" RandomOrientation="false" Visible="true" />
@@ -35,10 +37,6 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="60" />
         <Component Subtype="Construction" Count="40" />
@@ -47,12 +45,17 @@
         <Component Subtype="Computer" Count="80" />
         <Component Subtype="SteelPlate" Count="20" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
       <ActionSound>BlockRafineryProcess</ActionSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>BlockRafinery</PrimarySound>
       <InventoryMaxVolume>5</InventoryMaxVolume>
       <InventorySize>
         <X>2.5</X>
@@ -78,18 +81,21 @@
       </Id>
       <DisplayName>DisplayName_StoneIncinerator</DisplayName>
       <Description>Быстро перерабатывает камень оставляя полезные ресурсы.</Description>
+      <Public>true</Public>
       <Icon>Textures\StoneIncinerator.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\OxygenGenerator.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <PCU>90</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <Center x="1" y="1" z="0" />
       <BlockPairName>StoneIncinerator</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\OxygenGeneratorConstruction_1.mwm" RandomOrientation="false" Visible="true" />
@@ -110,11 +116,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="1" EndX="3" EndY="2" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <Center x="1" y="1" z="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="2" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="11" />
         <Component Subtype="Construction" Count="15" />
@@ -123,12 +124,17 @@
         <Component Subtype="Computer" Count="6" />
         <Component Subtype="SteelPlate" Count="4" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="2" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
       <ActionSound>BlockRafineryProcess</ActionSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>BlockRafinery</PrimarySound>
       <InventoryMaxVolume>3</InventoryMaxVolume>
       <InventorySize>
         <X>3</X>
