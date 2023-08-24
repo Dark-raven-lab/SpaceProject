@@ -93,5 +93,43 @@
 				<string>Thrust/alb_ThrusterTailRotor5Blade8x</string>
 			</ItemIds>
 		</Category>
+    <Category Enabled="true">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId />
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <StrictSearch>false</StrictSearch>
+      <ShowAnimations>false</ShowAnimations>
+      <IsToolCategory>false</IsToolCategory>
+      <IsAnimationCategory>false</IsAnimationCategory>
+      <SearchBlocks>true</SearchBlocks>
+      <IsBlockCategory>true</IsBlockCategory>
+      <IsShipCategory>false</IsShipCategory>
+      <ItemIds>
+        <string>Cockpit/MA_FGC_SiloController</string>
+      </ItemIds>
+      <ShowInCreative>true</ShowInCreative>
+      <Name>SmallBlocks</Name>
+    </Category>
+    <Category Enabled="true">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId />
+      </Id>
+      <DisplayName>DisplayName_Category_Cockpit</DisplayName>
+      <StrictSearch>false</StrictSearch>
+      <ShowAnimations>false</ShowAnimations>
+      <IsToolCategory>false</IsToolCategory>
+      <IsAnimationCategory>false</IsAnimationCategory>
+      <SearchBlocks>true</SearchBlocks>
+      <IsBlockCategory>true</IsBlockCategory>
+      <IsShipCategory>false</IsShipCategory>
+      <ItemIds>
+        <string>Cockpit/MA_FGC_SiloController</string>
+      </ItemIds>
+      <ShowInCreative>true</ShowInCreative>
+      <Name>Cockpits</Name>
+    </Category>
 	</CategoryClasses>
 </Definitions>
