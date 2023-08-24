@@ -70,10 +70,10 @@
     <BlockVariantGroup Enabled="true">
       <Id>
         <TypeId>BlockVariantGroup</TypeId>
-        <SubtypeId>AssemblerGroup</SubtypeId>
+        <SubtypeId>SurvivalKitGroup</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_Assembler</DisplayName>
-      <Description>Description_Assembler</Description>
+      <DisplayName>DisplayName_Block_SurvivalKit</DisplayName>
+      <Description>Description_SurvivalKit</Description>
       <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
       <Blocks>
         <Block>
@@ -84,6 +84,17 @@
           <TypeId>SurvivalKit</TypeId>
           <SubtypeId>SurvivalKit</SubtypeId>
         </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>AssemblerGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Assembler</DisplayName>
+      <Description>Description_Assembler</Description>
+      <Icon>Textures\GUI\Icons\Cubes\BasicAssembler.dds</Icon>
+      <Blocks>
         <Block>
           <TypeId>Assembler</TypeId>
           <SubtypeId>BasicAssembler</SubtypeId>
@@ -94,31 +105,7 @@
         </Block>
         <Block>
           <TypeId>Assembler</TypeId>
-          <SubtypeId>LargeAssemblerIndustrial</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SurvivalKit</TypeId>
-          <SubtypeId>SurvivalKitLarge2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SurvivalKit</TypeId>
-          <SubtypeId>SurvivalKit2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Assembler</TypeId>
           <SubtypeId>LargeAssembler2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>Assembler</TypeId>
-          <SubtypeId>LargeAssemblerIndustrial2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SurvivalKit</TypeId>
-          <SubtypeId>SurvivalKitLarge4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SurvivalKit</TypeId>
-          <SubtypeId>SurvivalKit4x</SubtypeId>
         </Block>
         <Block>
           <TypeId>Assembler</TypeId>
@@ -126,19 +113,19 @@
         </Block>
         <Block>
           <TypeId>Assembler</TypeId>
-          <SubtypeId>LargeAssemblerIndustrial4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SurvivalKit</TypeId>
-          <SubtypeId>SurvivalKitLarge8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>SurvivalKit</TypeId>
-          <SubtypeId>SurvivalKit8x</SubtypeId>
+          <SubtypeId>LargeAssembler8x</SubtypeId>
         </Block>
         <Block>
           <TypeId>Assembler</TypeId>
-          <SubtypeId>LargeAssembler8x</SubtypeId>
+          <SubtypeId>LargeAssemblerIndustrial</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssemblerIndustrial2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Assembler</TypeId>
+          <SubtypeId>LargeAssemblerIndustrial4x</SubtypeId>
         </Block>
         <Block>
           <TypeId>Assembler</TypeId>
