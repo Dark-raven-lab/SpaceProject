@@ -11,11 +11,21 @@
       </Position>
     </BlockPosition>
 
+    <!-- Row 2 -->
+    <BlockPosition>
+      <Name>propeller_motor_classic_3x3</Name> <!-- Plane Mod -->
+      <Position>
+        <Y>2</Y> 
+        <X>9</X>
+      </Position>
+    </BlockPosition>
+
+    <!-- Row trusters-->
     <BlockPosition>
       <Name>Prop_S_2blade_silver_forw</Name>
       <Position>
         <Y>5</Y>
-        <X>11</X>
+        <X>10</X>
       </Position>
     </BlockPosition>
 
@@ -23,15 +33,15 @@
       <Name>Prop_S_3blade_silver_forw</Name>
       <Position>
         <Y>5</Y>
-        <X>12</X>
+        <X>11</X>
       </Position>
     </BlockPosition>
 
     <BlockPosition>
       <Name>Prop_S_4blade_silver_forw</Name>
       <Position>
-        <Y>5</Y>
-        <X>13</X>
+        <Y>5</Y> 
+        <X>12</X>
       </Position>
     </BlockPosition>
 
@@ -39,7 +49,7 @@
       <Name>Prop_S_8blade_silver_forw</Name>
       <Position>
         <Y>5</Y>
-        <X>14</X>
+        <X>13</X>
       </Position>
     </BlockPosition>
 	
@@ -47,7 +57,7 @@
       <Name>ThrusterLarge5Blade</Name>
       <Position>
         <Y>5</Y>
-        <X>15</X>
+        <X>14</X>
       </Position>
     </BlockPosition>
 	
