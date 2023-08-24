@@ -60,6 +60,14 @@
     </BlockPosition>
 
     <BlockPosition>
+      <Name>InteriorLight</Name>
+        <Position>
+            <Y>12</Y>
+            <X>5</X>
+         </Position>
+     </BlockPosition>
+
+    <BlockPosition>
       <Name>HydrogenTankIndustrial</Name>
       <Position>
         <Y>16</Y>

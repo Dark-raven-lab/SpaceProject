@@ -1500,9 +1500,9 @@
     <BlockVariantGroup Enabled="true">
       <Id>
         <TypeId>BlockVariantGroup</TypeId>
-        <SubtypeId>LightingGroup</SubtypeId>
+        <SubtypeId>ReflectorGroup</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
+      <DisplayName>DisplayName_BlockGroup_ReflectorGroup</DisplayName>
       <Description>Description_BlockGroup_LightingGroup</Description>
       <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
       <Blocks>
@@ -1512,8 +1512,67 @@
         </Block>
         <Block>
           <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>LargeBlockFrontLight2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>SmallBlockFrontLight2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>LargeBlockFrontLight4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>SmallBlockFrontLight4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>LargeBlockFrontLight8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>SmallBlockFrontLight8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
           <SubtypeId>SmallBlockFrontLight</SubtypeId>
         </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>RotatingLightLarge</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>RotatingLightSmall</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>ReflectorLight</TypeId>
+          <SubtypeId>OffsetSpotlight</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>OffsetLight</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Searchlight</TypeId>
+          <SubtypeId>LargeSearchlight</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>Searchlight</TypeId>
+          <SubtypeId>SmallSearchlight</SubtypeId>
+        </Block>
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
+      <Id>
+        <TypeId>BlockVariantGroup</TypeId>
+        <SubtypeId>LightingGroup</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlockGroup_LightingGroup</DisplayName>
+      <Description>Description_BlockGroup_LightingGroup</Description>
+      <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+      <Blocks>
         <Block>
           <TypeId>InteriorLight</TypeId>
           <SubtypeId>SmallLight</SubtypeId>
@@ -1539,36 +1598,20 @@
           <SubtypeId>SmallBlockLight_2corner</SubtypeId>
         </Block>
         <Block>
-          <TypeId>ReflectorLight</TypeId>
-          <SubtypeId>RotatingLightLarge</SubtypeId>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>SmallLightPanel</SubtypeId>
         </Block>
         <Block>
-          <TypeId>ReflectorLight</TypeId>
-          <SubtypeId>RotatingLightSmall</SubtypeId>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>LargeLightPanel</SubtypeId>
         </Block>
         <Block>
-          <TypeId>ReflectorLight</TypeId>
-          <SubtypeId>LargeBlockFrontLight2x</SubtypeId>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>LargeBlockInsetLight</SubtypeId>
         </Block>
         <Block>
-          <TypeId>ReflectorLight</TypeId>
-          <SubtypeId>SmallBlockFrontLight2x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>ReflectorLight</TypeId>
-          <SubtypeId>LargeBlockFrontLight4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>ReflectorLight</TypeId>
-          <SubtypeId>SmallBlockFrontLight4x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>ReflectorLight</TypeId>
-          <SubtypeId>LargeBlockFrontLight8x</SubtypeId>
-        </Block>
-        <Block>
-          <TypeId>ReflectorLight</TypeId>
-          <SubtypeId>SmallBlockFrontLight8x</SubtypeId>
+          <TypeId>InteriorLight</TypeId>
+          <SubtypeId>SmallBlockInsetLight</SubtypeId>
         </Block>
       </Blocks>
     </BlockVariantGroup>
