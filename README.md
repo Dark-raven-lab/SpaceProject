@@ -1,5 +1,5 @@
 # SpaceProject
-Пересборка модов для частного сервера игры Space Engeners
+Пересборка модов для частного сервера игры Space Engineers
 Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2969490729
 
 Интегрировано и пересобрано
