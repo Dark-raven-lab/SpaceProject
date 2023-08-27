@@ -21,6 +21,7 @@
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <PCU>90</PCU>
+      <IsAirTight>true</IsAirTight>
       <DestroyEffectScale>1</DestroyEffectScale>
       <BlockPairName>StoneIncinerator</BlockPairName>
       <BuildProgressModels>
@@ -94,6 +95,7 @@
       <DestroySound>WepSmallMissileExpl</DestroySound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
       <PCU>90</PCU>
+      <IsAirTight>false</IsAirTight>
       <DestroyEffectScale>1</DestroyEffectScale>
       <Center x="1" y="1" z="0" />
       <BlockPairName>StoneIncinerator</BlockPairName>

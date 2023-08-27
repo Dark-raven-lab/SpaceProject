@@ -446,6 +446,7 @@
       <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
       <GasExplosionNeededVolumeToReachMaxRadius>200000</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>200000</Capacity>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -532,6 +533,7 @@
       <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
       <GasExplosionNeededVolumeToReachMaxRadius>400000</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>400000</Capacity>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -618,6 +620,7 @@
       <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
       <GasExplosionNeededVolumeToReachMaxRadius>800000</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>800000</Capacity>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -704,6 +707,7 @@
       <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
       <GasExplosionNeededVolumeToReachMaxRadius>1600000</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>1600000</Capacity>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -1200,6 +1204,7 @@
       <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
       <GasExplosionNeededVolumeToReachMaxRadius>3000</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>3000</Capacity>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -1286,6 +1291,7 @@
       <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
       <GasExplosionNeededVolumeToReachMaxRadius>6000</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>6000</Capacity>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -1372,6 +1378,7 @@
       <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
       <GasExplosionNeededVolumeToReachMaxRadius>12000</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>12000</Capacity>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -1458,6 +1465,7 @@
       <EmptyDamagedSound>ParticleWeapExpl</EmptyDamagedSound>
       <GasExplosionNeededVolumeToReachMaxRadius>24000</GasExplosionNeededVolumeToReachMaxRadius>
       <Capacity>24000</Capacity>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>

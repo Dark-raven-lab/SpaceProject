@@ -818,6 +818,7 @@
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
       <DestroyEffectScale>1</DestroyEffectScale>
       <TieredUpdateTimes>
         <unsignedInt>100</unsignedInt>
@@ -903,6 +904,7 @@
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
       <DestroyEffectScale>1</DestroyEffectScale>
       <TieredUpdateTimes>
         <unsignedInt>100</unsignedInt>
@@ -989,6 +991,7 @@
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
       <DestroyEffectScale>1</DestroyEffectScale>
       <TieredUpdateTimes>
         <unsignedInt>100</unsignedInt>
@@ -1075,6 +1078,7 @@
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
       <DestroyEffectScale>1</DestroyEffectScale>
       <TieredUpdateTimes>
         <unsignedInt>100</unsignedInt>

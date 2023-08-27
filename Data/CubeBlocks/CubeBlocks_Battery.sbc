@@ -53,6 +53,7 @@
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
       <MaxStoredPower>0.1</MaxStoredPower>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -227,6 +228,7 @@
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
       <MaxStoredPower>0.2</MaxStoredPower>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -401,6 +403,7 @@
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
       <MaxStoredPower>0.4</MaxStoredPower>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>

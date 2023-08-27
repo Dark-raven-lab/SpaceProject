@@ -120,6 +120,7 @@
         <Y>2.5</Y>
         <Z>2.5</Z>
       </InventorySize>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -240,6 +241,7 @@
         <Y>2.5</Y>
         <Z>2.5</Z>
       </InventorySize>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -302,6 +304,7 @@
         <Y>7.5</Y>
         <Z>7.5</Z>
       </InventorySize>
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -321,6 +324,7 @@
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
       <MirroringX>Z</MirroringX>
       <BlockPairName>LargeCargoContainer8x</BlockPairName>
       <BuildProgressModels>
