@@ -65,6 +65,30 @@
           <TypeId>SurvivalKit</TypeId>
           <SubtypeId>SurvivalKit</SubtypeId>
         </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKitLarge2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKit2x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKitLarge4x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKi4xt</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKitLarge8x</SubtypeId>
+        </Block>
+        <Block>
+          <TypeId>SurvivalKit</TypeId>
+          <SubtypeId>SurvivalKit8x</SubtypeId>
+        </Block>
       </Blocks>
     </BlockVariantGroup>
     <BlockVariantGroup Enabled="true">
