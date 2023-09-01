@@ -841,4 +841,55 @@
     <value>Component T3</value>
     <comment/>
   </data>
+
+  <data name="DisplayName_Block_LargeAtmoThrustFlat2x" xml:space="preserve">
+    <value>Large flat atmospheric accelerator T1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_LargeAtmoThrustFlatDShape2x" xml:space="preserve">
+    <value>Large flat atmospheric accelerator T1 (D)</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlat2x" xml:space="preserve">
+    <value>Flat atmospheric accelerator T1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlatDShape2x" xml:space="preserve">
+    <value>Flat atmospheric accelerator T1 (D)</value>
+    <comment/>
+  </data>
+
+  <data name="DisplayName_Block_LargeAtmoThrustFlat4x" xml:space="preserve">
+    <value>Large flat atmospheric accelerator T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_LargeAtmoThrustFlatDShape4x" xml:space="preserve">
+    <value>Large flat atmospheric accelerator T2 (D)</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlat4x" xml:space="preserve">
+    <value>Flat atmospheric accelerator T2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlatDShape4x" xml:space="preserve">
+    <value>Flat atmospheric accelerator T2 (D)</value>
+    <comment/>
+  </data>
+
+    <data name="DisplayName_Block_LargeAtmoThrustFlat8x" xml:space="preserve">
+    <value>Large flat atmospheric accelerator T3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_LargeAtmoThrustFlatDShape8x" xml:space="preserve">
+    <value>Large flat atmospheric accelerator T3 (D)</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlat8x" xml:space="preserve">
+    <value>Flat atmospheric accelerator T3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlatDShape8x" xml:space="preserve">
+    <value>Flat atmospheric accelerator T3 (D)</value>
+    <comment/>
+  </data>
 </root>
