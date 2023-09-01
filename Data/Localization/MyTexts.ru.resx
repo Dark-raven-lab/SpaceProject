@@ -841,4 +841,54 @@
     <value>Компоненты Т3</value>
     <comment/>
   </data>
+  <data name="DisplayName_Block_LargeAtmoThrustFlat2x" xml:space="preserve">
+    <value>Большой плоский атмосферный ускоритель Т1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_LargeAtmoThrustFlatDShape2x" xml:space="preserve">
+    <value>Большой плоский атмосферный ускоритель Т1 (D)</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlat2x" xml:space="preserve">
+    <value>Плоский атмосферный ускоритель Т1</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlatDShape2x" xml:space="preserve">
+    <value>Плоский атмосферный ускоритель Т1 (D)</value>
+    <comment/>
+  </data>
+
+  <data name="DisplayName_Block_LargeAtmoThrustFlat4x" xml:space="preserve">
+    <value>Большой плоский атмосферный ускоритель Т2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_LargeAtmoThrustFlatDShape4x" xml:space="preserve">
+    <value>Большой плоский атмосферный ускоритель Т2 (D)</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlat4x" xml:space="preserve">
+    <value>Плоский атмосферный ускоритель Т2</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlatDShape4x" xml:space="preserve">
+    <value>Плоский атмосферный ускоритель Т2 (D)</value>
+    <comment/>
+  </data>
+
+    <data name="DisplayName_Block_LargeAtmoThrustFlat8x" xml:space="preserve">
+    <value>Большой плоский атмосферный ускоритель Т3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_LargeAtmoThrustFlatDShape8x" xml:space="preserve">
+    <value>Большой плоский атмосферный ускоритель Т3 (D)</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlat8x" xml:space="preserve">
+    <value>Плоский атмосферный ускоритель Т3</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_Block_SmallAtmoThrustFlatDShape8x" xml:space="preserve">
+    <value>Плоский атмосферный ускоритель Т3 (D)</value>
+    <comment/>
+  </data>
 </root>
