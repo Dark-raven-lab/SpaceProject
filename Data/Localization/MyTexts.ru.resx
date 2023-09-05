@@ -891,4 +891,8 @@
     <value>Плоский атмосферный ускоритель Т3 (D)</value>
     <comment/>
   </data>
+  <data name="DisplayName_Warfare_PF556_Gatling_Turret" xml:space="preserve">
+    <value>Боевая турель Гатлинга PF556</value>
+    <comment/>
+  </data>
 </root>
