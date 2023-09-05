@@ -892,4 +892,8 @@
     <value>Flat atmospheric accelerator T3 (D)</value>
     <comment/>
   </data>
+  <data name="DisplayName_Warfare_PF556_Gatling_Turret" xml:space="preserve">
+    <value>Warfare Gatling Turret PF556</value>
+    <comment/>
+  </data>
 </root>

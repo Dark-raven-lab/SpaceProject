@@ -1790,7 +1790,7 @@
         </Block>
       </Blocks>
     </BlockVariantGroup>
-    <BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
       <Id>
         <TypeId>BlockVariantGroup</TypeId>
         <SubtypeId>PistonGroup</SubtypeId>
@@ -1811,7 +1811,7 @@
           <Block Type="MyObjectBuilder_MergeBlock" Subtype="SmallShipSmallMergeBlock" />
       </Blocks>
     </BlockVariantGroup>
-    <BlockVariantGroup>
+    <BlockVariantGroup Enabled="true">
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SafeZoneBlockGroup" />
       <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
       <DisplayName>DisplayName_Block_SafeZoneBlock</DisplayName>
@@ -1820,7 +1820,7 @@
         <Block Type="MyObjectBuilder_SafeZoneBlock" Subtype="SafeZoneBlock" />
       </Blocks>
     </BlockVariantGroup>
-        <BlockVariantGroup Enabled="true">
+    <BlockVariantGroup Enabled="true">
       <Id>
         <TypeId>BlockVariantGroup</TypeId>
         <SubtypeId>AtmoThrustFlatGroup</SubtypeId>
@@ -1963,5 +1963,24 @@
         </Block>
       </Blocks>
     </BlockVariantGroup>
+    <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\gatling_turret.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_TurretGroup</DisplayName>
+            <Description>Description_BlockGroup_TurretGroup</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="" />
+                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="SmallGatlingTurret" />
+                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="WtDLCA_WarfareGatlingTurret" />
+                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="PF556_WarfareGatlingTurret_SG" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SmallMissileTurret" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="LargeCalibreTurret" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="LargeBlockMediumCalibreTurret" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SmallBlockMediumCalibreTurret" />
+                <Block Type="MyObjectBuilder_InteriorTurret" Subtype="LargeInteriorTurret" />
+                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="AutoCannonTurret" />
+            </Blocks>
+        </BlockVariantGroup>
   </BlockVariantGroups>
 </Definitions>
