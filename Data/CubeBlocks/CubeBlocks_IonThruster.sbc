@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <CubeBlocks>
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockSmallThrust</SubtypeId>
@@ -66,7 +66,7 @@
 			<MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-			<EffectivenessAtMaxInfluence>0.05</EffectivenessAtMaxInfluence>
+			<EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
             <FlameDamage>0.1</FlameDamage>
@@ -103,7 +103,7 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockLargeThrust</SubtypeId>
@@ -167,7 +167,7 @@
 			<MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-			<EffectivenessAtMaxInfluence>0.05</EffectivenessAtMaxInfluence>
+			<EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
             <FlameDamage>0.2</FlameDamage>
@@ -204,7 +204,7 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockSmallThrust</SubtypeId>
@@ -270,7 +270,7 @@
 			<MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-			<EffectivenessAtMaxInfluence>0.05</EffectivenessAtMaxInfluence>
+			<EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
             <FlameLengthScale>1.5</FlameLengthScale>
@@ -306,7 +306,7 @@
                 <string>Propulsion</string>
             </TargetingGroups>
         </Definition>
-        <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Id>
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LargeBlockLargeThrust</SubtypeId>
@@ -373,7 +373,7 @@
 			<MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
             <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-			<EffectivenessAtMaxInfluence>0.05</EffectivenessAtMaxInfluence>
+			<EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
 
             <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
@@ -410,9 +410,6 @@
             </TargetingGroups>
         </Definition>
 
-  
-  
-  
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -511,10 +508,12 @@
       <FlameVisibilityDistance>200</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.1</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -625,10 +624,12 @@
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.2</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -739,10 +740,12 @@
       <FlameVisibilityDistance>500</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.5</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -856,10 +859,12 @@
       <FlameVisibilityDistance>700</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.5</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.25</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -969,10 +974,12 @@
       <FlameVisibilityDistance>200</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.1</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1083,10 +1090,12 @@
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.2</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1197,10 +1206,12 @@
       <FlameVisibilityDistance>500</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.5</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1314,10 +1325,12 @@
       <FlameVisibilityDistance>700</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.5</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.3</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1427,10 +1440,12 @@
       <FlameVisibilityDistance>200</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.1</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1541,10 +1556,12 @@
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.2</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1655,10 +1672,12 @@
       <FlameVisibilityDistance>500</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.5</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1772,10 +1791,12 @@
       <FlameVisibilityDistance>700</FlameVisibilityDistance>
       <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameDamage>0.5</FlameDamage>
-      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-      <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
-      <EffectivenessAtMaxInfluence>0.35</EffectivenessAtMaxInfluence>
+
+	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
