@@ -73,7 +73,7 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <InventoryFillFactorMin>0.59</InventoryFillFactorMin>
       <OreAmountPerPullRequest>20000</OreAmountPerPullRequest>
-      <MaterialEfficiency>1.05</MaterialEfficiency>
+      <MaterialEfficiency>1</MaterialEfficiency>
       <RefineSpeed>2.275</RefineSpeed>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -148,7 +148,7 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <InventoryFillFactorMin>0.59</InventoryFillFactorMin>
       <OreAmountPerPullRequest>40000</OreAmountPerPullRequest>
-      <MaterialEfficiency>1.1</MaterialEfficiency>
+      <MaterialEfficiency>1</MaterialEfficiency>
       <RefineSpeed>3.9813</RefineSpeed>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -223,7 +223,7 @@
       <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
       <InventoryFillFactorMin>0.59</InventoryFillFactorMin>
       <OreAmountPerPullRequest>80000</OreAmountPerPullRequest>
-      <MaterialEfficiency>1.2</MaterialEfficiency>
+      <MaterialEfficiency>1</MaterialEfficiency>
       <RefineSpeed>6.9672</RefineSpeed>
     </Definition>
   </CubeBlocks>
