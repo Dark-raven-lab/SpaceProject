@@ -905,4 +905,11 @@ For each level from the previous one:
     </value>
     <comment/>
   </data>
+  <data name="Description_HydrogenTank2x_8x" xml:space="preserve">
+    <value>Modern alloys and new hydrogen storage technologies have made it possible to raise the productivity and efficiency of generators to a new level.
+For each level from the previous one:
++ 100% to tank volume
+    </value>
+    <comment/>
+  </data>
 </root>

@@ -98,7 +98,7 @@
         <SubtypeId>LargeHydrogenTank2x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTank2x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\HydrogenTank2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
@@ -189,7 +189,7 @@
         <SubtypeId>LargeHydrogenTank4x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTank4x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\HydrogenTank4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
@@ -280,7 +280,7 @@
         <SubtypeId>LargeHydrogenTank8x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTank8x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\HydrogenTank8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
@@ -456,7 +456,7 @@
         <SubtypeId>LargeHydrogenTankSmall2x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTankSmall2x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\LargeHydrogenTankSmall2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
@@ -543,7 +543,7 @@
         <SubtypeId>LargeHydrogenTankSmall4x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTankSmall4x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\LargeHydrogenTankSmall4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
@@ -630,7 +630,7 @@
         <SubtypeId>LargeHydrogenTankSmall8x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTankSmall8x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\LargeHydrogenTankSmall8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
@@ -820,7 +820,7 @@
         <SubtypeId>SmallHydrogenTank2x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTank2x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\HydrogenTank2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
@@ -923,7 +923,7 @@
         <SubtypeId>SmallHydrogenTank4x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTank4x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\HydrogenTank4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
@@ -1026,7 +1026,7 @@
         <SubtypeId>SmallHydrogenTank8x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTank8x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\HydrogenTank8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
@@ -1216,7 +1216,7 @@
         <SubtypeId>SmallHydrogenTankSmall2x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTankSmall2x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\SmallHydrogenTankSmall2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
@@ -1303,7 +1303,7 @@
         <SubtypeId>SmallHydrogenTankSmall4x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTankSmall4x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\SmallHydrogenTankSmall4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
@@ -1390,7 +1390,7 @@
         <SubtypeId>SmallHydrogenTankSmall8x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_HydrogenTankSmall8x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\SmallHydrogenTankSmall8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
@@ -1478,7 +1478,7 @@
         <SubtypeId>SmallHydrogenTankMedium</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenTankMedium</DisplayName>
-      <Description>Description_OxygenTank</Description>
+      <Description>Description_HydrogenTank</Description>
       <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmall.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
@@ -1563,7 +1563,7 @@
         <SubtypeId>SmallHydrogenTankMedium2x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenTankMedium2x</DisplayName>
-      <Description>Description_OxygenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\OxygenTankSmall2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
@@ -1649,7 +1649,7 @@
         <SubtypeId>SmallHydrogenTankMedium4x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenTankMedium4x</DisplayName>
-      <Description>Description_OxygenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\OxygenTankSmall4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
@@ -1735,7 +1735,7 @@
         <SubtypeId>SmallHydrogenTankMedium8x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenTankMedium8x</DisplayName>
-      <Description>Description_OxygenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <Icon>Textures\OxygenTankSmall8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
@@ -1916,7 +1916,7 @@
         <SubtypeId>LargeHydrogenTankIndustrial4x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenTankIndustrial4x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <DLC>HeavyIndustry</DLC>
       <Icon>Textures\HydrogenTankIndustrial4x.dds</Icon>
       <Mass>0</Mass>
@@ -2009,7 +2009,7 @@
         <SubtypeId>LargeHydrogenTankIndustrial8x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenTankIndustrial8x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <DLC>HeavyIndustry</DLC>
       <Icon>Textures\HydrogenTankIndustrial8x.dds</Icon>
       <Mass>0</Mass>
@@ -2102,7 +2102,7 @@
         <SubtypeId>LargeHydrogenTankIndustrial2x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenTankIndustrial2x</DisplayName>
-      <Description>Description_HydrogenTank</Description>
+      <Description>Description_HydrogenTank2x_8x</Description>
       <DLC>HeavyIndustry</DLC>
       <Icon>Textures\HydrogenTankIndustrial2x.dds</Icon>
       <Mass>0</Mass>
