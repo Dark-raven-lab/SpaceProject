@@ -58,7 +58,7 @@
       <EdgeType>Light</EdgeType>
       <MaxPowerOutput>10</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.05</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.15</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -147,7 +147,7 @@
       <EdgeType>Light</EdgeType>
       <MaxPowerOutput>20</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.0625</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.2</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -236,7 +236,7 @@
       <EdgeType>Light</EdgeType>
       <MaxPowerOutput>40</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.075</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.267</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -325,7 +325,7 @@
       <EdgeType>Light</EdgeType>
       <MaxPowerOutput>80</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.356</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -356,6 +356,7 @@
       <PistonAnimationMin>-0.15</PistonAnimationMin>
       <AnimationSpeed>5</AnimationSpeed>
     </Definition>
+
     <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>HydrogenEngine</TypeId>
@@ -415,9 +416,9 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>40</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxPowerOutput>0.5</MaxPowerOutput>
+      <MaxPowerOutput>1.5</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.05</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.15</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -496,9 +497,9 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxPowerOutput>1</MaxPowerOutput>
+      <MaxPowerOutput>3</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.0625</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.2</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -577,9 +578,9 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>90</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxPowerOutput>2</MaxPowerOutput>
+      <MaxPowerOutput>6</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.075</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.267</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
@@ -658,9 +659,9 @@
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>135</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <MaxPowerOutput>4</MaxPowerOutput>
+      <MaxPowerOutput>12</MaxPowerOutput>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
-      <FuelProductionToCapacityMultiplier>0.1</FuelProductionToCapacityMultiplier>
+      <FuelProductionToCapacityMultiplier>0.356</FuelProductionToCapacityMultiplier>
       <ResourceSinkGroup>Generators</ResourceSinkGroup>
       <FuelInfos>
         <FuelInfo>
