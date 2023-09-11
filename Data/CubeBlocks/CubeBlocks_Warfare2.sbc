@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions>
   <CubeBlocks>
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -12,15 +12,17 @@
       <Icon>Textures\ReactorReskinSmall2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ReactorReskinSmall.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -29,8 +31,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>SmallReactorWarfare22x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ReactorReskinSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
@@ -45,10 +45,6 @@
         <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0" EndX="0.6" EndY="0.9" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="75" />
         <Component Subtype="Construction" Count="60" />
@@ -60,15 +56,20 @@
         <Component Subtype="Computer" Count="38" />
         <Component Subtype="SteelPlate" Count="45" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>60</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>26.25</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -99,15 +100,17 @@
       <Icon>Textures\ReactorReskinLarge2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ReactorReskinLarge.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -116,8 +119,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>LargeReactorWarfare22x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ReactorReskinLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
@@ -135,10 +136,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="1.8" EndY="0.5" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="1200" />
         <Component Subtype="Construction" Count="105" />
@@ -151,15 +148,20 @@
         <Component Subtype="Computer" Count="113" />
         <Component Subtype="SteelPlate" Count="300" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>150</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>525</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -190,15 +192,17 @@
       <Icon>Textures\SmallGridReactorReskinSmall2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ReactorReskinSmall.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -207,8 +211,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>SmallReactorWarfare22x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
@@ -227,11 +229,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
         <Component Subtype="Construction" Count="15" />
@@ -243,15 +240,21 @@
         <Component Subtype="Computer" Count="15" />
         <Component Subtype="SteelPlate" Count="3" />
       </Components>
-      <MirroringZ>Y</MirroringZ>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <MirroringY>Z</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <PrimarySound>ShipSmNuclearSm</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipSmNuclearSm</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>0.875</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -282,14 +285,16 @@
       <Icon>Textures\SmallGridReactorReskinLarge2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ReactorReskinLarge.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -298,8 +303,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>LargeReactorWarfare22x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
@@ -318,11 +321,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
         <Component Subtype="SteelPlate" Count="60" />
         <Component Subtype="Construction" Count="14" />
@@ -334,15 +332,21 @@
         <Component Subtype="Computer" Count="38" />
         <Component Subtype="SteelPlate" Count="30" />
       </Components>
-      <MirroringZ>Y</MirroringZ>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <MirroringY>Z</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <PrimarySound>ShipSmNuclearLrg</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipSmNuclearLrg</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>25.8125</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -362,565 +366,30 @@
         <Z>1</Z>
       </InventorySize>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>LargeBlockBatteryBlockWarfare22x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_BatteryBlockWarfare22x</DisplayName>
-      <Description>Description_Battery</Description>
-      <DLC>Warfare2</DLC>
-      <Icon>Textures\BatteryReskin2x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\Large\BatteryReskin.mwm</Model>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <IsAirTight>true</IsAirTight>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <TargetingGroups>
-        <string>PowerSystems</string>
-      </TargetingGroups>
-      <PCU>15</PCU>
-      <BlockPairName>BatteryBlockWarfare22x</BlockPairName>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
-      <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="Construction" Count="15" />
-        <Component Subtype="Tech2x" Count="20" />
-        <Component Subtype="PowerCell" Count="120">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Computer" Count="38" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="90" />
-      </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
-      <MirroringY>Z</MirroringY>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>60</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>24</MaxPowerOutput>
-      <RechargeMultiplier>0.8</RechargeMultiplier>
-      <AdaptibleInput>true</AdaptibleInput>
-      <RequiredPowerInput>24</RequiredPowerInput>
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>6</MaxStoredPower>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>SmallBlockBatteryBlockWarfare22x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_BatteryBlockWarfare22x</DisplayName>
-      <Description>Description_Battery</Description>
-      <DLC>Warfare2</DLC>
-      <Icon>Textures\BatteryReskin_Small2x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\Small\BatteryReskin.mwm</Model>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <TargetingGroups>
-        <string>PowerSystems</string>
-      </TargetingGroups>
-      <PCU>15</PCU>
-      <BlockPairName>BatteryBlockWarfare22x</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2.5" EndY="3" />
-        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
-        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
-        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
-      </MountPoints>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="2" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <Components>
-        <Component Subtype="SteelPlate" Count="8" />
-        <Component Subtype="Construction" Count="3" />
-        <Component Subtype="Tech2x" Count="8" />
-        <Component Subtype="PowerCell" Count="30">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Computer" Count="3" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="SteelPlate" Count="30" />
-      </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
-      <MirroringY>Z</MirroringY>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>30</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>8</MaxPowerOutput>
-      <RechargeMultiplier>0.8</RechargeMultiplier>
-      <AdaptibleInput>true</AdaptibleInput>
-      <RequiredPowerInput>8</RequiredPowerInput>
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>2</MaxStoredPower>
-    </Definition>
- 
-
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <Id>
-                <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallModularThruster</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_SmallModularThruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterSmall.dds</Icon>
-            <Description>Description_IonThrust</Description>
-            <CubeSize>Small</CubeSize>
-            <GuiVisible>false</GuiVisible>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
-            <ThrusterType>Ion</ThrusterType>
-            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-            <Components>
-                <Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="Construction" Count="1" />
-                <Component Subtype="LargeTube" Count="1" />
-                <Component Subtype="Thrust" Count="1" />
-                <Component Subtype="Construction" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
-            </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
-            <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
-                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
-                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_2.mwm" />
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <StaticMode>
-                    <PlacementMode>Volumetric</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>Volumetric</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <BlockPairName>SmallModularThruster</BlockPairName>
-            <Center x="0" y="0" z="1" />
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <BuildTimeSeconds>10</BuildTimeSeconds>
-            <EdgeType>Light</EdgeType>
-
-            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>14400</ForceMagnitude>
-            <MaxPowerConsumption>0.200</MaxPowerConsumption>
-            <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
-
-			<MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-            <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
-            <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-			<EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-
-            <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
-            <FlameDamage>0.1</FlameDamage>
-            <FlameLengthScale>1.6</FlameLengthScale>
-            <FlameIdleColor>
-                <X>0.1</X>
-                <Y>0.5</Y>
-                <Z>0.8</Z>
-                <W>0.75</W>
-            </FlameIdleColor>
-            <FlameFullColor>
-                <X>0.1</X>
-                <Y>0.8</Y>
-                <Z>0.8</Z>
-                <W>0.75</W>
-            </FlameFullColor>
-            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-            <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-            <FlameFlare>SmallGridSmallThruster</FlameFlare>
-            <FlameVisibilityDistance>200</FlameVisibilityDistance>
-            <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
-            <PrimarySound>SmShipSmJet</PrimarySound>
-            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-            <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>15</PCU>
-            <DLC>Warfare2</DLC>
-            <TargetingGroups>
-                <string>Propulsion</string>
-            </TargetingGroups>
-        </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <Id>
-                <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeModularThruster</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_LargeModularThruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterLarge.dds</Icon>
-            <Description>Description_IonThrust</Description>
-            <CubeSize>Small</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="2" y="3" z="4" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
-            <ThrusterType>Ion</ThrusterType>
-            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-            <Components>
-                <Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="Construction" Count="1" />
-                <Component Subtype="LargeTube" Count="5" />
-                <Component Subtype="Thrust" Count="12" />
-                <Component Subtype="Construction" Count="1" />
-                <Component Subtype="SteelPlate" Count="4" />
-            </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
-            <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
-                <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
-                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
-                <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
-                <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
-                <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
-                <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_2.mwm" />
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <StaticMode>
-                    <PlacementMode>Volumetric</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>Volumetric</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <BlockPairName>LargeModularThruster</BlockPairName>
-            <Center x="0" y="1" z="2" />
-            <MirroringX>Z</MirroringX>
-            <MirroringZ>X</MirroringZ>
-            <BuildTimeSeconds>20</BuildTimeSeconds>
-            <EdgeType>Light</EdgeType>
-
-            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>172800</ForceMagnitude>
-            <MaxPowerConsumption>2.4</MaxPowerConsumption>
-            <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
-
-			<MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-            <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
-            <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-			<EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-
-            <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-            <FlameDamage>0.2</FlameDamage>
-            <FlameLengthScale>1.1</FlameLengthScale>
-            <FlameIdleColor>
-                <X>0.1</X>
-                <Y>0.5</Y>
-                <Z>0.8</Z>
-                <W>0.75</W>
-            </FlameIdleColor>
-            <FlameFullColor>
-                <X>0.1</X>
-                <Y>0.8</Y>
-                <Z>0.8</Z>
-                <W>0.75</W>
-            </FlameFullColor>
-            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-            <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-            <FlameFlare>SmallGridLargeThruster</FlameFlare>
-            <FlameVisibilityDistance>300</FlameVisibilityDistance>
-            <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
-            <PrimarySound>SmShipLrgJet</PrimarySound>
-            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-            <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>15</PCU>
-            <DLC>Warfare2</DLC>
-            <TargetingGroups>
-                <string>Propulsion</string>
-            </TargetingGroups>
-        </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <Id>
-                <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallModularThruster</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_SmallModularThruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterSmall.dds</Icon>
-            <Description>Description_IonThrust</Description>
-            <CubeSize>Large</CubeSize>
-            <GuiVisible>false</GuiVisible>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="1" y="1" z="2" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
-            <ThrusterType>Ion</ThrusterType>
-            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-            <Components>
-                <Component Subtype="SteelPlate" Count="15" />
-                <Component Subtype="Construction" Count="40" />
-                <Component Subtype="LargeTube" Count="8" />
-                <Component Subtype="Thrust" Count="80" />
-                <Component Subtype="Construction" Count="20" />
-                <Component Subtype="SteelPlate" Count="10" />
-            </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
-            <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1.5" />
-                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="1" EndY="2" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1.5" EndY="1" />
-                <MountPoint Side="Left" StartX="0.5" StartY="0" EndX="2" EndY="1" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_3.mwm" />
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <StaticMode>
-                    <PlacementMode>Volumetric</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>Volumetric</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <BlockPairName>SmallModularThruster</BlockPairName>
-            <Center x="0" y="0" z="1" />
-            <MirroringY>Z</MirroringY>
-            <MirroringZ>Y</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>40</BuildTimeSeconds>
-
-            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>345600</ForceMagnitude>
-            <MaxPowerConsumption>3.36</MaxPowerConsumption>
-            <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
-
-			<MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-            <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
-            <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-			<EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-
-            <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
-            <FlameLengthScale>1.5</FlameLengthScale>
-            <FlameIdleColor>
-                <X>0.1</X>
-                <Y>0.5</Y>
-                <Z>0.8</Z>
-                <W>0.75</W>
-            </FlameIdleColor>
-            <FlameFullColor>
-                <X>0.1</X>
-                <Y>0.8</Y>
-                <Z>0.8</Z>
-                <W>0.75</W>
-            </FlameFullColor>
-            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-            <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-            <FlameFlare>LargeGridSmallThruster</FlameFlare>
-            <FlameVisibilityDistance>500</FlameVisibilityDistance>
-            <FlameGlareQuerySize>1</FlameGlareQuerySize>
-            <PrimarySound>LrgShipSmJet</PrimarySound>
-            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-            <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>15</PCU>
-            <DLC>Warfare2</DLC>
-            <TargetingGroups>
-                <string>Propulsion</string>
-            </TargetingGroups>
-        </Definition>
-    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <Id>
-                <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeModularThruster</SubtypeId>
-            </Id>
-            <DisplayName>DisplayName_Block_LargeModularThruster</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLarge.dds</Icon>
-            <Description>Description_IonThrust</Description>
-            <CubeSize>Large</CubeSize>
-            <BlockTopology>TriangleMesh</BlockTopology>
-            <Size x="2" y="3" z="4" />
-            <ModelOffset x="0" y="0" z="0" />
-            <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
-            <ThrusterType>Ion</ThrusterType>
-            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
-            <Components>
-                <Component Subtype="SteelPlate" Count="100" />
-                <Component Subtype="Construction" Count="70" />
-                <Component Subtype="LargeTube" Count="40" />
-                <Component Subtype="Thrust" Count="960" />
-                <Component Subtype="Construction" Count="30" />
-                <Component Subtype="SteelPlate" Count="50" />
-            </Components>
-            <CriticalComponent Subtype="Thrust" Index="0" />
-            <MountPoints>
-                <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="3" Default="true" />
-                <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
-                <MountPoint Side="Top" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
-                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="4" />
-                <MountPoint Side="Bottom" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
-                <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
-                <MountPoint Side="Right" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
-                <MountPoint Side="Left" StartX="2" StartY="0" EndX="4" EndY="3" />
-                <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
-            </MountPoints>
-            <BuildProgressModels>
-                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_2.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_3.mwm" />
-            </BuildProgressModels>
-            <VoxelPlacement>
-                <StaticMode>
-                    <PlacementMode>Volumetric</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </StaticMode>
-                <DynamicMode>
-                    <PlacementMode>Volumetric</PlacementMode>
-                    <MaxAllowed>0.2</MaxAllowed>
-                    <MinAllowed>0</MinAllowed>
-                </DynamicMode>
-            </VoxelPlacement>
-            <BlockPairName>LargeModularThruster</BlockPairName>
-            <Center x="0" y="1" z="2" />
-            <MirroringX>Z</MirroringX>
-            <MirroringZ>X</MirroringZ>
-            <EdgeType>Light</EdgeType>
-            <BuildTimeSeconds>90</BuildTimeSeconds>
-
-            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>4320000</ForceMagnitude>
-            <MaxPowerConsumption>33.6</MaxPowerConsumption>
-            <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
-	
-			<MinPlanetaryInfluence>0</MinPlanetaryInfluence>
-            <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
-            <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-			<EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-
-            <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
-            <FlameLengthScale>1.15</FlameLengthScale>
-            <FlameIdleColor>
-                <X>0.1</X>
-                <Y>0.5</Y>
-                <Z>0.8</Z>
-                <W>0.75</W>
-            </FlameIdleColor>
-            <FlameFullColor>
-                <X>0.1</X>
-                <Y>0.8</Y>
-                <Z>0.8</Z>
-                <W>0.75</W>
-            </FlameFullColor>
-            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
-            <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-            <FlameFlare>LargeGridLargeThruster</FlameFlare>
-            <FlameVisibilityDistance>700</FlameVisibilityDistance>
-            <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
-            <PrimarySound>LrgShipLrgJet</PrimarySound>
-            <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-            <DamagedSound>ParticleWeapExpl</DamagedSound>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>15</PCU>
-            <DLC>Warfare2</DLC>
-            <TargetingGroups>
-                <string>Propulsion</string>
-            </TargetingGroups>
-        </Definition>          
- 
-	
-	<Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>Thrust</TypeId>
-        <SubtypeId>SmallBlockSmallModularThruster2x</SubtypeId>
+        <SubtypeId>SmallBlockSmallModularThruster</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_SmallModularThruster2x</DisplayName>
+      <DisplayName>DisplayName_Block_SmallModularThruster</DisplayName>
       <Description>Description_IonThrust</Description>
       <DLC>Warfare2</DLC>
-      <Icon>Textures\SmallGridModularIonThrusterSmall2x.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterSmall.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>SmShipSmJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -937,6 +406,486 @@
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Thrust" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BlockPairName>SmallModularThruster</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <PrimarySound>SmShipSmJet</PrimarySound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <Center x="0" y="0" z="1" />
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameIdleColor>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlameLengthScale>1.6</FlameLengthScale>
+      <ForceMagnitude>14400</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>0.2</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
+      <FuelConverter>
+        <FuelId>
+          <TypeId>
+          </TypeId>
+          <SubtypeId />
+        </FuelId>
+        <Efficiency>1</Efficiency>
+      </FuelConverter>
+      <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
+      <FlameVisibilityDistance>200</FlameVisibilityDistance>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <FlameDamage>0.1</FlameDamage>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+      <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
+      <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>3</PropellerAccelerationTime>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallBlockLargeModularThruster</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeModularThruster</DisplayName>
+      <Description>Description_IonThrust</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\GUI\Icons\Cubes\SmallGridModularIonThrusterLarge.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
+      <PCU>15</PCU>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="LargeTube" Count="5" />
+        <Component Subtype="Thrust" Count="12" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="2" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
+      </MountPoints>
+      <BlockPairName>LargeModularThruster</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
+      <MirroringZ>X</MirroringZ>
+      <MirroringX>Z</MirroringX>
+      <Center x="0" y="1" z="2" />
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>SmallGridLargeThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameIdleColor>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlameLengthScale>1.1</FlameLengthScale>
+      <ForceMagnitude>172800</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>2.4</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
+      <FuelConverter>
+        <FuelId>
+          <TypeId>
+          </TypeId>
+          <SubtypeId />
+        </FuelId>
+        <Efficiency>1</Efficiency>
+      </FuelConverter>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameVisibilityDistance>300</FlameVisibilityDistance>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <FlameDamage>0.2</FlameDamage>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+      <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
+      <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>3</PropellerAccelerationTime>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeBlockSmallModularThruster</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_SmallModularThruster</DisplayName>
+      <Description>Description_IonThrust</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterSmall.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
+      <PCU>15</PCU>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="8" />
+        <Component Subtype="Thrust" Count="80" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1" EndY="1.5" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0.5" EndX="1" EndY="2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1.5" EndY="1" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BlockPairName>SmallModularThruster</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <PrimarySound>LrgShipSmJet</PrimarySound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <Center x="0" y="0" z="1" />
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameIdleColor>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlameLengthScale>1.5</FlameLengthScale>
+      <ForceMagnitude>345600</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>3.36</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
+      <FuelConverter>
+        <FuelId>
+          <TypeId>
+          </TypeId>
+          <SubtypeId />
+        </FuelId>
+        <Efficiency>1</Efficiency>
+      </FuelConverter>
+      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+      <FlameVisibilityDistance>500</FlameVisibilityDistance>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <FlameDamage>0.5</FlameDamage>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+      <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
+      <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>3</PropellerAccelerationTime>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <FlameGlareQuerySize>1</FlameGlareQuerySize>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>LargeBlockLargeModularThruster</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_LargeModularThruster</DisplayName>
+      <Description>Description_IonThrust</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\GUI\Icons\Cubes\LargeGridModularIonThrusterLarge.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
+      <PCU>15</PCU>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="70" />
+        <Component Subtype="LargeTube" Count="40" />
+        <Component Subtype="Thrust" Count="960" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Thrust" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="2" EndX="1.5" EndY="3.5" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="2" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="1.5" EndY="2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0.5" EndX="3.5" EndY="2.5" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
+      </MountPoints>
+      <BlockPairName>LargeModularThruster</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
+      <PrimarySound>LrgShipLrgJet</PrimarySound>
+      <MirroringZ>X</MirroringZ>
+      <MirroringX>Z</MirroringX>
+      <Center x="0" y="1" z="2" />
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>LargeGridLargeThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
+      <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+      <FlameIdleColor>
+        <X>0.1</X>
+        <Y>0.5</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameIdleColor>
+      <FlameFullColor>
+        <X>0.1</X>
+        <Y>0.8</Y>
+        <Z>0.8</Z>
+        <W>0.75</W>
+      </FlameFullColor>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <ForceMagnitude>4320000</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>33.6</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
+      <FuelConverter>
+        <FuelId>
+          <TypeId>
+          </TypeId>
+          <SubtypeId />
+        </FuelId>
+        <Efficiency>1</Efficiency>
+      </FuelConverter>
+      <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+      <FlameVisibilityDistance>700</FlameVisibilityDistance>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <FlameDamage>0.5</FlameDamage>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
+      <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
+      <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
+      <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
+      <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
+      <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+      <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+      <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+      <PropellerAccelerationTime>3</PropellerAccelerationTime>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
+      <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>Thrust</TypeId>
+        <SubtypeId>SmallBlockSmallModularThruster2x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_SmallModularThruster2x</DisplayName>
+      <Description>Description_IonThrust</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\SmallGridModularIonThrusterSmall2x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
+      <Points>0</Points>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>Propulsion</string>
+      </TargetingGroups>
+      <PCU>15</PCU>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Volumetric</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
         <Component Subtype="Construction" Count="2" />
@@ -954,19 +903,21 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1.5" EndY="1" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>SmallModularThruster2x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>15</BuildTimeSeconds>
+      <PrimarySound>SmShipSmJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="0" z="1" />
-      <BlockPairName>SmallModularThruster2x</BlockPairName>
-      <FlameLengthScale>1.6</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -980,8 +931,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
+      <FlameLengthScale>1.6</FlameLengthScale>
+      <ForceMagnitude>28800</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>0.35</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -990,21 +945,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>0.35</MaxPowerConsumption>
-      <ForceMagnitude>28800</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>SmallGridSmallThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
       <FlameVisibilityDistance>200</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.1</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1012,7 +960,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
@@ -1027,20 +975,19 @@
       <Icon>Textures\SmallGridModularIonThrusterLarge2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>SmShipLrgJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -1057,6 +1004,7 @@
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
         <Component Subtype="Construction" Count="2" />
@@ -1078,19 +1026,21 @@
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>LargeModularThruster2x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="1" z="2" />
-      <BlockPairName>LargeModularThruster2x</BlockPairName>
-      <FlameLengthScale>1.1</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>SmallGridLargeThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -1104,8 +1054,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameLengthScale>1.1</FlameLengthScale>
+      <ForceMagnitude>345600</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>4.2</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -1114,21 +1068,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>4.2</MaxPowerConsumption>
-      <ForceMagnitude>345600</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>SmallGridLargeThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.2</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1136,7 +1083,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
@@ -1151,20 +1098,19 @@
       <Icon>Textures\LargeGridModularIonThrusterSmall2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>LrgShipSmJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -1181,6 +1127,7 @@
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="23" />
         <Component Subtype="Construction" Count="60" />
@@ -1198,20 +1145,22 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1.5" EndY="1" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>SmallModularThruster2x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_3.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>60</BuildTimeSeconds>
+      <PrimarySound>LrgShipSmJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="0" z="1" />
-      <BlockPairName>SmallModularThruster2x</BlockPairName>
-      <FlameLengthScale>1.5</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -1225,8 +1174,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+      <FlameLengthScale>1.5</FlameLengthScale>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>5.88</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -1235,20 +1188,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>5.88</MaxPowerConsumption>
-      <ForceMagnitude>691200</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>LargeGridSmallThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
       <FlameVisibilityDistance>500</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <FlameDamage>0.5</FlameDamage>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1256,7 +1203,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>1</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
@@ -1271,20 +1218,19 @@
       <Icon>Textures\LargeGridModularIonThrusterLarge2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>LrgShipLrgJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -1301,6 +1247,7 @@
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="150" />
         <Component Subtype="Construction" Count="105" />
@@ -1322,20 +1269,22 @@
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>LargeModularThruster2x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>135</BuildTimeSeconds>
+      <PrimarySound>LrgShipLrgJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="1" z="2" />
-      <BlockPairName>LargeModularThruster2x</BlockPairName>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>LargeGridLargeThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -1349,8 +1298,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <ForceMagnitude>8640000</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>58.8</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -1359,21 +1312,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>58.8</MaxPowerConsumption>
-      <ForceMagnitude>8640000</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>LargeGridLargeThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
       <FlameVisibilityDistance>700</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.5</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-			
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -1381,11 +1327,10 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -1397,15 +1342,17 @@
       <Icon>Textures\ReactorReskinSmall4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ReactorReskinSmall.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -1414,8 +1361,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>SmallReactorWarfare24x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ReactorReskinSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
@@ -1430,10 +1375,6 @@
         <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0" EndX="0.6" EndY="0.9" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="113" />
         <Component Subtype="Construction" Count="90" />
@@ -1445,15 +1386,20 @@
         <Component Subtype="Computer" Count="57" />
         <Component Subtype="SteelPlate" Count="68" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>90</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>45.9375</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -1484,15 +1430,17 @@
       <Icon>Textures\ReactorReskinLarge4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ReactorReskinLarge.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -1501,8 +1449,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>LargeReactorWarfare24x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ReactorReskinLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
@@ -1520,10 +1466,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="1.8" EndY="0.5" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="1800" />
         <Component Subtype="Construction" Count="158" />
@@ -1536,15 +1478,20 @@
         <Component Subtype="Computer" Count="169" />
         <Component Subtype="SteelPlate" Count="450" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>225</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>918.75</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -1575,15 +1522,17 @@
       <Icon>Textures\SmallGridReactorReskinSmall4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ReactorReskinSmall.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -1592,8 +1541,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>SmallReactorWarfare24x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
@@ -1612,11 +1559,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
         <Component Subtype="SteelPlate" Count="3" />
         <Component Subtype="Construction" Count="23" />
@@ -1628,15 +1570,21 @@
         <Component Subtype="Computer" Count="23" />
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
-      <MirroringZ>Y</MirroringZ>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <MirroringY>Z</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <PrimarySound>ShipSmNuclearSm</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>45</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipSmNuclearSm</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>1.5313</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -1667,14 +1615,16 @@
       <Icon>Textures\SmallGridReactorReskinLarge4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ReactorReskinLarge.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -1683,8 +1633,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>LargeReactorWarfare24x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
@@ -1703,11 +1651,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
         <Component Subtype="SteelPlate" Count="90" />
         <Component Subtype="Construction" Count="21" />
@@ -1719,15 +1662,21 @@
         <Component Subtype="Computer" Count="57" />
         <Component Subtype="SteelPlate" Count="45" />
       </Components>
-      <MirroringZ>Y</MirroringZ>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <MirroringY>Z</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <PrimarySound>ShipSmNuclearLrg</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>68</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipSmNuclearLrg</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>45.1719</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -1750,6 +1699,136 @@
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockBatteryBlockWarfare2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_BatteryWarfare2</DisplayName>
+      <Description>Description_Battery</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\GUI\Icons\Cubes\BatteryReskin.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\BatteryReskin.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>true</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="PowerCell" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>12</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>12</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>3</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockBatteryBlockWarfare22x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BatteryBlockWarfare22x</DisplayName>
+      <Description>Description_Battery</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\BatteryReskin2x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\BatteryReskin.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>true</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="Tech2x" Count="20" />
+        <Component Subtype="PowerCell" Count="120">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="38" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SteelPlate" Count="90" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlockWarfare22x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>24</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>24</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>6</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
         <SubtypeId>LargeBlockBatteryBlockWarfare24x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_BatteryBlockWarfare24x</DisplayName>
@@ -1758,25 +1837,26 @@
       <Icon>Textures\BatteryReskin4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\BatteryReskin.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>true</IsAirTight>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <IsAirTight>true</IsAirTight>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
-      <PCU>15</PCU>
-      <BlockPairName>BatteryBlockWarfare24x</BlockPairName>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <CriticalComponent Subtype="PowerCell" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="45" />
         <Component Subtype="Construction" Count="23" />
@@ -1791,14 +1871,14 @@
         <Component Subtype="Construction" Count="45" />
         <Component Subtype="SteelPlate" Count="135" />
       </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlockWarfare24x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>90</BuildTimeSeconds>
@@ -1815,27 +1895,97 @@
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>SmallBlockBatteryBlockWarfare24x</SubtypeId>
+        <SubtypeId>LargeBlockBatteryBlockWarfare28x</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_BatteryBlockWarfare24x</DisplayName>
+      <DisplayName>DisplayName_BatteryBlockWarfare28x</DisplayName>
       <Description>Description_Battery</Description>
       <DLC>Warfare2</DLC>
-      <Icon>Textures\BatteryReskin_Small4x.dds</Icon>
+      <Icon>Textures\BatteryReskin8x.dds</Icon>
       <Mass>0</Mass>
-      <Model>Models\Cubes\Small\BatteryReskin.mwm</Model>
+      <Model>Models\Cubes\Large\BatteryReskin.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>true</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="68" />
+        <Component Subtype="Construction" Count="34" />
+        <Component Subtype="Tech8x" Count="20" />
+        <Component Subtype="PowerCell" Count="270">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="85" />
+        <Component Subtype="Construction" Count="68" />
+        <Component Subtype="SteelPlate" Count="203" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlockWarfare28x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>135</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>96</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>96</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>24</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockBatteryBlockWarfare2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_BatteryWarfare2</DisplayName>
+      <Description>Description_Battery</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\GUI\Icons\Cubes\BatteryReskin_Small.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\BatteryReskin.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <PCU>15</PCU>
-      <BlockPairName>BatteryBlockWarfare24x</BlockPairName>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <MountPoints>
         <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
         <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2.5" EndY="3" />
@@ -1845,10 +1995,148 @@
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
       </MountPoints>
       <CriticalComponent Subtype="PowerCell" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="PowerCell" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
       <ModelOffset x="0" y="0" z="0" />
       <Size x="3" y="2" z="3" />
       <BlockTopology>TriangleMesh</BlockTopology>
       <CubeSize>Small</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlockWarfare2</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>4</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>4</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>1</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockBatteryBlockWarfare22x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BatteryBlockWarfare22x</DisplayName>
+      <Description>Description_Battery</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\BatteryReskin_Small2x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\BatteryReskin.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2.5" EndY="3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+      </MountPoints>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="Tech2x" Count="8" />
+        <Component Subtype="PowerCell" Count="30">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="3" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SteelPlate" Count="30" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlockWarfare22x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>8</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>8</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>2</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockBatteryBlockWarfare24x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BatteryBlockWarfare24x</DisplayName>
+      <Description>Description_Battery</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\BatteryReskin_Small4x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\BatteryReskin.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2.5" EndY="3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+      </MountPoints>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="12" />
         <Component Subtype="Construction" Count="5" />
@@ -1863,13 +2151,14 @@
         <Component Subtype="Construction" Count="7" />
         <Component Subtype="SteelPlate" Count="45" />
       </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlockWarfare24x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>45</BuildTimeSeconds>
@@ -1883,7 +2172,78 @@
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
       <MaxStoredPower>4</MaxStoredPower>
     </Definition>
-
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockBatteryBlockWarfare28x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BatteryBlockWarfare28x</DisplayName>
+      <Description>Description_Battery</Description>
+      <DLC>Warfare2</DLC>
+      <Icon>Textures\BatteryReskin_Small8x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\BatteryReskin.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2.5" EndY="3" />
+        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
+      </MountPoints>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="17" />
+        <Component Subtype="Construction" Count="7" />
+        <Component Subtype="Tech8x" Count="8" />
+        <Component Subtype="PowerCell" Count="68">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="7" />
+        <Component Subtype="Construction" Count="11" />
+        <Component Subtype="SteelPlate" Count="68" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlockWarfare28x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>68</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>32</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>32</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>8</MaxStoredPower>
+    </Definition>
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -1895,20 +2255,19 @@
       <Icon>Textures\SmallGridModularIonThrusterSmall4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>SmShipSmJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -1925,6 +2284,7 @@
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="3" />
         <Component Subtype="Construction" Count="3" />
@@ -1942,19 +2302,21 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1.5" EndY="1" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>SmallModularThruster4x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>23</BuildTimeSeconds>
+      <PrimarySound>SmShipSmJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="0" z="1" />
-      <BlockPairName>SmallModularThruster4x</BlockPairName>
-      <FlameLengthScale>1.6</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -1968,8 +2330,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
+      <FlameLengthScale>1.6</FlameLengthScale>
+      <ForceMagnitude>57600</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>0.6125</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -1978,21 +2344,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>0.6125</MaxPowerConsumption>
-      <ForceMagnitude>57600</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>SmallGridSmallThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
       <FlameVisibilityDistance>200</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.1</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -2000,7 +2359,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
@@ -2015,20 +2374,19 @@
       <Icon>Textures\SmallGridModularIonThrusterLarge4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>SmShipLrgJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -2045,6 +2403,7 @@
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="3" />
         <Component Subtype="Construction" Count="3" />
@@ -2066,19 +2425,21 @@
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>LargeModularThruster4x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>45</BuildTimeSeconds>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="1" z="2" />
-      <BlockPairName>LargeModularThruster4x</BlockPairName>
-      <FlameLengthScale>1.1</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>SmallGridLargeThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -2092,8 +2453,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameLengthScale>1.1</FlameLengthScale>
+      <ForceMagnitude>691200</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>7.35</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -2102,21 +2467,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>7.35</MaxPowerConsumption>
-      <ForceMagnitude>691200</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>SmallGridLargeThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.2</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -2124,7 +2482,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
@@ -2139,20 +2497,19 @@
       <Icon>Textures\LargeGridModularIonThrusterSmall4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>LrgShipSmJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -2169,6 +2526,7 @@
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="34" />
         <Component Subtype="Construction" Count="90" />
@@ -2186,20 +2544,22 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1.5" EndY="1" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>SmallModularThruster4x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_3.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>90</BuildTimeSeconds>
+      <PrimarySound>LrgShipSmJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="0" z="1" />
-      <BlockPairName>SmallModularThruster4x</BlockPairName>
-      <FlameLengthScale>1.5</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -2213,8 +2573,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+      <FlameLengthScale>1.5</FlameLengthScale>
+      <ForceMagnitude>1382400</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>10.29</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -2223,21 +2587,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>10.29</MaxPowerConsumption>
-      <ForceMagnitude>1382400</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>LargeGridSmallThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
       <FlameVisibilityDistance>500</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.5</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -2245,7 +2602,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>1</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
@@ -2260,20 +2617,19 @@
       <Icon>Textures\LargeGridModularIonThrusterLarge4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>LrgShipLrgJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -2290,6 +2646,7 @@
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="225" />
         <Component Subtype="Construction" Count="158" />
@@ -2311,20 +2668,22 @@
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>LargeModularThruster4x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>203</BuildTimeSeconds>
+      <PrimarySound>LrgShipLrgJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="1" z="2" />
-      <BlockPairName>LargeModularThruster4x</BlockPairName>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>LargeGridLargeThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -2338,8 +2697,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <ForceMagnitude>1.728E+07</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>102.9</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -2348,21 +2711,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>102.9</MaxPowerConsumption>
-      <ForceMagnitude>1.728E+07</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>LargeGridLargeThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
       <FlameVisibilityDistance>700</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.5</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -2370,11 +2726,10 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
-
     <Definition xsi:type="MyObjectBuilder_ReactorDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>Reactor</TypeId>
@@ -2386,15 +2741,17 @@
       <Icon>Textures\ReactorReskinSmall8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ReactorReskinSmall.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -2403,8 +2760,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>SmallReactorWarfare28x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ReactorReskinSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
@@ -2419,10 +2774,6 @@
         <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.1" StartY="0" EndX="0.6" EndY="0.9" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="169" />
         <Component Subtype="Construction" Count="135" />
@@ -2434,15 +2785,20 @@
         <Component Subtype="Computer" Count="85" />
         <Component Subtype="SteelPlate" Count="102" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>135</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipLrgNuclearSm</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>80.3906</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -2473,15 +2829,17 @@
       <Icon>Textures\ReactorReskinLarge8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ReactorReskinLarge.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepLrgWarheadExpl</DestroySound>
       <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -2490,8 +2848,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>LargeReactorWarfare28x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ReactorReskinLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
@@ -2509,10 +2865,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="1.8" EndY="0.5" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="2700" />
         <Component Subtype="Construction" Count="237" />
@@ -2525,15 +2877,20 @@
         <Component Subtype="Computer" Count="254" />
         <Component Subtype="SteelPlate" Count="675" />
       </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>338</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipLrgNuclearLrg</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>1607.813</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -2564,15 +2921,17 @@
       <Icon>Textures\SmallGridReactorReskinSmall8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ReactorReskinSmall.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -2581,8 +2940,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>SmallReactorWarfare28x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ReactorReskinSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
@@ -2601,11 +2958,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.4" StartY="0.85" EndX="0.6" EndY="1" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="Construction" Count="34" />
@@ -2617,15 +2969,21 @@
         <Component Subtype="Computer" Count="34" />
         <Component Subtype="SteelPlate" Count="7" />
       </Components>
-      <MirroringZ>Y</MirroringZ>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <MirroringY>Z</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <PrimarySound>ShipSmNuclearSm</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>68</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipSmNuclearSm</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>2.6797</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -2656,14 +3014,16 @@
       <Icon>Textures\SmallGridReactorReskinLarge8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ReactorReskinLarge.mwm</Model>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DamagedSound>ParticleReactor</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
       <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <DamageEffectName>Damage_Reactor_Damaged</DamageEffectName>
+      <PCU>25</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>PowerSystems</string>
       </TargetingGroups>
@@ -2672,8 +3032,6 @@
         <unsignedInt>1800</unsignedInt>
         <unsignedInt>3600</unsignedInt>
       </TieredUpdateTimes>
-      <PCU>25</PCU>
-      <GuiVisible>false</GuiVisible>
       <BlockPairName>LargeReactorWarfare28x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ReactorReskinLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
@@ -2692,11 +3050,6 @@
         <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="1.3" StartY="2.5" EndX="1.7" EndY="3" />
       </MountPoints>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="3" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
         <Component Subtype="SteelPlate" Count="135" />
         <Component Subtype="Construction" Count="31" />
@@ -2708,15 +3061,21 @@
         <Component Subtype="Computer" Count="85" />
         <Component Subtype="SteelPlate" Count="68" />
       </Components>
-      <MirroringZ>Y</MirroringZ>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="3" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <MirroringY>Z</MirroringY>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <PrimarySound>ShipSmNuclearLrg</PrimarySound>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>102</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
-      <PrimarySound>ShipSmNuclearLrg</PrimarySound>
-      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>79.0508</MaxPowerOutput>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <FuelInfos>
         <FuelInfo>
           <Id>
@@ -2736,143 +3095,6 @@
         <Z>1</Z>
       </InventorySize>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>LargeBlockBatteryBlockWarfare28x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_BatteryBlockWarfare28x</DisplayName>
-      <Description>Description_Battery</Description>
-      <DLC>Warfare2</DLC>
-      <Icon>Textures\BatteryReskin8x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\Large\BatteryReskin.mwm</Model>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <IsAirTight>true</IsAirTight>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <TargetingGroups>
-        <string>PowerSystems</string>
-      </TargetingGroups>
-      <PCU>15</PCU>
-      <BlockPairName>BatteryBlockWarfare28x</BlockPairName>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
-      <Components>
-        <Component Subtype="SteelPlate" Count="68" />
-        <Component Subtype="Construction" Count="34" />
-        <Component Subtype="Tech8x" Count="20" />
-        <Component Subtype="PowerCell" Count="270">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Computer" Count="85" />
-        <Component Subtype="Construction" Count="68" />
-        <Component Subtype="SteelPlate" Count="203" />
-      </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryReskinConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
-      <MirroringY>Z</MirroringY>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>135</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>96</MaxPowerOutput>
-      <RechargeMultiplier>0.8</RechargeMultiplier>
-      <AdaptibleInput>true</AdaptibleInput>
-      <RequiredPowerInput>96</RequiredPowerInput>
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>24</MaxStoredPower>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>SmallBlockBatteryBlockWarfare28x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_BatteryBlockWarfare28x</DisplayName>
-      <Description>Description_Battery</Description>
-      <DLC>Warfare2</DLC>
-      <Icon>Textures\BatteryReskin_Small8x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\Small\BatteryReskin.mwm</Model>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <TargetingGroups>
-        <string>PowerSystems</string>
-      </TargetingGroups>
-      <PCU>15</PCU>
-      <BlockPairName>BatteryBlockWarfare28x</BlockPairName>
-      <MountPoints>
-        <MountPoint Side="Front" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Top" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2.5" EndY="3" />
-        <MountPoint Side="Bottom" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="true" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="3" />
-        <MountPoint Side="Back" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="2" />
-        <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
-        <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="3" EndY="1.5" />
-      </MountPoints>
-      <CriticalComponent Subtype="PowerCell" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="2" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <Components>
-        <Component Subtype="SteelPlate" Count="17" />
-        <Component Subtype="Construction" Count="7" />
-        <Component Subtype="Tech8x" Count="8" />
-        <Component Subtype="PowerCell" Count="68">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Computer" Count="7" />
-        <Component Subtype="Construction" Count="11" />
-        <Component Subtype="SteelPlate" Count="68" />
-      </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatteryReskinConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatteryReskinConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
-      <MirroringY>Z</MirroringY>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>68</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>32</MaxPowerOutput>
-      <RechargeMultiplier>0.8</RechargeMultiplier>
-      <AdaptibleInput>true</AdaptibleInput>
-      <RequiredPowerInput>32</RequiredPowerInput>
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>8</MaxStoredPower>
-    </Definition>
-
     <Definition xsi:type="MyObjectBuilder_ThrustDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
         <TypeId>Thrust</TypeId>
@@ -2884,20 +3106,19 @@
       <Icon>Textures\SmallGridModularIonThrusterSmall8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ModularIonThrusterSmall.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>SmShipSmJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -2914,6 +3135,7 @@
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="Construction" Count="4" />
@@ -2931,19 +3153,21 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1.5" EndY="1" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>SmallModularThruster8x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\ModularIonThrusterSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>34</BuildTimeSeconds>
+      <PrimarySound>SmShipSmJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="0" z="1" />
-      <BlockPairName>SmallModularThruster8x</BlockPairName>
-      <FlameLengthScale>1.6</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>SmallGridSmallThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -2957,8 +3181,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
+      <FlameLengthScale>1.6</FlameLengthScale>
+      <ForceMagnitude>115200</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>1.0719</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -2967,21 +3195,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>1.0719</MaxPowerConsumption>
-      <ForceMagnitude>115200</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>SmallGridSmallThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.36</FlameDamageLengthScale>
       <FlameVisibilityDistance>200</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.1</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -2989,7 +3210,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
@@ -3004,20 +3225,19 @@
       <Icon>Textures\SmallGridModularIonThrusterLarge8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\ModularIonThrusterLarge.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>SmShipLrgJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -3034,6 +3254,7 @@
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="Construction" Count="4" />
@@ -3055,19 +3276,21 @@
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>LargeModularThruster8x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\ModularIonThrusterLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>68</BuildTimeSeconds>
+      <PrimarySound>SmShipLrgJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="1" z="2" />
-      <BlockPairName>LargeModularThruster8x</BlockPairName>
-      <FlameLengthScale>1.1</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>SmallGridLargeThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -3081,8 +3304,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+      <FlameLengthScale>1.1</FlameLengthScale>
+      <ForceMagnitude>1382400</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>12.8625</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -3091,21 +3318,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>12.8625</MaxPowerConsumption>
-      <ForceMagnitude>1382400</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>SmallGridLargeThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
       <FlameVisibilityDistance>300</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.2</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -3113,7 +3333,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
@@ -3128,20 +3348,19 @@
       <Icon>Textures\LargeGridModularIonThrusterSmall8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ModularIonThrusterSmall.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>LrgShipSmJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -3158,6 +3377,7 @@
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="51" />
         <Component Subtype="Construction" Count="135" />
@@ -3175,20 +3395,22 @@
         <MountPoint Side="Right" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0" StartY="0" EndX="1.5" EndY="1" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0" EndX="2" EndY="1" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>SmallModularThruster8x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\ModularIonThrusterSmallConstruction_3.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>135</BuildTimeSeconds>
+      <PrimarySound>LrgShipSmJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="0" z="1" />
-      <BlockPairName>SmallModularThruster8x</BlockPairName>
-      <FlameLengthScale>1.5</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>LargeGridSmallThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -3202,8 +3424,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
+      <FlameLengthScale>1.5</FlameLengthScale>
+      <ForceMagnitude>2764800</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>18.0075</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -3212,21 +3438,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>18.0075</MaxPowerConsumption>
-      <ForceMagnitude>2764800</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>LargeGridSmallThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.61</FlameDamageLengthScale>
       <FlameVisibilityDistance>500</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.5</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -3234,7 +3453,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>1</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
@@ -3249,20 +3468,19 @@
       <Icon>Textures\LargeGridModularIonThrusterLarge8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\ModularIonThrusterLarge.mwm</Model>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <GuiVisible>false</GuiVisible>
       <Points>0</Points>
-      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffectScale>1</DestroyEffectScale>
       <TargetingGroups>
         <string>Propulsion</string>
       </TargetingGroups>
       <PCU>15</PCU>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
-      <UseModelIntersection>false</UseModelIntersection>
-      <PrimarySound>LrgShipLrgJet</PrimarySound>
       <VoxelPlacement>
         <StaticMode>
           <PlacementMode>Volumetric</PlacementMode>
@@ -3279,6 +3497,7 @@
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="3" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="338" />
         <Component Subtype="Construction" Count="237" />
@@ -3300,20 +3519,22 @@
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="2" StartY="0" EndX="4" EndY="3" />
         <MountPoint Side="Left" ExclusionMask="0" PropertiesMask="0" Enabled="true" Default="false" PressurizedWhenOpen="true" StartX="0.5" StartY="0.5" EndX="2" EndY="2.5" />
       </MountPoints>
-      <ModelOffset x="0" y="0" z="0" />
+      <BlockPairName>LargeModularThruster8x</BlockPairName>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\ModularIonThrusterLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
       </BuildProgressModels>
+      <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
-      <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>304</BuildTimeSeconds>
+      <PrimarySound>LrgShipLrgJet</PrimarySound>
       <MirroringZ>X</MirroringZ>
       <MirroringX>Z</MirroringX>
       <Center x="0" y="1" z="2" />
-      <BlockPairName>LargeModularThruster8x</BlockPairName>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <EdgeType>Light</EdgeType>
+      <FlameFlare>LargeGridLargeThruster</FlameFlare>
+      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.1</X>
@@ -3327,8 +3548,12 @@
         <Z>0.8</Z>
         <W>0.75</W>
       </FlameFullColor>
-      <FlameLengthMaterial>ModularEngineThrustMiddle</FlameLengthMaterial>
-      <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
+      <ForceMagnitude>3.456E+07</ForceMagnitude>
+      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <MaxPowerConsumption>180.075</MaxPowerConsumption>
+      <ThrusterType>Ion</ThrusterType>
+      <SlowdownFactor>1</SlowdownFactor>
       <FuelConverter>
         <FuelId>
           <TypeId>
@@ -3337,21 +3562,14 @@
         </FuelId>
         <Efficiency>1</Efficiency>
       </FuelConverter>
-      <MaxPowerConsumption>180.075</MaxPowerConsumption>
-      <ForceMagnitude>3.456E+07</ForceMagnitude>
-      <ThrusterType>Ion</ThrusterType>
-      <SlowdownFactor>1</SlowdownFactor>
-      <FlameFlare>LargeGridLargeThruster</FlameFlare>
-      <MinPowerConsumption>2E-06</MinPowerConsumption>
+      <FlameDamageLengthScale>0.8</FlameDamageLengthScale>
       <FlameVisibilityDistance>700</FlameVisibilityDistance>
-      <PropellerDecelerationTime>6</PropellerDecelerationTime>
+      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
       <FlameDamage>0.5</FlameDamage>
-	  
-	  <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
+      <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
       <MaxPlanetaryInfluence>0.75</MaxPlanetaryInfluence>
+      <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
       <EffectivenessAtMinInfluence>1</EffectivenessAtMinInfluence>
-	  <EffectivenessAtMaxInfluence>0.01</EffectivenessAtMaxInfluence>
-		
       <NeedsAtmosphereForInfluence>false</NeedsAtmosphereForInfluence>
       <ConsumptionFactorPerG>0</ConsumptionFactorPerG>
       <PropellerUsesPropellerSystem>false</PropellerUsesPropellerSystem>
@@ -3359,7 +3577,7 @@
       <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
       <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
       <PropellerAccelerationTime>3</PropellerAccelerationTime>
-      <PropellerMaxVisibleDistance>20</PropellerMaxVisibleDistance>
+      <PropellerDecelerationTime>6</PropellerDecelerationTime>
       <FlameGlareQuerySize>1.5</FlameGlareQuerySize>
       <ResourceSinkGroup>Thrust</ResourceSinkGroup>
     </Definition>
