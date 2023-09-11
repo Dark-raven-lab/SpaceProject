@@ -95,7 +95,7 @@
         <SubtypeId>LargeHydrogenEngine2x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenEngine2x</DisplayName>
-      <Description>Description_PowerGenerator</Description>
+      <Description>Description_HydrogenEngine2x_8x</Description>
       <Icon>Textures\HydrogenEngineLarge2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
@@ -184,7 +184,7 @@
         <SubtypeId>LargeHydrogenEngine4x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenEngine4x</DisplayName>
-      <Description>Description_PowerGenerator</Description>
+      <Description>Description_HydrogenEngine2x_8x</Description>
       <Icon>Textures\HydrogenEngineLarge4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
@@ -273,7 +273,7 @@
         <SubtypeId>LargeHydrogenEngine8x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenEngine8x</DisplayName>
-      <Description>Description_PowerGenerator</Description>
+      <Description>Description_HydrogenEngine2x_8x</Description>
       <Icon>Textures\HydrogenEngineLarge8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
@@ -442,7 +442,7 @@
         <SubtypeId>SmallHydrogenEngine2x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenEngine2x</DisplayName>
-      <Description>Description_PowerGenerator</Description>
+      <Description>Description_HydrogenEngine2x_8x</Description>
       <Icon>Textures\HydrogenEngineSmall2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
@@ -523,7 +523,7 @@
         <SubtypeId>SmallHydrogenEngine4x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenEngine4x</DisplayName>
-      <Description>Description_PowerGenerator</Description>
+      <Description>Description_HydrogenEngine2x_8x</Description>
       <Icon>Textures\HydrogenEngineSmall4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
@@ -604,7 +604,7 @@
         <SubtypeId>SmallHydrogenEngine8x</SubtypeId>
       </Id>
       <DisplayName>DisplayName_HydrogenEngine8x</DisplayName>
-      <Description>Description_PowerGenerator</Description>
+      <Description>Description_HydrogenEngine2x_8x</Description>
       <Icon>Textures\HydrogenEngineSmall8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
