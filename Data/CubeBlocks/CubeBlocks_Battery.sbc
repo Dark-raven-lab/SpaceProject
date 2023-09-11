@@ -226,7 +226,7 @@
       <RequiredPowerInput>4</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>1</MaxStoredPower>
+      <MaxStoredPower>0.5</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -287,7 +287,7 @@
       <RequiredPowerInput>8</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>2</MaxStoredPower>
+      <MaxStoredPower>1</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -348,7 +348,7 @@
       <RequiredPowerInput>16</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>4</MaxStoredPower>
+      <MaxStoredPower>2</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -409,7 +409,7 @@
       <RequiredPowerInput>32</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>8</MaxStoredPower>
+      <MaxStoredPower>4</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -472,7 +472,7 @@
       <RequiredPowerInput>12</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>3</MaxStoredPower>
+      <MaxStoredPower>2</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -534,7 +534,7 @@
       <RequiredPowerInput>24</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>6</MaxStoredPower>
+      <MaxStoredPower>4</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -596,7 +596,7 @@
       <RequiredPowerInput>48</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>12</MaxStoredPower>
+      <MaxStoredPower>8</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -658,7 +658,7 @@
       <RequiredPowerInput>96</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>24</MaxStoredPower>
+      <MaxStoredPower>12</MaxStoredPower>
     </Definition>
   </CubeBlocks>
 </Definitions>
