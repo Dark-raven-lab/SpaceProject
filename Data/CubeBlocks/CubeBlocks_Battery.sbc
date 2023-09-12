@@ -11,17 +11,18 @@
       <Icon>Textures\Battery1x12x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <IsAirTight>false</IsAirTight>
       <DamageEffectId>214</DamageEffectId>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <BlockPairName>Battery1x1Block2x</BlockPairName>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="3" />
@@ -37,10 +38,11 @@
         <Component Subtype="Construction" Count="2" />
         <Component Subtype="SteelPlate" Count="3" />
       </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <BlockPairName>Battery1x1Block2x</BlockPairName>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>12</BuildTimeSeconds>
@@ -53,7 +55,178 @@
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
       <MaxStoredPower>0.1</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockSmallBatteryBlock4x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_SmallBattery_4x</DisplayName>
+      <Description>Description_Battery</Description>
+      <Icon>Textures\Battery1x14x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
       <IsAirTight>false</IsAirTight>
+      <DamageEffectId>214</DamageEffectId>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="PowerCell" Count="5">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Tech4x" Count="1" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <BlockPairName>Battery1x1Block4x</BlockPairName>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>18</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>0.8</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>0.8</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>0.2</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockSmallBatteryBlock8x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_SmallBattery_8x</DisplayName>
+      <Description>Description_Battery</Description>
+      <Icon>Textures\Battery1x18x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <IsAirTight>false</IsAirTight>
+      <DamageEffectId>214</DamageEffectId>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="7" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="PowerCell" Count="7">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Tech8x" Count="1" />
+        <Component Subtype="Computer" Count="7" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="SteelPlate" Count="7" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <BlockPairName>Battery1x1Block8x</BlockPairName>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>27</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>1.6</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>1.6</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>0.4</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>SmallBlockBatteryBlock</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Battery</DisplayName>
+      <Description>Description_Battery</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>false</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="PowerCell" Count="20">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlock</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>4</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>4</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>0.5</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -65,21 +238,21 @@
       <Icon>Textures\Battery2x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>false</IsAirTight>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <PCU>15</PCU>
-      <BlockPairName>BatteryBlock2x</BlockPairName>
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="2" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <CriticalComponent Subtype="Computer" Index="0" />
       <Components>
         <Component Subtype="SteelPlate" Count="8" />
@@ -95,13 +268,14 @@
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="SteelPlate" Count="30" />
       </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlock2x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -113,122 +287,7 @@
       <RequiredPowerInput>8</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>2</MaxStoredPower>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>LargeBlockBatteryBlock2x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Battery_2x</DisplayName>
-      <Description>Description_Battery</Description>
-      <Icon>Textures\Battery2x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <IsAirTight>true</IsAirTight>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <PCU>15</PCU>
-      <BlockPairName>BatteryBlock2x</BlockPairName>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
-      <Components>
-        <Component Subtype="SteelPlate" Count="30" />
-        <Component Subtype="Construction" Count="15" />
-        <Component Subtype="PowerCell" Count="120">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Tech2x" Count="20" />
-        <Component Subtype="Computer" Count="38" />
-        <Component Subtype="Construction" Count="30" />
-        <Component Subtype="SteelPlate" Count="90" />
-      </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
-      <MirroringY>Z</MirroringY>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>60</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>24</MaxPowerOutput>
-      <RechargeMultiplier>0.8</RechargeMultiplier>
-      <AdaptibleInput>true</AdaptibleInput>
-      <RequiredPowerInput>24</RequiredPowerInput>
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>6</MaxStoredPower>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>SmallBlockSmallBatteryBlock4x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_SmallBattery_4x</DisplayName>
-      <Description>Description_Battery</Description>
-      <Icon>Textures\Battery1x14x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DamageEffectId>214</DamageEffectId>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <BlockPairName>Battery1x1Block4x</BlockPairName>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <Components>
-        <Component Subtype="SteelPlate" Count="5" />
-        <Component Subtype="Construction" Count="3" />
-        <Component Subtype="PowerCell" Count="5">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Tech4x" Count="1" />
-        <Component Subtype="Computer" Count="5" />
-        <Component Subtype="Construction" Count="3" />
-        <Component Subtype="SteelPlate" Count="5" />
-      </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>18</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>0.8</MaxPowerOutput>
-      <RechargeMultiplier>0.8</RechargeMultiplier>
-      <AdaptibleInput>true</AdaptibleInput>
-      <RequiredPowerInput>0.8</RequiredPowerInput>
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>0.2</MaxStoredPower>
-      <IsAirTight>false</IsAirTight>
+      <MaxStoredPower>1</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -240,22 +299,22 @@
       <Icon>Textures\Battery4x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>false</IsAirTight>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <PCU>15</PCU>
-      <BlockPairName>BatteryBlock4x</BlockPairName>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="2" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="12" />
         <Component Subtype="Construction" Count="5" />
@@ -270,13 +329,14 @@
         <Component Subtype="Construction" Count="7" />
         <Component Subtype="SteelPlate" Count="45" />
       </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlock4x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>45</BuildTimeSeconds>
@@ -288,122 +348,7 @@
       <RequiredPowerInput>16</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>4</MaxStoredPower>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>LargeBlockBatteryBlock4x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Battery_4x</DisplayName>
-      <Description>Description_Battery</Description>
-      <Icon>Textures\Battery4x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <IsAirTight>true</IsAirTight>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-      <PCU>15</PCU>
-      <BlockPairName>BatteryBlock4x</BlockPairName>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
-      <Components>
-        <Component Subtype="SteelPlate" Count="45" />
-        <Component Subtype="Construction" Count="23" />
-        <Component Subtype="PowerCell" Count="180">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Tech4x" Count="20" />
-        <Component Subtype="Computer" Count="57" />
-        <Component Subtype="Construction" Count="45" />
-        <Component Subtype="SteelPlate" Count="135" />
-      </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
-      <MirroringY>Z</MirroringY>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>90</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>48</MaxPowerOutput>
-      <RechargeMultiplier>0.8</RechargeMultiplier>
-      <AdaptibleInput>true</AdaptibleInput>
-      <RequiredPowerInput>48</RequiredPowerInput>
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>12</MaxStoredPower>
-    </Definition>
-    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>
-        <TypeId>BatteryBlock</TypeId>
-        <SubtypeId>SmallBlockSmallBatteryBlock8x</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_SmallBattery_8x</DisplayName>
-      <Description>Description_Battery</Description>
-      <Icon>Textures\Battery1x18x.dds</Icon>
-      <Mass>0</Mass>
-      <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
-      <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
-      <DamageEffectId>214</DamageEffectId>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <BlockPairName>Battery1x1Block8x</BlockPairName>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
-      <Components>
-        <Component Subtype="SteelPlate" Count="7" />
-        <Component Subtype="Construction" Count="4" />
-        <Component Subtype="PowerCell" Count="7">
-          <DeconstructId>
-            <TypeId>Ore</TypeId>
-            <SubtypeId>Scrap</SubtypeId>
-          </DeconstructId>
-        </Component>
-        <Component Subtype="Tech8x" Count="1" />
-        <Component Subtype="Computer" Count="7" />
-        <Component Subtype="Construction" Count="4" />
-        <Component Subtype="SteelPlate" Count="7" />
-      </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <UseModelIntersection>false</UseModelIntersection>
-      <AutorotateMode>OneDirection</AutorotateMode>
-      <BuildTimeSeconds>27</BuildTimeSeconds>
-      <EdgeType>Light</EdgeType>
-      <ResourceSourceGroup>Battery</ResourceSourceGroup>
-      <MaxPowerOutput>1.6</MaxPowerOutput>
-      <RechargeMultiplier>0.8</RechargeMultiplier>
-      <AdaptibleInput>true</AdaptibleInput>
-      <RequiredPowerInput>1.6</RequiredPowerInput>
-      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
-      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>0.4</MaxStoredPower>
-      <IsAirTight>false</IsAirTight>
+      <MaxStoredPower>2</MaxStoredPower>
     </Definition>
     <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <Id>
@@ -415,22 +360,22 @@
       <Icon>Textures\Battery8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>false</IsAirTight>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
-      <IsAirTight>false</IsAirTight>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <PCU>15</PCU>
-      <BlockPairName>BatteryBlock8x</BlockPairName>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="3" y="2" z="3" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Small</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="17" />
         <Component Subtype="Construction" Count="7" />
@@ -445,13 +390,14 @@
         <Component Subtype="Construction" Count="11" />
         <Component Subtype="SteelPlate" Count="68" />
       </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="3" y="2" z="3" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Small</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlock8x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>68</BuildTimeSeconds>
@@ -461,6 +407,193 @@
       <RechargeMultiplier>0.8</RechargeMultiplier>
       <AdaptibleInput>true</AdaptibleInput>
       <RequiredPowerInput>32</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>4</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockBatteryBlock</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Battery</DisplayName>
+      <Description>Description_Battery</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Battery.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>true</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <TargetingGroups>
+        <string>PowerSystems</string>
+      </TargetingGroups>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="PowerCell" Count="80">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Computer" Count="25" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="60" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlock</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>12</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>12</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>2</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockBatteryBlock2x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Battery_2x</DisplayName>
+      <Description>Description_Battery</Description>
+      <Icon>Textures\Battery2x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>true</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="PowerCell" Count="120">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Tech2x" Count="20" />
+        <Component Subtype="Computer" Count="38" />
+        <Component Subtype="Construction" Count="30" />
+        <Component Subtype="SteelPlate" Count="90" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlock2x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>24</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>24</RequiredPowerInput>
+      <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
+      <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
+      <MaxStoredPower>4</MaxStoredPower>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition" Enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+        <SubtypeId>LargeBlockBatteryBlock4x</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Battery_4x</DisplayName>
+      <Description>Description_Battery</Description>
+      <Icon>Textures\Battery4x.dds</Icon>
+      <Mass>0</Mass>
+      <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
+      <Points>0</Points>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>true</IsAirTight>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <PCU>15</PCU>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Components>
+        <Component Subtype="SteelPlate" Count="45" />
+        <Component Subtype="Construction" Count="23" />
+        <Component Subtype="PowerCell" Count="180">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+        <Component Subtype="Tech4x" Count="20" />
+        <Component Subtype="Computer" Count="57" />
+        <Component Subtype="Construction" Count="45" />
+        <Component Subtype="SteelPlate" Count="135" />
+      </Components>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
+      <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlock4x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
+      <UseModelIntersection>false</UseModelIntersection>
+      <AutorotateMode>OneDirection</AutorotateMode>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>48</MaxPowerOutput>
+      <RechargeMultiplier>0.8</RechargeMultiplier>
+      <AdaptibleInput>true</AdaptibleInput>
+      <RequiredPowerInput>48</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
       <MaxStoredPower>8</MaxStoredPower>
@@ -475,22 +608,23 @@
       <Icon>Textures\Battery8x.dds</Icon>
       <Mass>0</Mass>
       <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildProgressToPlaceGeneratedBlocks>1</BuildProgressToPlaceGeneratedBlocks>
       <Points>0</Points>
-      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <IsAirTight>true</IsAirTight>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <IsAirTight>true</IsAirTight>
-      <EmissiveColorPreset>Extended</EmissiveColorPreset>
-      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <UseNeighbourOxygenRooms>false</UseNeighbourOxygenRooms>
       <PCU>15</PCU>
-      <BlockPairName>BatteryBlock8x</BlockPairName>
+      <DestroyEffectScale>1</DestroyEffectScale>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
+      </BuildProgressModels>
       <CriticalComponent Subtype="Computer" Index="0" />
-      <ModelOffset x="0" y="0" z="0" />
-      <Size x="1" y="1" z="1" />
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <CubeSize>Large</CubeSize>
       <Components>
         <Component Subtype="SteelPlate" Count="68" />
         <Component Subtype="Construction" Count="34" />
@@ -505,14 +639,14 @@
         <Component Subtype="Construction" Count="68" />
         <Component Subtype="SteelPlate" Count="203" />
       </Components>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BatteryLargeConstruction_1.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" RandomOrientation="false" Visible="true" />
-        <Model BuildPercentUpperBound="1" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" RandomOrientation="false" Visible="true" />
-      </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <GuiVisible>false</GuiVisible>
+      <ModelOffset x="0" y="0" z="0" />
+      <Size x="1" y="1" z="1" />
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <CubeSize>Large</CubeSize>
       <MirroringY>Z</MirroringY>
+      <BlockPairName>BatteryBlock8x</BlockPairName>
+      <GuiVisible>false</GuiVisible>
+      <MirroringZ>Y</MirroringZ>
       <UseModelIntersection>false</UseModelIntersection>
       <AutorotateMode>OneDirection</AutorotateMode>
       <BuildTimeSeconds>135</BuildTimeSeconds>
@@ -524,7 +658,7 @@
       <RequiredPowerInput>96</RequiredPowerInput>
       <ResourceSinkGroup>BatteryBlock</ResourceSinkGroup>
       <InitialStoredPowerRatio>0.3</InitialStoredPowerRatio>
-      <MaxStoredPower>24</MaxStoredPower>
+      <MaxStoredPower>12</MaxStoredPower>
     </Definition>
   </CubeBlocks>
 </Definitions>
