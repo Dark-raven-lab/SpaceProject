@@ -27,6 +27,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
                     "/>
                 </Group>
             </ModExtensions>
@@ -57,6 +68,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
                     "/>
                 </Group>
             </ModExtensions>
@@ -87,6 +109,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
                     "/>
                 </Group>
             </ModExtensions>
@@ -117,6 +150,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
                     "/>
                 </Group>
             </ModExtensions>
@@ -148,6 +192,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_01;
+                    =
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -178,6 +233,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -208,6 +274,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -238,6 +315,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -269,6 +357,16 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -299,6 +397,16 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -329,6 +437,16 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -359,6 +477,16 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -392,6 +520,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
                     "/>
                 </Group>
             </ModExtensions>
@@ -422,6 +561,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
                     "/>
                 </Group>
             </ModExtensions>
@@ -452,6 +602,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
                     "/>
                 </Group>
             </ModExtensions>
@@ -482,6 +643,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
                     "/>
                 </Group>
             </ModExtensions>
@@ -513,6 +685,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -543,6 +726,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -573,6 +767,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -603,6 +808,17 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -634,6 +850,16 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -664,6 +890,16 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -694,6 +930,16 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
@@ -727,6 +973,16 @@
                     VelocityScalingFrom: -1;
                     VelocityScalingTo: 2;
                     Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;
+                    
+                    Dummies : thruster_flame;
                     "/>
                 </Group>
             </ModExtensions>
