@@ -71,9 +71,11 @@
         <Class>LargeBlocks</Class>
         <Class>SmallBlocks</Class>
         <Class>Components</Class>
+        <Class>EliteEquipment</Class>
         <Class>EliteTools</Class>
-        <Class>BuildPlanner</Class>
+        <Class>EliteWeapons</Class>
         <Class>EliteConsumables</Class>
+        <Class>BuildPlanner</Class>
       </BlueprintClasses>
       <AssemblySpeed>2</AssemblySpeed>
     </Definition>
@@ -147,9 +149,11 @@
         <Class>LargeBlocks</Class>
         <Class>SmallBlocks</Class>
         <Class>Components</Class>
+        <Class>EliteEquipment</Class>
         <Class>EliteTools</Class>
-        <Class>BuildPlanner</Class>
+        <Class>EliteWeapons</Class>
         <Class>EliteConsumables</Class>
+        <Class>BuildPlanner</Class>
       </BlueprintClasses>
       <AssemblySpeed>4</AssemblySpeed>
     </Definition>
@@ -223,9 +227,11 @@
         <Class>LargeBlocks</Class>
         <Class>SmallBlocks</Class>
         <Class>Components</Class>
+        <Class>EliteEquipment</Class>
         <Class>EliteTools</Class>
-        <Class>BuildPlanner</Class>
+        <Class>EliteWeapons</Class>
         <Class>EliteConsumables</Class>
+        <Class>BuildPlanner</Class>
       </BlueprintClasses>
       <AssemblySpeed>8</AssemblySpeed>
     </Definition>
