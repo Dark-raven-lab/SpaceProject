@@ -1,1 +1,2 @@
 Mexpex_HydrogenThrusters.xml
+Mexpex_AtmoThrusters.xml

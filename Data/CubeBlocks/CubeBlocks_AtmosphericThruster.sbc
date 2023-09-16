@@ -68,7 +68,7 @@
       <MirroringZ>Y</MirroringZ>
       <Center x="0" y="0" z="1" />
       <BlockPairName>SmallAtmoThrust2x</BlockPairName>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameLengthScale>1.5</FlameLengthScale>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.3</X>
@@ -182,19 +182,19 @@
       <MirroringZ>Y</MirroringZ>
       <Center x="1" y="1" z="2" />
       <BlockPairName>LargeAtmoThrust2x</BlockPairName>
-      <FlameLengthScale>2</FlameLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.3</X>
         <Y>0.3</Y>
         <Z>0.3</Z>
-        <W>0.5</W>
+        <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.9</X>
+        <X>0.3</X>
         <Y>0.3</Y>
-        <Z>0.0</Z>
-        <W>0.95</W>
+        <Z>0.3</Z>
+        <W>0.75</W>
       </FlameFullColor>
       <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -411,19 +411,19 @@
       <MirroringZ>Y</MirroringZ>
       <Center x="1" y="1" z="2" />
       <BlockPairName>LargeAtmoThrust2x</BlockPairName>
-      <FlameLengthScale>2</FlameLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.3</X>
         <Y>0.3</Y>
         <Z>0.3</Z>
-        <W>0.5</W>
+        <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.9</X>
+        <X>0.3</X>
         <Y>0.3</Y>
-        <Z>0.0</Z>
-        <W>0.95</W>
+        <Z>0.3</Z>
+        <W>0.75</W>
       </FlameFullColor>
       <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -526,7 +526,7 @@
       <MirroringZ>Y</MirroringZ>
       <Center x="0" y="0" z="1" />
       <BlockPairName>SmallAtmoThrust4x</BlockPairName>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameLengthScale>1.5</FlameLengthScale>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.3</X>
@@ -640,19 +640,19 @@
       <MirroringZ>Y</MirroringZ>
       <Center x="1" y="1" z="2" />
       <BlockPairName>LargeAtmoThrust4x</BlockPairName>
-      <FlameLengthScale>2.5</FlameLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.3</X>
         <Y>0.3</Y>
         <Z>0.3</Z>
-        <W>0.5</W>
+        <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.9</X>
-        <Y>0.6</Y>
+        <X>0.3</X>
+        <Y>0.3</Y>
         <Z>0.3</Z>
-        <W>0.95</W>
+        <W>0.75</W>
       </FlameFullColor>
       <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -869,19 +869,19 @@
       <MirroringZ>Y</MirroringZ>
       <Center x="1" y="1" z="2" />
       <BlockPairName>LargeAtmoThrust4x</BlockPairName>
-      <FlameLengthScale>2.5</FlameLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.3</X>
         <Y>0.3</Y>
         <Z>0.3</Z>
-        <W>0.5</W>
+        <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.9</X>
-        <Y>0.6</Y>
+        <X>0.3</X>
+        <Y>0.3</Y>
         <Z>0.3</Z>
-        <W>0.95</W>
+        <W>0.75</W>
       </FlameFullColor>
       <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -984,7 +984,7 @@
       <MirroringZ>Y</MirroringZ>
       <Center x="0" y="0" z="1" />
       <BlockPairName>SmallAtmoThrust8x</BlockPairName>
-      <FlameLengthScale>1.15</FlameLengthScale>
+      <FlameLengthScale>1.5</FlameLengthScale>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.3</X>
@@ -1098,19 +1098,19 @@
       <MirroringZ>Y</MirroringZ>
       <Center x="1" y="1" z="2" />
       <BlockPairName>LargeAtmoThrust8x</BlockPairName>
-      <FlameLengthScale>3</FlameLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.3</X>
         <Y>0.3</Y>
         <Z>0.3</Z>
-        <W>0.5</W>
+        <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.0</X>
+        <X>0.3</X>
         <Y>0.3</Y>
-        <Z>0.9</Z>
-        <W>0.95</W>
+        <Z>0.3</Z>
+        <W>0.75</W>
       </FlameFullColor>
       <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
@@ -1327,19 +1327,19 @@
       <MirroringZ>Y</MirroringZ>
       <Center x="1" y="1" z="2" />
       <BlockPairName>LargeAtmoThrust8x</BlockPairName>
-      <FlameLengthScale>3</FlameLengthScale>
+      <FlameLengthScale>1.15</FlameLengthScale>
       <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
       <FlameIdleColor>
         <X>0.3</X>
         <Y>0.3</Y>
         <Z>0.3</Z>
-        <W>0.5</W>
+        <W>0.75</W>
       </FlameIdleColor>
       <FlameFullColor>
-        <X>0.0</X>
+        <X>0.3</X>
         <Y>0.3</Y>
-        <Z>0.9</Z>
-        <W>0.95</W>
+        <Z>0.3</Z>
+        <W>0.75</W>
       </FlameFullColor>
       <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
       <FlameDamageLengthScale>0.6</FlameDamageLengthScale>

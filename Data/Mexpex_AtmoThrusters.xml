@@ -1,0 +1,991 @@
+﻿<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<!-- BASIC Atmospheric -->
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LS Atmospheric Vanila-->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockSmallAtmosphericThrust</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockSmallAtmosphericThrust"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustSmall;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LS Atmospheric T1 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockSmallAtmosphericThrust2x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockSmallAtmosphericThrust2x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustSmall;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LS Atmospheric T2 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockSmallAtmosphericThrust4x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockSmallAtmosphericThrust4x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustSmall;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LS Atmospheric T3 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockSmallAtmosphericThrust8x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockSmallAtmosphericThrust8x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustSmall;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LL Atmospheric Vanila -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockLargeAtmosphericThrust</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockLargeAtmosphericThrust"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_01;
+                    =
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LL Atmospheric T1 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockLargeAtmosphericThrust2x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockLargeAtmosphericThrust2x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LL Atmospheric T2 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockLargeAtmosphericThrust4x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockLargeAtmosphericThrust4x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LL Atmospheric T3 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockLargeAtmosphericThrust8x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockLargeAtmosphericThrust8x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- SL Atmospheric Vanila -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>SmallBlockLargeAtmosphericThrust</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "SmallBlockLargeAtmosphericThrust"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : SG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1.15;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- SL Atmospheric T1 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>SmallBlockLargeAtmosphericThrust2x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "SmallBlockLargeAtmosphericThrust2x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : SG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1.15;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- SL Atmospheric T2 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>SmallBlockLargeAtmosphericThrust4x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "SmallBlockLargeAtmosphericThrust4x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : SG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1.15;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- SL Atmospheric T3 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>SmallBlockLargeAtmosphericThrust8x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "SmallBlockLargeAtmosphericThrust8x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : SG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1.15;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+
+	<!-- SciFi Atmospheric -->
+	
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LS SciFi Atmospheric Vanila-->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockSmallAtmosphericThrustSciFi</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockSmallAtmosphericThrustSciFi"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustSmall;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:0.75;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LS SciFi Atmospheric T1 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockSmallAtmosphericThrustSciFi2x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockSmallAtmosphericThrustSciFi2x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustSmall;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:0.75;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LS SciFi Atmospheric T2 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockSmallAtmosphericThrustSciFi4x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockSmallAtmosphericThrustSciFi4x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustSmall;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:0.75;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LS SciFi Atmospheric T3 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockSmallAtmosphericThrustSciFi8x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockSmallAtmosphericThrustSciFi8x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustSmall;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:0.75;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_02;
+					=
+                    Particle : p_Smoke_SG_v2;
+                    Type: PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.35;
+                    ThrustMax : 1.0;
+                    Size : 0.4;
+                    Offset : 0;                     
+                    VelocityScalingFrom: 0.5;
+                    VelocityScalingTo: 1;
+                    Dummies : none;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LL SciFi Atmospheric Vanila -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockLargeAtmosphericThrustSciFi</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockLargeAtmosphericThrustSciFi"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LL SciFi Atmospheric T1 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockLargeAtmosphericThrustSciFi2x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockLargeAtmosphericThrustSciFi2x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LL SciFi Atmospheric T2 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockLargeAtmosphericThrustSciFi4x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockLargeAtmosphericThrustSciFi4x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- LL SciFi Atmospheric T3 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>LargeBlockLargeAtmosphericThrustSciFi8x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "LargeBlockLargeAtmosphericThrustSciFi8x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : LG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_01;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.6;
+                    Offset : 6;                       
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- SL SciFi Atmospheric Vanila -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>SmallBlockLargeAtmosphericThrustSciFi</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "SmallBlockLargeAtmosphericThrustSciFi"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : SG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1.2;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- SL SciFi Atmospheric T1 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>SmallBlockLargeAtmosphericThrustSciFi2x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "SmallBlockLargeAtmosphericThrustSciFi2x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : SG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1.2;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- SL SciFi Atmospheric T2 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>SmallBlockLargeAtmosphericThrustSciFi4x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "SmallBlockLargeAtmosphericThrustSciFi4x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : SG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1.2;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;                     
+                    
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+	<Definition xsi:type="MyObjectBuilder_ThrustDefinition"> <!-- SL SciFi Atmospheric T3 -->
+		<Id>
+			<TypeId>Thrust</TypeId>
+			<SubtypeId>SmallBlockLargeAtmosphericThrustSciFi8x</SubtypeId>
+		</Id>
+		<!-- Normal Keen Properties ... -->
+		<ModExtensions>
+                <ModComponents>
+                    <GameLogicComponent Name="MwiComponent" />
+                </ModComponents>
+                <Group Name="ThrusterCompData">
+                    <Text Name="ID" Value= "SmallBlockLargeAtmosphericThrustSciFi8x"/> <!--REQUIRED! No specific value required Debugging  -->
+                    <Boolean Name="hideVanillaFlame" Value="true" /><!-- Hide Vanilla Flame-->
+					<Decimal Name="ThrustRateGain" Value="0.12" />
+					<Decimal Name="ThrustRateLoss" Value="0.3" />
+					<Boolean Name="UseEmissive" Value="false" /> <!-- Enable heatup/emissive material effect, off = more performant -->
+					
+                    <Text Name="EmitterSetup" Value="
+                    SHould be minimal setup for just normal particle smoke ;
+                    Particle : SG_AtmosphericThrustLarge;
+                    Type: PARTICLE;
+                    AtmoOnly: FALSE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size:1.2;
+                    Offset:0;
+                    VelocityScalingFrom: -1;
+                    VelocityScalingTo: 2;
+                    Dummies : thruster_flame_03;
+					=
+                    Particle : p_Smoke_LG_medium;
+                    Type : PARTICLE;
+                    AtmoOnly: TRUE ;
+                    ThrustMin : 0.01;
+                    ThrustMax : 1;
+                    Size : 0.3;
+                    Offset : 0.5;
+                    
+                    Dummies : thruster_flame;
+                    "/>
+                </Group>
+            </ModExtensions>
+	</Definition>
+
+</Definitions>
