@@ -15,16 +15,17 @@
 			<ModelOffset x="0" y="0" z="1" />
 			<Model>Models\HangarDoors\Doors\Small_Ramp_IR.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100" />
-				<Component Subtype="InteriorPlate" Count="20" />
-				<Component Subtype="Construction" Count="30" />
-				<Component Subtype="MetalGrid" Count="16" />
-				<Component Subtype="SmallTube" Count="30" />
-				<Component Subtype="Motor" Count="20" />
-				<Component Subtype="Display" Count="6" />
-				<Component Subtype="Computer" Count="6" />
+				<Component Subtype="SteelPlate" Count="1250" />
+				<Component Subtype="InteriorPlate" Count="100" />
+				<Component Subtype="SmallTube" Count="200" />
+				<Component Subtype="Motor" Count="80" />
+				<Component Subtype="Display" Count="2" />
+				<Component Subtype="Computer" Count="10" />
+				<Component Subtype="Construction" Count="125" />
+				<Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="SteelPlate" Count="500" />
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.66" File="Models\HangarDoors\Doors\Const_Small_Ramp_IR.mwm" />
 			</BuildProgressModels>
@@ -82,16 +83,17 @@
 			<ModelOffset x="0" y="1" z="0" />
 			<Model>Models\HangarDoors\Doors\Big_Small_Hangar Door_IR.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="100" />
-				<Component Subtype="InteriorPlate" Count="20" />
-				<Component Subtype="Construction" Count="30" />
-				<Component Subtype="MetalGrid" Count="16" />
-				<Component Subtype="SmallTube" Count="30" />
-				<Component Subtype="Motor" Count="30" />
-				<Component Subtype="Display" Count="6" />
-				<Component Subtype="Computer" Count="6" />
+				<Component Subtype="SteelPlate" Count="2400" />
+				<Component Subtype="InteriorPlate" Count="200" />
+				<Component Subtype="SmallTube" Count="300" />
+				<Component Subtype="Motor" Count="80" />
+				<Component Subtype="Display" Count="20" />
+				<Component Subtype="Computer" Count="40" />
+				<Component Subtype="Construction" Count="160" />
+				<Component Subtype="MetalGrid" Count="80" />
+				<Component Subtype="SteelPlate" Count="800" />
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0" />
+			<CriticalComponent Subtype="Computer" Index="0" />
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.66" File="Models\HangarDoors\Doors\Const_Small_Hangar Door_IR.mwm" />
 			</BuildProgressModels>
