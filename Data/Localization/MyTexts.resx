@@ -912,4 +912,12 @@ For each level from the previous one:
     </value>
     <comment/>
   </data>
+  <data name="DisplayName_Hangar_IR_Ramp" xml:space="preserve">
+    <value>Hangar Ramp</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_IR_Hangar_Door" xml:space="preserve">
+    <value>Large Hangar Door</value>
+    <comment/>
+  </data>
 </root>

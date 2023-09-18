@@ -1982,5 +1982,20 @@
                 <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="AutoCannonTurret" />
             </Blocks>
         </BlockVariantGroup>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirtightHangarDoorGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+      <DisplayName>DisplayName_Block_AirtightHangarDoor</DisplayName>
+      <Description>Description_HangarDoor</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="" />
+        <Block Type="MyObjectBuilder_Door" Subtype="LargeBlockGate" />
+        <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="Large_IR_Ramp" />
+        <Block Type="MyObjectBuilder_AdvancedDoor" Subtype="Large_IR_Hangar Door_IR" />
+        <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2A" />
+        <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2B" />
+        <Block Type="MyObjectBuilder_AirtightHangarDoor" Subtype="AirtightHangarDoorWarfare2C" />
+      </Blocks>
+    </BlockVariantGroup>
   </BlockVariantGroups>
 </Definitions>

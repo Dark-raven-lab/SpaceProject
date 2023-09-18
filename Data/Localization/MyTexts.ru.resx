@@ -911,4 +911,12 @@
     </value>
     <comment/>
   </data>
+  <data name="DisplayName_Hangar_IR_Ramp" xml:space="preserve">
+    <value>Большая ангарная рампа</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_IR_Hangar_Door" xml:space="preserve">
+    <value>Большие ангарные ворота</value>
+    <comment/>
+  </data>
 </root>
