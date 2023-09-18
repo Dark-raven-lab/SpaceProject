@@ -7,6 +7,7 @@
 				<SubtypeId>Large_IR_Ramp</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_Hangar_IR_Ramp</DisplayName>
+			<Description>Description_HangarDoor</Description>
 			<Icon>Textures\GUI\Icons\HangarDoors\large_hangarramp_ir.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -73,6 +74,7 @@
 				<SubtypeId>Large_IR_Hangar Door_IR</SubtypeId>
 			</Id>
 			<DisplayName>DisplayName_IR_Hangar_Door</DisplayName>
+			<Description>Description_HangarDoor</Description>
 			<Icon>Textures\GUI\Icons\HangarDoors\large_hangardoor_ir.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
