@@ -920,4 +920,16 @@ For each level from the previous one:
     <value>Large Hangar Door</value>
     <comment/>
   </data>
+  <data name="DisplayName_AirtightHangarDoor_3x" xml:space="preserve">
+    <value>Airtight Hangar Door 3x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AirtightHangarDoor_4x" xml:space="preserve">
+    <value>Airtight Hangar Door 4x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AirtightHangarDoor_5x" xml:space="preserve">
+    <value>Airtight Hangar Door 5x</value>
+    <comment/>
+  </data>
 </root>

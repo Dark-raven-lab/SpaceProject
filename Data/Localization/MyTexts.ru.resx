@@ -919,4 +919,16 @@
     <value>Большие ангарные ворота</value>
     <comment/>
   </data>
+  <data name="DisplayName_AirtightHangarDoor_3x" xml:space="preserve">
+    <value>Герметичная створка ангара 3x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AirtightHangarDoor_4x" xml:space="preserve">
+    <value>Герметичная створка ангара 4x</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AirtightHangarDoor_5x" xml:space="preserve">
+    <value>Герметичная створка ангара 5x</value>
+    <comment/>
+  </data>
 </root>

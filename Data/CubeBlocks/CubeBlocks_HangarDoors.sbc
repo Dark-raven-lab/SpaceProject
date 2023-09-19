@@ -175,5 +175,173 @@
 				</Opening>
 			</OpeningSequence>
 		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+			<Id>
+				<TypeId>AirtightHangarDoor</TypeId>
+				<SubtypeId>shangar3</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_AirtightHangarDoor_3x</DisplayName>
+			<Description>Description_HangarDoor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="4" z="1" />
+			<ModelOffset x="0" y="3.75" z="0" />
+			<Center x="0" y="2" z="0" />
+			<Model>Models\Cubes\Large\HangarDoor_base3.mwm</Model>
+			<Sound>BlockDoorHangar</Sound>
+			<Components>
+				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="SmallTube" Count="40" />
+				<Component Subtype="Motor" Count="16" />
+				<Component Subtype="Computer" Count="2" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="100" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Left" StartX="0.15" StartY="3" EndX="0.3" EndY="4" />
+				<MountPoint Side="Right" StartX="0.15" StartY="3" EndX="0.3" EndY="4" />
+				<MountPoint Side="Left" StartX="0.7" StartY="3" EndX="0.85" EndY="4" />
+				<MountPoint Side="Right" StartX="0.7" StartY="3" EndX="0.85" EndY="4" />
+				<MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>shangar3n</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<ResourceSinkGroup>Doors</ResourceSinkGroup>
+			<PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+			<PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+			<OpeningSpeed>0.1</OpeningSpeed>
+			<SubpartMovementDistance>2.5</SubpartMovementDistance>
+      		<EmissiveColorPreset>Default</EmissiveColorPreset>
+      		<UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+      		<PhysicalMaterial>Metal</PhysicalMaterial>
+      		<DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      		<DestroySound>PoofExplosionCat3</DestroySound>
+			<PCU>115</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+			<Id>
+				<TypeId>AirtightHangarDoor</TypeId>
+				<SubtypeId>shangar4</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_AirtightHangarDoor_4x</DisplayName>
+			<Description>Description_HangarDoor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="5" z="1" />
+			<ModelOffset x="0" y="5" z="0" />
+			<Center x="0" y="2" z="0" />
+			<Model>Models\Cubes\Large\HangarDoor_base4.mwm</Model>
+			<Sound>BlockDoorHangar</Sound>
+			<Components>
+				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="SmallTube" Count="40" />
+				<Component Subtype="Motor" Count="16" />
+				<Component Subtype="Computer" Count="2" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="100" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Left" StartX="0.15" StartY="4" EndX="0.3" EndY="5" />
+				<MountPoint Side="Right" StartX="0.15" StartY="4" EndX="0.3" EndY="5" />
+				<MountPoint Side="Left" StartX="0.7" StartY="4" EndX="0.85" EndY="5" />
+				<MountPoint Side="Right" StartX="0.7" StartY="4" EndX="0.85" EndY="5" />
+				<MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>shangar4n</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<ResourceSinkGroup>Doors</ResourceSinkGroup>
+			<PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+			<PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+			<OpeningSpeed>0.1</OpeningSpeed>
+			<SubpartMovementDistance>2.5</SubpartMovementDistance>
+      		<EmissiveColorPreset>Default</EmissiveColorPreset>
+      		<UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+      		<PhysicalMaterial>Metal</PhysicalMaterial>
+      		<DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      		<DestroySound>PoofExplosionCat3</DestroySound>
+			<PCU>115</PCU>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AirtightHangarDoorDefinition">
+			<Id>
+				<TypeId>AirtightHangarDoor</TypeId>
+				<SubtypeId>shangar5</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_AirtightHangarDoor_5x</DisplayName>
+			<Description>Description_HangarDoor</Description>
+			<Icon>Textures\GUI\Icons\Cubes\HangarDoor.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="6" z="1" />
+			<ModelOffset x="0" y="6.25" z="0" />
+			<Center x="0" y="2" z="0" />
+			<Model>Models\Cubes\Large\HangarDoor_base5.mwm</Model>
+			<Sound>BlockDoorHangar</Sound>
+			<Components>
+				<Component Subtype="SteelPlate" Count="250" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="SmallTube" Count="40" />
+				<Component Subtype="Motor" Count="16" />
+				<Component Subtype="Computer" Count="2" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="100" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Left" StartX="0.15" StartY="5" EndX="0.3" EndY="6" />
+				<MountPoint Side="Right" StartX="0.15" StartY="5" EndX="0.3" EndY="6" />
+				<MountPoint Side="Left" StartX="0.7" StartY="5" EndX="0.85" EndY="6" />
+				<MountPoint Side="Right" StartX="0.7" StartY="5" EndX="0.85" EndY="6" />
+				<MountPoint Side="Top" StartX="0" StartY="0.04" EndX="1" EndY="0.96" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\HangarDoorConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\HangarDoorConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\HangarDoorConstruction_3.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>shangar5n</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>24</BuildTimeSeconds>
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<ResourceSinkGroup>Doors</ResourceSinkGroup>
+			<PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+			<PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+			<OpeningSpeed>0.1</OpeningSpeed>
+			<SubpartMovementDistance>2.5</SubpartMovementDistance>
+      		<EmissiveColorPreset>Default</EmissiveColorPreset>
+      		<UseNeighbourOxygenRooms>true</UseNeighbourOxygenRooms>
+      		<PhysicalMaterial>Metal</PhysicalMaterial>
+      		<DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      		<DestroySound>PoofExplosionCat3</DestroySound>
+			<PCU>115</PCU>
+		</Definition>
 	</CubeBlocks>
 </Definitions>
